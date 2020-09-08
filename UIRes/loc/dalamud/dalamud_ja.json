@@ -39,10 +39,6 @@
     "message": "ゲームBGMを設定します。利用法: /xlbgmset <BGM ID>",
     "description": "Dalamud.SetupCommands"
   },
-  "DalamudItemLinkHelp": {
-    "message": "アイテムを名前でリンクします。使用法: /xlitem <アイテム名>  アイテム名を完全一致したい場合: /xlitem +<アイテム名>",
-    "description": "Dalamud.SetupCommands"
-  },
   "DalamudBonusHelp": {
     "message": "ルーレットに指定したボーナスがある場合に通知します。詳細はパラメータなしで実行してください。使用法: /xlbonus <ルーレット名> <ロール名>",
     "description": "Dalamud.SetupCommands"
@@ -59,9 +55,25 @@
     "message": "Dalamud のクレジットを開きます。",
     "description": "Dalamud.SetupCommands"
   },
+  "DalamudLanguageHelp": {
+    "message": "In-Game アドオンとそのプラグインの言語を設定します。利用できる言語: ",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudSettingsHelp": {
+    "message": "チャットチャンネルやDiscordボットなどの In-Game アドオンの各種設定を変更します。",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBugReport": {
+    "message": "開発チームで分析するためにログをアップロードできます。",
+    "description": "Dalamud.SetupCommands"
+  },
   "DalamudCmdHelpAvailable": {
     "message": "利用可能なコマンド:",
     "description": "Dalamud.OnHelpCommand"
+  },
+  "DalamudMuteNoArgs": {
+    "message": "ミュートする言葉を設定して下さい。",
+    "description": "Dalamud.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
     "message": "\"{0}\" をミュートしました。",
@@ -103,9 +115,9 @@
     "message": "ルーレットの可能な入力：leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nロールの可能な入力：tank, dps, healer, all, none/reset",
     "description": "Dalamud.OnRouletteBonusNotifyCommand"
   },
-  "DalamudItemNotFound": {
-    "message": "アイテムを見つけられませんでした。",
-    "description": "<<OnItemLinkCommand>b__0>d.MoveNext"
+  "DalamudLanguageSetTo": {
+    "message": "言語を {0} にセットしました。",
+    "description": "Dalamud.OnSetLanguageCommand"
   },
   "InstallerHeader": {
     "message": "プラグインインストーラ",
@@ -127,6 +139,14 @@
     "message": " (導入済み)",
     "description": "PluginInstallerWindow.Draw"
   },
+  "InstallerUpdated": {
+    "message": " (更新しました)",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (アップデートが失敗しました)",
+    "description": "PluginInstallerWindow.Draw"
+  },
   "InstallerInProgress": {
     "message": "インストール中……",
     "description": "PluginInstallerWindow.Draw"
@@ -137,6 +157,10 @@
   },
   "InstallerOpenConfig": {
     "message": "設定を開く",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerNoCompatible": {
+    "message": "コンパちなプラグインが見つかりませんでした　('A`)　ゲームを背起動して再実行してください。",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
@@ -167,28 +191,124 @@
     "message": "プラグインのインストーラに問題が発生したか、プラグインとの互換性がありません。\nゲームを再起動して、このエラーを私たちのディスコードで報告してください。",
     "description": "PluginInstallerWindow.Draw"
   },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\nThe following plugins caused these issues:\n\n{0}\nYou may try removing these plugins manually and reinstalling them.",
+    "description": "PluginInstallerWindow.Draw"
+  },
   "OK": {
     "message": "OK",
     "description": "PluginInstallerWindow.Draw"
   },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud設定",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "一般",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "言語",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Dalamudの表示語を選びます。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannel": {
+    "message": "一般チャットチャンネル",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "Dalamudの一般メッセージチャンネルを選びます。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlash": {
+    "message": "コンテンツファインダースタンバイがある場合にウインドウを閃く",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "Select, if the FFXIV window should be flashed in your task bar when a duty is ready.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "コンテンツファインダースタンバイがある場合にログメッセージを言付ける",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "Select, if a message should be sent in the FFXIV chat when a duty is ready.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsVisual": {
+    "message": "スタイル",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "大域的なUIスケール",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "XIVLauncherのUIの大域的なスケールを上げます（４Kモニターには良い）。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "ゲームUIが非表示ならプラグインUIを非表示します",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "ゲームオーバーレーをトグルしながらプラグインの開いているウインドウを非表示には、このチェックボックスをチェックして。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "実験的",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsRestartHint": {
+    "message": "設定を変更後、ゲームを背起動しなければいけません。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "プラグインのテスティングビルドを得る",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "プラグインのテスティングビルドを受けるには、このチェックボックスをチェックして。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTest": {
+    "message": "Dalamudのテスティングビルドを得る",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTestHint": {
+    "message": "Dalamudのテスティングビルドを受けるには、このチェックボックスをチェックして。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "Save": {
+    "message": "保存する",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "保存して閉める",
+    "description": "DalamudSettingsWindow.Draw"
+  },
   "DalamudWelcome": {
-    "message": "XIVLauncher In-Game アドオン v{0} がロードされました.",
-    "description": "ChatHandlers.OnChatMessage"
+    "message": "Dalamud vD{0} をロードしました。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
     "message": "    》 {0} v{1} がロードされました。",
-    "description": "ChatHandlers.OnChatMessage"
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
     "message": "In-Game アドオンの更新または、再インストールに成功しました。詳細な変更履歴はDiscordで確認してください。",
-    "description": "ChatHandlers.OnChatMessage"
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateRequired": {
     "message": "いくつかのプラグインで更新が必要です。/xlplugins コマンドを使用して、プラグインを更新してください。",
-    "description": "ChatHandlers.OnChatMessage"
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
     "message": "プラグインの更新を確認できませんでした。",
-    "description": "ChatHandlers.OnChatMessage"
+    "description": "ChatHandlers.PrintWelcomeMessage"
   }
 }

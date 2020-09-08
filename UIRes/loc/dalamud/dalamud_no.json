@@ -1,198 +1,198 @@
 {
   "DalamudUnloadHelp": {
-    "message": "Désactive l'addon en jeu de XIVLauncher.",
+    "message": "Avlaster XIVLauncher spilltillegget.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
-    "message": "Recharge tous les plugins.",
+    "message": "Laster inn alle tillegg på nytt.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudPrintChatHelp": {
-    "message": "Afficher dans le chat.",
+    "message": "Send til chat.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Montre la liste des commandes disponibles.",
+    "message": "Viser liste over tilgjengelige kommandoer.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudMuteHelp": {
-    "message": "Met en sourdine un mot ou une phrase dans le chat. Utilisation : /xlmute <mot ou phrase>",
+    "message": "Blokker ett ord eller en setning fra å vises i chattevinduet. Bruk: /xlmute <ord eller setning>",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudMuteListHelp": {
-    "message": "Liste les mots ou phrases en sourdine.",
+    "message": "Vis blokkerte ord eller setninger.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudUnmuteHelp": {
-    "message": "Réaffiche un mot ou une phrase mise en sourdine. Utilisation : /xlunmute <mot ou phrase>",
+    "message": "Opphev blokkering av ett ord eller en setning. Bruk: /xlunmute <ord eller setning>",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudLastLinkHelp": {
-    "message": "Ouvre le dernier lien affiché dans le chat dans votre navigateur par défaut.",
+    "message": "Åpne den sist sendte lenken i din standardnettleser.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudBotJoinHelp": {
-    "message": "Ajoute le bot discord XIVLauncher que vous avez configuré à votre serveur.",
+    "message": "Legg til XIVLauncher Discord roboten du satt opp for din server.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudBgmSetHelp": {
-    "message": "Définit la musique de fond. Utilisation : /xlbgmset <BGM ID>",
+    "message": "Sett bakgrunnsmusikk i spillet. Bruk: /xlbgmset <MUSIKK ID>",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudBonusHelp": {
-    "message": "Informe lorsque une mission aléatoire possède le bonus spécifié. Exécuter sans paramètres pour plus d'infos. Utilisation : /xlbonus <nom de la mission aléatoire> <nom du rôle>",
+    "message": "Varsle når en rulett har en bonus du har angitt. Kjør uten parametere for mer informasjon. Bruk: /xlbonus <rulettnavn> <rollenavn>",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudDevMenuHelp": {
-    "message": "Fait sortir le menu dev DEBUG",
+    "message": "Tegn utviklermeny FEILSØK",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudInstallerHelp": {
-    "message": "Ouvre l’installateur de plugins",
+    "message": "Åpne tilleggsinstallatøren",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudCreditsHelp": {
-    "message": "Ouvre la liste des participants.",
+    "message": "Vis medvirkende for Dalamud.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Change la langue de l'addon en jeu et des plugins qui le supportent. Langues disponibles : ",
+    "message": "Sett språket for spilltillegget og tillegg som støtter det. Tilgjengelige språk: ",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudSettingsHelp": {
-    "message": "Modifie différents paramètres, comme les canaux de discussion et le bot Discord.",
+    "message": "Endre forskjellige innstillinger for spilltillegg som chat-kanaler og oppsettet til Discord roboten.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudBugReport": {
-    "message": "Envoie un rapport d'erreur à l'équipe de développement pour analyse.",
+    "message": "Last opp en logg for analyse av vårt profesjonelle utviklerlag.",
     "description": "Dalamud.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "Commandes disponibles :",
+    "message": "Tilgjengelige kommandoer:",
     "description": "Dalamud.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "Veuillez donner un mot à mettre en sourdine.",
+    "message": "Vennligst oppgi ett ord å blokkere.",
     "description": "Dalamud.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "\"{0}\" est mis en sourdine.",
+    "message": "Blokkerte \"{0}\".",
     "description": "Dalamud.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "Pas de mots ou phrases en sourdine.",
+    "message": "Ingen blokkerte ord eller setninger.",
     "description": "Dalamud.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "\"{0}\" est de nouveau visible.",
+    "message": "Opphevde blokkeringen av \"{0}\".",
     "description": "Dalamud.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "Pas de lien récent...",
+    "message": "Ingen siste lenke...",
     "description": "Dalamud.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "Ouverture de {0}",
+    "message": "Åpner {0}",
     "description": "Dalamud.OnLastLinkCommand"
   },
   "DalamudBotNotSetup": {
-    "message": "Le bot discord XIVLauncher n'a pas été configuré correctement ou ne peut pas se connecter à discord. Veuillez vérifier les paramètres et la FAQ.",
+    "message": "Discord roboten for XIVLauncher var ikke satt opp ordentlig eller kunne ikke koble seg til Discord. Vennligst sjekk innstillingene og vår FAQ.",
     "description": "Dalamud.OnBotJoinCommand"
   },
   "DalamudChannelNotSetup": {
-    "message": "Vous n'avez pas configuré de canal discord pour ces notifications - vous les recevrez uniquement dans le chat. Pour ce faire, veuillez utiliser les paramètres \"In-game\" dans XIVLauncher.",
+    "message": "Du har ikke satt opp en Discord kanal for disse varslingene - du vil bare se dem i chattevinduet. For å gjøre dette, vennligst bruk XIVLauncher innstillingene i spillet.",
     "description": "Dalamud.OnRouletteBonusNotifyCommand"
   },
   "DalamudBonusSet": {
-    "message": "Notifications de bonus pour {0}({1}) fixées au rôle {2}",
+    "message": "Angi bonusvarslinger for {0}({1}) til {2}",
     "description": "Dalamud.OnRouletteBonusNotifyCommand"
   },
   "DalamudInvalidArguments": {
-    "message": "Arguments non reconnus.",
+    "message": "Ukjente argumenter.",
     "description": "Dalamud.OnRouletteBonusNotifyCommand"
   },
   "DalamudBonusPossibleValues": {
-    "message": "Valeurs possibles pour mission aléatoire : leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nValeurs possibles pour rôle : tank, dps, healer, all, none/reset",
+    "message": "Mulige verdier for rulett: leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nMulige verdier for rolle: tank, dps, healer, all, none/reset",
     "description": "Dalamud.OnRouletteBonusNotifyCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "Langue définie à : {0}",
+    "message": "Språk satt til {0}",
     "description": "Dalamud.OnSetLanguageCommand"
   },
   "InstallerHeader": {
-    "message": "Installateur de Plugin",
+    "message": "Tilleggsoppsett",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerHint": {
-    "message": "Cette fenêtre vous permet d’installer des plugins.\nIls sont développés par des tiers.",
+    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
-    "message": "Chargement des plugins...",
+    "message": "Laster inn tillegg...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailed": {
-    "message": "Le téléchargement a échoué.",
+    "message": "Nedlasting mislykket.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerInstalled": {
-    "message": " (installé)",
+    "message": " (installert)",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdated": {
-    "message": " (à jour)",
+    "message": " (oppdatert)",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdateFailed": {
-    "message": " (échec de la mise à jour)",
+    "message": " (oppdatering mislyktes)",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerInProgress": {
-    "message": "Installation en cours...",
+    "message": "Installasjon pågår...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDisable": {
-    "message": "Désactiver",
+    "message": "Deaktiver",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerOpenConfig": {
-    "message": "Ouvrir la configuration",
+    "message": "Åpne Konfigurasjon",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerNoCompatible": {
-    "message": "Aucun plugin compatible n'a été trouvé :( Veuillez relancer votre jeu et réessayer.",
+    "message": "Ingen kompatible tillegg ble funnet :( Vennligst start spillet på nytt og prøv igjen.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
-    "message": "Mise à jour...",
+    "message": "Oppdaterer...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} plugin(s) mis à jour !",
+    "message": "{0} tillegg oppdatert!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerNoUpdates": {
-    "message": "Pas de mise à jour trouvée !",
+    "message": "Ingen oppdateringer funnet!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdatePlugins": {
-    "message": "Mettre à jour les plugins",
+    "message": "Oppdater tillegg",
     "description": "PluginInstallerWindow.Draw"
   },
   "Close": {
-    "message": "Fermer",
+    "message": "Lukk",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerError": {
-    "message": "Échec de l'installation",
+    "message": "Installeringen mislykket",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorHint": {
-    "message": "L'installateur de plugins a rencontré un problème ou le plugin est incompatible.\nVeuillez redémarrer le jeu et rapporter cette erreur sur notre discord.",
+    "message": "Tilleggsinstallasjonen fikk et problem eller så er tillegget inkompatibelt.\nVennligst start spillet på nytt og rapporter dette problemet i Discorden vår.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nLes plugins suivants ont causé ces problèmes :\n\n{0}\nVous voudrez peut-être essayer de retirer ces plugins manuellement et de les réinstaller.",
+    "message": "\n\nFølgende tillegg førte til disse probleme:\n\n{0}\nDu kan prøve å fjerne dem manuelt og installere dem på nytt.",
     "description": "PluginInstallerWindow.Draw"
   },
   "OK": {
@@ -200,115 +200,115 @@
     "description": "PluginInstallerWindow.Draw"
   },
   "DalamudSettingsHeader": {
-    "message": "Paramètres de Dalamud",
+    "message": "Dalamud Innstillinger",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGeneral": {
-    "message": "Général",
+    "message": "Generelt",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "Langue",
+    "message": "Språk",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Sélectionner la langue dans laquelle Dalamud sera affiché.",
+    "message": "Velg språket Dalamud skal vises i.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannel": {
-    "message": "Canal Général de Discussion",
+    "message": "Generell Chattekanal",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Sélectionner le canal de discussion qui sera utilisé pour les messages généraux de Dalamud.",
+    "message": "Velg chattekanalen som skal brukes for Dalamud meldinger.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlash": {
-    "message": "Faire clignoter la fenêtre d'FFXIV quand mission trouvée",
+    "message": "Blink FFXIV vinduet når Duty Finder er klar",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Choisir si la fenêtre de FFXIV devrait clignoter dans votre barre des tâches quand une mission est prête.",
+    "message": "Velg dersom du vil FFXIV vinduet skal blinke i oppgavelinjen når Duty Finder har funnet en gruppe for deg.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Message dans le chat quand une mission est prête",
+    "message": "Melding i chattevinduet når Duty Finder er klar",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Choisir si un message devrait être envoyé dans le chat FFXIV quand une mission est prête.",
+    "message": "Velg dersom du vil en melding skal sendes til FFXIV chatten når Duty Finder er klar.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "Apparence & Perception",
+    "message": "Utseende & Stil",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Échelle Globale Interface",
+    "message": "Global UI skala",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Mettre à l'échelle les éléments d'interface de XIVLauncher - utile pour les écrans 4K.",
+    "message": "Skaler hele brukergrensesnittet til XIVLauncher - nyttig for 4K skjermer.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "Cacher l'interface des plugins quand l'interface du jeu est caché",
+    "message": "Skjul brukergrensesnittet når spillets brukergrensesnitt også er skjult",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Cochez pour cacher toutes les fenêtres ouvertes pas des plugins en désactivant l'overlay du jeu.",
+    "message": "Huk av denne boksen for å skjule alle åpne tilleggsvindu når du veksler overlegget til spillet.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "Expérimental",
+    "message": "Eksperimentelt",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsRestartHint": {
-    "message": "Vous devez relancer votre jeu après avoir modifié ces options.",
+    "message": "Du må starte spillet på nytt etter at du har endret disse innstillingene.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTest": {
-    "message": "Recevoir les versions tests des plugins",
+    "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Cochez afin de recevoir les versions de test des plugins.",
+    "message": "Huk av denne boksen for å få forhåndsvisningsversjoner av tillegg.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingDalamudTest": {
-    "message": "Recevoir les versions tests de Dalamud",
+    "message": "Skaff deg forhåndsvisningsversjoner av Dalamud",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingDalamudTestHint": {
-    "message": "Cochez afin de recevoir les versions de test de Dalamud.",
+    "message": "Huk av denne boksen for å få forhåndsvisningsversjoner av Dalamud.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
-    "message": "Sauvegarder",
+    "message": "Lagre",
     "description": "DalamudSettingsWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "Sauvegarder et Fermer",
+    "message": "Lagre og Lukk",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} chargé.",
+    "message": "Dalamud vD{0} lastet.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} chargé.",
+    "message": "    》 {0} v{1} lastet.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "L'addon en jeu à été mis à jour ou réinstallé avec succès ! Veuillez consulter le discord pour plus d'informations.",
+    "message": "Spilltillegget har blitt oppdatert eller installert på nytt uten problemer! Vennligst sjekk Discord-serveren for full endringslogg.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateRequired": {
-    "message": "Un ou plusieurs plugins ne sont plus à jour. Veuillez utiliser la commande en jeu /xlplugins pour les mettre à jour !",
+    "message": "En eller flere av tilleggene dine må oppdateres. Vennligst bruk /xlplugins kommandoen i spillet for å oppdatere dem!",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
-    "message": "Impossible de vérifier les mises à jour des plugins.",
+    "message": "Kunne ikke se etter tilleggsoppdateringer.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   }
 }

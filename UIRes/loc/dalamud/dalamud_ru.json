@@ -1,0 +1,314 @@
+{
+  "DalamudUnloadHelp": {
+    "message": "Выгрузить аддоны XIVLauncher.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudPluginReloadHelp": {
+    "message": "Перезагрузить все плагины.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudPrintChatHelp": {
+    "message": "Вывести в чат.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCmdInfoHelp": {
+    "message": "Показать список доступных команд.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudMuteHelp": {
+    "message": "Исключить слово или предложение из чата. Использование: /xlmute <word or sentence>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudMuteListHelp": {
+    "message": "Список исключенных слов или предложений.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudUnmuteHelp": {
+    "message": "Вернуть слово или предложение. Использование: /xlunmute <word or sentence>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudLastLinkHelp": {
+    "message": "Открыть последнюю ссылку в вашем стандартном браузере.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBotJoinHelp": {
+    "message": "Добавить настроенного XIVLauncher Discord бота на ваш сервер.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBgmSetHelp": {
+    "message": "Установить фоновую музыку в игре. Использование: /xlbgmset <BGM ID>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBonusHelp": {
+    "message": "Уведомление о том, что в Duty Roulette есть выбранный бонус. Выполните без параметров для большей информации. Использование: /xlbonus <roulette name> <role name>",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudDevMenuHelp": {
+    "message": "Вывести меню разработчиков DEBUG",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudInstallerHelp": {
+    "message": "Открыть установщик плагинов",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCreditsHelp": {
+    "message": "Открыть список создателей dalamud.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudLanguageHelp": {
+    "message": "Установить язык для внутриигровых аддонов и плагинов, которые это поддерживают. Доступные языки: ",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudSettingsHelp": {
+    "message": "Измените различные настройки внутриигровых аддонов, такие как каналы чата и настройка бота Discord.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudBugReport": {
+    "message": "Загрузить журнал для анализа нашей командой профессиональных разработчиков.",
+    "description": "Dalamud.SetupCommands"
+  },
+  "DalamudCmdHelpAvailable": {
+    "message": "Доступные команды:",
+    "description": "Dalamud.OnHelpCommand"
+  },
+  "DalamudMuteNoArgs": {
+    "message": "Пожалуйста, предоставьте слово для исключения.",
+    "description": "Dalamud.OnBadWordsAddCommand"
+  },
+  "DalamudMuted": {
+    "message": "Исключено \"{0}\".",
+    "description": "Dalamud.OnBadWordsAddCommand"
+  },
+  "DalamudNoneMuted": {
+    "message": "Нет исключенных слов или предложений.",
+    "description": "Dalamud.OnBadWordsListCommand"
+  },
+  "DalamudUnmuted": {
+    "message": "Удалено из исключений \"{0}\".",
+    "description": "Dalamud.OnBadWordsRemoveCommand"
+  },
+  "DalamudNoLastLink": {
+    "message": "Нет ссылок...",
+    "description": "Dalamud.OnLastLinkCommand"
+  },
+  "DalamudOpeningLink": {
+    "message": "Открывается {0}",
+    "description": "Dalamud.OnLastLinkCommand"
+  },
+  "DalamudBotNotSetup": {
+    "message": "Discord бот XIVLauncher был настроен неправильно или к нему не получается подключиться. Пожалуйста проверьте настройки и FAQ.",
+    "description": "Dalamud.OnBotJoinCommand"
+  },
+  "DalamudChannelNotSetup": {
+    "message": "Вы не выбрали канал в Discord для уведомлений - вы будете получать их только в чате. Чтобы это изменить, пожалуйста, загляните в настройки XIVLauncher.",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudBonusSet": {
+    "message": "Установлены уведомления о бонусах в {0}({1}) для {2}",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudInvalidArguments": {
+    "message": "Нераспознанный параметр.",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudBonusPossibleValues": {
+    "message": "Доступные значения для рулеток: leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nДоступные значения для ролей: tank, dps, healer, all, none/reset",
+    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+  },
+  "DalamudLanguageSetTo": {
+    "message": "Язык установлен на {0}",
+    "description": "Dalamud.OnSetLanguageCommand"
+  },
+  "InstallerHeader": {
+    "message": "Установщик плагинов",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerHint": {
+    "message": "Данное окно позволяет вам устанавливать и удалять плагины.\nОни созданы сторонними разработчиками.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerLoading": {
+    "message": "Загрузка плагинов...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerDownloadFailed": {
+    "message": "Загрузка не удалась.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerInstalled": {
+    "message": " (установлено)",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdated": {
+    "message": " (обновлено)",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (обновление не удалось)",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerInProgress": {
+    "message": "Выполняется установка...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerDisable": {
+    "message": "Отключить",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerOpenConfig": {
+    "message": "Открыть настройки",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerNoCompatible": {
+    "message": "Совместимые плагины не найдены :( Пожалуйста, перезапустите игру и попробуйте еще раз.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdating": {
+    "message": "Обновление...",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0} плагин обновлен!",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerNoUpdates": {
+    "message": "Обновления не найдены!",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "Обновить плагины",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "Close": {
+    "message": "Закрыть",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerError": {
+    "message": "Ошибка установки",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerErrorHint": {
+    "message": "Установщик плагинов столкнулся с проблемой или плагин несовместим.\nПожалуйста, перезагрузите игру и сообщите об этой ошибке в нашем Discord.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\nСледующие плагины вызвали эти проблемы:\n\n{0}\nВы можете попробовать удалить эти плагины вручную и переустановить их.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "OK": {
+    "message": "ОК",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Настройки Dalamud",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "Основные настройки",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "Язык",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Выберите язык, на котором будет отображаться Dalamud.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannel": {
+    "message": "Основной Канал Чата",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "Выберите канал чата, который будет использоваться для основных сообщений Dalamud.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlash": {
+    "message": "Подсвечивать окно FFXIV при нахождении Duty",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "Выберите, если вы хотите подсвечивать окно FFXIV на панели задач, при нахождении Duty.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "Сообщение в чатлоге, при нахождении Duty",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "Выберите, если вы хотите получать сообщение в чате FFXIV, при нахождении Duty.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsVisual": {
+    "message": "Внешний вид",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "Глобальный скейлинг интерфейса",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "Отскейлить все элементы интерфейса XIVLauncher - полезно для 4K дисплеев.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "Прятать интерфейс плагинов, когда интерфейс игры скрыт",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "Отметьте данный пункт, чтобы скрыть все открытые окна плагинов при переключении оверлея игры.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "Экспериментально",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsRestartHint": {
+    "message": "Вам нужно перезапустить игру после изменения данных настроек.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "Получить тестовые билды плагинов",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "Отметьте данный пункт, чтобы получить тестовые билды плагинов.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTest": {
+    "message": "Получить тестовые билды Dalamud",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingDalamudTestHint": {
+    "message": "Отметьте данный пункт, чтобы получить тестовые билды Dalamud.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "Save": {
+    "message": "Сохранить",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "Сохранить и закрыть",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudWelcome": {
+    "message": "Dalamud vD{0} загружен.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginLoaded": {
+    "message": "    》 {0} v{1} загружен.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudUpdated": {
+    "message": "Аддон был обновлен или успешно переустановлен! Пожалуйста, проверьте Discord для получения полного списка изменений.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "Один или несколько ваших плагинов нужно обновить. Пожалуйста, используйте команду /xlplugins в игре, чтобы обновить их!",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "DalamudPluginUpdateCheckFail": {
+    "message": "Не удалось проверить наличие обновлений плагинов.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  }
+}
