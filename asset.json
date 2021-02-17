@@ -2,8 +2,64 @@
    "Version":7,
    "Assets":[
       {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
+         "FileName":"UIRes/serveropcode.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/clientopcode.json",
+         "FileName":"UIRes/clientopcode.json"
+      },
+      {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/bannedplugin.json",
          "FileName":"UIRes/bannedplugin.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/NotoSansCJKjp-Medium.otf",
+         "FileName":"UIRes/NotoSansCJKjp-Medium.otf"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/FontAwesome5FreeSolid.otf",
+         "FileName":"UIRes/FontAwesome5FreeSolid.otf"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/logo.png",
+         "FileName":"UIRes/logo.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_de.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_de.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_es.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_es.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_fr.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_fr.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_it.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_it.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_ja.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_ja.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_ko.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_ko.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_no.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_no.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_ru.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_ru.json"
+      },
+      {
+         "Url":"https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
+         "FileName":"UIRes/gamesym.ttf"
       }
    ]
 }
