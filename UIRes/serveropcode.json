@@ -4,5 +4,7 @@
   "MarketBoardItemRequestStart": 192,
   "MarketBoardOfferings": 363,
   "MarketBoardHistory": 451,
+  "MarketBoardPurchase": 991,
   "ActorControlSelf": 981,
+  "HousingWardInfo": 350,
 }
