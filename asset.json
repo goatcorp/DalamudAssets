@@ -1,5 +1,5 @@
 {
-   "Version":10,
+   "Version":11,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
@@ -60,6 +60,30 @@
       {
          "Url":"https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
          "FileName":"UIRes/gamesym.ttf"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/MS Sans Serif.ttf",
+         "FileName":"UIRes/MS Sans Serif.ttf"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/bubble.png",
+         "FileName":"UIRes/bubble.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/chord.wav",
+         "FileName":"UIRes/chord.wav"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/map.png",
+         "FileName":"UIRes/map.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/tada.wav",
+         "FileName":"UIRes/tada.wav"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/welcome.png",
+         "FileName":"UIRes/welcome.png"
       }
    ]
 }
