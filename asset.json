@@ -65,25 +65,5 @@
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/MS Sans Serif.ttf",
          "FileName":"UIRes/MS Sans Serif.ttf"
       },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/bubble.png",
-         "FileName":"UIRes/bubble.png"
-      },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/chord.wav",
-         "FileName":"UIRes/chord.wav"
-      },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/map.png",
-         "FileName":"UIRes/map.png"
-      },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/tada.wav",
-         "FileName":"UIRes/tada.wav"
-      },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/welcome.png",
-         "FileName":"UIRes/welcome.png"
-      }
    ]
 }
