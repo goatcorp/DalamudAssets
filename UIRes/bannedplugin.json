@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "Name": "PingPlugin",
+    "AssemblyVersion": "1.11.0.0"
+  },
+  {
+    "Name": "FPSPlugin",
+    "AssemblyVersion": "1.4.2.0"
+  },
+  {
+    "Name": "SonarPlugin",
+    "AssemblyVersion": "0.1.3.1"
+  }
+]
