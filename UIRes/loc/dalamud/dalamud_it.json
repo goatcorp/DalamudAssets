@@ -1,130 +1,122 @@
 {
   "DalamudUnloadHelp": {
     "message": "Disattiva l'addon in gioco di XIVLauncher.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
     "message": "Ricarica tutti i plugin.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudPrintChatHelp": {
-    "message": "Stampa in chat.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
     "message": "Mostra lista dei comandi disponibili.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
     "message": "Proibisci a una parola o a una frase di apparire in chat. Uso: /xlmute <parola o frase>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
     "message": "Elenca parole e frasi proibite.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
     "message": "Permetti a una parola o a una frase di apparire in chat. Uso: /xlunmute <parola o frase>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
     "message": "Apri il link piú recente della chat nel tuo browser predefinito.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBotJoinHelp": {
-    "message": "Aggiungi al tuo server il bot Discord di XIVLauncher che hai impostato.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
     "message": "Imposta la musica di sottofondo del gioco. Uso: /xlbgmset <ID Musica>",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBonusHelp": {
-    "message": "Notificami quando una roulette contiene un bonus specifico. Esegui senza parametri aggiuntivi per maggiori informazioni. Uso: /xlbonus <Nome roulette> <Nome ruolo>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
     "message": "Mostra menu sviluppatore DEBUG",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevDataMenuHelp": {
+    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevLogHelp": {
+    "message": "Open dev log DEBUG",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
     "message": "Apri l'installatore dei plugin",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
     "message": "Apri i titoli di coda per dalamud.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
     "message": "Imposta la lingua per l'addon in gioco ed i plugin che lo supportano. Lingue disponibili: ",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
     "message": "Cambia varie impostazioni dell'addon in gioco, come i canali di chat e la configurazione del bot di Discord.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBugReport": {
-    "message": "Carica un log da far analizzare al nostro team di sviluppo professionale.",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
     "message": "Comandi disponibili:",
-    "description": "Dalamud.OnHelpCommand"
+    "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "Please provide a word to mute.",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "message": "Per favore inserisci una parola da mutare.",
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
     "message": "Silenziato \"{0}\".",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
     "message": "Nessuna parola o frase proibita.",
-    "description": "Dalamud.OnBadWordsListCommand"
+    "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
     "message": "Riattivato \"{0}\".",
-    "description": "Dalamud.OnBadWordsRemoveCommand"
+    "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
     "message": "Nessun link recente...",
-    "description": "Dalamud.OnLastLinkCommand"
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
     "message": "Aprendo {0}",
-    "description": "Dalamud.OnLastLinkCommand"
-  },
-  "DalamudBotNotSetup": {
-    "message": "Il bot Discord di XIVLauncher non è stato impostato correttamente o non ha potuto connettersi a Discord. Per favore controlla le impostazioni e le FAQ.",
-    "description": "Dalamud.OnBotJoinCommand"
-  },
-  "DalamudChannelNotSetup": {
-    "message": "Non hai impostato un canale Discord per queste notifiche - Per fare ció, utilizza le impostazioni di gioco di XIVLauncher. Al momento, riceverai le notifiche solo nella chat.",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusSet": {
-    "message": "Impostate notifiche bonus per {0}({1} a {2})",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudInvalidArguments": {
-    "message": "Argomenti non risconosciuti.",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusPossibleValues": {
-    "message": "Possibili valori per la roulette: leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nPossibili valori per i ruoli: tank, dps, healer, all, none/reset",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
     "message": "Lingua impostata in {0}",
-    "description": "Dalamud.OnSetLanguageCommand"
+    "description": "DalamudCommands.OnSetLanguageCommand"
+  },
+  "SortAlphabetical": {
+    "message": "Alphabetical",
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHeader": {
     "message": "Installatore Plugin",
-    "description": "PluginInstallerWindow.Draw"
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHint": {
     "message": "Questa finestra ti permette di installare e rimuovere i plugin di gioco.\nSono sviluppati da terze parti.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortDownloadCounts": {
+    "message": "Download Count",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "PluginSort": {
+    "message": "Sort By",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerSearch": {
+    "message": "Search",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortLastUpdate": {
+    "message": "Last Update",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
@@ -135,32 +127,8 @@
     "message": "Download fallito.",
     "description": "PluginInstallerWindow.Draw"
   },
-  "InstallerInstalled": {
-    "message": " (installato)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdated": {
-    "message": " (aggiornato)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdateFailed": {
-    "message": " (aggiornamento fallito)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerInProgress": {
-    "message": "Installazione in corso...",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerDisable": {
-    "message": "Disabilita",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerOpenConfig": {
-    "message": "Apri configurazione",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerNoCompatible": {
-    "message": "Non sono stati trovati plugin compatibili :( Per favore riavvia il gioco e riprova.",
+  "InstallerDownloadFailedThird": {
+    "message": "One of your third party repos is unreachable or there is no internet connection.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
@@ -177,6 +145,10 @@
   },
   "InstallerUpdatePlugins": {
     "message": "Aggiorna plugins",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SettingsInstaller": {
+    "message": "Settings",
     "description": "PluginInstallerWindow.Draw"
   },
   "Close": {
@@ -199,9 +171,73 @@
     "message": "OK",
     "description": "PluginInstallerWindow.Draw"
   },
+  "InstallerAvailablePluginList": {
+    "message": "Available Plugins",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalledPluginList": {
+    "message": "Installed Plugins",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalled": {
+    "message": " (installato)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisabled": {
+    "message": " (disabled)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdated": {
+    "message": " (aggiornato)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (aggiornamento fallito)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerTestingVersion": {
+    "message": " (testing version)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerInProgress": {
+    "message": "Installazione in corso...",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisable": {
+    "message": "Disabilita",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerOpenConfig": {
+    "message": "Apri configurazione",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoInstalled": {
+    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoCompatible": {
+    "message": "Non sono stati trovati plugin compatibili :( Per favore riavvia il gioco e riprova.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallNoMatching": {
+    "message": "No plugins were found matching your search.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "DalamudPluginUpdates": {
+    "message": "Updates:",
+    "description": "PluginInstallerWindow.<Draw>b__16_1"
+  },
+  "DalamudPluginUpdateSuccessful": {
+    "message": "    》 {0} updated to v{1}.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
+  "DalamudPluginUpdateFailed": {
+    "message": "    》 {0} update to v{1} failed.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
   "DalamudSettingsHeader": {
     "message": "Impostazioni Dalamud",
-    "description": "DalamudSettingsWindow.Draw"
+    "description": "DalamudSettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
     "message": "Generale",
@@ -224,23 +260,39 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlash": {
-    "message": "Flash FFXIV window on duty pop",
+    "message": "Fai lampeggiare la finestra di FFXIV quando il duty è pronto",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Select, if the FFXIV window should be flashed in your task bar when a duty is ready.",
+    "message": "Seleziona se la finestra di FFXIV deve lampeggiare quando il duty è pronto.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Chatlog message on duty pop",
+    "message": "Messaggio in chat quando il duty è pronto",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Select, if a message should be sent in the FFXIV chat when a duty is ready.",
+    "message": "Seleziona se un messaggio deve essere inviato in chat quando il duty è pronto.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "Display loaded plugins in the welcome message",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "Auto-update plugins",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "Automatically update plugins when logging in with a character.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "Look & Feel",
+    "message": "Aspetto",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScale": {
@@ -251,36 +303,88 @@
     "message": "Scala tutti gli elementi della UI di XIVLauncher - utile per i display 4k.",
     "description": "DalamudSettingsWindow.Draw"
   },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "Plugins may independently opt out of the settings below.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
   "DalamudSettingToggleUiHide": {
-    "message": "Hide plugin UI when the game UI is hidden",
+    "message": "Nascondi l'interfaccia dei plugin quando l'interfaccia di gioco è nascosta",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Check this box to hide any open windows by plugins when toggling the game overlay.",
+    "message": "Seleziona questa casella per nascondere quasiasi finestra aperta dai plugin quando si nasconde l'interfaccia di gioco.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "Hide plugin UI during cutscenes",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "Hide any open windows by plugins during cutscenes.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "Hide plugin UI while gpose is active",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "Hide any open windows by plugins while gpose is active.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "Enable multi-monitor windows",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "Enable window docking",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "This will allow you to fuse and tab plugin windows.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
     "message": "Sperimentale",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingsRestartHint": {
-    "message": "Devi riavviare il gioco dopo aver cambiato queste impostazioni.",
-    "description": "DalamudSettingsWindow.Draw"
-  },
   "DalamudSettingsPluginTest": {
-    "message": "Get plugin testing builds",
+    "message": "Ottieni versioni di prova dei plugin",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Check this box to receive testing prereleases for plugins.",
+    "message": "Spunta questa casella per ricevere le versioni di prova dei plugin.",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTest": {
-    "message": "Get Dalamud testing builds",
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTestHint": {
-    "message": "Check this box to receive testing prereleases for Dalamud.",
+  "DalamudSettingsClearHidden": {
+    "message": "Clear hidden plugins",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "Restore plugins you have previously hidden from the plugin installer.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "Custom Plugin Repositories",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "Add custom plugin repositories.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "Repo already exists.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
@@ -295,6 +399,10 @@
     "message": "Dalamud vD{0} caricato.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
+  "PluginsWelcome": {
+    "message": " {0} plugin(s) loaded.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
   "DalamudPluginLoaded": {
     "message": "    》 {0} v{1} caricato.",
     "description": "ChatHandlers.PrintWelcomeMessage"
@@ -303,12 +411,16 @@
     "message": "L'addon in gioco è stato aggiornato o reinstallato con successo! Controlla su Discord per un changelog completo.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
-  "DalamudPluginUpdateRequired": {
-    "message": "Uno o piú dei tuoi plugins necessita un aggiornamento. Usa il comando /xlplugins in gioco per aggiornarli!",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
   "DalamudPluginUpdateCheckFail": {
     "message": "Non è stato possibile controllare gli aggiornamenti dei plugin.",
-    "description": "ChatHandlers.PrintWelcomeMessage"
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginAutoUpdate": {
+    "message": "Auto-update:",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "Uno o piú dei tuoi plugins necessita un aggiornamento. Usa il comando /xlplugins in gioco per aggiornarli!",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   }
 }

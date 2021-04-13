@@ -1,38 +1,38 @@
 {
   "DalamudUnloadHelp": {
-    "message": "Avlaster XIVLauncher spilltillegget.",
+    "message": "卸载游戏中的 XIVLauncher 插件。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
-    "message": "Laster inn alle tillegg på nytt.",
+    "message": "重新加载所有插件。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Viser liste over tilgjengelige kommandoer.",
+    "message": "显示可用命令列表。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
-    "message": "Blokker ett ord eller en setning fra å vises i chattevinduet. Bruk: /xlmute <ord eller setning>",
+    "message": "屏蔽聊天里出现的单词或句子。用法：/xlmute <单词或句子>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
-    "message": "Vis blokkerte ord eller setninger.",
+    "message": "列出屏蔽单词或句子。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
-    "message": "Opphev blokkering av ett ord eller en setning. Bruk: /xlunmute <ord eller setning>",
+    "message": "取消屏蔽单词或句子。用法：/xlunmute <单词或句子>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
-    "message": "Åpne den sist sendte lenken i din standardnettleser.",
+    "message": "在您的默认浏览器中打开上次接收到的链接。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
-    "message": "Sett bakgrunnsmusikk i spillet. Bruk: /xlbgmset <MUSIKK ID>",
+    "message": "设置游戏背景音乐。用法：/xlbgmset <BGM ID>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
-    "message": "Tegn utviklermeny FEILSØK",
+    "message": "绘制开发菜单 DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevDataMenuHelp": {
@@ -40,387 +40,387 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
-    "message": "Open dev log DEBUG",
+    "message": "打开开发者日志 DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
-    "message": "Åpne tilleggsinstallatøren",
+    "message": "打开插件安装程序",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
-    "message": "Vis medvirkende for Dalamud.",
+    "message": "打开 dalamud 的制作人表。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Sett språket for spilltillegget og tillegg som støtter det. Tilgjengelige språk: ",
+    "message": "设置游戏内附加组件和支持它的插件的语言。可用的语言： ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
-    "message": "Endre forskjellige innstillinger for spilltillegg som chat-kanaler og oppsettet til Discord roboten.",
+    "message": "更改不同的游戏内附加组件设置，如聊天频道和 Discord 机器人设置。",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "Tilgjengelige kommandoer:",
+    "message": "可用命令:",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "Vennligst oppgi ett ord å blokkere.",
+    "message": "请提供一个单词来屏蔽。",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "Blokkerte \"{0}\".",
+    "message": "已屏蔽 \"{0}\"。",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "Ingen blokkerte ord eller setninger.",
+    "message": "没有已屏蔽的单词或句子。",
     "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "Opphevde blokkeringen av \"{0}\".",
+    "message": "已取消屏蔽 \"{0}\"。",
     "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "Ingen siste lenke...",
+    "message": "没有最后一个链接...",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "Åpner {0}",
+    "message": "正在打开 {0}",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "Språk satt til {0}",
+    "message": "语言设置为 {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
   "SortAlphabetical": {
-    "message": "Alphabetical",
+    "message": "按字母顺序",
     "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHeader": {
-    "message": "Tilleggsoppsett",
+    "message": "插件安装器",
     "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHint": {
-    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
+    "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的。",
     "description": "PluginInstallerWindow.Draw"
   },
   "SortDownloadCounts": {
-    "message": "Download Count",
+    "message": "下载次数",
     "description": "PluginInstallerWindow.Draw"
   },
   "PluginSort": {
-    "message": "Sort By",
+    "message": "排序方式",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerSearch": {
-    "message": "Search",
+    "message": "搜索",
     "description": "PluginInstallerWindow.Draw"
   },
   "SortLastUpdate": {
-    "message": "Last Update",
+    "message": "最后更新",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
-    "message": "Laster inn tillegg...",
+    "message": "正在载入插件……",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailed": {
-    "message": "Nedlasting mislykket.",
+    "message": "下载失败。",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailedThird": {
-    "message": "One of your third party repos is unreachable or there is no internet connection.",
+    "message": "无法连接到第三方仓库或当前没有网络连接。",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
-    "message": "Oppdaterer...",
+    "message": "正在更新...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} tillegg oppdatert!",
+    "message": "{0} 个插件已更新！",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerNoUpdates": {
-    "message": "Ingen oppdateringer funnet!",
+    "message": "未找到更新！",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdatePlugins": {
-    "message": "Oppdater tillegg",
+    "message": "更新插件",
     "description": "PluginInstallerWindow.Draw"
   },
   "SettingsInstaller": {
-    "message": "Settings",
+    "message": "设置",
     "description": "PluginInstallerWindow.Draw"
   },
   "Close": {
-    "message": "Lukk",
+    "message": "关闭",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerError": {
-    "message": "Installeringen mislykket",
+    "message": "安装失败。",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorHint": {
-    "message": "Tilleggsinstallasjonen fikk et problem eller så er tillegget inkompatibelt.\nVennligst start spillet på nytt og rapporter dette problemet i Discorden vår.",
+    "message": "插件安装程序出现问题或插件不兼容。\n请重新启动游戏并在我们的 Discord 中报告此错误。",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nFølgende tillegg førte til disse probleme:\n\n{0}\nDu kan prøve å fjerne dem manuelt og installere dem på nytt.",
+    "message": "\n\n下列插件引起了这些问题：\n\n{0}\n您可以尝试手动移除这些插件并重新安装它们。",
     "description": "PluginInstallerWindow.Draw"
   },
   "OK": {
-    "message": "OK",
+    "message": "确定",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerAvailablePluginList": {
-    "message": "Available Plugins",
+    "message": "可用插件",
     "description": "PluginInstallerWindow.DrawTab"
   },
   "InstallerInstalledPluginList": {
-    "message": "Installed Plugins",
+    "message": "已安装插件",
     "description": "PluginInstallerWindow.DrawTab"
   },
   "InstallerInstalled": {
-    "message": " (installert)",
+    "message": " (已安装)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerDisabled": {
-    "message": " (disabled)",
+    "message": " （已禁用）",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerUpdated": {
-    "message": " (oppdatert)",
+    "message": " (已更新)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerUpdateFailed": {
-    "message": " (oppdatering mislyktes)",
+    "message": " (更新失败)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerTestingVersion": {
-    "message": " (testing version)",
+    "message": " （测试版本）",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerInProgress": {
-    "message": "Installasjon pågår...",
+    "message": "正在安装...",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerDisable": {
-    "message": "Deaktiver",
+    "message": "禁用",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerOpenConfig": {
-    "message": "Åpne Konfigurasjon",
+    "message": "打开配置",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerNoInstalled": {
-    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
+    "message": "您还没有安装任何插件。您可以在「可用插件」选项卡中进行安装。",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerNoCompatible": {
-    "message": "Ingen kompatible tillegg ble funnet :( Vennligst start spillet på nytt og prøv igjen.",
+    "message": "找不到兼容的插件 :( 请重启你的游戏并重试。",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallNoMatching": {
-    "message": "No plugins were found matching your search.",
+    "message": "未找到匹配的插件。",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "DalamudPluginUpdates": {
-    "message": "Updates:",
+    "message": "更新：",
     "description": "PluginInstallerWindow.<Draw>b__16_1"
   },
   "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} updated to v{1}.",
+    "message": "    》 {0} 已更新至 v{1}.",
     "description": "PluginRepository.PrintUpdatedPlugins"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} update to v{1} failed.",
+    "message": "    》 {0} 在尝试更新至 v{1} 时失败。",
     "description": "PluginRepository.PrintUpdatedPlugins"
   },
   "DalamudSettingsHeader": {
-    "message": "Dalamud Innstillinger",
+    "message": "Dalamud 设置",
     "description": "DalamudSettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
-    "message": "Generelt",
+    "message": "基本配置",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "Språk",
+    "message": "语言",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Velg språket Dalamud skal vises i.",
+    "message": "选择 Dalamud 显示语言。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannel": {
-    "message": "Generell Chattekanal",
+    "message": "通用聊天频道",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Velg chattekanalen som skal brukes for Dalamud meldinger.",
+    "message": "选择用于常规 Dalamud 消息的聊天频道。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlash": {
-    "message": "Blink FFXIV vinduet når Duty Finder er klar",
+    "message": "在排本成功后闪烁 FFXIV 窗口",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Velg, om FFXIV skal blinke i oppgavelinjen når Duty Finder har funnet en gruppe for deg.",
+    "message": "若选中, 当任务准备进行时, FFXIV窗口将会在您的任务栏中闪烁。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Send melding til chatteloggen når Duty Finder er klar",
+    "message": "任务搜索器上的聊天信息",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Velg dersom du vil en melding skal sendes til FFXIV chatten når Duty Finder er klar.",
+    "message": "若选中，当任务准备进行时，将会在 FFXIV 聊天中发送消息。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Display loaded plugins in the welcome message",
+    "message": "在欢迎消息中显示已加载的插件",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
+    "message": "在角色登入时显示已加载的插件。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Auto-update plugins",
+    "message": "自动更新插件",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Automatically update plugins when logging in with a character.",
+    "message": "在角色登入时自动更新插件。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "Utseende & Stil",
+    "message": "界面外观",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Global UI skala",
+    "message": "全局界面缩放",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaler hele brukergrensesnittet til XIVLauncher - nyttig for 4K skjermer.",
+    "message": "缩放所有 XIVLauncher 界面元素 - 适用于 4K 显示。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Plugins may independently opt out of the settings below.",
+    "message": "部分插件会忽略下列设置。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "Skjul brukergrensesnittet når spillets brukergrensesnitt også er skjult",
+    "message": "当游戏界面隐藏时隐藏插件界面",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Huk av denne boksen for å skjule tilleggsvindu når du skjuler spillets grensesnitt.",
+    "message": "勾选此框以在切换游戏悬浮窗时隐藏任何插件打开的窗口。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Hide plugin UI during cutscenes",
+    "message": "播放过场动画时隐藏插件 UI",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Hide any open windows by plugins during cutscenes.",
+    "message": "在播放过场动画时隐藏所有插件窗口。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Hide plugin UI while gpose is active",
+    "message": "激活 GPose 时隐藏插件 UI",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Hide any open windows by plugins while gpose is active.",
+    "message": "在激活 GPose 时隐藏所有插件窗口。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleViewports": {
-    "message": "Enable multi-monitor windows",
+    "message": "启用多屏模式",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
+    "message": "这将允许你将插件窗口移动到其他显示器。\n只在无边框窗口或窗口模式下有效。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleDocking": {
-    "message": "Enable window docking",
+    "message": "启用窗口合并",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleDockingHint": {
-    "message": "This will allow you to fuse and tab plugin windows.",
+    "message": "这允许你将多个插件窗口合并到同一窗口中，并通过选项卡分割它们。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "Eksperimentelt",
+    "message": "测试版",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTest": {
-    "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
+    "message": "获取插件测试版本",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Huk av denne boksen for å få forhåndsvisningsversjoner av tillegg.",
+    "message": "选中此框以接收插件预发布的测试。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestWarning": {
-    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
+    "message": "测试插件在发布前不一定经过了测试和审核。您需要自行承担使用可能带来的风险。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsClearHidden": {
-    "message": "Clear hidden plugins",
+    "message": "清除隐藏插件",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsClearHiddenHint": {
-    "message": "Restore plugins you have previously hidden from the plugin installer.",
+    "message": "从插件安装器中取消隐藏所有插件。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsCustomRepo": {
-    "message": "Custom Plugin Repositories",
+    "message": "自定义插件仓库",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingCustomRepoHint": {
-    "message": "Add custom plugin repositories.",
+    "message": "添加自定义插件仓库。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
+    "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。\n从不受信任的来源安装第三方插件时请多加注意。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudThirdRepoExists": {
-    "message": "Repo already exists.",
+    "message": "仓库已经存在。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
-    "message": "Lagre",
+    "message": "保存",
     "description": "DalamudSettingsWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "Lagre og Lukk",
+    "message": "保存并关闭",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} lastet.",
+    "message": "Dalamud vD{0} 已加载。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0} plugin(s) loaded.",
+    "message": " 已加载 {0} 个插件。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} lastet.",
+    "message": "    》 {0} v{1} 已加载。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Spilltillegget ble oppdatert eller installert på nytt uten problemer! Vennligst sjekk Discorden for full endringslogg.",
+    "message": "游戏内插件已更新或重新安装成功！请检查 Discord 来查看完整的更新日志。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
-    "message": "Kunne ikke se etter tilleggsoppdateringer.",
+    "message": "无法检查插件更新。",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   },
   "DalamudPluginAutoUpdate": {
-    "message": "Auto-update:",
+    "message": "自动更新：",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   },
   "DalamudPluginUpdateRequired": {
-    "message": "Ett eller flere av tilleggene dine må oppdateres. Vennligst bruk /xlplugins kommandoen i spillet for å oppdatere dem!",
+    "message": "您需要更新一个或多个插件。请使用游戏中的 /xlplugins 命令来更新它们！",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   }
 }

@@ -1,38 +1,38 @@
 {
   "DalamudUnloadHelp": {
-    "message": "Avlaster XIVLauncher spilltillegget.",
+    "message": "Desinjeta o addon do XIVLauncher do jogo.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
-    "message": "Laster inn alle tillegg på nytt.",
+    "message": "Recarrega todas os plugins.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Viser liste over tilgjengelige kommandoer.",
+    "message": "Mostra a lista de comandos disponíveis.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
-    "message": "Blokker ett ord eller en setning fra å vises i chattevinduet. Bruk: /xlmute <ord eller setning>",
+    "message": "Silencia uma palavra ou frase no chat. Uso: /xlmute <palavra ou frase>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
-    "message": "Vis blokkerte ord eller setninger.",
+    "message": "Lista palavras ou frases silenciadas.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
-    "message": "Opphev blokkering av ett ord eller en setning. Bruk: /xlunmute <ord eller setning>",
+    "message": "Deixar de silenciar uma palavra ou frase. Uso: /xlunmute <palavra ou frase>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
-    "message": "Åpne den sist sendte lenken i din standardnettleser.",
+    "message": "Abre o último link publicado em seu navegador padrão.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
-    "message": "Sett bakgrunnsmusikk i spillet. Bruk: /xlbgmset <MUSIKK ID>",
+    "message": "Define a música de fundo do jogo. Uso: /xlbgmset <BGM ID>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
-    "message": "Tegn utviklermeny FEILSØK",
+    "message": "Mostra o menu de DEBUG de desenvolvedor",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevDataMenuHelp": {
@@ -40,387 +40,387 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
-    "message": "Open dev log DEBUG",
+    "message": "Abrir dev log DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
-    "message": "Åpne tilleggsinstallatøren",
+    "message": "Abre o instalador de plugins",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
-    "message": "Vis medvirkende for Dalamud.",
+    "message": "Mostra os créditos do Dalamud.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Sett språket for spilltillegget og tillegg som støtter det. Tilgjengelige språk: ",
+    "message": "Define o idioma para o addon do jogo e plugins que são compatíveis. Idiomas disponíveis: ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
-    "message": "Endre forskjellige innstillinger for spilltillegg som chat-kanaler og oppsettet til Discord roboten.",
+    "message": "Altera várias configurações de Addon do jogo, como canais de chat e a configuração do bot do Discord.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "Tilgjengelige kommandoer:",
+    "message": "Comandos disponíveis:",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "Vennligst oppgi ett ord å blokkere.",
+    "message": "Por favor, forneça uma palavra para silenciar.",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "Blokkerte \"{0}\".",
+    "message": "Silenciou \"{0}\".",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "Ingen blokkerte ord eller setninger.",
+    "message": "Sem palavras ou frases silenciadas.",
     "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "Opphevde blokkeringen av \"{0}\".",
+    "message": "Deixou de silenciar \"{0}\".",
     "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "Ingen siste lenke...",
+    "message": "Sem último link...",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "Åpner {0}",
+    "message": "Abrindo {0}",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "Språk satt til {0}",
+    "message": "Idioma definido para {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
   "SortAlphabetical": {
-    "message": "Alphabetical",
+    "message": "Alfabético",
     "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHeader": {
-    "message": "Tilleggsoppsett",
+    "message": "Instalador de plugins",
     "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHint": {
-    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
+    "message": "Esta janela permite que você instale e remova plugins dentro do jogo.\nEles são feitos por desenvolvedores de terceiros.",
     "description": "PluginInstallerWindow.Draw"
   },
   "SortDownloadCounts": {
-    "message": "Download Count",
+    "message": "Qtd. Download",
     "description": "PluginInstallerWindow.Draw"
   },
   "PluginSort": {
-    "message": "Sort By",
+    "message": "Ordenar Por",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerSearch": {
-    "message": "Search",
+    "message": "Buscar",
     "description": "PluginInstallerWindow.Draw"
   },
   "SortLastUpdate": {
-    "message": "Last Update",
+    "message": "Última Atualização",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
-    "message": "Laster inn tillegg...",
+    "message": "Carregando plugins...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailed": {
-    "message": "Nedlasting mislykket.",
+    "message": "Falha no download.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailedThird": {
-    "message": "One of your third party repos is unreachable or there is no internet connection.",
+    "message": "Um de seus repositórios de terceiro está inacessível, ou não há conexões com a internet.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
-    "message": "Oppdaterer...",
+    "message": "Atualizando...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} tillegg oppdatert!",
+    "message": "{0} plugins atualizadas!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerNoUpdates": {
-    "message": "Ingen oppdateringer funnet!",
+    "message": "Nenhuma atualização encontrada!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdatePlugins": {
-    "message": "Oppdater tillegg",
+    "message": "Atualizar plugins",
     "description": "PluginInstallerWindow.Draw"
   },
   "SettingsInstaller": {
-    "message": "Settings",
+    "message": "Configurações",
     "description": "PluginInstallerWindow.Draw"
   },
   "Close": {
-    "message": "Lukk",
+    "message": "Fechar",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerError": {
-    "message": "Installeringen mislykket",
+    "message": "O instalador falhou",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorHint": {
-    "message": "Tilleggsinstallasjonen fikk et problem eller så er tillegget inkompatibelt.\nVennligst start spillet på nytt og rapporter dette problemet i Discorden vår.",
+    "message": "O instalador de plugins encontrou um problema ou o plugin é incompatível.\nPor favor, reinicie o jogo e reporte esse erro em nosso Discord.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nFølgende tillegg førte til disse probleme:\n\n{0}\nDu kan prøve å fjerne dem manuelt og installere dem på nytt.",
+    "message": "\n\nOs seguintes plugins causaram estes problemas:\n\n{0}\nVocê pode tentar remover esses plugins manualmente e reinstalá-los.",
     "description": "PluginInstallerWindow.Draw"
   },
   "OK": {
-    "message": "OK",
+    "message": "Ok",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerAvailablePluginList": {
-    "message": "Available Plugins",
+    "message": "Plugins Disponíveis",
     "description": "PluginInstallerWindow.DrawTab"
   },
   "InstallerInstalledPluginList": {
-    "message": "Installed Plugins",
+    "message": "Plugins Instalados",
     "description": "PluginInstallerWindow.DrawTab"
   },
   "InstallerInstalled": {
-    "message": " (installert)",
+    "message": " (instalado)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerDisabled": {
-    "message": " (disabled)",
+    "message": " (desativado)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerUpdated": {
-    "message": " (oppdatert)",
+    "message": " (atualizado)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerUpdateFailed": {
-    "message": " (oppdatering mislyktes)",
+    "message": " (falha ao atualizar)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerTestingVersion": {
-    "message": " (testing version)",
+    "message": " (versão de teste)",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerInProgress": {
-    "message": "Installasjon pågår...",
+    "message": "Instalação em andamento...",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerDisable": {
-    "message": "Deaktiver",
+    "message": "Desabilitar",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerOpenConfig": {
-    "message": "Åpne Konfigurasjon",
+    "message": "Abrir Configuração",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerNoInstalled": {
-    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
+    "message": "Nenhum plugin está instalado no momento. Utilize a aba Plugins Disponíveis para instalá-los.",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallerNoCompatible": {
-    "message": "Ingen kompatible tillegg ble funnet :( Vennligst start spillet på nytt og prøv igjen.",
+    "message": "Nenhuma plugin compatível foi encontrada :( Por favor reinicie seu jogo e tente novamente.",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "InstallNoMatching": {
-    "message": "No plugins were found matching your search.",
+    "message": "Nenhum plugin foi encontrado em sua busca.",
     "description": "PluginInstallerWindow.DrawPluginList"
   },
   "DalamudPluginUpdates": {
-    "message": "Updates:",
+    "message": "Atualizações:",
     "description": "PluginInstallerWindow.<Draw>b__16_1"
   },
   "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} updated to v{1}.",
+    "message": "    {0} atualizado para v{1}.",
     "description": "PluginRepository.PrintUpdatedPlugins"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} update to v{1} failed.",
+    "message": "    Atualização de {0} para v{1} falhou.",
     "description": "PluginRepository.PrintUpdatedPlugins"
   },
   "DalamudSettingsHeader": {
-    "message": "Dalamud Innstillinger",
+    "message": "Configurações do Dalamud",
     "description": "DalamudSettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
-    "message": "Generelt",
+    "message": "Geral",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "Språk",
+    "message": "Idioma",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Velg språket Dalamud skal vises i.",
+    "message": "Selecione o idioma no qual Dalamud será exibido.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannel": {
-    "message": "Generell Chattekanal",
+    "message": "Canal de Chat Geral",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Velg chattekanalen som skal brukes for Dalamud meldinger.",
+    "message": "Selecione o canal de chat que será usado para mensagens gerais do Dalamud.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlash": {
-    "message": "Blink FFXIV vinduet når Duty Finder er klar",
+    "message": "Piscar a janela do FFXIV quando encontrar uma duty",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Velg, om FFXIV skal blinke i oppgavelinjen når Duty Finder har funnet en gruppe for deg.",
+    "message": "Selecione caso a janela de FFXIV deva piscar na sua barra de tarefas quando uma duty estiver pronta.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Send melding til chatteloggen når Duty Finder er klar",
+    "message": "Mensagem no chat quando encontrar uma duty",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Velg dersom du vil en melding skal sendes til FFXIV chatten når Duty Finder er klar.",
+    "message": "Selecione caso uma mensagem deva ser enviada no chat do FFXIV quando uma duty estiver pronta.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Display loaded plugins in the welcome message",
+    "message": "Exibir plugins carregados na mensagem de boas-vindas",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
+    "message": "Exibir no chat os plugins carregados ao entrar com um personagem.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Auto-update plugins",
+    "message": "Atualizar plugins automaticamente",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Automatically update plugins when logging in with a character.",
+    "message": "Atualizar plugins automaticamente ao entrar com um personagem.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "Utseende & Stil",
+    "message": "Aparência",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Global UI skala",
+    "message": "Escala global da interface",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaler hele brukergrensesnittet til XIVLauncher - nyttig for 4K skjermer.",
+    "message": "Escala todos os elementos da interface do XIVLauncher - útil para telas de 4K.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Plugins may independently opt out of the settings below.",
+    "message": "Plugins podem optar por não utilizarem as configurações abaixo.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "Skjul brukergrensesnittet når spillets brukergrensesnitt også er skjult",
+    "message": "Oculta as interfaces de plugins quando a interface do jogo estiver oculta",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Huk av denne boksen for å skjule tilleggsvindu når du skjuler spillets grensesnitt.",
+    "message": "Marque esta caixa para ocultar qualquer janela aberta por extensões ao ligar ou desligar o overlay do jogo.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Hide plugin UI during cutscenes",
+    "message": "Ocultar a interface dos plugins durante uma cutscene",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Hide any open windows by plugins during cutscenes.",
+    "message": "Ocultar janelas abertas por plugins durante uma cutscene.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Hide plugin UI while gpose is active",
+    "message": "Ocultar a interface dos plugins enquanto o gpose estiver ativo",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Hide any open windows by plugins while gpose is active.",
+    "message": "Ocultar janelas abertas por plugins enquanto o gpose estiver ativo.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleViewports": {
-    "message": "Enable multi-monitor windows",
+    "message": "Habilitar janelas para múltiplos monitores",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
+    "message": "Isso irá permitir que você mova janelas de plugins entre monitores.\nEsta função só esta disponível caso seu FFXIV esteja em modo Borderless Window ou Windowed.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleDocking": {
-    "message": "Enable window docking",
+    "message": "Habilitar acoplamento de janelas",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleDockingHint": {
-    "message": "This will allow you to fuse and tab plugin windows.",
+    "message": "Isso permitirá agrupar as janelas de plugins em abas.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "Eksperimentelt",
+    "message": "Experimental",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTest": {
-    "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
+    "message": "Receber versões teste de plugins",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Huk av denne boksen for å få forhåndsvisningsversjoner av tillegg.",
+    "message": "Marque esta caixa para receber versões teste de pré-lançamento de plugins.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestWarning": {
-    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
+    "message": "Plugins em fase de teste podem não terem sido revisados antes de serem publicados. Utilize apenas se estiver ciente dos riscos.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsClearHidden": {
-    "message": "Clear hidden plugins",
+    "message": "Limpar plugins ocultos",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsClearHiddenHint": {
-    "message": "Restore plugins you have previously hidden from the plugin installer.",
+    "message": "Resturar plugins que você ocultou do instalador de plugins.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsCustomRepo": {
-    "message": "Custom Plugin Repositories",
+    "message": "Repositórios Personalizados",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingCustomRepoHint": {
-    "message": "Add custom plugin repositories.",
+    "message": "Adicionar repositório de plugin personalizado.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
+    "message": "Não podemos assumir qualquer responsabilidade por plugins e repositórios feitos por terceiros. Por favor, tome cuidado ao instalar plugins de fontes não confiáveis.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudThirdRepoExists": {
-    "message": "Repo already exists.",
+    "message": "O repositório já existe.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
-    "message": "Lagre",
+    "message": "Salvar",
     "description": "DalamudSettingsWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "Lagre og Lukk",
+    "message": "Salvar e Fechar",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} lastet.",
+    "message": "Dalamud vD{0} carregado.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0} plugin(s) loaded.",
+    "message": " {0} plugin(s) carregados.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} lastet.",
+    "message": "    》 {0} v{1} carregado.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Spilltillegget ble oppdatert eller installert på nytt uten problemer! Vennligst sjekk Discorden for full endringslogg.",
+    "message": "O addon do jogo foi atualizado ou reinstalado com sucesso! Por favor, verifique o Discord para um histórico de mudanças completo.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
-    "message": "Kunne ikke se etter tilleggsoppdateringer.",
+    "message": "Não foi possível verificar se há atualizações para os plugins.",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   },
   "DalamudPluginAutoUpdate": {
-    "message": "Auto-update:",
+    "message": "Atualização automatica:",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   },
   "DalamudPluginUpdateRequired": {
-    "message": "Ett eller flere av tilleggene dine må oppdateres. Vennligst bruk /xlplugins kommandoen i spillet for å oppdatere dem!",
+    "message": "Uma ou mais de seus plugins precisam ser atualizadas. Por favor, use o comando /xlplugins no jogo para atualizá-las!",
     "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   }
 }

@@ -1,130 +1,122 @@
 {
   "DalamudUnloadHelp": {
     "message": "XIVLauncher In-Game アドオンをアンロードします。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
     "message": "全てのプラグインをリロードします。",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudPrintChatHelp": {
-    "message": "チャットに出力する。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
     "message": "利用可能なコマンド一覧を表示します。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
     "message": "チャットに表示される単語や文章をミュートします。 利用法: /xlmute <単語 または、文章>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
     "message": "ミュートされた単語または文章の一覧を表示します。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
     "message": "単語または文章のミュートを解除します。利用法: /xlunmute <単語 または、文章>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
     "message": "デフォルトブラウザで直前に投稿したリンクを開きます。",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBotJoinHelp": {
-    "message": "設定した XIVLauncher の Discord ボットを自分のサーバーへ追加します。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
     "message": "ゲームBGMを設定します。利用法: /xlbgmset <BGM ID>",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBonusHelp": {
-    "message": "ルーレットに指定したボーナスがある場合に通知します。詳細はパラメータなしで実行してください。使用法: /xlbonus <ルーレット名> <ロール名>",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
     "message": "DEBUG 開発メニューを表示します。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevDataMenuHelp": {
+    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevLogHelp": {
+    "message": "Open dev log DEBUG",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
     "message": "プラグインインストーラを開きます",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
     "message": "Dalamud のクレジットを開きます。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
     "message": "In-Game アドオンとそのプラグインの言語を設定します。利用できる言語: ",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
     "message": "チャットチャンネルやDiscordボットなどの In-Game アドオンの各種設定を変更します。",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBugReport": {
-    "message": "開発チームで分析するためにログをアップロードできます。",
-    "description": "Dalamud.SetupCommands"
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
     "message": "利用可能なコマンド:",
-    "description": "Dalamud.OnHelpCommand"
+    "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
     "message": "ミュートする言葉を設定して下さい。",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
     "message": "\"{0}\" をミュートしました。",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
     "message": "ミュートされている単語または、文章はありません。",
-    "description": "Dalamud.OnBadWordsListCommand"
+    "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
     "message": "\"{0}\" のミュートを解除しました。",
-    "description": "Dalamud.OnBadWordsRemoveCommand"
+    "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
     "message": "直前のリンクがありません……",
-    "description": "Dalamud.OnLastLinkCommand"
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
     "message": "{0} を開いています。",
-    "description": "Dalamud.OnLastLinkCommand"
-  },
-  "DalamudBotNotSetup": {
-    "message": "XIVLauncher の Discordボットが正しく設定されていないか、Discord に接続できませんでした。設定やFAQをご確認ください。",
-    "description": "Dalamud.OnBotJoinCommand"
-  },
-  "DalamudChannelNotSetup": {
-    "message": "通知用の Discord チャンネルを設定していません (チャットでのみ受信できます)。Discord で通知を受け取るには、XIVLauncher の In-Game 設定をしてください。",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusSet": {
-    "message": "{0}({1}) のボーナス通知を {2} に設定します",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudInvalidArguments": {
-    "message": "認識できないパラメータです。",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusPossibleValues": {
-    "message": "ルーレットの可能な入力：leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nロールの可能な入力：tank, dps, healer, all, none/reset",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
     "message": "言語を {0} にセットしました。",
-    "description": "Dalamud.OnSetLanguageCommand"
+    "description": "DalamudCommands.OnSetLanguageCommand"
+  },
+  "SortAlphabetical": {
+    "message": "アルファベット順",
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHeader": {
     "message": "プラグインインストーラ",
-    "description": "PluginInstallerWindow.Draw"
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHint": {
     "message": "このウィンドウでは、In-Game プラグインのインストールと削除を行うことができます。\nこれらはサードパーティの開発者によって作られたものです。",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortDownloadCounts": {
+    "message": "ダウンロード数",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "PluginSort": {
+    "message": "ソート順",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerSearch": {
+    "message": "検索",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortLastUpdate": {
+    "message": "最終更新",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
@@ -135,32 +127,8 @@
     "message": "ダウンロードが失敗しました。",
     "description": "PluginInstallerWindow.Draw"
   },
-  "InstallerInstalled": {
-    "message": " (導入済み)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdated": {
-    "message": " (更新しました)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdateFailed": {
-    "message": " (アップデートが失敗しました)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerInProgress": {
-    "message": "インストール中……",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerDisable": {
-    "message": "無効化",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerOpenConfig": {
-    "message": "設定を開く",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerNoCompatible": {
-    "message": "コンパちなプラグインが見つかりませんでした　('A`)　ゲームを背起動して再実行してください。",
+  "InstallerDownloadFailedThird": {
+    "message": "One of your third party repos is unreachable or there is no internet connection.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
@@ -179,6 +147,10 @@
     "message": "プラグインをアップデートする",
     "description": "PluginInstallerWindow.Draw"
   },
+  "SettingsInstaller": {
+    "message": "設定",
+    "description": "PluginInstallerWindow.Draw"
+  },
   "Close": {
     "message": "閉じる",
     "description": "PluginInstallerWindow.Draw"
@@ -192,16 +164,80 @@
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nThe following plugins caused these issues:\n\n{0}\nYou may try removing these plugins manually and reinstalling them.",
+    "message": "\n\nこのプラグインが問題を引き起こした：\n\n{0}\n手動でアンインストールして再インフォースして下さい。",
     "description": "PluginInstallerWindow.Draw"
   },
   "OK": {
     "message": "OK",
     "description": "PluginInstallerWindow.Draw"
   },
+  "InstallerAvailablePluginList": {
+    "message": "利用可能なプラグイン",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalledPluginList": {
+    "message": "インストール済みプラグイン",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalled": {
+    "message": " (導入済み)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisabled": {
+    "message": " (無効化)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdated": {
+    "message": " (更新しました)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (アップデートが失敗しました)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerTestingVersion": {
+    "message": " (テストバージョン)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerInProgress": {
+    "message": "インストール中……",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisable": {
+    "message": "無効化",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerOpenConfig": {
+    "message": "設定を開く",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoInstalled": {
+    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoCompatible": {
+    "message": "互換性のあるプラグインが見つかりませんでした　('A`)　ゲームを再起動して再度実行してください。",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallNoMatching": {
+    "message": "No plugins were found matching your search.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "DalamudPluginUpdates": {
+    "message": "Updates:",
+    "description": "PluginInstallerWindow.<Draw>b__16_1"
+  },
+  "DalamudPluginUpdateSuccessful": {
+    "message": "    》 {0} updated to v{1}.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
+  "DalamudPluginUpdateFailed": {
+    "message": "    》 {0} update to v{1} failed.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
   "DalamudSettingsHeader": {
     "message": "Dalamud設定",
-    "description": "DalamudSettingsWindow.Draw"
+    "description": "DalamudSettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
     "message": "一般",
@@ -212,7 +248,7 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Dalamudの表示語を選びます。",
+    "message": "Dalamudの表示言語を選びます。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannel": {
@@ -228,7 +264,7 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Select, if the FFXIV window should be flashed in your task bar when a duty is ready.",
+    "message": "任務が完了したら、FFXIVウィンドウをタスクバーに点滅させる必要がある場合に選択してください。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
@@ -236,7 +272,23 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Select, if a message should be sent in the FFXIV chat when a duty is ready.",
+    "message": "任務が完了したら、FFXIVチャットでメッセージを送信する必要がある場合に選択します。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "Display loaded plugins in the welcome message",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "Auto-update plugins",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "Automatically update plugins when logging in with a character.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
@@ -248,7 +300,11 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "XIVLauncherのUIの大域的なスケールを上げます（４Kモニターには良い）。",
+    "message": "XIVLauncherのUI要素をすべて大きくします（４Kモニターにはおすすめ）。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "Plugins may independently opt out of the settings below.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHide": {
@@ -256,15 +312,43 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "ゲームオーバーレーをトグルしながらプラグインの開いているウインドウを非表示には、このチェックボックスをチェックして。",
+    "message": "ゲームオーバーレイの切り替え時にプラグインで開いているウィンドウを非表示にするには、このチェックボックスをオンにします。",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "Hide plugin UI during cutscenes",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "Hide any open windows by plugins during cutscenes.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "Hide plugin UI while gpose is active",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "Hide any open windows by plugins while gpose is active.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "Enable multi-monitor windows",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "Enable window docking",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "This will allow you to fuse and tab plugin windows.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
     "message": "実験的",
-    "description": "DalamudSettingsWindow.Draw"
-  },
-  "DalamudSettingsRestartHint": {
-    "message": "設定を変更後、ゲームを背起動しなければいけません。",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTest": {
@@ -275,12 +359,32 @@
     "message": "プラグインのテスティングビルドを受けるには、このチェックボックスをチェックして。",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTest": {
-    "message": "Dalamudのテスティングビルドを得る",
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTestHint": {
-    "message": "Dalamudのテスティングビルドを受けるには、このチェックボックスをチェックして。",
+  "DalamudSettingsClearHidden": {
+    "message": "Clear hidden plugins",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "Restore plugins you have previously hidden from the plugin installer.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "カスタムプラグインリポジトリ",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "Add custom plugin repositories.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "Repo already exists.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
@@ -288,11 +392,15 @@
     "description": "DalamudSettingsWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "保存して閉める",
+    "message": "保存して閉じる",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} をロードしました。",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "PluginsWelcome": {
+    "message": "{0}つのプラグインをロードしました。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
@@ -303,12 +411,16 @@
     "message": "In-Game アドオンの更新または、再インストールに成功しました。詳細な変更履歴はDiscordで確認してください。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
-  "DalamudPluginUpdateRequired": {
-    "message": "いくつかのプラグインで更新が必要です。/xlplugins コマンドを使用して、プラグインを更新してください。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
   "DalamudPluginUpdateCheckFail": {
     "message": "プラグインの更新を確認できませんでした。",
-    "description": "ChatHandlers.PrintWelcomeMessage"
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginAutoUpdate": {
+    "message": "Auto-update:",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "いくつかのプラグインで更新が必要です。/xlplugins コマンドを使用して、プラグインを更新してください。",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   }
 }

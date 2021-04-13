@@ -1,314 +1,426 @@
 {
   "DalamudUnloadHelp": {
-    "message": "Unloads XIVLauncher in-game addon.",
-    "description": "Dalamud.SetupCommands"
+    "message": "XIVLauncher 인게임 애드온 언로드.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
-    "message": "Reloads all plugins.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudPrintChatHelp": {
-    "message": "Print to chat.",
-    "description": "Dalamud.SetupCommands"
+    "message": "모든 플러그인 리로드.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Shows list of commands available.",
-    "description": "Dalamud.SetupCommands"
+    "message": "사용할 수 있는 명령어 목록 표시.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
-    "message": "Mute a word or sentence from appearing in chat. Usage: /xlmute <word or sentence>",
-    "description": "Dalamud.SetupCommands"
+    "message": "채팅에 표시되는 단어나 문장을 뮤트합니다. 사용법: /xlmute <단어 또는 문장>",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
-    "message": "List muted words or sentences.",
-    "description": "Dalamud.SetupCommands"
+    "message": "뮤트된 단어나 문장의 목록을 표시합니다.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
-    "message": "Unmute a word or sentence. Usage: /xlunmute <word or sentence>",
-    "description": "Dalamud.SetupCommands"
+    "message": "단어나 문장의 뮤트를 해제합니다. 사용법: /xlunmute <단어나 문장>",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
-    "message": "Open the last posted link in your default browser.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBotJoinHelp": {
-    "message": "Add the XIVLauncher discord bot you set up to your server.",
-    "description": "Dalamud.SetupCommands"
+    "message": "기본 브라우저로 마지막으로 게시된 링크를 엽니다.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
-    "message": "Set the Game background music. Usage: /xlbgmset <BGM ID>",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBonusHelp": {
-    "message": "Notify when a roulette has a bonus you specified. Run without parameters for more info. Usage: /xlbonus <roulette name> <role name>",
-    "description": "Dalamud.SetupCommands"
+    "message": "게임의 BGM을 설정합니다. 사용법: /xlbgmset <BGM ID>",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
-    "message": "Draw dev menu DEBUG",
-    "description": "Dalamud.SetupCommands"
+    "message": "DEBUG 개발 메뉴를 표시합니다.",
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevDataMenuHelp": {
+    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
+    "description": "DalamudCommands.SetupCommands"
+  },
+  "DalamudDevLogHelp": {
+    "message": "개발자 로그 DEBUG 열기",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
-    "message": "Open the plugin installer",
-    "description": "Dalamud.SetupCommands"
+    "message": "플러그인 인스톨러를 엽니다.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
-    "message": "Opens the credits for dalamud.",
-    "description": "Dalamud.SetupCommands"
+    "message": "Dalamud의 크레딧을 엽니다.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Set the language for the in-game addon and plugins that support it. Available languages: ",
-    "description": "Dalamud.SetupCommands"
+    "message": "인게임 애드온과 플러그인의 언어를 설정합니다. 지원하는 언어: ",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
-    "message": "Change various In-Game-Addon settings like chat channels and the discord bot setup.",
-    "description": "Dalamud.SetupCommands"
-  },
-  "DalamudBugReport": {
-    "message": "Upload a log to be analyzed by our professional development team.",
-    "description": "Dalamud.SetupCommands"
+    "message": "채팅 채널과 디스코드 봇 설정과 같은 다양한 인게임 애드온의 설정을 변경합니다.",
+    "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "Available commands:",
-    "description": "Dalamud.OnHelpCommand"
+    "message": "사용 가능한 명령어:",
+    "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "Please provide a word to mute.",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "message": "뮤트할 단어를 설정해 주십시오.",
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "Muted \"{0}\".",
-    "description": "Dalamud.OnBadWordsAddCommand"
+    "message": "뮤트됨 \"{0}\".",
+    "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "No muted words or sentences.",
-    "description": "Dalamud.OnBadWordsListCommand"
+    "message": "뮤트된 단어나 문장이 없습니다.",
+    "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "Unmuted \"{0}\".",
-    "description": "Dalamud.OnBadWordsRemoveCommand"
+    "message": "\"{0}\" 의 뮤트 해제됨.",
+    "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "No last link...",
-    "description": "Dalamud.OnLastLinkCommand"
+    "message": "이전 링크가 없습니다...",
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "Opening {0}",
-    "description": "Dalamud.OnLastLinkCommand"
-  },
-  "DalamudBotNotSetup": {
-    "message": "The XIVLauncher discord bot was not set up correctly or could not connect to discord. Please check the settings and the FAQ.",
-    "description": "Dalamud.OnBotJoinCommand"
-  },
-  "DalamudChannelNotSetup": {
-    "message": "You have not set up a discord channel for these notifications - you will only receive them in chat. To do this, please use the XIVLauncher in-game settings.",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusSet": {
-    "message": "Set bonus notifications for {0}({1}) to {2}",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudInvalidArguments": {
-    "message": "Unrecognized arguments.",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
-  },
-  "DalamudBonusPossibleValues": {
-    "message": "Possible values for roulette: leveling, 506070, msq, guildhests, expert, trials, mentor, alliance, normal\nPossible values for role: tank, dps, healer, all, none/reset",
-    "description": "Dalamud.OnRouletteBonusNotifyCommand"
+    "message": "{0} 을 여는 중",
+    "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "Language set to {0}",
-    "description": "Dalamud.OnSetLanguageCommand"
+    "message": "언어를 {0} 로 설정했습니다.",
+    "description": "DalamudCommands.OnSetLanguageCommand"
+  },
+  "SortAlphabetical": {
+    "message": "알파벳순",
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHeader": {
-    "message": "Plugin Installer",
-    "description": "PluginInstallerWindow.Draw"
+    "message": "플러그인 인스톨러",
+    "description": "PluginInstallerWindow..ctor"
   },
   "InstallerHint": {
-    "message": "This window allows you install and remove in-game plugins.\nThey are made by third-party developers.",
+    "message": "이 윈도우로 인게임 플러그인을 설치하거나 제거할 수 있습니다.\n플러그인은 서드파티 개발자에 의해 개발되었습니다.",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortDownloadCounts": {
+    "message": "다운로드 카운트",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "PluginSort": {
+    "message": "정렬 순서",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "InstallerSearch": {
+    "message": "검색",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SortLastUpdate": {
+    "message": "마지막 업데이트",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerLoading": {
-    "message": "Loading plugins...",
+    "message": "플러그인 로딩 중...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerDownloadFailed": {
-    "message": "Download failed.",
+    "message": "다운로드 실패.",
     "description": "PluginInstallerWindow.Draw"
   },
-  "InstallerInstalled": {
-    "message": " (installed)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdated": {
-    "message": " (updated)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerUpdateFailed": {
-    "message": " (update failed)",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerInProgress": {
-    "message": "Install in progress...",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerDisable": {
-    "message": "Disable",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerOpenConfig": {
-    "message": "Open Configuration",
-    "description": "PluginInstallerWindow.Draw"
-  },
-  "InstallerNoCompatible": {
-    "message": "No compatible plugins were found :( Please restart your game and try again.",
+  "InstallerDownloadFailedThird": {
+    "message": "서드 파티 리포지토리에 도달할 수 없거나 인터넷에 연결되어있지 않습니다.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdating": {
-    "message": "Updating...",
+    "message": "업데이트 중...",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} plugins updated!",
+    "message": "{0} 개의 플러그인이 업데이트 되었습니다!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerNoUpdates": {
-    "message": "No updates found!",
+    "message": "업데이트가 없습니다!",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerUpdatePlugins": {
-    "message": "Update plugins",
+    "message": "플러그인 업데이트",
+    "description": "PluginInstallerWindow.Draw"
+  },
+  "SettingsInstaller": {
+    "message": "설정",
     "description": "PluginInstallerWindow.Draw"
   },
   "Close": {
-    "message": "Close",
+    "message": "닫기",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerError": {
-    "message": "Installer failed",
+    "message": "설치 실패",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorHint": {
-    "message": "The plugin installer ran into an issue or the plugin is incompatible.\nPlease restart the game and report this error on our discord.",
+    "message": "플러그인 인스톨러에 문제가 생겼거나 플러그인이 호환되지 않습니다.\n게임을 재시작 하고 에러를 Discord에 제보해주십시오.",
     "description": "PluginInstallerWindow.Draw"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nThe following plugins caused these issues:\n\n{0}\nYou may try removing these plugins manually and reinstalling them.",
+    "message": "\n\n다음의 플러그인에서 문제가 발생했습니다.\n\n{0}\n수동으로 플러그인을 삭제하고 재설치 하십시오.",
     "description": "PluginInstallerWindow.Draw"
   },
   "OK": {
     "message": "OK",
     "description": "PluginInstallerWindow.Draw"
   },
+  "InstallerAvailablePluginList": {
+    "message": "사용가능한 플러그인",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalledPluginList": {
+    "message": "설치된 플러그인",
+    "description": "PluginInstallerWindow.DrawTab"
+  },
+  "InstallerInstalled": {
+    "message": " (설치됨)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisabled": {
+    "message": " (비활성화됨)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdated": {
+    "message": " (업데이트됨)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (업데이트 실패)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerTestingVersion": {
+    "message": " (테스트 버전)",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerInProgress": {
+    "message": "설치 진행 중...",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerDisable": {
+    "message": "비활성화",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerOpenConfig": {
+    "message": "설정 열기",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoInstalled": {
+    "message": "플러그인이 설치되어 있지 않습니다. 사용가능한 플러그인 탭에서 설치할 수 있습니다.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallerNoCompatible": {
+    "message": "호환되는 플러그인을 찾을 수 없습니다 :( 게임을 재시작하고 재시도 해보십시오.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "InstallNoMatching": {
+    "message": "일치하는 플러그인을 찾을 수 없습니다.",
+    "description": "PluginInstallerWindow.DrawPluginList"
+  },
+  "DalamudPluginUpdates": {
+    "message": "업데이트:",
+    "description": "PluginInstallerWindow.<Draw>b__16_1"
+  },
+  "DalamudPluginUpdateSuccessful": {
+    "message": "    》 {0} 을(를) v{1} 로 업데이트.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
+  "DalamudPluginUpdateFailed": {
+    "message": "    》 {0} 을(를) v{1} 로 업데이트 실패.",
+    "description": "PluginRepository.PrintUpdatedPlugins"
+  },
   "DalamudSettingsHeader": {
-    "message": "Dalamud Settings",
-    "description": "DalamudSettingsWindow.Draw"
+    "message": "Dalamud 설정",
+    "description": "DalamudSettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
-    "message": "General",
+    "message": "일반",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "Language",
+    "message": "언어",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Select the language Dalamud will be displayed in.",
+    "message": "Dalamud의 표시 언어를 선택하십시오.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannel": {
-    "message": "General Chat Channel",
+    "message": "일반 채팅 채널",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Select the chat channel that is to be used for general Dalamud messages.",
+    "message": "일반 Dalamud 메세지를 표시할 채팅 채널을 선택하십시오.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlash": {
-    "message": "Flash FFXIV window on duty pop",
+    "message": "매칭이 되었을 때 FF14 윈도우를 깜빡입니다.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Select, if the FFXIV window should be flashed in your task bar when a duty is ready.",
+    "message": "선택 시, 매칭이 되면 사용자의 작업 표시줄에서 FF14 윈도우가 깜빡입니다.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Chatlog message on duty pop",
+    "message": "매칭 시의 채팅로그 메세지",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Select, if a message should be sent in the FFXIV chat when a duty is ready.",
+    "message": "선택 시, 매칭이 되면 인게임에서 메세지를 보냅니다.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "환영 메세지에 로드 된 플러그인을 표시",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "접속할 때 채팅창에 로드 된 플러그인을 표시",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "플러그인 자동 업데이트",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "접속할 때 플러그인을 자동으로 업데이트",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "Look & Feel",
+    "message": "스타일",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Global UI scale",
+    "message": "전역 UI 크기",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Scale all XIVLauncher UI elements - useful for 4K displays.",
+    "message": "모든 XIVLauncher의 UI 구성요소의 스케일을 올립니다 - 4K 디스플레이에 유용",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "플러그인은 아래의 설정에서 스스로 자신을 제외할 수 있습니다.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "Hide plugin UI when the game UI is hidden",
+    "message": "게임 UI가 숨겨지면 플러그인 UI도 숨깁니다",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Check this box to hide any open windows by plugins when toggling the game overlay.",
+    "message": "게임 오버레이를 토글하면서 열려 있는 모든 플러그인의 창을 숨기려면 이 체크박스를 체크하십시오.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "컷신 중 플러그인 UI 숨기기",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "컷신 중 모든 플러그인 윈도우 숨기기",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "Gpose가 활성화 중일 때 플러그인 UI 숨기기",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "Gposer가 활성화 중일 때 모든 플러그인 윈도우 숨기기.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "멀티 모니터 윈도우 활성화",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "이 기능 플러그인 윈도우를 다른 모니터로 옮길 수 있게 해줍니다.\n경계 없는 창모드 또는 창모드에서만 동작합니다.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "윈도우 도킹 활성화",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "이것은 플러그인 윈도우를 합치고 탭할 수 있도록 합니다.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "Experimental",
-    "description": "DalamudSettingsWindow.Draw"
-  },
-  "DalamudSettingsRestartHint": {
-    "message": "You need to restart your game after changing these settings.",
+    "message": "실험적",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTest": {
-    "message": "Get plugin testing builds",
+    "message": "플러그인의 테스팅 빌드 가져오기",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Check this box to receive testing prereleases for plugins.",
+    "message": "플러그인의 테스팅 릴리즈를 받으려면 체크박스를 체크하십시오.",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTest": {
-    "message": "Get Dalamud testing builds",
+  "DalamudSettingsPluginTestWarning": {
+    "message": "테스트 플러그인은 검증되지 않았을 수 있습니다. 위험에 대해 인지하고 있는 경우에만 활성화 하십시오.",
     "description": "DalamudSettingsWindow.Draw"
   },
-  "DalamudSettingDalamudTestHint": {
-    "message": "Check this box to receive testing prereleases for Dalamud.",
+  "DalamudSettingsClearHidden": {
+    "message": "숨겨진 플러그인 정리",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "이전에 플러그인 인스톨러를 통해 숨긴 플러그인을 복원합니다.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "커스텀 플러그인 리포지토리",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "커스텀 플러그인 리포지토리 추가",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "저희는 서드파티 플러그인과 리포지토리에 대해 어떤 책임도 지지 않습니다.\n신뢰할 수 없는 소스로부터 서드파티 플러그인을 설치할 땐 조심하십시오.",
+    "description": "DalamudSettingsWindow.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "리포지토리가 이미 존재합니다.",
     "description": "DalamudSettingsWindow.Draw"
   },
   "Save": {
-    "message": "Save",
+    "message": "저장",
     "description": "DalamudSettingsWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "Save and Close",
+    "message": "저장하고 닫기",
     "description": "DalamudSettingsWindow.Draw"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} loaded.",
+    "message": "Dalamud vD{0} 로드됨.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
+  },
+  "PluginsWelcome": {
+    "message": " {0} 개의 플러그인이 로드되었습니다.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} loaded.",
+    "message": "    》 {0} v{1} 로드됨.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "The In-Game addon has been updated or was reinstalled successfully! Please check the discord for a full changelog.",
-    "description": "ChatHandlers.PrintWelcomeMessage"
-  },
-  "DalamudPluginUpdateRequired": {
-    "message": "One or more of your plugins needs to be updated. Please use the /xlplugins command in-game to update them!",
+    "message": "인게임 애드온이 업데이트 되었거나 성공적으로 재설치 되었습니다. 모든 변경 사항을 보려면 Discord를 확인하십시오.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
-    "message": "Could not check for plugin updates.",
-    "description": "ChatHandlers.PrintWelcomeMessage"
+    "message": "플러그인 업데이트를 확인할 수 없습니다.",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginAutoUpdate": {
+    "message": "자동 업데이트:",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
+  },
+  "DalamudPluginUpdateRequired": {
+    "message": "하나 이상의 플러그인이 업데이트가 필요합니다. 인게임에서 /xlplugins 명령어를 사용하여 업데이트 하십시오.",
+    "description": "ChatHandlers.<PrintWelcomeMessage>b__15_1"
   }
 }
