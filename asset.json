@@ -1,5 +1,5 @@
 {
-   "Version":13,
+   "Version":14,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
@@ -60,10 +60,6 @@
       {
          "Url":"https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
          "FileName":"UIRes/gamesym.ttf"
-      },
-      {
-         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/MS Sans Serif.ttf",
-         "FileName":"UIRes/MS Sans Serif.ttf"
       },
    ]
 }
