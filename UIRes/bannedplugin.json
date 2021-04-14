@@ -14,5 +14,9 @@
   {
     "Name": "BurntToast",
     "AssemblyVersion": "1.2.0"
+  },
+  {
+    "Name": "NoSoliciting",
+    "AssemblyVersion": "1.8.2"
   }
 ]
