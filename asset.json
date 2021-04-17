@@ -15,15 +15,18 @@
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/NotoSansCJKjp-Medium.otf",
-         "FileName":"UIRes/NotoSansCJKjp-Medium.otf"
+         "FileName":"UIRes/NotoSansCJKjp-Medium.otf",
+         "Hash":"7334F0BADA3A7D52E1C642217EB7EA21BE700421"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/FontAwesome5FreeSolid.otf",
-         "FileName":"UIRes/FontAwesome5FreeSolid.otf"
+         "FileName":"UIRes/FontAwesome5FreeSolid.otf",
+         "Hash":"893A372F71B73FA3A58A02CFDA43A7B34CDA337A"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/logo.png",
-         "FileName":"UIRes/logo.png"
+         "FileName":"UIRes/logo.png",
+         "Hash":"AEFA0F4FB7A15391CE210142015ABFD753D803C9"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_de.json",
@@ -59,7 +62,8 @@
       },
       {
          "Url":"https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
-         "FileName":"UIRes/gamesym.ttf"
+         "FileName":"UIRes/gamesym.ttf",
+         "Hash":"89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
       },
    ]
 }
