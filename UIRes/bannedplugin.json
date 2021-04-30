@@ -15,4 +15,9 @@
     "Name": "BurntToast",
     "AssemblyVersion": "1.2.0"
   }
+  ,
+  {
+    "Name": "VFXEditor",
+    "AssemblyVersion": "1.3.2.3"
+  }
 ]
