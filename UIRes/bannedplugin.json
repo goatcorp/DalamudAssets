@@ -14,10 +14,13 @@
   {
     "Name": "BurntToast",
     "AssemblyVersion": "1.2.0"
-  }
-  ,
+  },
   {
     "Name": "VFXEditor",
     "AssemblyVersion": "1.3.2.3"
+  },
+  {
+    "Name": "EasyEyes",
+    "AssemblyVersion": "1.0.1.0"
   }
 ]
