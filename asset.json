@@ -33,6 +33,18 @@
          "Hash":"AEFA0F4FB7A15391CE210142015ABFD753D803C9"
       },
       {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/defaultIcon.png",
+         "FileName":"UIRes/defaultIcon.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/troubleIcon.png",
+         "FileName":"UIRes/troubleIcon.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/updateIcon.png",
+         "FileName":"UIRes/updateIcon.png"
+      },
+      {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_de.json",
          "FileName":"UIRes/loc/dalamud/dalamud_de.json"
       },
