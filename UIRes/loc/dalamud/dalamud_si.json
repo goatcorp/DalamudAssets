@@ -1,142 +1,142 @@
 {
   "DalamudPluginUpdateSuccessful": {
-    "message": "    {0} は v{1} に更新されました。",
+    "message": "    》 {0} updated to v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    {0} は v{1} への更新に失敗しました。",
+    "message": "    》 {0} update to v{1} failed.",
     "description": "Locs.DalamudPluginUpdateFailed"
   },
   "DalamudUnloadHelp": {
-    "message": "XIVLauncher In-Game アドオンをアンロードします。",
+    "message": "Unloads XIVLauncher in-game addon.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudPluginReloadHelp": {
-    "message": "全てのプラグインをリロードします。",
+    "message": "Reloads all plugins.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdInfoHelp": {
-    "message": "利用可能なコマンド一覧を表示します。",
+    "message": "Shows list of commands available.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteHelp": {
-    "message": "チャットに表示される単語や文章をミュートします。 利用法: /xlmute <単語 または、文章>",
+    "message": "Mute a word or sentence from appearing in chat. Usage: /xlmute <word or sentence>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudMuteListHelp": {
-    "message": "ミュートされた単語または文章の一覧を表示します。",
+    "message": "List muted words or sentences.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudUnmuteHelp": {
-    "message": "単語または文章のミュートを解除します。利用法: /xlunmute <単語 または、文章>",
+    "message": "Unmute a word or sentence. Usage: /xlunmute <word or sentence>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLastLinkHelp": {
-    "message": "デフォルトブラウザで直前に投稿したリンクを開きます。",
+    "message": "Open the last posted link in your default browser.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudBgmSetHelp": {
-    "message": "ゲームBGMを設定します。利用法: /xlbgmset <BGM ID>",
+    "message": "Set the Game background music. Usage: /xlbgmset <BGM ID>",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevMenuHelp": {
-    "message": "DEBUG 開発メニューを表示します。",
+    "message": "Draw dev menu DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevDataMenuHelp": {
-    "message": "DEBUG 開発データメニューを描画します。使用方法: /xldata [Data Dropdown Type]",
+    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudIMEPanelHelp": {
-    "message": "IMEパネルを描画",
+    "message": "Draw IME panel",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
-    "message": "開発ログを開く DEBUG",
+    "message": "Open dev log DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
-    "message": "プラグインインストーラを開きます",
+    "message": "Open the plugin installer",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCreditsHelp": {
-    "message": "Dalamud のクレジットを開きます。",
+    "message": "Opens the credits for dalamud.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "In-Game アドオンとそのプラグインの言語を設定します。利用できる言語: ",
+    "message": "Set the language for the in-game addon and plugins that support it. Available languages: ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
-    "message": "チャットチャンネルやDiscordボットなどの In-Game アドオンの各種設定を変更します。",
+    "message": "Change various In-Game-Addon settings like chat channels and the discord bot setup.",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "利用可能なコマンド:",
+    "message": "Available commands:",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
-    "message": "ミュートする言葉を設定して下さい。",
+    "message": "Please provide a word to mute.",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "\"{0}\" をミュートしました。",
+    "message": "Muted \"{0}\".",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "ミュートされている単語または、文章はありません。",
+    "message": "No muted words or sentences.",
     "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "\"{0}\" のミュートを解除しました。",
+    "message": "Unmuted \"{0}\".",
     "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "直前のリンクがありません……",
+    "message": "No last link...",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "{0} を開いています。",
+    "message": "Opening {0}",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "言語を {0} にセットしました。",
+    "message": "Language set to {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
   "InstallerDevTools": {
-    "message": "開発者ツール",
+    "message": "Dev Tools",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
-    "message": "インストール済みプラグイン",
+    "message": "Installed Plugins",
     "description": "Locs.get_Group_Installed"
   },
   "InstallerAvailablePlugins": {
-    "message": "利用可能なプラグイン",
+    "message": "Available Plugins",
     "description": "Locs.get_Group_Available"
   },
   "InstallerCategoryAll": {
-    "message": "すべて",
+    "message": "All",
     "description": "Locs.get_Category_All"
   },
   "InstallerInstalledDevPlugins": {
-    "message": "インストール済み開発プラグイン",
+    "message": "Installed Dev Plugins",
     "description": "Locs.get_Category_DevInstalled"
   },
   "InstallerCategoryOther": {
-    "message": "その他",
+    "message": "Other",
     "description": "Locs.get_Category_Other"
   },
   "InstallerCategoryJobs": {
-    "message": "ジョブ",
+    "message": "Jobs",
     "description": "Locs.get_Category_Jobs"
   },
   "InstallerCategoryUI": {
-    "message": "UI (ユーザーインターフェース)",
+    "message": "UI",
     "description": "Locs.get_Category_UI"
   },
   "InstallerCategoryMiniGames": {
-    "message": "ミニゲーム",
+    "message": "Mini games",
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
@@ -148,115 +148,115 @@
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
-    "message": "ソーシャル",
+    "message": "Social",
     "description": "Locs.get_Category_Social"
   },
   "InstallerCategoryUtility": {
-    "message": "ユーティリティ",
+    "message": "Utility",
     "description": "Locs.get_Category_Utility"
   },
   "DalamudGamepadModeNotifierText": {
-    "message": "ゲームパッドモードはオンです。L1+L3を押して無効にし、R3を押してプラグインインストーラを切り替えます。",
+    "message": "Gamepad mode is ON. Press L1+L3 to deactivate, press R3 to toggle PluginInstaller.",
     "description": "GamepadModeNotifierWindow.Draw"
   },
   "InstallerHeader": {
-    "message": "プラグインインストーラ",
+    "message": "Plugin Installer",
     "description": "Locs.get_WindowTitle"
   },
   "InstallerHeaderTesting": {
-    "message": " (テスト中)",
+    "message": " (TESTING)",
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "このウィンドウでは、In-Game プラグインのインストールと削除を行うことができます。\nこれらはサードパーティの開発者によって作られたものです。",
+    "message": "This window allows you to install and remove in-game plugins.\nThey are made by third-party developers.",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
-    "message": "検索",
+    "message": "Search",
     "description": "Locs.get_Header_SearchPlaceholder"
   },
   "InstallerAlphabetical": {
-    "message": "アルファベット順",
+    "message": "Alphabetical",
     "description": "Locs.get_SortBy_Alphabetical"
   },
   "InstallerDownloadCount": {
-    "message": "ダウンロード数",
+    "message": "Download Count",
     "description": "Locs.get_SortBy_DownloadCounts"
   },
   "InstallerLastUpdate": {
-    "message": "最終更新",
+    "message": "Last Update",
     "description": "Locs.get_SortBy_LastUpdate"
   },
   "InstallerNewOrNot": {
-    "message": "追加確認",
+    "message": "New or not",
     "description": "Locs.get_SortBy_NewOrNot"
   },
   "InstallerSortBy": {
-    "message": "ソート順",
+    "message": "Sort By",
     "description": "Locs.get_SortBy_Label"
   },
   "InstallerLoading": {
-    "message": "プラグインをロード中……",
+    "message": "Loading plugins...",
     "description": "Locs.get_TabBody_LoadingPlugins"
   },
   "InstallerDownloadFailed": {
-    "message": "ダウンロードが失敗しました。",
+    "message": "Download failed.",
     "description": "Locs.get_TabBody_DownloadFailed"
   },
   "InstallerSafeMode": {
-    "message": "Dalamudはプラグインセーフモードで実行されています。プラグインを有効にするには再起動してください。",
+    "message": "Dalamud is running in Plugin Safe Mode, restart to activate plugins.",
     "description": "Locs.get_TabBody_SafeMode"
   },
   "InstallerNoMatching": {
-    "message": "検索条件に一致するプラグインが見つかりませんでした。",
+    "message": "No plugins were found matching your search.",
     "description": "Locs.get_TabBody_SearchNoMatching"
   },
   "InstallerNoCompatible": {
-    "message": "互換性のあるプラグインが見つかりませんでした　('A`)　ゲームを再起動して再度実行してください。",
+    "message": "No compatible plugins were found :( Please restart your game and try again.",
     "description": "Locs.get_TabBody_SearchNoCompatible"
   },
   "InstallerNoInstalled": {
-    "message": "現在インストールされているプラグインはありません。利用可能なプラグインタブからインストールできます。",
+    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
     "description": "Locs.get_TabBody_SearchNoInstalled"
   },
   "InstallerInstalled": {
-    "message": " (導入済み)",
+    "message": " (installed)",
     "description": "Locs.get_PluginTitleMod_Installed"
   },
   "InstallerDisabled": {
-    "message": " (無効化済み)",
+    "message": " (disabled)",
     "description": "Locs.get_PluginTitleMod_Disabled"
   },
   "InstallerUnloaded": {
-    "message": " (アンロード済み)",
+    "message": " (unloaded)",
     "description": "Locs.get_PluginTitleMod_Unloaded"
   },
   "InstallerHasUpdate": {
-    "message": " (更新あり)",
+    "message": " (has update)",
     "description": "Locs.get_PluginTitleMod_HasUpdate"
   },
   "InstallerUpdated": {
-    "message": " (更新済み)",
+    "message": " (updated)",
     "description": "Locs.get_PluginTitleMod_Updated"
   },
   "InstallerTestingVersion": {
-    "message": " (テストバージョン)",
+    "message": " (testing version)",
     "description": "Locs.get_PluginTitleMod_TestingVersion"
   },
   "InstallerUpdateFailed": {
-    "message": " (アップデート失敗)",
+    "message": " (update failed)",
     "description": "Locs.get_PluginTitleMod_UpdateFailed"
   },
   "InstallerLoadError": {
-    "message": " (読み込みエラー)",
+    "message": " (load error)",
     "description": "Locs.get_PluginTitleMod_LoadError"
   },
   "InstallerUnloadError": {
-    "message": " (アンロード失敗)",
+    "message": " (unload error)",
     "description": "Locs.get_PluginTitleMod_UnloadError"
   },
   "InstallerOutdatedError": {
-    "message": " （期限切れ）",
+    "message": " (outdated)",
     "description": "Locs.get_PluginTitleMod_OutdatedError"
   },
   "InstallerBannedError": {
@@ -264,35 +264,35 @@
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
   "InstallerNewPlugin ": {
-    "message": "New!",
+    "message": " New!",
     "description": "Locs.get_PluginTitleMod_New"
   },
   "InstallerMarkAllSeen": {
-    "message": "すべて既読にする",
+    "message": "Mark all as seen",
     "description": "Locs.get_PluginContext_MarkAllSeen"
   },
   "InstallerHidePlugin": {
-    "message": "インストーラーから非表示",
+    "message": "Hide from installer",
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "プラグインをリセット",
+    "message": "Reset plugin",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "プラグインの設定をリセットして再読み込み",
+    "message": "Reset plugin settings & reload",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
-    "message": " 開発者: {0}",
+    "message": " by {0}",
     "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
   },
   "InstallerAuthorWithDownloadCount": {
-    "message": " 開発者: {0}, ダウンロード数: {1}",
+    "message": " by {0}, {1} downloads",
     "description": "Locs.PluginBody_AuthorWithDownloadCount"
   },
   "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " 開発者: {0}, ダウンロード数: 不明",
+    "message": " by {0}, download count unavailable",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
   "InstallerDevPluginPath": {
@@ -300,203 +300,203 @@
     "description": "Locs.PluginBody_DevPluginPath"
   },
   "InstallerPlugin3rdPartyRepo": {
-    "message": "カスタムプラグインリポジトリ {0}",
+    "message": "From custom plugin repository {0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
   "InstallerDevPlugin": {
-    "message": " このプラグインはリポジトリのいずれかで利用可能です。devPlugins フォルダから削除してください。",
+    "message": " This plugin is available in one of your repos, please remove it from the devPlugins folder.",
     "description": "Locs.get_PluginBody_AvailableDevPlugin"
   },
   "InstallerDeleteDevPlugin ": {
-    "message": " このプラグインを削除するには、devPlugins フォルダから削除してください。",
+    "message": " To delete this plugin, please remove it from the devPlugins folder.",
     "description": "Locs.get_PluginBody_DeleteDevPlugin"
   },
   "InstallerOutdatedPluginBody ": {
-    "message": "このプラグインは現在古く互換性がありません。作成者によって更新されるまでお待ちください。",
+    "message": "This plugin is outdated and incompatible at the moment. Please wait for it to be updated by its author.",
     "description": "Locs.get_PluginBody_Outdated"
   },
   "InstallerBannedPluginBody ": {
-    "message": "このプラグインのバージョンは、互換性がないため現在使用できません。開発者が更新するまでお待ちください。",
+    "message": "This plugin version is banned due to incompatibilities and not available at the moment. Please wait for it to be updated by its author.",
     "description": "Locs.get_PluginBody_Banned"
   },
   "InstallerInstall": {
-    "message": "v{0} をインストール",
+    "message": "Install v{0}",
     "description": "Locs.PluginButton_InstallVersion"
   },
   "InstallerWorking": {
-    "message": "処理中",
+    "message": "Working",
     "description": "Locs.get_PluginButton_Working"
   },
   "InstallerDisable": {
-    "message": "無効化",
+    "message": "Disable",
     "description": "Locs.get_PluginButton_Disable"
   },
   "InstallerLoad": {
-    "message": "読み込み",
+    "message": "Load",
     "description": "Locs.get_PluginButton_Load"
   },
   "InstallerUnload": {
-    "message": "アンロード",
+    "message": "Unload",
     "description": "Locs.get_PluginButton_Unload"
   },
   "InstallerOpenConfig": {
-    "message": "設定を開く",
+    "message": "Open Configuration",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
   },
   "InstallerStartOnBoot": {
-    "message": "起動時に自動で開始する",
+    "message": "Start on boot",
     "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
   },
   "InstallerAutomaticReloading": {
-    "message": "自動再読み込み",
+    "message": "Automatic reloading",
     "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
   },
   "InstallerDeletePlugin ": {
-    "message": "プラグインを削除",
+    "message": "Delete plugin",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
   },
   "InstallerVisitPluginUrl": {
-    "message": "プラグインのURLを開く",
+    "message": "Visit plugin URL",
     "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
   },
   "InstallerUpdateSingle": {
-    "message": "{0} の更新",
+    "message": "Update to {0}",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
   "InstallerUnloadFailedTooltip": {
-    "message": "プラグインのアンロードに失敗しました。ゲームを再起動してもう一度お試しください。",
+    "message": "Plugin unload failed, please restart your game and try again.",
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
   },
   "NotificationsPluginInstalledTitle": {
-    "message": "プラグインがインストールされました！",
+    "message": "Plugin installed!",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
   },
   "NotificationsPluginInstalled": {
-    "message": "'{0}' は正常にインストールされました。",
+    "message": "'{0}' was successfully installed.",
     "description": "Locs.Notifications_PluginInstalled"
   },
   "NotificationsPluginNotInstalledTitle": {
-    "message": "プラグインがインストールされていません！",
+    "message": "Plugin not installed!",
     "description": "Locs.get_Notifications_PluginNotInstalledTitle"
   },
   "NotificationsPluginNotInstalled": {
-    "message": "'{0}' のインストールに失敗しました。",
+    "message": "'{0}' failed to install.",
     "description": "Locs.Notifications_PluginNotInstalled"
   },
   "NotificationsNoUpdatesFoundTitle": {
-    "message": "アップデートはありませんでした！",
+    "message": "No updates found!",
     "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
   },
   "NotificationsNoUpdatesFound": {
-    "message": "アップデートは見つかりませんでした。",
+    "message": "No updates were found.",
     "description": "Locs.get_Notifications_NoUpdatesFound"
   },
   "NotificationsUpdatesInstalledTitle": {
-    "message": "アップデートが完了しました！",
+    "message": "Updates installed!",
     "description": "Locs.get_Notifications_UpdatesInstalledTitle"
   },
   "NotificationsUpdatesInstalled": {
-    "message": "{0} のプラグインがインストールされました。",
+    "message": "Updates for {0} of your plugins were installed.",
     "description": "Locs.Notifications_UpdatesInstalled"
   },
   "NotificationsPluginDisabledTitle": {
-    "message": "プラグインを無効にしました！",
+    "message": "Plugin disabled!",
     "description": "Locs.get_Notifications_PluginDisabledTitle"
   },
   "NotificationsPluginDisabled": {
-    "message": "'{0}' は無効化されました。",
+    "message": "'{0}' was disabled.",
     "description": "Locs.Notifications_PluginDisabled"
   },
   "InstallerUpdatePlugins": {
-    "message": "プラグインをアップデートする",
+    "message": "Update plugins",
     "description": "Locs.get_FooterButton_UpdatePlugins"
   },
   "InstallerInProgress": {
-    "message": "インストール中……",
+    "message": "Install in progress...",
     "description": "Locs.get_FooterButton_InProgress"
   },
   "InstallerNoUpdates": {
-    "message": "アップデートが見つかりませんでした！",
+    "message": "No updates found!",
     "description": "Locs.get_FooterButton_NoUpdates"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} のプラグインが更新されました！",
+    "message": "{0} plugins updated!",
     "description": "Locs.FooterButton_UpdateComplete"
   },
   "InstallerSettings": {
-    "message": "設定",
+    "message": "Settings",
     "description": "Locs.get_FooterButton_Settings"
   },
   "InstallerScanDevPlugins": {
-    "message": "新しいプラグインを確認",
+    "message": "Scan Dev Plugins",
     "description": "Locs.get_FooterButton_ScanDevPlugins"
   },
   "InstallerClose": {
-    "message": "閉じる",
+    "message": "Close",
     "description": "Locs.get_FooterButton_Close"
   },
   "InstallerError": {
-    "message": "インストールエラー",
+    "message": "Installer Error",
     "description": "Locs.get_ErrorModal_Title"
   },
   "InstallerContactAuthor": {
-    "message": "ゲームを再起動して再試行してください。このエラーが再度発生した場合は、プラグインの作成者に連絡してください。",
+    "message": "Please restart your game and try again. If this error occurs again, please contact the plugin author.",
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
   },
   "InstallerInstallFail": {
-    "message": "プラグイン {0} のインストールに失敗しました。\n{1}",
+    "message": "Failed to install plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "プラグイン {0} の更新に失敗しました。\n{1}",
+    "message": "Failed to update plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
-    "message": "プラグイン {0} のリセットに失敗しました。\n\nプラグインはこの操作をサポートしていない可能性があります。 ゲームが終了している間に手動で設定を削除してみてください - FAQを参照してください。",
+    "message": "Failed to reset the plugin {0}.\n\nThe plugin may not support this action. You can try deleting the configuration manually while the game is shut down - please see the FAQ.",
     "description": "Locs.ErrorModal_DeleteConfigFail"
   },
   "InstallerEnableFail": {
-    "message": "プラグイン {0} の有効化に失敗しました。\n{1}",
+    "message": "Failed to enable plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_EnableFail"
   },
   "InstallerDisableFail": {
-    "message": "プラグイン {0} の無効化に失敗しました。\n{1}",
+    "message": "Failed to disable plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_DisableFail"
   },
   "InstallerUnloadFail": {
-    "message": "プラグイン {0} のアンロードに失敗しました。\n{1}",
+    "message": "Failed to unload plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_UnloadFail"
   },
   "InstallerLoadFail": {
-    "message": "プラグイン {0} の読み込みに失敗しました。\n{1}",
+    "message": "Failed to load plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_LoadFail"
   },
   "InstallerDeleteFail": {
-    "message": "プラグイン {0} の削除に失敗しました。\n{1}",
+    "message": "Failed to delete plugin {0}.\n{1}",
     "description": "Locs.ErrorModal_DeleteFail"
   },
   "InstallerUpdaterFatal": {
-    "message": "プラグインの更新に失敗しました。\nゲームを再起動してもう一度お試しください。再度このエラーが発生した場合は報告してください。",
+    "message": "Failed to update plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
   "InstallerUpdaterFail": {
-    "message": "{0} プラグインのアップデートに失敗しました。\nゲームを再起動してもう一度お試しください。再度このエラーが発生した場合は報告してください。",
+    "message": "Failed to update {0} plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
     "description": "Locs.ErrorModal_UpdaterFail"
   },
   "InstallerUpdaterFailPartial": {
-    "message": "{0} プラグインを更新しました。 {1} の更新に失敗しました。\nゲームを再起動してもう一度お試しください。再度このエラーが発生した場合は報告してください。",
+    "message": "Updated {0} plugins, failed to update {1}.\nPlease restart your game and try again. If this error occurs again, please complain.",
     "description": "Locs.ErrorModal_UpdaterFailPartial"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\n以下のプラグインが問題を起こしました：\n\n{0}\nこれらのプラグインを手動で削除し、再インストールしてみてください。",
+    "message": "\n\nThe following plugins caused these issues:\n\n{0}\nYou may try removing these plugins manually and reinstalling them.",
     "description": "Locs.ErrorModal_HintBlame"
   },
   "InstallerFeedback": {
-    "message": "フィードバックを送る",
+    "message": "Send Feedback",
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "\"{0}\" の開発者にフィードバックを送ることができます。\n返信してもらいたい場合には、Discord タグかメールアドレスを記載することもできます。",
+    "message": "You can send feedback to the developer of \"{0}\" here.\nYou can include your Discord tag or email address if you wish to give them the opportunity to answer.",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackContactInfo": {
@@ -504,7 +504,7 @@
     "description": "Locs.get_FeedbackModal_ContactInformation"
   },
   "InstallerFeedbackIncludeLastError": {
-    "message": "最後のエラーメッセージを含める",
+    "message": "Include last error message",
     "description": "Locs.get_FeedbackModal_IncludeLastError"
   },
   "InstallerFeedbackIncludeLastErrorHint": {
@@ -512,19 +512,19 @@
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
-    "message": "すべてのプラグイン開発者があなたのフィードバックを見ることができます。\n個人情報や個人を特定できるような情報は絶対に含めないでください。\n「最後のエラーメッセージを含める」を選択した場合、使用中の Windows ユーザー名などの情報が含まれる可能性があります。\n\n収集されたフィードバックは、私たちのサーバーには保存されず、すぐに Discord に転送されます。",
+    "message": "All plugin developers will be able to see your feedback.\nPlease never include any personal or revealing information.\nIf you chose to include the last error message, information like your Windows username may be included.\n\nThe collected feedback is not stored on our end and immediately relayed to Discord.",
     "description": "Locs.get_FeedbackModal_Hint"
   },
   "InstallerFeedbackNotificationSuccess": {
-    "message": "フィードバックが正常に送信されました！",
+    "message": "Your feedback was sent successfully!",
     "description": "Locs.get_FeedbackModal_NotificationSuccess"
   },
   "InstallerFeedbackNotificationError": {
-    "message": "フィードバックを送信できませんでした。",
+    "message": "Your feedback could not be sent.",
     "description": "Locs.get_FeedbackModal_NotificationError"
   },
   "DalamudPluginUpdates": {
-    "message": "更新:",
+    "message": "Updates:",
     "description": "Locs.get_PluginUpdateHeader_Chatbox"
   },
   "OK": {
@@ -532,183 +532,183 @@
     "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudSettingsHeader": {
-    "message": "Dalamud設定",
+    "message": "Dalamud Settings",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
-    "message": "全般",
+    "message": "General",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsVisual": {
-    "message": "外観",
+    "message": "Look & Feel",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "試験的機能",
+    "message": "Experimental",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "言語",
+    "message": "Language",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Dalamudの表示言語を選びます。",
+    "message": "Select the language Dalamud will be displayed in.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsChannel": {
-    "message": "一般チャットチャンネル",
+    "message": "General Chat Channel",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Dalamudの一般メッセージチャンネルを選びます。",
+    "message": "Select the chat channel that is to be used for general Dalamud messages.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsFlash": {
-    "message": "コンテンツファインダーのマッチング時にウィンドウを点滅させる",
+    "message": "Flash FFXIV window on duty pop",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsFlashHint": {
-    "message": "有効にすると、コンテンツ参加申請がマッチングした際にタスクバー上で FF14 ウィンドウを点滅させます。",
+    "message": "Flash the FFXIV window in your task bar when a duty is ready.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "コンテンツファインダーのマッチング時にチャットメッセージを表示する",
+    "message": "Chatlog message on duty pop",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "有効にすると、コンテンツ参加申請がマッチングした際にゲーム内のチャットにメッセージを表示します。",
+    "message": "Send a message in FFXIV chat when a duty is ready.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "ロードされたプラグインをウェルカムメッセージに表示する",
+    "message": "Display loaded plugins in the welcome message",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "ログイン時に読み込んだプラグインをFFXIVのチャットに表示します。",
+    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsAutoUpdatePlugins": {
-    "message": "プラグインを自動でアップデートする",
+    "message": "Auto-update plugins",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "キャラクターがログインする際にプラグインを自動的に更新します。",
+    "message": "Automatically update plugins when logging in with a character.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "システムメニューに Dalamud ボタンを表示する",
+    "message": "Dalamud buttons in system menu",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "システムメニューにDalamudプラグインのボタンと設定を追加します。",
+    "message": "Add buttons for Dalamud plugins and settings to the system menu.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFiltering": {
-    "message": "RMT フィルタを無効にする",
+    "message": "Disable RMT Filtering",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Dalamud の内蔵 RMT 広告フィルタを無効にします。",
+    "message": "Disable dalamud's built-in RMT ad filtering.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "グローバルの UI スケール",
+    "message": "Global UI Scale",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "XIVLauncher の UI 要素を全体的に大きくします。 (4K モニターにおすすめです)",
+    "message": "Scale all XIVLauncher UI elements - useful for 4K displays.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
-    "message": "スタイルエディタを開く",
+    "message": "Open Style Editor",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "Dalamud ウィンドウの外観を変更します。",
+    "message": "Modify the look & feel of Dalamud windows.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "プラグインは以下の設定を個別にオプトアウトできます。",
+    "message": "Plugins may independently opt out of the settings below.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "ゲームUIが非表示ならプラグインUIを非表示します",
+    "message": "Hide plugin UI when the game UI is toggled off",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "ゲームオーバーレイの切り替え時にプラグインで開いているウィンドウを非表示にするには、このチェックボックスをオンにします。",
+    "message": "Hide any open windows by plugins when toggling the game overlay.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "カットシーン中はプラグインUIを隠す",
+    "message": "Hide plugin UI during cutscenes",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "カットシーン中はプラグインウィンドウを非表示にします。",
+    "message": "Hide any open windows by plugins during cutscenes.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "グループポーズ中はプラグインUIを隠す",
+    "message": "Hide plugin UI while gpose is active",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "グループポーズ中はプラグインウィンドウを非表示にします。",
+    "message": "Hide any open windows by plugins while gpose is active.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "Esc キーで Dalamud ウィンドウを閉じられるようにする",
+    "message": "Use escape to close Dalamud windows",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "これを有効にすると、Esc キーを入力した際に Dalamud のウィンドウもゲーム内ウィンドウのように振る舞います。\nすべてのウィンドウが閉じられるまで順に閉じられます。一部のプラグインのウィンドウでは動作しない可能性があります。",
+    "message": "This will cause Dalamud windows to behave like in-game windows when pressing escape.\nThey will close one after another until all are closed. May not work for all plugins.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewports": {
-    "message": "マルチモニタウィンドウを有効にする",
+    "message": "Enable multi-monitor windows",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "プラグインウィンドウを他のモニターに移動できます。\nこの機能はボーダレスウィンドウまたはウィンドウモードでのみ動作します。",
+    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleDocking": {
-    "message": "ウィンドウのドッキングを有効にする",
+    "message": "Enable window docking",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleDockingHint": {
-    "message": "これにより、プラグインウィンドウを結合してタブ化することができます。",
+    "message": "This will allow you to fuse and tab plugin windows.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigation": {
-    "message": "ゲームパッドからプラグインを操作する",
+    "message": "Control plugins via gamepad",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "これにより、L1+L3でゲームとプラグインのナビゲーションを切り替えることができます。\nImGuiナビゲーションが有効な場合は、R3でPluginInstallerウィンドウを切り替えます。",
+    "message": "This will allow you to toggle between game and plugin navigation via L1+L3.\nToggle the PluginInstaller window via R3 if ImGui navigation is enabled.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsPluginTest": {
-    "message": "プラグインのテストバージョンを取得する",
+    "message": "Get plugin testing builds",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "プラグインのテストバージョンやプレリリースを入手します。",
+    "message": "Receive testing prereleases for plugins.",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsPluginTestWarning": {
-    "message": "試験中のプラグインは公開前に審査されていない可能性があります。リスクを認識している場合にのみ、これを有効にしてください。",
+    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsClearHidden": {
-    "message": "非表示のプラグインをクリア",
+    "message": "Clear hidden plugins",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsClearHiddenHint": {
-    "message": "以前にプラグインインストーラから非表示にしたプラグインを復元します。",
+    "message": "Restore plugins you have previously hidden from the plugin installer.",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsCustomRepo": {
-    "message": "カスタムプラグインリポジトリ",
+    "message": "Custom Plugin Repositories",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsChanged": {
@@ -716,31 +716,31 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoHint": {
-    "message": "カスタム プラグイン リポジトリを追加します。",
+    "message": "Add custom plugin repositories.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "サードパーティのプラグインやリポジトリについては一切責任を負いません。\n信頼できないソースからサードパーティのプラグインをインストールする場合は注意してください。",
+    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudThirdRepoExists": {
-    "message": "リポジトリは既に追加されています。",
+    "message": "Repo already exists.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsDevPluginLocation": {
-    "message": "開発プラグインの場所",
+    "message": "Dev Plugin Locations",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "追加の開発プラグインの読み込み場所を追加します。\nこれらはディレクトリまたはDLLパスのいずれかになります。",
+    "message": "Add additional dev plugin load locations.\nThese can be either the directory or DLL path.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginLocationExists": {
-    "message": "レポジトリは既に存在しています。",
+    "message": "Location already exists.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "Save": {
-    "message": "保存する",
+    "message": "Save",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "Close": {
@@ -748,7 +748,7 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "SaveAndClose": {
-    "message": "保存して閉じる",
+    "message": "Save and Close",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "RenameStyleModalTitle": {
@@ -776,7 +776,7 @@
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorImport": {
-    "message": "クリップボードからスタイルを読み込む",
+    "message": "Import style from clipboard",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
@@ -800,47 +800,47 @@
     "description": "StyleEditorWindow.Draw"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} を読み込みました。",
+    "message": "Dalamud vD{0} loaded.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0}個のプラグインが読み込まれました。",
+    "message": " {0} plugin(s) loaded.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} がロードされました。",
+    "message": "    》 {0} v{1} loaded.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "In-Game アドオンの更新または、再インストールに成功しました。詳細な変更履歴はDiscordで確認してください。",
+    "message": "The In-Game addon has been updated or was reinstalled successfully! Please check the discord for a full changelog.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
-    "message": "プラグインの更新を確認できませんでした。",
+    "message": "Could not check for plugin updates.",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginAutoUpdate": {
-    "message": "自動アップデート:",
+    "message": "Auto-update:",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
-    "message": "{0}個のプラグインが更新されました。",
+    "message": "{0} of your plugins were updated.",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
-    "message": "自動アップデート",
+    "message": "Auto-Update",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
-    "message": "いくつかのプラグインで更新が必要です。/xlplugins コマンドを使用して、プラグインを更新してください。",
+    "message": "One or more of your plugins needs to be updated. Please use the /xlplugins command in-game to update them!",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "SystemMenuPlugins": {
-    "message": "Dalamud プラグイン",
+    "message": "Dalamud Plugins",
     "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
   },
   "SystemMenuSettings": {
-    "message": "Dalamud 設定",
+    "message": "Dalamud Settings",
     "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
   }
 }
