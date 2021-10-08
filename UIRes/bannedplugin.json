@@ -106,5 +106,9 @@
   {
     "Name": "DelvUI",
     "AssemblyVersion": "0.2.0.0"
+  },
+  {
+    "Name": "TeleporterPlugin",
+    "AssemblyVersion": "2.0.0.6"
   }
 ]
