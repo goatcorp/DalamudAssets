@@ -114,5 +114,15 @@
   {
     "Name": "ChatTranslator",
     "AssemblyVersion": "1.1.0.0"
+  },
+  {
+    "Name": "MacroRecursion",
+    "AssemblyVersion": "2.0.2.0",
+    "Reason": "Please delete this version of Macro Chain and download it again from the available tab."
+  },
+  {
+    "Name": "SlideCast",
+    "AssemblyVersion": "0.7.0.0",
+    "Reason": "SlideCast has been deprecated, please use the Cast Bar Adjustments tweak from SimpleTweaks."
   }
 ]
