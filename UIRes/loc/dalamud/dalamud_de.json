@@ -740,7 +740,7 @@
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "Save": {
-    "message": "Schließen",
+    "message": "Speichern",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "Close": {
