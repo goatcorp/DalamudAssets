@@ -1,5 +1,5 @@
 {
-   "Version":39,
+   "Version":40,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
@@ -79,6 +79,10 @@
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_ru.json",
          "FileName":"UIRes/loc/dalamud/dalamud_ru.json"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/pdb/ffxiv_dx11.pdb",
+         "FileName":"UIRes/pdb/ffxiv_dx11.pdb"
       },
       {
          "Url":"https://img.finalfantasyxiv.com/lds/pc/global/fonts/FFXIV_Lodestone_SSF.ttf",
