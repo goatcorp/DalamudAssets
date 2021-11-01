@@ -124,10 +124,5 @@
     "Name": "SlideCast",
     "AssemblyVersion": "0.7.0.0",
     "Reason": "SlideCast has been deprecated, please use the Cast Bar Adjustments tweak from SimpleTweaks."
-  },
-  {
-    "Name": "BrowserHost.Plugin",
-    "AssemblyVersion": "1.4.1.2",
-    "Reason": "BrowserHost is currently disabled due to a technical issue. Will be back soon!"
   }
 ]
