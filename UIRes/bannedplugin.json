@@ -124,5 +124,10 @@
     "Name": "SlideCast",
     "AssemblyVersion": "0.7.0.0",
     "Reason": "SlideCast has been deprecated, please use the Cast Bar Adjustments tweak from SimpleTweaks."
+  },
+  {
+    "Name": "SoundFilter",
+    "AssemblyVersion": "1.4.3.0",
+    "Reason": "SoundFilter is temporarily disabled due to a technical issue."
   }
 ]
