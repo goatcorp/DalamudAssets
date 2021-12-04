@@ -129,5 +129,15 @@
     "Name": "SoundFilter",
     "AssemblyVersion": "1.4.3.0",
     "Reason": "SoundFilter is temporarily disabled due to a technical issue."
+  },
+  {
+    "Name": "XIVCombo",
+    "AssemblyVersion": "1.6.4",
+    "Reason": "XIVCombo is temporarily disabled in order to adjust it to job changes."
+  },
+  {
+    "Name": "MOAction",
+    "AssemblyVersion": "4.0.11",
+    "Reason": "MOAction is temporarily disabled in order to adjust it to job changes."
   }
 ]
