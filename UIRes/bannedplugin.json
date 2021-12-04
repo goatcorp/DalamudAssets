@@ -139,5 +139,9 @@
     "Name": "MOAction",
     "AssemblyVersion": "4.0.11",
     "Reason": "MOAction is temporarily disabled in order to adjust it to job changes."
+  },
+  {
+    "Name": "NoKillPlugin",
+    "AssemblyVersion": "1.0.2.1"
   }
 ]
