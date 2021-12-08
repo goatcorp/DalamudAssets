@@ -147,5 +147,9 @@
   {
     "Name": "MarketBoardPlugin",
     "AssemblyVersion": "0.5.1.0"
+  },
+  {
+    "Name": "Penumbra",
+    "AssemblyVersion": "0.4.5.0"
   }
 ]
