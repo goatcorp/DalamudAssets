@@ -143,5 +143,9 @@
   {
     "Name": "NoKillPlugin",
     "AssemblyVersion": "1.0.2.1"
+  },
+  {
+    "Name": "MarketBoardPlugin",
+    "AssemblyVersion": "0.5.1.0"
   }
 ]
