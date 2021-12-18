@@ -151,5 +151,10 @@
   {
     "Name": "Penumbra",
     "AssemblyVersion": "0.4.5.0"
+  },
+  {
+    "Name": "faderPlugin",
+    "AssemblyVersion": "1.0.2.0",
+    "Reason": "faderPlugin is temporarily disabled due to crashes."
   }
 ]
