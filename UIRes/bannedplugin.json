@@ -156,5 +156,10 @@
     "Name": "faderPlugin",
     "AssemblyVersion": "1.0.2.0",
     "Reason": "faderPlugin is temporarily disabled due to crashes."
+  },
+  {
+    "Name": "Compass",
+    "AssemblyVersion": "1.14.0",
+    "Reason": "Compass is temporarily disabled due to crashes."
   }
 ]
