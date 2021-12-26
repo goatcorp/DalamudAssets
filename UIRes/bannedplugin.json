@@ -161,5 +161,10 @@
     "Name": "Compass",
     "AssemblyVersion": "1.14.0",
     "Reason": "Compass is temporarily disabled due to crashes."
+  },
+  {
+    "Name": "ChatTranslator",
+    "AssemblyVersion": "1.2.1.0",
+    "Reason": "ChatTranslator is temporarily disabled due to crashes."
   }
 ]
