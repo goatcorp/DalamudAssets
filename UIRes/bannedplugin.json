@@ -166,5 +166,10 @@
     "Name": "ChatTranslator",
     "AssemblyVersion": "1.2.1.0",
     "Reason": "ChatTranslator is temporarily disabled due to crashes."
+  },
+  {
+    "Name": "Penumbra",
+    "AssemblyVersion": "0.4.6.5",
+    "Reason": "Please update Penumbra to continue using it."
   }
 ]
