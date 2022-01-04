@@ -169,7 +169,7 @@
   },
   {
     "Name": "Penumbra",
-    "AssemblyVersion": "0.4.6.5",
-    "Reason": "Please update Penumbra to continue using it."
+    "AssemblyVersion": "0.4.6.6",
+    "Reason": "Penumbra is temporarily disabled due to crashes."
   }
 ]
