@@ -171,5 +171,10 @@
     "Name": "Penumbra",
     "AssemblyVersion": "0.4.6.6",
     "Reason": "Penumbra is temporarily disabled due to crashes."
+  },
+  {
+    "Name": "ItemSearchPlugin",
+    "AssemblyVersion": "1.8.2.2",
+    "Reason": "Penumbra is temporarily disabled due to crashes."
   }
 ]
