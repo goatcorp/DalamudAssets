@@ -1,5 +1,5 @@
 {
-   "Version":64,
+   "Version":65,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
@@ -57,6 +57,11 @@
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/thirdIcon.png",
          "FileName":"UIRes/thirdIcon.png",
          "Hash":"F81DC3F9C467E138C25028418593AD99772DB606"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/thirdInstalledIcon.png",
+         "FileName":"UIRes/thirdInstalledIcon.png",
+         "Hash":"507FF41AE651D15E6A29A09C1B5FD7936CF79CD3"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/loc/dalamud/dalamud_de.json",
