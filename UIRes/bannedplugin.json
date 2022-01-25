@@ -177,4 +177,10 @@
     "AssemblyVersion": "1.8.2.2",
     "Reason": "ItemSearchPlugin is temporarily disabled due to crashes."
   }
+  ,
+  {
+    "Name": "Waitingway.Dalamud",
+    "AssemblyVersion": "1.2.0",
+    "Reason": "Requested by Ava. Download the new/current version."
+  }
 ]
