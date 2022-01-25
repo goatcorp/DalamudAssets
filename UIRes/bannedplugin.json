@@ -182,5 +182,16 @@
     "Name": "Waitingway.Dalamud",
     "AssemblyVersion": "1.2.0",
     "Reason": "Requested by Ava. Download the new/current version."
+  } ,
+  {
+    "Name": "JobBars",
+    "AssemblyVersion": "1.2.1.0",
+    "Reason": "crashes"
+  } ,
+  {
+    "Name": "EnemyListDebuffs",
+    "AssemblyVersion": "0.3.0.1",
+    "Reason": "Crashes"
   }
+
 ]
