@@ -1,5 +1,5 @@
 {
-   "Version":70,
+   "Version":71,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
@@ -32,6 +32,16 @@
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/logo.png",
          "FileName":"UIRes/logo.png",
          "Hash":"0F6323DDFA3665639142252281D22C675D8CD617"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/tsmShade.png",
+         "FileName":"UIRes/tsmShade.png",
+         "Hash":"C32B342537A80393104408C9A04A362ADEDED590"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/tsmLogo.png",
+         "FileName":"UIRes/tsmLogo.png",
+         "Hash":"DE459754DB1A8B74D2E021496747D65BEC893795"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/defaultIcon.png",
