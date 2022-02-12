@@ -202,5 +202,10 @@
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.0.1",
     "Reason": "Crashes"
+  },
+  {
+    "Name": "EngageTimer",
+    "AssemblyVersion": "2.2.0.0",
+    "Reason": "Crashes"
   }
 ]
