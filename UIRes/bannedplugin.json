@@ -197,5 +197,10 @@
     "Name": "SoundSetter",
     "AssemblyVersion": "1.5.5.0",
     "Reason": "Incompatible with the current game version"
+  },
+  {
+    "Name": "EngageTimer",
+    "AssemblyVersion": "2.2.0.1",
+    "Reason": "Crashes"
   }
 ]
