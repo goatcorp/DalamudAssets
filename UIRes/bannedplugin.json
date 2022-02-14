@@ -207,5 +207,10 @@
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.0.0",
     "Reason": "Crashes"
+  },
+  {
+    "Name": "Dalamud.CharacterSync",
+    "AssemblyVersion": "2.0.0.4",
+    "Reason": "Too many reports of users' data getting blanked out. Bypass the ban at your own risk. Take backups first before continued use."
   }
 ]
