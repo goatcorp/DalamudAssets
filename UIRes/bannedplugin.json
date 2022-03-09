@@ -207,10 +207,5 @@
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.0.0",
     "Reason": "Crashes"
-  },
-  {
-    "Name": "ZodiacBuddy",
-    "AssemblyVersion": "0.0.0.12",
-    "Reason": "Crashes"
   }
 ]
