@@ -212,5 +212,10 @@
     "Name": "Echoglossian",
     "AssemblyVersion": "2.2.2112.131",
     "Reason": "Causes issues with the current version of the game"
+  },
+  {
+    "Name": "MountCollectioner",
+    "AssemblyVersion": "1.0.1.0",
+    "Reason": "Has bugs that need to be resolved"
   }
 ]
