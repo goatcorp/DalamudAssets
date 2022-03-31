@@ -1,9 +1,13 @@
 {
-   "Version":79,
+   "Version":80,
    "Assets":[
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/snd_death_er.wav",
          "FileName":"UIRes/fools22/snd_death_er.wav"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/er_enemy_felled.png",
+         "FileName":"UIRes/fools22/er_enemy_felled.png"
       },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/er_normal_death.png",
