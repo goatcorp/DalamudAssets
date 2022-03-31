@@ -1,6 +1,22 @@
 {
-   "Version":78,
+   "Version":79,
    "Assets":[
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/snd_death_er.wav",
+         "FileName":"UIRes/fools22/snd_death_er.wav"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/er_normal_death.png",
+         "FileName":"UIRes/fools22/er_normal_death.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/er_death_bg.png",
+         "FileName":"UIRes/fools22/er_death_bg.png"
+      },
+      {
+         "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/fools22/er_craft_failed.png",
+         "FileName":"UIRes/fools22/er_craft_failed.png"
+      },
       {
          "Url":"https://goatcorp.github.io/DalamudAssets/UIRes/serveropcode.json",
          "FileName":"UIRes/serveropcode.json"
