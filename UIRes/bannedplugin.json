@@ -217,5 +217,10 @@
     "Name": "MountCollectioner",
     "AssemblyVersion": "1.0.1.0",
     "Reason": "Has bugs that need to be resolved"
+  },
+  {
+    "Name": "OopsAllLalafells",
+    "AssemblyVersion": "1.0.3",
+    "Reason": "Incompatible with FFXIV patch 6.1."
   }
 ]
