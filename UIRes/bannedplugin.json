@@ -226,7 +226,7 @@
   ,
   {
     "Name": "EnemyListDebuffs ",
-    "AssemblyVersion": "0.3.2.0",
-    "Reason": "Not actually fixed for FFXIV 6.1 yet"
+    "AssemblyVersion": "0.3.3.0",
+    "Reason": "Causes crashes"
   }
 ]
