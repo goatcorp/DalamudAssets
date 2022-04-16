@@ -237,5 +237,10 @@
     "Name": "RezPls",
     "AssemblyVersion": "1.2.3.0",
     "Reason": "Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "Tourist",
+    "AssemblyVersion": "1.2.6",
+    "Reason": "Tourist is temporarily disabled due to crashes."
   }
 ]
