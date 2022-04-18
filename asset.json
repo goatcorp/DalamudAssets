@@ -1,5 +1,5 @@
 {
-   "Version":90,
+   "Version":91,
    "Assets":[
       {
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/serveropcode.json",
@@ -17,6 +17,11 @@
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansCJKjp-Medium.otf",
          "FileName":"UIRes/NotoSansCJKjp-Medium.otf",
          "Hash":"7334F0BADA3A7D52E1C642217EB7EA21BE700421"
+      },
+      {
+         "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansKR-Regular.otf",
+         "FileName":"UIRes/NotoSansKR-Regular.otf",
+         "Hash":"5F533D0D5CAF3847AFA2D78301E7B87B3485ECBC"
       },
       {
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/FontAwesome5FreeSolid.otf",
