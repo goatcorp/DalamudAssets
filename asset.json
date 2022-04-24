@@ -111,6 +111,14 @@
          "FileName":"UIRes/loc/dalamud/dalamud_ru.json"
       },
       {
+         "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_zh.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_zh.json"
+      },
+      {
+         "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_tw.json",
+         "FileName":"UIRes/loc/dalamud/dalamud_tw.json"
+      },
+      {
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/pdb/ffxiv_dx11.pdb",
          "FileName":"UIRes/pdb/ffxiv_dx11.pdb"
       }
