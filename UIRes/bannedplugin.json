@@ -247,5 +247,10 @@
     "Name": "TitleEdit",
     "AssemblyVersion": "2.2.6.2",
     "Reason": "Causes crashes"
+  },
+  {
+    "Name": "6F3F2D2BE3F289693A94A582558A88753F809A7DBC9F6061F488174AEA549E9B",
+    "AssemblyVersion": "1.0.5.5",
+    "Reason": "Please install an update for this plugin to continue using it."
   }
 ]
