@@ -252,5 +252,10 @@
     "Name": "6F3F2D2BE3F289693A94A582558A88753F809A7DBC9F6061F488174AEA549E9B",
     "AssemblyVersion": "1.0.5.5",
     "Reason": "Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "TeleporterPlugin",
+    "AssemblyVersion": "2.0.1.5",
+    "Reason": "Needs to be updated in order to work"
   }
 ]
