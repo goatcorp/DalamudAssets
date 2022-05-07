@@ -1,0 +1,77 @@
+[
+  {
+	"Name": "AccurateCountDown",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by EngageTimer"
+  },
+  {
+    "Name": "ACTEndcounter",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "BrowserHost.Plugin",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by Browsingway"
+  },
+  {
+    "Name": "CharSyncPlugin",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by Character Data Sync"
+  },
+  {
+    "Name": "ChatExtender",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "Dalamud.CharacterSync",
+	"Notice": "Make Backups! This plugin is known to cause config wipes for some users. Don't use this with logitech ghub.",
+  },
+  {
+    "Name": "DalamudVox",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "faderPlugin",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "JobIcons",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by PartyIcons"
+  },
+  {
+    "Name": "MPTimer",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "OopsAllLalafells",
+    "DevSupportState": "Discontinued"
+  },
+  {
+    "Name": "RemindMe",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "SideHUDPlugin",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "SlideCast",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by SimpleTweaks"
+  },
+  {
+    "Name": "TabTab",
+    "DevSupportState": "Adoptable"
+  },
+  {
+    "Name": "VoidList",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by Visibility"
+  },
+  {
+    "Name": "WheresWOLdo",
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Replaced by Where am I again?"
+  }
+]
