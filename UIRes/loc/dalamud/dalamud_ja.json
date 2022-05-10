@@ -320,7 +320,7 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Scale text in all XIVLauncher UI elements - this is useful for 4K displays.",
+    "message": "すべての XIVLauncher UI 要素のテキストを拡大縮小する - これは、4K ディスプレイの場合に便利です。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
@@ -344,7 +344,7 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsFontResolutionLevelHint": {
-    "message": "This option allows Dalamud fonts to look better. If your game crashes when changing this option, your PC does not support high font resolutions in Dalamud - you will have to use a lower one.\nCurrent font atlas size is {0}px * {1}px.",
+    "message": "このオプションを使用すると、Dalamudフォントがよりよく見えるようになります。 このオプションを変更したときにゲームがクラッシュした場合 お使いのPCは、Dalamudの高フォント解像度をサポートしていません - あなたは低いものを使用する必要があります。\n現在のフォントアトラスサイズは {0}px * {1}pxです。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
