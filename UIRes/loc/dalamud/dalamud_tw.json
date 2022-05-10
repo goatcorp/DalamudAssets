@@ -48,7 +48,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudIMEPanelHelp": {
-    "message": "Draw IME panel",
+    "message": "繪製輸入法介面",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
@@ -64,7 +64,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "設置遊戲內組件和外掛程式的顯示語言。可用語言：",
+    "message": "設置 Dalamud 和外掛程式的語言。可用語言： ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
@@ -103,436 +103,108 @@
     "message": "語言已更改為「{0}」",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
+  "TSMDalamudPlugins": {
+    "message": "外掛程式管理員",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudSettings": {
+    "message": "Dalamud 設置",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudDevMenu": {
+    "message": "開發者選單",
+    "description": "DalamudInterface..ctor"
+  },
   "InstallerDevTools": {
-    "message": "Dev Tools",
+    "message": "開發者工具",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
-    "message": "Installed Plugins",
+    "message": "已安裝",
     "description": "Locs.get_Group_Installed"
   },
-  "InstallerAvailablePlugins": {
-    "message": "Available Plugins",
+  "InstallerAllPlugins": {
+    "message": "所有外掛程式",
     "description": "Locs.get_Group_Available"
   },
+  "InstallerChangelog": {
+    "message": "更新日誌",
+    "description": "Locs.get_Group_Changelog"
+  },
   "InstallerCategoryAll": {
-    "message": "All",
+    "message": "所有",
     "description": "Locs.get_Category_All"
   },
   "InstallerInstalledDevPlugins": {
-    "message": "Installed Dev Plugins",
+    "message": "開發版外掛程式",
     "description": "Locs.get_Category_DevInstalled"
   },
   "InstallerCategoryOther": {
-    "message": "Other",
+    "message": "其他",
     "description": "Locs.get_Category_Other"
   },
   "InstallerCategoryJobs": {
-    "message": "Jobs",
+    "message": "職業",
     "description": "Locs.get_Category_Jobs"
   },
   "InstallerCategoryUI": {
-    "message": "UI",
+    "message": "使用者介面",
     "description": "Locs.get_Category_UI"
   },
   "InstallerCategoryMiniGames": {
-    "message": "Mini games",
+    "message": "小遊戲",
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
-    "message": "Inventory",
+    "message": "物品庫",
     "description": "Locs.get_Category_Inventory"
   },
   "InstallerCategorySound": {
-    "message": "Sound",
+    "message": "音效",
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
-    "message": "Social",
+    "message": "社交",
     "description": "Locs.get_Category_Social"
   },
   "InstallerCategoryUtility": {
-    "message": "Utility",
+    "message": "實用工具",
     "description": "Locs.get_Category_Utility"
   },
+  "InstallerCategoryPlugins": {
+    "message": "外掛程式",
+    "description": "Locs.get_Category_Plugins"
+  },
+  "InstallerCategoryDalamud": {
+    "message": "Dalamud",
+    "description": "Locs.get_Category_Dalamud"
+  },
   "DalamudGamepadModeNotifierText": {
-    "message": "Gamepad mode is ON. Press L1+L3 to deactivate, press R3 to toggle PluginInstaller.",
+    "message": "當前處於手柄模式。按下 L1+L3 以禁用，按下 R3 打開外挂程式菜單。",
     "description": "GamepadModeNotifierWindow.Draw"
-  },
-  "InstallerHeader": {
-    "message": "外掛程式管理員",
-    "description": "Locs.get_WindowTitle"
-  },
-  "InstallerHeaderTesting": {
-    "message": " (TESTING)",
-    "description": "Locs.get_WindowTitleMod_Testing"
-  },
-  "InstallerHint": {
-    "message": "此窗口允許您安裝和移除外掛程式。\n它們是由第三方開發人員製作的。",
-    "description": "Locs.get_Header_Hint"
-  },
-  "InstallerSearch": {
-    "message": "搜索",
-    "description": "Locs.get_Header_SearchPlaceholder"
-  },
-  "InstallerAlphabetical": {
-    "message": "Alphabetical",
-    "description": "Locs.get_SortBy_Alphabetical"
-  },
-  "InstallerDownloadCount": {
-    "message": "Download Count",
-    "description": "Locs.get_SortBy_DownloadCounts"
-  },
-  "InstallerLastUpdate": {
-    "message": "Last Update",
-    "description": "Locs.get_SortBy_LastUpdate"
-  },
-  "InstallerNewOrNot": {
-    "message": "New or not",
-    "description": "Locs.get_SortBy_NewOrNot"
-  },
-  "InstallerSortBy": {
-    "message": "Sort By",
-    "description": "Locs.get_SortBy_Label"
-  },
-  "InstallerLoading": {
-    "message": "正在載入外掛程式...",
-    "description": "Locs.get_TabBody_LoadingPlugins"
-  },
-  "InstallerDownloadFailed": {
-    "message": "下載失敗。",
-    "description": "Locs.get_TabBody_DownloadFailed"
-  },
-  "InstallerSafeMode": {
-    "message": "Dalamud is running in Plugin Safe Mode, restart to activate plugins.",
-    "description": "Locs.get_TabBody_SafeMode"
-  },
-  "InstallerNoMatching": {
-    "message": "No plugins were found matching your search.",
-    "description": "Locs.get_TabBody_SearchNoMatching"
-  },
-  "InstallerNoCompatible": {
-    "message": "找不到兼容的插件 :( 請重新啟動您的遊戲並重試。",
-    "description": "Locs.get_TabBody_SearchNoCompatible"
-  },
-  "InstallerNoInstalled": {
-    "message": "您還沒有安裝任何外掛程式。您可以在「可用外掛程式」選項卡中進行安裝。",
-    "description": "Locs.get_TabBody_SearchNoInstalled"
-  },
-  "InstallerInstalled": {
-    "message": " （已安裝）",
-    "description": "Locs.get_PluginTitleMod_Installed"
-  },
-  "InstallerDisabled": {
-    "message": " （已禁用）",
-    "description": "Locs.get_PluginTitleMod_Disabled"
-  },
-  "InstallerUnloaded": {
-    "message": " (unloaded)",
-    "description": "Locs.get_PluginTitleMod_Unloaded"
-  },
-  "InstallerHasUpdate": {
-    "message": " (has update)",
-    "description": "Locs.get_PluginTitleMod_HasUpdate"
-  },
-  "InstallerUpdated": {
-    "message": " （已更新）",
-    "description": "Locs.get_PluginTitleMod_Updated"
-  },
-  "InstallerTestingVersion": {
-    "message": " （測試版本）",
-    "description": "Locs.get_PluginTitleMod_TestingVersion"
-  },
-  "InstallerUpdateFailed": {
-    "message": " （更新失敗）",
-    "description": "Locs.get_PluginTitleMod_UpdateFailed"
-  },
-  "InstallerLoadError": {
-    "message": " (load error)",
-    "description": "Locs.get_PluginTitleMod_LoadError"
-  },
-  "InstallerUnloadError": {
-    "message": " (unload error)",
-    "description": "Locs.get_PluginTitleMod_UnloadError"
-  },
-  "InstallerOutdatedError": {
-    "message": " (outdated)",
-    "description": "Locs.get_PluginTitleMod_OutdatedError"
-  },
-  "InstallerBannedError": {
-    "message": " (banned)",
-    "description": "Locs.get_PluginTitleMod_BannedError"
-  },
-  "InstallerNewPlugin ": {
-    "message": " New!",
-    "description": "Locs.get_PluginTitleMod_New"
-  },
-  "InstallerMarkAllSeen": {
-    "message": "Mark all as seen",
-    "description": "Locs.get_PluginContext_MarkAllSeen"
-  },
-  "InstallerHidePlugin": {
-    "message": "Hide from installer",
-    "description": "Locs.get_PluginContext_HidePlugin"
-  },
-  "InstallerDeletePluginConfig": {
-    "message": "Reset plugin",
-    "description": "Locs.get_PluginContext_DeletePluginConfig"
-  },
-  "InstallerDeletePluginConfigReload": {
-    "message": "Reset plugin settings & reload",
-    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
-  },
-  "InstallerAuthorWithoutDownloadCount": {
-    "message": " by {0}",
-    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCount": {
-    "message": " by {0}, {1} downloads",
-    "description": "Locs.PluginBody_AuthorWithDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " by {0}, download count unavailable",
-    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
-  },
-  "InstallerDevPluginPath": {
-    "message": "From {0}",
-    "description": "Locs.PluginBody_DevPluginPath"
-  },
-  "InstallerPlugin3rdPartyRepo": {
-    "message": "From custom plugin repository {0}",
-    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
-  },
-  "InstallerDevPlugin": {
-    "message": " This plugin is available in one of your repos, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " To delete this plugin, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
-  "InstallerOutdatedPluginBody ": {
-    "message": "This plugin is outdated and incompatible at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Outdated"
-  },
-  "InstallerBannedPluginBody ": {
-    "message": "This plugin version is banned due to incompatibilities and not available at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Banned"
-  },
-  "InstallerInstall": {
-    "message": "Install v{0}",
-    "description": "Locs.PluginButton_InstallVersion"
-  },
-  "InstallerWorking": {
-    "message": "Working",
-    "description": "Locs.get_PluginButton_Working"
-  },
-  "InstallerDisable": {
-    "message": "禁用",
-    "description": "Locs.get_PluginButton_Disable"
-  },
-  "InstallerLoad": {
-    "message": "Load",
-    "description": "Locs.get_PluginButton_Load"
-  },
-  "InstallerUnload": {
-    "message": "Unload",
-    "description": "Locs.get_PluginButton_Unload"
-  },
-  "InstallerOpenConfig": {
-    "message": "開啟設置",
-    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
-  },
-  "InstallerStartOnBoot": {
-    "message": "Start on boot",
-    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
-  },
-  "InstallerAutomaticReloading": {
-    "message": "Automatic reloading",
-    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
-  },
-  "InstallerDeletePlugin ": {
-    "message": "Delete plugin",
-    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
-  },
-  "InstallerVisitPluginUrl": {
-    "message": "Visit plugin URL",
-    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
-  },
-  "InstallerUpdateSingle": {
-    "message": "Update to {0}",
-    "description": "Locs.PluginButtonToolTip_UpdateSingle"
-  },
-  "InstallerUnloadFailedTooltip": {
-    "message": "Plugin unload failed, please restart your game and try again.",
-    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
-  },
-  "NotificationsPluginInstalledTitle": {
-    "message": "Plugin installed!",
-    "description": "Locs.get_Notifications_PluginInstalledTitle"
-  },
-  "NotificationsPluginInstalled": {
-    "message": "'{0}' was successfully installed.",
-    "description": "Locs.Notifications_PluginInstalled"
-  },
-  "NotificationsPluginNotInstalledTitle": {
-    "message": "Plugin not installed!",
-    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
-  },
-  "NotificationsPluginNotInstalled": {
-    "message": "'{0}' failed to install.",
-    "description": "Locs.Notifications_PluginNotInstalled"
-  },
-  "NotificationsNoUpdatesFoundTitle": {
-    "message": "No updates found!",
-    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
-  },
-  "NotificationsNoUpdatesFound": {
-    "message": "No updates were found.",
-    "description": "Locs.get_Notifications_NoUpdatesFound"
-  },
-  "NotificationsUpdatesInstalledTitle": {
-    "message": "Updates installed!",
-    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
-  },
-  "NotificationsUpdatesInstalled": {
-    "message": "Updates for {0} of your plugins were installed.",
-    "description": "Locs.Notifications_UpdatesInstalled"
-  },
-  "NotificationsPluginDisabledTitle": {
-    "message": "Plugin disabled!",
-    "description": "Locs.get_Notifications_PluginDisabledTitle"
-  },
-  "NotificationsPluginDisabled": {
-    "message": "'{0}' was disabled.",
-    "description": "Locs.Notifications_PluginDisabled"
-  },
-  "InstallerUpdatePlugins": {
-    "message": "更新外掛程式",
-    "description": "Locs.get_FooterButton_UpdatePlugins"
-  },
-  "InstallerInProgress": {
-    "message": "正在安裝...",
-    "description": "Locs.get_FooterButton_InProgress"
-  },
-  "InstallerNoUpdates": {
-    "message": "沒有可用更新！",
-    "description": "Locs.get_FooterButton_NoUpdates"
-  },
-  "InstallerUpdateComplete": {
-    "message": "{0} 個外掛程式已更新！",
-    "description": "Locs.FooterButton_UpdateComplete"
-  },
-  "InstallerSettings": {
-    "message": "Settings",
-    "description": "Locs.get_FooterButton_Settings"
-  },
-  "InstallerScanDevPlugins": {
-    "message": "Scan Dev Plugins",
-    "description": "Locs.get_FooterButton_ScanDevPlugins"
-  },
-  "InstallerClose": {
-    "message": "Close",
-    "description": "Locs.get_FooterButton_Close"
-  },
-  "InstallerError": {
-    "message": "Installer Error",
-    "description": "Locs.get_ErrorModal_Title"
-  },
-  "InstallerContactAuthor": {
-    "message": "Please restart your game and try again. If this error occurs again, please contact the plugin author.",
-    "description": "Locs.get_ErrorModal_InstallContactAuthor"
-  },
-  "InstallerInstallFail": {
-    "message": "Failed to install plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_InstallFail"
-  },
-  "InstallerSingleUpdateFail": {
-    "message": "Failed to update plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_SingleUpdateFail"
-  },
-  "InstallerDeleteConfigFail": {
-    "message": "Failed to reset the plugin {0}.\n\nThe plugin may not support this action. You can try deleting the configuration manually while the game is shut down - please see the FAQ.",
-    "description": "Locs.ErrorModal_DeleteConfigFail"
-  },
-  "InstallerEnableFail": {
-    "message": "Failed to enable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_EnableFail"
-  },
-  "InstallerDisableFail": {
-    "message": "Failed to disable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DisableFail"
-  },
-  "InstallerUnloadFail": {
-    "message": "Failed to unload plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_UnloadFail"
-  },
-  "InstallerLoadFail": {
-    "message": "Failed to load plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_LoadFail"
-  },
-  "InstallerDeleteFail": {
-    "message": "Failed to delete plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DeleteFail"
-  },
-  "InstallerUpdaterFatal": {
-    "message": "Failed to update plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.get_ErrorModal_UpdaterFatal"
-  },
-  "InstallerUpdaterFail": {
-    "message": "Failed to update {0} plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFail"
-  },
-  "InstallerUpdaterFailPartial": {
-    "message": "Updated {0} plugins, failed to update {1}.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFailPartial"
-  },
-  "InstallerErrorPluginInfo": {
-    "message": "\n\n下列外掛程式引起了這些問題：\n\n{0}\n您可以嘗試手動移除這些外掛程式並重新安裝它們。",
-    "description": "Locs.ErrorModal_HintBlame"
-  },
-  "InstallerFeedback": {
-    "message": "Send Feedback",
-    "description": "Locs.get_FeedbackModal_Title"
-  },
-  "InstallerFeedbackInfo": {
-    "message": "You can send feedback to the developer of \"{0}\" here.\nYou can include your Discord tag or email address if you wish to give them the opportunity to answer.",
-    "description": "Locs.FeedbackModal_Text"
-  },
-  "InstallerFeedbackContactInfo": {
-    "message": "Contact information",
-    "description": "Locs.get_FeedbackModal_ContactInformation"
-  },
-  "InstallerFeedbackIncludeLastError": {
-    "message": "Include last error message",
-    "description": "Locs.get_FeedbackModal_IncludeLastError"
-  },
-  "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "This option can give the plugin developer useful feedback on what exactly went wrong.",
-    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
-  },
-  "InstallerFeedbackHint": {
-    "message": "All plugin developers will be able to see your feedback.\nPlease never include any personal or revealing information.\nIf you chose to include the last error message, information like your Windows username may be included.\n\nThe collected feedback is not stored on our end and immediately relayed to Discord.",
-    "description": "Locs.get_FeedbackModal_Hint"
-  },
-  "InstallerFeedbackNotificationSuccess": {
-    "message": "Your feedback was sent successfully!",
-    "description": "Locs.get_FeedbackModal_NotificationSuccess"
-  },
-  "InstallerFeedbackNotificationError": {
-    "message": "Your feedback could not be sent.",
-    "description": "Locs.get_FeedbackModal_NotificationError"
-  },
-  "DalamudPluginUpdates": {
-    "message": "更新：",
-    "description": "Locs.get_PluginUpdateHeader_Chatbox"
-  },
-  "OK": {
-    "message": "確定",
-    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudSettingsHeader": {
     "message": "Dalamud 設置",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "最小 (1k x 1k 紋理)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "較小 (2k x 2k 紋理)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "正常 (4k x 4k 紋理)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "較大 (8k x 8k 紋理，可能會崩潰游戲)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "最大 (16k x 16k 紋理，可能會崩潰遊戲)",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
@@ -541,6 +213,10 @@
   },
   "DalamudSettingsVisual": {
     "message": "界面外觀",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "伺服器訊息欄",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
@@ -596,35 +272,79 @@
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "Dalamud buttons in system menu",
+    "message": "在系統選單中顯示 Dalamud 按鈕",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Add buttons for Dalamud plugins and settings to the system menu.",
+    "message": "在系統選單中顯示 Dalamud 外掛程式選單及設置按鈕。",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFiltering": {
-    "message": "Disable RMT Filtering",
+    "message": "禁用 RMT 過濾",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Disable dalamud's built-in RMT ad filtering.",
+    "message": "禁用 Dalamud 內置的 RMT 廣告過濾。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "匿名上傳市場數據",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "在瀏覽市場板時向 Universalis 提供有關遊戲內經濟的匿名數據。 這些數據不能以任何方式來識別你，而每個人都能從中受益！",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "全局界面縮放",
+    "message": "整體字體比例",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9.6pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset12": {
+    "message": "重置 (12pt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36pt",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "縮放所有的 XIVLauncher 界面元素 - 適用於 4K 分辨率",
+    "message": "縮放所有 XIVLauncher 界面元素中的文字 - 適用於 4K 解析度。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
-    "message": "Open Style Editor",
+    "message": "打開風格編輯器",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "Modify the look & feel of Dalamud windows.",
+    "message": "修改 Dalamud 窗口的外觀。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "使用 AXIS 字體作為默認字體",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "使用 AXIS 字體 (遊戲的主畫面字體) 作為默認字體",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "字體分辨率級別",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "This option allows Dalamud fonts to look better. If your game crashes when changing this option, your PC does not support high font resolutions in Dalamud - you will have to use a lower one.\nCurrent font atlas size is {0}px * {1}px.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
@@ -656,11 +376,11 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "Use escape to close Dalamud windows",
+    "message": "使用 ESC 鍵關閉 Dalamud 窗口",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "This will cause Dalamud windows to behave like in-game windows when pressing escape.\nThey will close one after another until all are closed. May not work for all plugins.",
+    "message": "這會讓 Dalamud 窗口和遊戲窗口一樣，在按下 ESC 鍵時關閉。\n它們會逐個關閉，但可能不適用於所有外掛程式。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewports": {
@@ -680,12 +400,60 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigation": {
-    "message": "Control plugins via gamepad",
+    "message": "使用遊戲手柄控制外掛程式",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "This will allow you to toggle between game and plugin navigation via L1+L3.\nToggle the PluginInstaller window via R3 if ImGui navigation is enabled.",
+    "message": "你將可以使用 L1+L3 來切換游戲和外掛程式界面。\n如果你正在使用 ImGui，則可以通過 R3 來切換外掛程式管理器窗口。",
     "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "顯示標題畫面選單",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "This will allow you to access certain Dalamud and Plugin functionality from the title screen.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGamma": {
+    "message": "字體伽瑪校正",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsIndividualConfigResetToDefaultValue": {
+    "message": "重置",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGammaHint": {
+    "message": "更改文字的粗細。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingServerInfoBar": {
+    "message": "伺服器訊息欄配置",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "Plugins can put additional information into your server information bar(where world & time can be seen).\nYou can reorder and disable these here.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "您沒有使用此功能的外掛程式。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "伺服器訊息欄間距",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "Configure the amount of space between entries in the server info bar here.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "伺服器訊息欄方向",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "If checked, the Server Info Bar elements will expand to the right instead of the left.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
   },
   "DalamudSettingsPluginTest": {
     "message": "獲取外掛程式測試版本",
@@ -712,7 +480,7 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsChanged": {
-    "message": "(Changed)",
+    "message": "(已修改)",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoHint": {
@@ -728,15 +496,15 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsDevPluginLocation": {
-    "message": "Dev Plugin Locations",
+    "message": "開發版外掛程式位置",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Add additional dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "message": "添加額外的開發版外掛程式加載位置。\n支持目錄或 DLL 路徑。",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginLocationExists": {
-    "message": "Location already exists.",
+    "message": "位置已經存在。",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "Save": {
@@ -744,7 +512,7 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "Close": {
-    "message": "Close",
+    "message": "關閉",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "SaveAndClose": {
@@ -752,52 +520,440 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "RenameStyleModalTitle": {
-    "message": "Rename Style",
+    "message": "重新命名風格",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorChooseStyle": {
-    "message": "Choose Style:",
+    "message": "選擇風格：",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorAddNew": {
-    "message": "Add new style",
+    "message": "添加新風格",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorDeleteStyle": {
-    "message": "Delete current style",
+    "message": "刪除當前風格",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorRenameStyle": {
-    "message": "Rename style",
+    "message": "重新命名風格",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorCopy": {
-    "message": "Copy style to clipboard for sharing",
+    "message": "將風格複製到剪貼板來共享",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorImport": {
-    "message": "Import style from clipboard",
+    "message": "從剪貼簿中導入風格",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
-    "message": "You cannot edit built-in styles. Please add a new style first.",
+    "message": "內置風格無法被編輯。請先添加一個新風格。",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorApplying": {
-    "message": "Applying style...",
+    "message": "正在應用風格…",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorVariables": {
-    "message": "Variables",
+    "message": "變量",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorColors": {
-    "message": "Colors",
+    "message": "顏色",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorEnterName": {
-    "message": "Please enter the new name for this style.",
+    "message": "請輸入此風格的新名稱。",
     "description": "StyleEditorWindow.Draw"
+  },
+  "InstallerHeader": {
+    "message": "外掛程式管理員",
+    "description": "Locs.get_WindowTitle"
+  },
+  "InstallerHeaderTesting": {
+    "message": " (測試中)",
+    "description": "Locs.get_WindowTitleMod_Testing"
+  },
+  "InstallerHint": {
+    "message": "此窗口允許您安裝和移除外掛程式。\n它們是由第三方開發人員製作的。",
+    "description": "Locs.get_Header_Hint"
+  },
+  "InstallerSearch": {
+    "message": "搜索",
+    "description": "Locs.get_Header_SearchPlaceholder"
+  },
+  "InstallerAlphabetical": {
+    "message": "字母順序",
+    "description": "Locs.get_SortBy_Alphabetical"
+  },
+  "InstallerDownloadCount": {
+    "message": "下載次數",
+    "description": "Locs.get_SortBy_DownloadCounts"
+  },
+  "InstallerLastUpdate": {
+    "message": "最後更新時間",
+    "description": "Locs.get_SortBy_LastUpdate"
+  },
+  "InstallerNewOrNot": {
+    "message": "發佈時間",
+    "description": "Locs.get_SortBy_NewOrNot"
+  },
+  "InstallerNotInstalled": {
+    "message": "未安裝",
+    "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerSortBy": {
+    "message": "排序方式",
+    "description": "Locs.get_SortBy_Label"
+  },
+  "InstallerLoading": {
+    "message": "正在載入外掛程式...",
+    "description": "Locs.get_TabBody_LoadingPlugins"
+  },
+  "InstallerDownloadFailed": {
+    "message": "下載失敗。",
+    "description": "Locs.get_TabBody_DownloadFailed"
+  },
+  "InstallerSafeMode": {
+    "message": "Dalamud 正在安全模式下運行，請重啟以激活外掛程式。",
+    "description": "Locs.get_TabBody_SafeMode"
+  },
+  "InstallerNoMatching": {
+    "message": "未找到匹配的外挂程式。",
+    "description": "Locs.get_TabBody_SearchNoMatching"
+  },
+  "InstallerNoCompatible": {
+    "message": "找不到兼容的插件 :( 請重新啟動您的遊戲並重試。",
+    "description": "Locs.get_TabBody_SearchNoCompatible"
+  },
+  "InstallerNoInstalled": {
+    "message": "您還沒有安裝任何外掛程式。您可以在「所有外掛程式」選項卡中進行安裝。",
+    "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "您已安裝的外掛程式都沒有更新日誌。",
+    "description": "Locs.get_TabBody_ChangelogNone"
+  },
+  "InstallerInstalled": {
+    "message": " （已安裝）",
+    "description": "Locs.get_PluginTitleMod_Installed"
+  },
+  "InstallerDisabled": {
+    "message": " （已禁用）",
+    "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerUnloaded": {
+    "message": " (未載入)",
+    "description": "Locs.get_PluginTitleMod_Unloaded"
+  },
+  "InstallerHasUpdate": {
+    "message": " (需要更新)",
+    "description": "Locs.get_PluginTitleMod_HasUpdate"
+  },
+  "InstallerUpdated": {
+    "message": " （已更新）",
+    "description": "Locs.get_PluginTitleMod_Updated"
+  },
+  "InstallerTestingVersion": {
+    "message": " （測試版本）",
+    "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerUpdateFailed": {
+    "message": " （更新失敗）",
+    "description": "Locs.get_PluginTitleMod_UpdateFailed"
+  },
+  "InstallerLoadError": {
+    "message": " (載入錯誤)",
+    "description": "Locs.get_PluginTitleMod_LoadError"
+  },
+  "InstallerUnloadError": {
+    "message": " (卸載錯誤)",
+    "description": "Locs.get_PluginTitleMod_UnloadError"
+  },
+  "InstallerOutdatedError": {
+    "message": " (未兼容)",
+    "description": "Locs.get_PluginTitleMod_OutdatedError"
+  },
+  "InstallerBannedError": {
+    "message": " (自動禁用)",
+    "description": "Locs.get_PluginTitleMod_BannedError"
+  },
+  "InstallerNewPlugin ": {
+    "message": " 新品！",
+    "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerMarkAllSeen": {
+    "message": "全部標記為已閲",
+    "description": "Locs.get_PluginContext_MarkAllSeen"
+  },
+  "InstallerHidePlugin": {
+    "message": "隱藏",
+    "description": "Locs.get_PluginContext_HidePlugin"
+  },
+  "InstallerDeletePluginConfig": {
+    "message": "重置",
+    "description": "Locs.get_PluginContext_DeletePluginConfig"
+  },
+  "InstallerDeletePluginConfigReload": {
+    "message": "重置外挂程式設定並重載",
+    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
+  },
+  "InstallerAuthorWithoutDownloadCount": {
+    "message": " 作者：{0}",
+    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCount": {
+    "message": " 作者：{0} 下載次數：{1}",
+    "description": "Locs.PluginBody_AuthorWithDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCountUnavailable": {
+    "message": " 作者：{0} 下載次數：未知",
+    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerDevPluginPath": {
+    "message": "外挂程式路徑：{0}",
+    "description": "Locs.PluginBody_DevPluginPath"
+  },
+  "InstallerPlugin3rdPartyRepo": {
+    "message": "自定義外挂程式倉庫：{0}",
+    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
+  },
+  "InstallerDevPlugin": {
+    "message": " 此外挂程式已經上傳至倉庫，你可以在 devPlugins 資料夾中刪除該程式。",
+    "description": "Locs.get_PluginBody_AvailableDevPlugin"
+  },
+  "InstallerDeleteDevPlugin ": {
+    "message": " 你需要手動在 devPlugins 資料夾中刪除此外挂程式。",
+    "description": "Locs.get_PluginBody_DeleteDevPlugin"
+  },
+  "InstallerOutdatedPluginBody ": {
+    "message": "此外挂程式已與當前版本不兼容，請等待其作者更新。",
+    "description": "Locs.get_PluginBody_Outdated"
+  },
+  "InstallerBannedPluginBody ": {
+    "message": "此插件因兼容性問題而被自動禁用，目前還未能使用。請等待作者更新。",
+    "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "此外掛程式已被自動禁用： {0}",
+    "description": "Locs.PluginBody_BannedReason"
+  },
+  "InstallerInstall": {
+    "message": "安裝 v{0}",
+    "description": "Locs.PluginButton_InstallVersion"
+  },
+  "InstallerWorking": {
+    "message": "處理中",
+    "description": "Locs.get_PluginButton_Working"
+  },
+  "InstallerDisable": {
+    "message": "禁用",
+    "description": "Locs.get_PluginButton_Disable"
+  },
+  "InstallerLoad": {
+    "message": "載入",
+    "description": "Locs.get_PluginButton_Load"
+  },
+  "InstallerUnload": {
+    "message": "卸載",
+    "description": "Locs.get_PluginButton_Unload"
+  },
+  "InstallerOpenConfig": {
+    "message": "開啟設置",
+    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerStartOnBoot": {
+    "message": "登入時自動啓動",
+    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
+  },
+  "InstallerAutomaticReloading": {
+    "message": "自動重載中",
+    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
+  },
+  "InstallerDeletePlugin ": {
+    "message": "刪除外挂程式",
+    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
+  },
+  "InstallerVisitPluginUrl": {
+    "message": "打開外挂程式主頁",
+    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
+  },
+  "InstallerUpdateSingle": {
+    "message": "更新至 {0}",
+    "description": "Locs.PluginButtonToolTip_UpdateSingle"
+  },
+  "InstallerUnloadFailedTooltip": {
+    "message": "外掛程式卸載失敗，請在重啟遊戲後再試一次。",
+    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "NotificationsPluginInstalledTitle": {
+    "message": "外挂程式已安裝。",
+    "description": "Locs.get_Notifications_PluginInstalledTitle"
+  },
+  "NotificationsPluginInstalled": {
+    "message": "「{0}」已成功安裝。",
+    "description": "Locs.Notifications_PluginInstalled"
+  },
+  "NotificationsPluginNotInstalledTitle": {
+    "message": "外挂程式未安裝！",
+    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
+  },
+  "NotificationsPluginNotInstalled": {
+    "message": "「{0}」安裝失敗。",
+    "description": "Locs.Notifications_PluginNotInstalled"
+  },
+  "NotificationsNoUpdatesFoundTitle": {
+    "message": "沒有可用更新！",
+    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
+  },
+  "NotificationsNoUpdatesFound": {
+    "message": "沒有可用更新。",
+    "description": "Locs.get_Notifications_NoUpdatesFound"
+  },
+  "NotificationsUpdatesInstalledTitle": {
+    "message": "更新已安裝！",
+    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
+  },
+  "NotificationsUpdatesInstalled": {
+    "message": "{0} 個外挂程式已更新。",
+    "description": "Locs.Notifications_UpdatesInstalled"
+  },
+  "NotificationsPluginDisabledTitle": {
+    "message": "外挂程式已禁用！",
+    "description": "Locs.get_Notifications_PluginDisabledTitle"
+  },
+  "NotificationsPluginDisabled": {
+    "message": "「{0}」已禁用",
+    "description": "Locs.Notifications_PluginDisabled"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "更新外掛程式",
+    "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerInProgress": {
+    "message": "正在安裝...",
+    "description": "Locs.get_FooterButton_InProgress"
+  },
+  "InstallerNoUpdates": {
+    "message": "沒有可用更新！",
+    "description": "Locs.get_FooterButton_NoUpdates"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0} 個外掛程式已更新！",
+    "description": "Locs.FooterButton_UpdateComplete"
+  },
+  "InstallerSettings": {
+    "message": "設定",
+    "description": "Locs.get_FooterButton_Settings"
+  },
+  "InstallerScanDevPlugins": {
+    "message": "掃描開發版外掛程式",
+    "description": "Locs.get_FooterButton_ScanDevPlugins"
+  },
+  "InstallerClose": {
+    "message": "關閉",
+    "description": "Locs.get_FooterButton_Close"
+  },
+  "InstallerError": {
+    "message": "安裝程式錯誤",
+    "description": "Locs.get_ErrorModal_Title"
+  },
+  "InstallerContactAuthor": {
+    "message": "請重啟遊戲再試一次。如果再次出現此錯誤，請聯繫插件作者。",
+    "description": "Locs.get_ErrorModal_InstallContactAuthor"
+  },
+  "InstallerInstallFail": {
+    "message": "無法安裝 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_InstallFail"
+  },
+  "InstallerSingleUpdateFail": {
+    "message": "無法更新 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_SingleUpdateFail"
+  },
+  "InstallerDeleteConfigFail": {
+    "message": "無法重置 {0} 外掛程式。\n\n該外掛程式可能不支持此操作。 您可以嘗試在遊戲關閉時手動刪除配置 - 請參閱常見問題解答。",
+    "description": "Locs.ErrorModal_DeleteConfigFail"
+  },
+  "InstallerEnableFail": {
+    "message": "無法啟用 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_EnableFail"
+  },
+  "InstallerDisableFail": {
+    "message": "無法禁用 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_DisableFail"
+  },
+  "InstallerUnloadFail": {
+    "message": "無法卸載 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_UnloadFail"
+  },
+  "InstallerLoadFail": {
+    "message": "無法載入 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_LoadFail"
+  },
+  "InstallerDeleteFail": {
+    "message": "無法刪除 {0} 外掛程式。\n{1}",
+    "description": "Locs.ErrorModal_DeleteFail"
+  },
+  "InstallerUpdaterFatal": {
+    "message": "無法更新外掛程式。\n請在重啟遊戲後再試一次。 如果再次出現此錯誤，請回報錯誤。",
+    "description": "Locs.get_ErrorModal_UpdaterFatal"
+  },
+  "InstallerUpdaterFail": {
+    "message": "無法更新 {0} 外掛程式。\n請在重啟遊戲後再試一次。 如果再次出現此錯誤，請回報錯誤。",
+    "description": "Locs.ErrorModal_UpdaterFail"
+  },
+  "InstallerUpdaterFailPartial": {
+    "message": "已更新 {0} 外掛程式，無法更新 {1} 外掛程式。\n請在重啟遊戲後再試一次。 如果再次出現此錯誤，請回報錯誤。",
+    "description": "Locs.ErrorModal_UpdaterFailPartial"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\n下列外掛程式引起了這些問題：\n\n{0}\n您可以嘗試手動移除這些外掛程式並重新安裝它們。",
+    "description": "Locs.ErrorModal_HintBlame"
+  },
+  "InstallerFeedback": {
+    "message": "提出意見",
+    "description": "Locs.get_FeedbackModal_Title"
+  },
+  "InstallerFeedbackInfo": {
+    "message": "您可以在這裡向「{0}」的開發者發送反饋。\n如果您希望他們回答您，您可以提供您的 Discord 標籤或電子郵件地址。\n\n如果您想報告一個錯誤，我們建議您加入 XIVLauncher 的 Discord 服務器。",
+    "description": "Locs.FeedbackModal_Text"
+  },
+  "InstallerFeedbackHasUpdate": {
+    "message": "此外掛程式有可用的新版本，請先在報告錯誤前更新。",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
+  "InstallerFeedbackContactInfo": {
+    "message": "聯絡資訊",
+    "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackIncludeLastError": {
+    "message": "包括最後一條錯誤信息",
+    "description": "Locs.get_FeedbackModal_IncludeLastError"
+  },
+  "InstallerFeedbackIncludeLastErrorHint": {
+    "message": "這選項有助於外掛程式開發者確定問題的來源。",
+    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
+  },
+  "InstallerFeedbackHint": {
+    "message": "所有外掛程式開發者都可以看到你的意見。\n請不要在意見中包含個人資料或任何敏感內容。\n如果你選擇了附上最後一條錯誤信息，你的 Windows 用戶名也可能會被包含在內。\n\n收集到的意見將會立即轉發至 Discord，而不會在服務端儲存。",
+    "description": "Locs.get_FeedbackModal_Hint"
+  },
+  "InstallerFeedbackNotificationSuccess": {
+    "message": "已成功發送您的意見！",
+    "description": "Locs.get_FeedbackModal_NotificationSuccess"
+  },
+  "InstallerFeedbackNotificationError": {
+    "message": "無法發送您的意見。",
+    "description": "Locs.get_FeedbackModal_NotificationError"
+  },
+  "DalamudPluginUpdates": {
+    "message": "更新：",
+    "description": "Locs.get_PluginUpdateHeader_Chatbox"
+  },
+  "OK": {
+    "message": "確定",
+    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} 已加載。",
@@ -812,7 +968,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "遊戲內組件已更新或重新安裝成功！請查閱 Discord 來取得完整的更新記錄。",
+    "message": "Dalamud 已成功更新！請查閱 Discord 來取得完整的更新日誌。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
@@ -824,11 +980,11 @@
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
-    "message": "{0} of your plugins were updated.",
+    "message": "{0} 個外掛程式已被更新。",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
-    "message": "Auto-Update",
+    "message": "自動更新",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
@@ -837,10 +993,10 @@
   },
   "SystemMenuPlugins": {
     "message": "Dalamud 外掛程式",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
     "message": "Dalamud 設置",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   }
 }

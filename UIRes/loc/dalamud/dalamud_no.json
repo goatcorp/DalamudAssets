@@ -1,10 +1,10 @@
 {
   "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} updated to v{1}.",
+    "message": "    》 {0} oppdatert til v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} update to v{1} failed.",
+    "message": "    》 Klarte ikke å oppdatere {0} til v{1}.",
     "description": "Locs.DalamudPluginUpdateFailed"
   },
   "DalamudUnloadHelp": {
@@ -44,15 +44,15 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevDataMenuHelp": {
-    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
+    "message": "Vis utviklermeny DEBUG. Bruk: /xldata [nedtrekkstype]",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudIMEPanelHelp": {
-    "message": "Draw IME panel",
+    "message": "Vis IME-panel",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
-    "message": "Open dev log DEBUG",
+    "message": "Åpne utviklerlogg DEBUG",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudInstallerHelp": {
@@ -64,7 +64,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Sett språket for spilltillegget og tillegg som støtter det. Tilgjengelige språk: ",
+    "message": "Sett språket for Dalamud og tillegg som støtter det. Tilgjengelige språk: ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
@@ -103,436 +103,108 @@
     "message": "Språk satt til {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
+  "TSMDalamudPlugins": {
+    "message": "Tilleggsoppsett",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudSettings": {
+    "message": "Dalamud Innstillinger",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudDevMenu": {
+    "message": "Utviklermeny",
+    "description": "DalamudInterface..ctor"
+  },
   "InstallerDevTools": {
-    "message": "Dev Tools",
+    "message": "Verktøy for utviklere",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
-    "message": "Installed Plugins",
+    "message": "Installerte programtillegg",
     "description": "Locs.get_Group_Installed"
   },
-  "InstallerAvailablePlugins": {
-    "message": "Available Plugins",
+  "InstallerAllPlugins": {
+    "message": "Alle programtillegg",
     "description": "Locs.get_Group_Available"
   },
+  "InstallerChangelog": {
+    "message": "Endringslogg",
+    "description": "Locs.get_Group_Changelog"
+  },
   "InstallerCategoryAll": {
-    "message": "All",
+    "message": "Alle",
     "description": "Locs.get_Category_All"
   },
   "InstallerInstalledDevPlugins": {
-    "message": "Installed Dev Plugins",
+    "message": "Installerte utviklingsprogramtillegg",
     "description": "Locs.get_Category_DevInstalled"
   },
   "InstallerCategoryOther": {
-    "message": "Other",
+    "message": "Annet",
     "description": "Locs.get_Category_Other"
   },
   "InstallerCategoryJobs": {
-    "message": "Jobs",
+    "message": "Jobber",
     "description": "Locs.get_Category_Jobs"
   },
   "InstallerCategoryUI": {
-    "message": "UI",
+    "message": "Brukergrensesnitt",
     "description": "Locs.get_Category_UI"
   },
   "InstallerCategoryMiniGames": {
-    "message": "Mini games",
+    "message": "Minispill",
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
-    "message": "Inventory",
+    "message": "Inventar",
     "description": "Locs.get_Category_Inventory"
   },
   "InstallerCategorySound": {
-    "message": "Sound",
+    "message": "Lyd",
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
-    "message": "Social",
+    "message": "Sosialt",
     "description": "Locs.get_Category_Social"
   },
   "InstallerCategoryUtility": {
-    "message": "Utility",
+    "message": "Verktøy",
     "description": "Locs.get_Category_Utility"
   },
+  "InstallerCategoryPlugins": {
+    "message": "Programtillegg",
+    "description": "Locs.get_Category_Plugins"
+  },
+  "InstallerCategoryDalamud": {
+    "message": "Dalamud",
+    "description": "Locs.get_Category_Dalamud"
+  },
   "DalamudGamepadModeNotifierText": {
-    "message": "Gamepad mode is ON. Press L1+L3 to deactivate, press R3 to toggle PluginInstaller.",
+    "message": "Spillkontrollermodus er skrudd på. Trykk L1 + L3 for å deaktivere, trykk R3 for å vise/skjule installasjonsvinduet.",
     "description": "GamepadModeNotifierWindow.Draw"
-  },
-  "InstallerHeader": {
-    "message": "Tilleggsoppsett",
-    "description": "Locs.get_WindowTitle"
-  },
-  "InstallerHeaderTesting": {
-    "message": " (TESTING)",
-    "description": "Locs.get_WindowTitleMod_Testing"
-  },
-  "InstallerHint": {
-    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
-    "description": "Locs.get_Header_Hint"
-  },
-  "InstallerSearch": {
-    "message": "Search",
-    "description": "Locs.get_Header_SearchPlaceholder"
-  },
-  "InstallerAlphabetical": {
-    "message": "Alphabetical",
-    "description": "Locs.get_SortBy_Alphabetical"
-  },
-  "InstallerDownloadCount": {
-    "message": "Download Count",
-    "description": "Locs.get_SortBy_DownloadCounts"
-  },
-  "InstallerLastUpdate": {
-    "message": "Last Update",
-    "description": "Locs.get_SortBy_LastUpdate"
-  },
-  "InstallerNewOrNot": {
-    "message": "New or not",
-    "description": "Locs.get_SortBy_NewOrNot"
-  },
-  "InstallerSortBy": {
-    "message": "Sort By",
-    "description": "Locs.get_SortBy_Label"
-  },
-  "InstallerLoading": {
-    "message": "Laster inn tillegg...",
-    "description": "Locs.get_TabBody_LoadingPlugins"
-  },
-  "InstallerDownloadFailed": {
-    "message": "Nedlasting mislykket.",
-    "description": "Locs.get_TabBody_DownloadFailed"
-  },
-  "InstallerSafeMode": {
-    "message": "Dalamud is running in Plugin Safe Mode, restart to activate plugins.",
-    "description": "Locs.get_TabBody_SafeMode"
-  },
-  "InstallerNoMatching": {
-    "message": "No plugins were found matching your search.",
-    "description": "Locs.get_TabBody_SearchNoMatching"
-  },
-  "InstallerNoCompatible": {
-    "message": "Ingen kompatible tillegg ble funnet :( Vennligst start spillet på nytt og prøv igjen.",
-    "description": "Locs.get_TabBody_SearchNoCompatible"
-  },
-  "InstallerNoInstalled": {
-    "message": "No plugins are currently installed. You can install them from the Available Plugins tab.",
-    "description": "Locs.get_TabBody_SearchNoInstalled"
-  },
-  "InstallerInstalled": {
-    "message": " (installert)",
-    "description": "Locs.get_PluginTitleMod_Installed"
-  },
-  "InstallerDisabled": {
-    "message": " (disabled)",
-    "description": "Locs.get_PluginTitleMod_Disabled"
-  },
-  "InstallerUnloaded": {
-    "message": " (unloaded)",
-    "description": "Locs.get_PluginTitleMod_Unloaded"
-  },
-  "InstallerHasUpdate": {
-    "message": " (has update)",
-    "description": "Locs.get_PluginTitleMod_HasUpdate"
-  },
-  "InstallerUpdated": {
-    "message": " (oppdatert)",
-    "description": "Locs.get_PluginTitleMod_Updated"
-  },
-  "InstallerTestingVersion": {
-    "message": " (testing version)",
-    "description": "Locs.get_PluginTitleMod_TestingVersion"
-  },
-  "InstallerUpdateFailed": {
-    "message": " (oppdatering mislyktes)",
-    "description": "Locs.get_PluginTitleMod_UpdateFailed"
-  },
-  "InstallerLoadError": {
-    "message": " (load error)",
-    "description": "Locs.get_PluginTitleMod_LoadError"
-  },
-  "InstallerUnloadError": {
-    "message": " (unload error)",
-    "description": "Locs.get_PluginTitleMod_UnloadError"
-  },
-  "InstallerOutdatedError": {
-    "message": " (outdated)",
-    "description": "Locs.get_PluginTitleMod_OutdatedError"
-  },
-  "InstallerBannedError": {
-    "message": " (banned)",
-    "description": "Locs.get_PluginTitleMod_BannedError"
-  },
-  "InstallerNewPlugin ": {
-    "message": " New!",
-    "description": "Locs.get_PluginTitleMod_New"
-  },
-  "InstallerMarkAllSeen": {
-    "message": "Mark all as seen",
-    "description": "Locs.get_PluginContext_MarkAllSeen"
-  },
-  "InstallerHidePlugin": {
-    "message": "Hide from installer",
-    "description": "Locs.get_PluginContext_HidePlugin"
-  },
-  "InstallerDeletePluginConfig": {
-    "message": "Reset plugin",
-    "description": "Locs.get_PluginContext_DeletePluginConfig"
-  },
-  "InstallerDeletePluginConfigReload": {
-    "message": "Reset plugin settings & reload",
-    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
-  },
-  "InstallerAuthorWithoutDownloadCount": {
-    "message": " by {0}",
-    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCount": {
-    "message": " by {0}, {1} downloads",
-    "description": "Locs.PluginBody_AuthorWithDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " by {0}, download count unavailable",
-    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
-  },
-  "InstallerDevPluginPath": {
-    "message": "From {0}",
-    "description": "Locs.PluginBody_DevPluginPath"
-  },
-  "InstallerPlugin3rdPartyRepo": {
-    "message": "From custom plugin repository {0}",
-    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
-  },
-  "InstallerDevPlugin": {
-    "message": " This plugin is available in one of your repos, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " To delete this plugin, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
-  "InstallerOutdatedPluginBody ": {
-    "message": "This plugin is outdated and incompatible at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Outdated"
-  },
-  "InstallerBannedPluginBody ": {
-    "message": "This plugin version is banned due to incompatibilities and not available at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Banned"
-  },
-  "InstallerInstall": {
-    "message": "Install v{0}",
-    "description": "Locs.PluginButton_InstallVersion"
-  },
-  "InstallerWorking": {
-    "message": "Working",
-    "description": "Locs.get_PluginButton_Working"
-  },
-  "InstallerDisable": {
-    "message": "Deaktiver",
-    "description": "Locs.get_PluginButton_Disable"
-  },
-  "InstallerLoad": {
-    "message": "Load",
-    "description": "Locs.get_PluginButton_Load"
-  },
-  "InstallerUnload": {
-    "message": "Unload",
-    "description": "Locs.get_PluginButton_Unload"
-  },
-  "InstallerOpenConfig": {
-    "message": "Åpne Konfigurasjon",
-    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
-  },
-  "InstallerStartOnBoot": {
-    "message": "Start on boot",
-    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
-  },
-  "InstallerAutomaticReloading": {
-    "message": "Automatic reloading",
-    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
-  },
-  "InstallerDeletePlugin ": {
-    "message": "Delete plugin",
-    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
-  },
-  "InstallerVisitPluginUrl": {
-    "message": "Visit plugin URL",
-    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
-  },
-  "InstallerUpdateSingle": {
-    "message": "Update to {0}",
-    "description": "Locs.PluginButtonToolTip_UpdateSingle"
-  },
-  "InstallerUnloadFailedTooltip": {
-    "message": "Plugin unload failed, please restart your game and try again.",
-    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
-  },
-  "NotificationsPluginInstalledTitle": {
-    "message": "Plugin installed!",
-    "description": "Locs.get_Notifications_PluginInstalledTitle"
-  },
-  "NotificationsPluginInstalled": {
-    "message": "'{0}' was successfully installed.",
-    "description": "Locs.Notifications_PluginInstalled"
-  },
-  "NotificationsPluginNotInstalledTitle": {
-    "message": "Plugin not installed!",
-    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
-  },
-  "NotificationsPluginNotInstalled": {
-    "message": "'{0}' failed to install.",
-    "description": "Locs.Notifications_PluginNotInstalled"
-  },
-  "NotificationsNoUpdatesFoundTitle": {
-    "message": "No updates found!",
-    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
-  },
-  "NotificationsNoUpdatesFound": {
-    "message": "No updates were found.",
-    "description": "Locs.get_Notifications_NoUpdatesFound"
-  },
-  "NotificationsUpdatesInstalledTitle": {
-    "message": "Updates installed!",
-    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
-  },
-  "NotificationsUpdatesInstalled": {
-    "message": "Updates for {0} of your plugins were installed.",
-    "description": "Locs.Notifications_UpdatesInstalled"
-  },
-  "NotificationsPluginDisabledTitle": {
-    "message": "Plugin disabled!",
-    "description": "Locs.get_Notifications_PluginDisabledTitle"
-  },
-  "NotificationsPluginDisabled": {
-    "message": "'{0}' was disabled.",
-    "description": "Locs.Notifications_PluginDisabled"
-  },
-  "InstallerUpdatePlugins": {
-    "message": "Oppdater tillegg",
-    "description": "Locs.get_FooterButton_UpdatePlugins"
-  },
-  "InstallerInProgress": {
-    "message": "Installasjon pågår...",
-    "description": "Locs.get_FooterButton_InProgress"
-  },
-  "InstallerNoUpdates": {
-    "message": "Ingen oppdateringer funnet!",
-    "description": "Locs.get_FooterButton_NoUpdates"
-  },
-  "InstallerUpdateComplete": {
-    "message": "{0} tillegg oppdatert!",
-    "description": "Locs.FooterButton_UpdateComplete"
-  },
-  "InstallerSettings": {
-    "message": "Settings",
-    "description": "Locs.get_FooterButton_Settings"
-  },
-  "InstallerScanDevPlugins": {
-    "message": "Scan Dev Plugins",
-    "description": "Locs.get_FooterButton_ScanDevPlugins"
-  },
-  "InstallerClose": {
-    "message": "Close",
-    "description": "Locs.get_FooterButton_Close"
-  },
-  "InstallerError": {
-    "message": "Installer Error",
-    "description": "Locs.get_ErrorModal_Title"
-  },
-  "InstallerContactAuthor": {
-    "message": "Please restart your game and try again. If this error occurs again, please contact the plugin author.",
-    "description": "Locs.get_ErrorModal_InstallContactAuthor"
-  },
-  "InstallerInstallFail": {
-    "message": "Failed to install plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_InstallFail"
-  },
-  "InstallerSingleUpdateFail": {
-    "message": "Failed to update plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_SingleUpdateFail"
-  },
-  "InstallerDeleteConfigFail": {
-    "message": "Failed to reset the plugin {0}.\n\nThe plugin may not support this action. You can try deleting the configuration manually while the game is shut down - please see the FAQ.",
-    "description": "Locs.ErrorModal_DeleteConfigFail"
-  },
-  "InstallerEnableFail": {
-    "message": "Failed to enable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_EnableFail"
-  },
-  "InstallerDisableFail": {
-    "message": "Failed to disable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DisableFail"
-  },
-  "InstallerUnloadFail": {
-    "message": "Failed to unload plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_UnloadFail"
-  },
-  "InstallerLoadFail": {
-    "message": "Failed to load plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_LoadFail"
-  },
-  "InstallerDeleteFail": {
-    "message": "Failed to delete plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DeleteFail"
-  },
-  "InstallerUpdaterFatal": {
-    "message": "Failed to update plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.get_ErrorModal_UpdaterFatal"
-  },
-  "InstallerUpdaterFail": {
-    "message": "Failed to update {0} plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFail"
-  },
-  "InstallerUpdaterFailPartial": {
-    "message": "Updated {0} plugins, failed to update {1}.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFailPartial"
-  },
-  "InstallerErrorPluginInfo": {
-    "message": "\n\nFølgende tillegg førte til disse probleme:\n\n{0}\nDu kan prøve å fjerne dem manuelt og installere dem på nytt.",
-    "description": "Locs.ErrorModal_HintBlame"
-  },
-  "InstallerFeedback": {
-    "message": "Send Feedback",
-    "description": "Locs.get_FeedbackModal_Title"
-  },
-  "InstallerFeedbackInfo": {
-    "message": "You can send feedback to the developer of \"{0}\" here.\nYou can include your Discord tag or email address if you wish to give them the opportunity to answer.",
-    "description": "Locs.FeedbackModal_Text"
-  },
-  "InstallerFeedbackContactInfo": {
-    "message": "Contact information",
-    "description": "Locs.get_FeedbackModal_ContactInformation"
-  },
-  "InstallerFeedbackIncludeLastError": {
-    "message": "Include last error message",
-    "description": "Locs.get_FeedbackModal_IncludeLastError"
-  },
-  "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "This option can give the plugin developer useful feedback on what exactly went wrong.",
-    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
-  },
-  "InstallerFeedbackHint": {
-    "message": "All plugin developers will be able to see your feedback.\nPlease never include any personal or revealing information.\nIf you chose to include the last error message, information like your Windows username may be included.\n\nThe collected feedback is not stored on our end and immediately relayed to Discord.",
-    "description": "Locs.get_FeedbackModal_Hint"
-  },
-  "InstallerFeedbackNotificationSuccess": {
-    "message": "Your feedback was sent successfully!",
-    "description": "Locs.get_FeedbackModal_NotificationSuccess"
-  },
-  "InstallerFeedbackNotificationError": {
-    "message": "Your feedback could not be sent.",
-    "description": "Locs.get_FeedbackModal_NotificationError"
-  },
-  "DalamudPluginUpdates": {
-    "message": "Updates:",
-    "description": "Locs.get_PluginUpdateHeader_Chatbox"
-  },
-  "OK": {
-    "message": "OK",
-    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudSettingsHeader": {
     "message": "Dalamud Innstillinger",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "Minst (1k x 1k tekstur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "Mindre (2k x 2k tekstur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "Normal (4k x 4k tekstur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "Bedre (8k x 8k tekstur, kan krasje spillet ditt)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "Best (16k x 16k tekstur, kan krasje spillet ditt)",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
@@ -541,6 +213,10 @@
   },
   "DalamudSettingsVisual": {
     "message": "Utseende & Stil",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "Serverinformasjonslinje",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
@@ -580,55 +256,99 @@
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Display loaded plugins in the welcome message",
+    "message": "Vis aktiverte programtillegg i velkomstmeldingen",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Display loaded plugins in FFXIV chat when logging in with a character.",
+    "message": "Vis aktiverte programtillegg i FFXIV-chatten når du logger inn med en karakter.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Auto-update plugins",
+    "message": "Oppdater programtillegg automatisk",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Automatically update plugins when logging in with a character.",
+    "message": "Oppdater programtillegg automatisk når du logger inn med en karakter.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "Dalamud buttons in system menu",
+    "message": "Dalamudknapper i systemmenyen",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Add buttons for Dalamud plugins and settings to the system menu.",
+    "message": "Vis knapper for Dalamudprogramtillegg og -instillinger i systemmenyen.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFiltering": {
-    "message": "Disable RMT Filtering",
+    "message": "Slå av RMT-filtrering",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Disable dalamud's built-in RMT ad filtering.",
+    "message": "Slå av Dalamuds innebygde RMT-reklamefilter.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "Last opp anonymisert data om markedstavlen",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "Gi anonymisert data om spillets økonomi til Universalis mens du ser på markedstavla. Denne dataen kan ikke knyttes mot deg på noen måte og gagner alle!",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Global UI skala",
+    "message": "Global skriftstørrelse",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9,6 pkt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset12": {
+    "message": "Nullstill (12 pkt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14 pkt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18 pkt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36 pkt",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaler hele brukergrensesnittet til XIVLauncher - nyttig for 4K skjermer.",
+    "message": "Skaler tekst i brukergrensesnittet til XIVLauncher, dette kan være nyttig for 4K-skjermer.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
-    "message": "Open Style Editor",
+    "message": "Rediger stilsett",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "Modify the look & feel of Dalamud windows.",
+    "message": "Endre hvordan Dalamud-vinduer ser ut.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "Bruk skriftsnittet AXIS som standardskriftsnitt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "Bruk skriftsnittet AXIS (samme som spillet bruker) som standardskriftsnitt i Dalamud.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "Skriftoppløsning",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "Denne innstillingen kan gjøre at skrift i Dalamud ser bedre ut. Hvis spillet krasjer når du endrer denne innstillingen så støtter ikke PC-en din høy oppløsning for skrift i Dalamud, du må i så fall bruke en lavere oppløsning.\nGjeldende skriftatlasstørrelse er {0} × {1}.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Plugins may independently opt out of the settings below.",
+    "message": "Programtillegg kan velge å se bort fra innstillingene under.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHide": {
@@ -640,52 +360,100 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Hide plugin UI during cutscenes",
+    "message": "Skjul programtillegg under filmsekvenser",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Hide any open windows by plugins during cutscenes.",
+    "message": "Skjuler alle åpne vinduer fra programtillegg under filmsekvenser.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Hide plugin UI while gpose is active",
+    "message": "Skjul programtillegg når gpose er i bruk",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Hide any open windows by plugins while gpose is active.",
+    "message": "Skjuler alle åpne vinduer fra programtillegg mens gpose er i bruk.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "Use escape to close Dalamud windows",
+    "message": "Bruk Escape for å lukke Dalamud-vinduer",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "This will cause Dalamud windows to behave like in-game windows when pressing escape.\nThey will close one after another until all are closed. May not work for all plugins.",
+    "message": "Dette gjør at Dalamud-vinduer oppfører seg på samme måte som spillvinduer når du trykker på Escape.\nDe lukker seg en om gangen til alle er lukket. Fungerer ikke for alle programtillegg.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewports": {
-    "message": "Enable multi-monitor windows",
+    "message": "Slå på støtte for flere skjermer",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "This will allow you move plugin windows onto other monitors.\nWill only work in Borderless Window or Windowed mode.",
+    "message": "Dette lar deg flytte programtillegsvinduer til andre skjermer.\nVirker bare når spillet er i «Borderless Window» eller «Windowed»-modus.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleDocking": {
-    "message": "Enable window docking",
+    "message": "Slå på vindusforankring",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleDockingHint": {
-    "message": "This will allow you to fuse and tab plugin windows.",
+    "message": "Dette vil la deg slå sammen programtillegsvinduer samt å lage faner.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigation": {
-    "message": "Control plugins via gamepad",
+    "message": "Kontroller programtillegg med spillkontroller",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "This will allow you to toggle between game and plugin navigation via L1+L3.\nToggle the PluginInstaller window via R3 if ImGui navigation is enabled.",
+    "message": "Dette lar deg bytte mellom å navigere i spillet og i programtillegg med L1 + L3.\nSkjul eller vis installasjonvinduet med R3 hvis ImGui-navigering er slått på.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "Vis meny på tittelskjermbildet",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "Dette gir deg tilgang til noen funksjoner i Dalamud og programtillegg fra tittelskjermbildet.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGamma": {
+    "message": "Skriftgamma",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsIndividualConfigResetToDefaultValue": {
+    "message": "Nullstill",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGammaHint": {
+    "message": "Endrer tykkelsen på teksten.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingServerInfoBar": {
+    "message": "Innstillinger for serverinfolinje",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "Programtilleg kan legge til mer informasjon i serverinfolinjen din (hvor du ser klokkeslett og verden).\nDu kan velge rekkefølge samt slå av enkelte elementer her.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "Du har ingen programtillegg som bruker denne funksjonen.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "Avstand mellom elementer i serverinfolinjen",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "Velg hvor mye avstand du vil ha mellom elementene i serverinfolinjen her.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "Retning på serverinfolinje",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "Kryss av her for å utvide elementene i serverinfolinjen mot høyre i stedet for mot venstre.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
   },
   "DalamudSettingsPluginTest": {
     "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
@@ -696,47 +464,47 @@
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsPluginTestWarning": {
-    "message": "Testing plugins may not have been vetted before being published. Please only enable this if you are aware of the risks.",
+    "message": "Testprogramtillegg er ikke alltid like godt undersøkt før de publiseres. Ikke slå på disse hvis du ikke forstår risikoene.",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsClearHidden": {
-    "message": "Clear hidden plugins",
+    "message": "Nulstill skjulte programtillegg",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsClearHiddenHint": {
-    "message": "Restore plugins you have previously hidden from the plugin installer.",
+    "message": "Gjenopprett programtillegg du tidligere har skjult fra programtilleggsinstallatøren.",
     "description": "SettingsWindow.DrawExperimentalTab"
   },
   "DalamudSettingsCustomRepo": {
-    "message": "Custom Plugin Repositories",
+    "message": "Ekstra pakkelagre",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsChanged": {
-    "message": "(Changed)",
+    "message": "(Endret)",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoHint": {
-    "message": "Add custom plugin repositories.",
+    "message": "Legg til ekstra pakkelagre.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "We cannot take any responsibility for third-party plugins and repositories.\nTake care when installing third-party plugins from untrusted sources.",
+    "message": "Vi kan ikke ta ansvar for tredjepartsprogramtillegg og pakkelagre.\nVær forsiktig når du installerer tredjepartsprogramtillegg.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudThirdRepoExists": {
-    "message": "Repo already exists.",
+    "message": "Pakkelageret finnes allerede.",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsDevPluginLocation": {
-    "message": "Dev Plugin Locations",
+    "message": "Adresser for programtillegg under utvikling",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Add additional dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "message": "Legg till ekstra adresser for programtillegg.\nDisse kan enten være mapper eller DLL-filer.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginLocationExists": {
-    "message": "Location already exists.",
+    "message": "Adressen finnes allerede.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "Save": {
@@ -744,7 +512,7 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "Close": {
-    "message": "Close",
+    "message": "Lukk",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "SaveAndClose": {
@@ -752,59 +520,447 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "RenameStyleModalTitle": {
-    "message": "Rename Style",
+    "message": "Endre navn på stilsett",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorChooseStyle": {
-    "message": "Choose Style:",
+    "message": "Velg stilsett:",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorAddNew": {
-    "message": "Add new style",
+    "message": "Lag nytt stilsett",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorDeleteStyle": {
-    "message": "Delete current style",
+    "message": "Slett det valgte stilsettet",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorRenameStyle": {
-    "message": "Rename style",
+    "message": "Endre navn på stilsett",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorCopy": {
-    "message": "Copy style to clipboard for sharing",
+    "message": "Kopier stilsett til utklippstavlen for deling",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorImport": {
-    "message": "Import style from clipboard",
+    "message": "Importer stilsett fra utklippstavlen",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
-    "message": "You cannot edit built-in styles. Please add a new style first.",
+    "message": "Du kan ikke redigere innebygde stilsett. Legg till et nytt stilsett først.",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorApplying": {
-    "message": "Applying style...",
+    "message": "Aktiverer stilsett …",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorVariables": {
-    "message": "Variables",
+    "message": "Innstillinger",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorColors": {
-    "message": "Colors",
+    "message": "Farger",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorEnterName": {
-    "message": "Please enter the new name for this style.",
+    "message": "Skriv inn ett nytt navn for dette stilsettet.",
     "description": "StyleEditorWindow.Draw"
+  },
+  "InstallerHeader": {
+    "message": "Tilleggsoppsett",
+    "description": "Locs.get_WindowTitle"
+  },
+  "InstallerHeaderTesting": {
+    "message": " (TESTMODUS)",
+    "description": "Locs.get_WindowTitleMod_Testing"
+  },
+  "InstallerHint": {
+    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
+    "description": "Locs.get_Header_Hint"
+  },
+  "InstallerSearch": {
+    "message": "Søk",
+    "description": "Locs.get_Header_SearchPlaceholder"
+  },
+  "InstallerAlphabetical": {
+    "message": "Alfabetisk",
+    "description": "Locs.get_SortBy_Alphabetical"
+  },
+  "InstallerDownloadCount": {
+    "message": "Antall nedlastninger",
+    "description": "Locs.get_SortBy_DownloadCounts"
+  },
+  "InstallerLastUpdate": {
+    "message": "Siste oppdatering",
+    "description": "Locs.get_SortBy_LastUpdate"
+  },
+  "InstallerNewOrNot": {
+    "message": "Ny eller ikke",
+    "description": "Locs.get_SortBy_NewOrNot"
+  },
+  "InstallerNotInstalled": {
+    "message": "Ikke installert",
+    "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerSortBy": {
+    "message": "Sorter etter",
+    "description": "Locs.get_SortBy_Label"
+  },
+  "InstallerLoading": {
+    "message": "Laster inn tillegg...",
+    "description": "Locs.get_TabBody_LoadingPlugins"
+  },
+  "InstallerDownloadFailed": {
+    "message": "Nedlasting mislykket.",
+    "description": "Locs.get_TabBody_DownloadFailed"
+  },
+  "InstallerSafeMode": {
+    "message": "Dalamud kjører i sikkermodus, start på nytt for å aktivere programtillegg.",
+    "description": "Locs.get_TabBody_SafeMode"
+  },
+  "InstallerNoMatching": {
+    "message": "Fant ingen programtillegg som passet til søket ditt.",
+    "description": "Locs.get_TabBody_SearchNoMatching"
+  },
+  "InstallerNoCompatible": {
+    "message": "Ingen kompatible tillegg ble funnet :( Vennligst start spillet på nytt og prøv igjen.",
+    "description": "Locs.get_TabBody_SearchNoCompatible"
+  },
+  "InstallerNoInstalled": {
+    "message": "Ingen programtillegg er installert. Du kan installere dem fra fanen «Alle programtillegg».",
+    "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "Ingen av de installerte programtilleggene har en endringslogg.",
+    "description": "Locs.get_TabBody_ChangelogNone"
+  },
+  "InstallerInstalled": {
+    "message": " (installert)",
+    "description": "Locs.get_PluginTitleMod_Installed"
+  },
+  "InstallerDisabled": {
+    "message": " (deaktivert)",
+    "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerUnloaded": {
+    "message": " (deaktivert)",
+    "description": "Locs.get_PluginTitleMod_Unloaded"
+  },
+  "InstallerHasUpdate": {
+    "message": " (har oppdatering)",
+    "description": "Locs.get_PluginTitleMod_HasUpdate"
+  },
+  "InstallerUpdated": {
+    "message": " (oppdatert)",
+    "description": "Locs.get_PluginTitleMod_Updated"
+  },
+  "InstallerTestingVersion": {
+    "message": " (testversjon)",
+    "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (oppdatering mislyktes)",
+    "description": "Locs.get_PluginTitleMod_UpdateFailed"
+  },
+  "InstallerLoadError": {
+    "message": " (aktiveringsfeil)",
+    "description": "Locs.get_PluginTitleMod_LoadError"
+  },
+  "InstallerUnloadError": {
+    "message": " (deaktiveringsfeil)",
+    "description": "Locs.get_PluginTitleMod_UnloadError"
+  },
+  "InstallerOutdatedError": {
+    "message": " (utdatert)",
+    "description": "Locs.get_PluginTitleMod_OutdatedError"
+  },
+  "InstallerBannedError": {
+    "message": " (deaktivert automatisk)",
+    "description": "Locs.get_PluginTitleMod_BannedError"
+  },
+  "InstallerNewPlugin ": {
+    "message": " Ny!",
+    "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerMarkAllSeen": {
+    "message": "Marker alle som lest",
+    "description": "Locs.get_PluginContext_MarkAllSeen"
+  },
+  "InstallerHidePlugin": {
+    "message": "Skjul fra installasjonsprogrammet",
+    "description": "Locs.get_PluginContext_HidePlugin"
+  },
+  "InstallerDeletePluginConfig": {
+    "message": "Nullstill programtillegg",
+    "description": "Locs.get_PluginContext_DeletePluginConfig"
+  },
+  "InstallerDeletePluginConfigReload": {
+    "message": "Nulstill innstillinger for programtillegg og last på nytt",
+    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
+  },
+  "InstallerAuthorWithoutDownloadCount": {
+    "message": " fra {0}",
+    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCount": {
+    "message": " fra {0}, {1} nedlastinger",
+    "description": "Locs.PluginBody_AuthorWithDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCountUnavailable": {
+    "message": " by {0}, nedlastingstall utilgjengelig",
+    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerDevPluginPath": {
+    "message": "Fra {0}",
+    "description": "Locs.PluginBody_DevPluginPath"
+  },
+  "InstallerPlugin3rdPartyRepo": {
+    "message": "Fra ekstra pakkelager {0}",
+    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
+  },
+  "InstallerDevPlugin": {
+    "message": " Dette programtilleget er tilgjengelig i ett av pakkelagrene dine, vennligst slett det fra devPlugins-mappen din.",
+    "description": "Locs.get_PluginBody_AvailableDevPlugin"
+  },
+  "InstallerDeleteDevPlugin ": {
+    "message": " Fjern programtillegget fra devPlugins-mappen din for å slette det.",
+    "description": "Locs.get_PluginBody_DeleteDevPlugin"
+  },
+  "InstallerOutdatedPluginBody ": {
+    "message": "Dette programtillegget er utdatert og ikke kompatibelt for øyeblikket. Vent på en oppdatering fra utvikleren.",
+    "description": "Locs.get_PluginBody_Outdated"
+  },
+  "InstallerBannedPluginBody ": {
+    "message": "Programtilleget er ikke kompatibelt og har blitt deaktivert automatisk. Vennligst vent på en oppdatering fra utvikleren av programtillegget.",
+    "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "Dette programtillegget har blitt deaktivert automatisk: {0}",
+    "description": "Locs.PluginBody_BannedReason"
+  },
+  "InstallerInstall": {
+    "message": "Installer v{0}",
+    "description": "Locs.PluginButton_InstallVersion"
+  },
+  "InstallerWorking": {
+    "message": "Jobber",
+    "description": "Locs.get_PluginButton_Working"
+  },
+  "InstallerDisable": {
+    "message": "Deaktiver",
+    "description": "Locs.get_PluginButton_Disable"
+  },
+  "InstallerLoad": {
+    "message": "Aktiver",
+    "description": "Locs.get_PluginButton_Load"
+  },
+  "InstallerUnload": {
+    "message": "Deaktiver",
+    "description": "Locs.get_PluginButton_Unload"
+  },
+  "InstallerOpenConfig": {
+    "message": "Åpne Konfigurasjon",
+    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerStartOnBoot": {
+    "message": "Start ved oppstart",
+    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
+  },
+  "InstallerAutomaticReloading": {
+    "message": "Last på nytt automatisk",
+    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
+  },
+  "InstallerDeletePlugin ": {
+    "message": "Slett programtillegg",
+    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
+  },
+  "InstallerVisitPluginUrl": {
+    "message": "Besøk programtilleggets nettadresse",
+    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
+  },
+  "InstallerUpdateSingle": {
+    "message": "Oppdater til {0}",
+    "description": "Locs.PluginButtonToolTip_UpdateSingle"
+  },
+  "InstallerUnloadFailedTooltip": {
+    "message": "Klarte ikke å deaktivere programtillegg, start spillet på nytt og prøv igjen.",
+    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "NotificationsPluginInstalledTitle": {
+    "message": "Programtillegg installert",
+    "description": "Locs.get_Notifications_PluginInstalledTitle"
+  },
+  "NotificationsPluginInstalled": {
+    "message": "«{0}» er installert uten problemer.",
+    "description": "Locs.Notifications_PluginInstalled"
+  },
+  "NotificationsPluginNotInstalledTitle": {
+    "message": "Programtillegg ikke installert",
+    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
+  },
+  "NotificationsPluginNotInstalled": {
+    "message": "Klarte ikke å installere «{0}».",
+    "description": "Locs.Notifications_PluginNotInstalled"
+  },
+  "NotificationsNoUpdatesFoundTitle": {
+    "message": "Ingen oppdateringer",
+    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
+  },
+  "NotificationsNoUpdatesFound": {
+    "message": "Fant ingen nye oppdateringer.",
+    "description": "Locs.get_Notifications_NoUpdatesFound"
+  },
+  "NotificationsUpdatesInstalledTitle": {
+    "message": "Oppdateringer installert",
+    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
+  },
+  "NotificationsUpdatesInstalled": {
+    "message": "Oppdateringer for {0} av programtilleggene dine ble installert.",
+    "description": "Locs.Notifications_UpdatesInstalled"
+  },
+  "NotificationsPluginDisabledTitle": {
+    "message": "Programtillegg deaktivert",
+    "description": "Locs.get_Notifications_PluginDisabledTitle"
+  },
+  "NotificationsPluginDisabled": {
+    "message": "«{0}» er deaktivert.",
+    "description": "Locs.Notifications_PluginDisabled"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "Oppdater tillegg",
+    "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerInProgress": {
+    "message": "Installasjon pågår...",
+    "description": "Locs.get_FooterButton_InProgress"
+  },
+  "InstallerNoUpdates": {
+    "message": "Ingen oppdateringer funnet!",
+    "description": "Locs.get_FooterButton_NoUpdates"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0} tillegg oppdatert!",
+    "description": "Locs.FooterButton_UpdateComplete"
+  },
+  "InstallerSettings": {
+    "message": "Innstillinger",
+    "description": "Locs.get_FooterButton_Settings"
+  },
+  "InstallerScanDevPlugins": {
+    "message": "Se etter programtillegg under utvikling",
+    "description": "Locs.get_FooterButton_ScanDevPlugins"
+  },
+  "InstallerClose": {
+    "message": "Lukk",
+    "description": "Locs.get_FooterButton_Close"
+  },
+  "InstallerError": {
+    "message": "Installasjonsfeil",
+    "description": "Locs.get_ErrorModal_Title"
+  },
+  "InstallerContactAuthor": {
+    "message": "Start spillet på nytt og prøv igjen. Ta kontakt med forfatteren av spilltillegget hvis feilen skjer på nytt.",
+    "description": "Locs.get_ErrorModal_InstallContactAuthor"
+  },
+  "InstallerInstallFail": {
+    "message": "Klarte ikke å installere programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_InstallFail"
+  },
+  "InstallerSingleUpdateFail": {
+    "message": "Klarte ikke å oppdatere programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_SingleUpdateFail"
+  },
+  "InstallerDeleteConfigFail": {
+    "message": "Klarte ikke å nullstille programtillegget {0}.\n\nDette programtillegget støtter kanskje ikke nullstilling. Du kan prøve å slette instillingene manuelt mens spillet er avsluttet, sjekk FAQ-en.",
+    "description": "Locs.ErrorModal_DeleteConfigFail"
+  },
+  "InstallerEnableFail": {
+    "message": "Klarte ikke å slå på programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_EnableFail"
+  },
+  "InstallerDisableFail": {
+    "message": "Klarte ikke å slå av programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_DisableFail"
+  },
+  "InstallerUnloadFail": {
+    "message": "Klarte ikke å deaktivere programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_UnloadFail"
+  },
+  "InstallerLoadFail": {
+    "message": "Klarte ikke å aktivere programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_LoadFail"
+  },
+  "InstallerDeleteFail": {
+    "message": "Klarte ikke å slette programtillegg {0}.\n{1}",
+    "description": "Locs.ErrorModal_DeleteFail"
+  },
+  "InstallerUpdaterFatal": {
+    "message": "Klarte ikke å oppdatere programtillegg.\nStart spillet på nytt og prøv igjen. Hvis denne feilen skjer igjen, si ifra.",
+    "description": "Locs.get_ErrorModal_UpdaterFatal"
+  },
+  "InstallerUpdaterFail": {
+    "message": "Klarte ikke å oppdatere {0} programtillegg.\nStart spillet på nytt og prøv igjen. Hvis denne feilen skjer igjen, si ifra.",
+    "description": "Locs.ErrorModal_UpdaterFail"
+  },
+  "InstallerUpdaterFailPartial": {
+    "message": "Oppdaterte {0} programtillegg, men klarte ikke å oppdatere {1}.\nStart spillet på nytt og prøv igjen. Hvis denne feilen skjer igjen, si ifra.",
+    "description": "Locs.ErrorModal_UpdaterFailPartial"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\nFølgende tillegg førte til disse probleme:\n\n{0}\nDu kan prøve å fjerne dem manuelt og installere dem på nytt.",
+    "description": "Locs.ErrorModal_HintBlame"
+  },
+  "InstallerFeedback": {
+    "message": "Gi tilbakemelding",
+    "description": "Locs.get_FeedbackModal_Title"
+  },
+  "InstallerFeedbackInfo": {
+    "message": "Du kan sende tilbakemelding til utvikleren av «{0}» her.\nDu kan inkludere Discord-brukernavnet eller e-postadressen din hvis du vil gi dem mulighet til å svare.\n\nHvis du vil rapportere en feil med programtillegget så anbefaler vi at du blir med i XIVLauncher-Discorden.",
+    "description": "Locs.FeedbackModal_Text"
+  },
+  "InstallerFeedbackHasUpdate": {
+    "message": "En ny versjon av dette programtillegget er tilgjengelig, vennligst oppdater før du rapporterer en feil.",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
+  "InstallerFeedbackContactInfo": {
+    "message": "Kontaktinformasjon",
+    "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackIncludeLastError": {
+    "message": "Inkluder siste feilmelding",
+    "description": "Locs.get_FeedbackModal_IncludeLastError"
+  },
+  "InstallerFeedbackIncludeLastErrorHint": {
+    "message": "Hvis det er krysset av her, så kan programtilleggsutvikleren få nyttig informasjon om nøyaktig hva som skjedde.",
+    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
+  },
+  "InstallerFeedbackHint": {
+    "message": "Alle programtilleggutviklere kan se hva du skriver.\nVennligst ikke del personsensitive opplysninger.\nHvis du krysser av for å inkludere den siste feilmeldingen så vil noe informasjon som for eksempel Windows-brukernavnet ditt bli inkludert.\n\nTilbakemeldingen vil ikke bli lagret hos oss, men sendt direkte til Discorden.",
+    "description": "Locs.get_FeedbackModal_Hint"
+  },
+  "InstallerFeedbackNotificationSuccess": {
+    "message": "Din tilbakemelding ble sendt.",
+    "description": "Locs.get_FeedbackModal_NotificationSuccess"
+  },
+  "InstallerFeedbackNotificationError": {
+    "message": "Klarte ikke å sende din tilbakemelding.",
+    "description": "Locs.get_FeedbackModal_NotificationError"
+  },
+  "DalamudPluginUpdates": {
+    "message": "Oppdateringer:",
+    "description": "Locs.get_PluginUpdateHeader_Chatbox"
+  },
+  "OK": {
+    "message": "OK",
+    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} lastet.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0} plugin(s) loaded.",
+    "message": " {0} programtillegg lastet inn.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
@@ -812,7 +968,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Spilltillegget ble oppdatert eller installert på nytt uten problemer! Vennligst sjekk Discorden for full endringslogg.",
+    "message": "Dalamud ble oppdatert uten problemer! Sjekk Discorden for full endringslogg.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
@@ -820,15 +976,15 @@
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginAutoUpdate": {
-    "message": "Auto-update:",
+    "message": "Automatisk oppdatering:",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
-    "message": "{0} of your plugins were updated.",
+    "message": "{0} av programtilleggene dine ble oppdatert.",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
-    "message": "Auto-Update",
+    "message": "Automatisk oppdatering",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
@@ -836,11 +992,11 @@
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "SystemMenuPlugins": {
-    "message": "Dalamud Plugins",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "message": "Dalamud-programtillegg",
+    "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
-    "message": "Dalamud Settings",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "message": "Dalamud-innstillinger",
+    "description": "DalamudAtkTweaks..ctor"
   }
 }

@@ -103,6 +103,18 @@
     "message": "Sprache auf {0} geändert",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
+  "TSMDalamudPlugins": {
+    "message": "Plugins",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudSettings": {
+    "message": "Einstellungen",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudDevMenu": {
+    "message": "Entwicklermenü",
+    "description": "DalamudInterface..ctor"
+  },
   "InstallerDevTools": {
     "message": "Entwickler-Tools",
     "description": "Locs.get_Group_DevTools"
@@ -111,9 +123,13 @@
     "message": "Installierte Plugins",
     "description": "Locs.get_Group_Installed"
   },
-  "InstallerAvailablePlugins": {
-    "message": "Verfügbare Plugins",
+  "InstallerAllPlugins": {
+    "message": "Alle Plugins",
     "description": "Locs.get_Group_Available"
+  },
+  "InstallerChangelog": {
+    "message": "Changelog",
+    "description": "Locs.get_Group_Changelog"
   },
   "InstallerCategoryAll": {
     "message": "Alle",
@@ -155,9 +171,401 @@
     "message": "Tools",
     "description": "Locs.get_Category_Utility"
   },
+  "InstallerCategoryPlugins": {
+    "message": "Plugins",
+    "description": "Locs.get_Category_Plugins"
+  },
+  "InstallerCategoryDalamud": {
+    "message": "Dalamud",
+    "description": "Locs.get_Category_Dalamud"
+  },
   "DalamudGamepadModeNotifierText": {
     "message": "Gamepad-Modus ist aktiviert. Drücke L1+L3, um ihn zu deaktivieren, drücke R3, um den Plugin-Installer zu öffnen.",
     "description": "GamepadModeNotifierWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud-Einstellungen",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "Kleinste (1k x 1k Textur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "Weniger (2k x 2k Textur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "Normal (4k x 4k Textur)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "Besser (8k x 8k Textur, könnte dein Spiel abstürzen lassen)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "Am Besten (16k x 16k Textur, könnte dein Spiel abstürzen lassen)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "Allgemein",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsVisual": {
+    "message": "Aussehen",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "Server-Infoleiste",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "Experimentell",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "Sprache",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Wähle die Anzeigesprache für Dalamud.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsChannel": {
+    "message": "Chat-Kanal",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "Wähle den Chat-Kanal, der für generelle Nachrichten von Dalamud verwendet werden soll.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsFlash": {
+    "message": "Fenster aufblinken lassen, wenn ein Inhalt gefunden wurde",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "Aktiviere diese Option, falls das FFXIV-Icon in der Taskleiste aufblinken soll, wenn ein Inhalt gefunden wird.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "Chat-Nachricht, wenn ein Inhalt gefunden wurde",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "Aktiviere diese Option, falls eine Nachricht in den Chat gesendet werden soll, wenn ein Inhalt gefunden wird.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "Geladene Plugins in der Login-Nachricht anzeigen",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "Zeigt geladene Plugins im FFXIV Chat an, wenn du dich mit einem Charakter anmeldest.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "Plugins automatisch aktualisieren",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "Plugins automatisch aktualisieren, wenn du dich mit einem Charakter anmeldest.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsSystemMenu": {
+    "message": "Dalamud-Verknüpfungen im Systemmenü",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsSystemMenuMsgHint": {
+    "message": "Fügt Verknüpfungen für Dalamud-Plugins und Einstellungen in das Systemmenü ein.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDisableRmtFiltering": {
+    "message": "RMT-Filter deaktivieren",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDisableRmtFilteringMsgHint": {
+    "message": "Deaktiviert Dalamud's eingebaute RMT-Anzeigenfilterung.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "Marktbrettdaten anonym hochladen",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "Universalis liefert beim durchstöbern des Marktbretts anonym Daten über die Ingame-Ökonomie. Diese Daten können in keiner Weise an dich gebunden werden und alle profitieren davon!",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "Globale Schriftskalierung",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9.6pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset12": {
+    "message": "Normal (12pt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "Skaliere Text in allen XIVLauncher Interface-Elementen - dies ist nützlich für 4K-Monitore.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsOpenStyleEditor": {
+    "message": "Stil-Editor öffnen",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsStyleEditorHint": {
+    "message": "Ändere das Aussehen von Dalamud-Fenstern.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "AXIS-Schriftarten als Standard für Dalamud verwenden",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "Verwendet AXIS-Schriften (die Haupt-UI-Schriftarten des Spiels) als Standard Dalamud-Schriftart.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "Schriftauflösung",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "Diese Option erlaubt es Dalamud Schriftarten besser auszusehen. Wenn dein Spiel beim ändern dieser Option abstürzt, bedeutet es das dein PC keine hohen Schriftauflösungen in Dalamud unterstützt - du musst dann eine niedriger Auflösende nutzen.\nDerzeitige Schriftatlas größe ist {0}px * {1}px.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "Plugins können sich selbständig von den folgenden Einstellungen ausschließen.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "Verstecke UI, wenn das Spiel UI versteckt wird",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "Aktiviere diese Option, um alle offenen XIVLauncher Fenster zu verstecken, wenn das HUD des Spiels versteckt wird.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "Plugin-Fenster während Cutscenes verstecken",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "Versteckt alle Plugin-Fenster, wenn eine Cutscene abgespielt wird.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "Plugin-Fenster während Gpose verstecken",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "Versteckt alle Plugin-Fenster, wenn der Gpose-Modus aktiv ist.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleFocusManagement": {
+    "message": "Escape nutzen, um Dalamud Fenster zu schließen",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleFocusManagementHint": {
+    "message": "Dies führt dazu, dass sich die Dalamud-Fenster beim Drücken von Escape wie die Fenster im Spiel verhalten.\nSie schließen eins nach dem anderen, bis alle geschlossen sind. Kann nicht für alle Plugins funktionieren.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "Multi-Monitor-Fenster aktivieren",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "Dies ermöglicht das Verschieben von Plugin-Fenstern auf andere Monitore.\nFunktioniert nur im randlosen Fenstermodus oder im Fenstermodus.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "Fenster-Docking aktivieren",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "Dies erlaubt es, Plugin-Fenster zu \"verschmelzen\" und zu docken.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleGamepadNavigation": {
+    "message": "Plugins über Gamepad steuern",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleGamepadNavigationHint": {
+    "message": "Dies erlaubt es dir, zwischen Spiel- und Plugin-Navigation über L1+L3 umzuschalten.\nSchalte das Plugin-Installer-Fenster über R3 um, wenn die ImGui-Navigation aktiviert ist.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "Titelbildschirm-Menü anzeigen",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "Dies wird dir erlauben einige Dalamud- und Plugin Funktionen vom Hauptbildschirm zu nutzen.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGamma": {
+    "message": "Schrift-Gamma",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsIndividualConfigResetToDefaultValue": {
+    "message": "Zurücksetzen",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGammaHint": {
+    "message": "Ändert die Fette des Textes.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingServerInfoBar": {
+    "message": "Konfiguration der Server-Infoleiste",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "Plugins können zusätzliche Informationen in die Server-Informationsleiste einfügen (da, wo deine Welt & Zeit sichtbar sind).\nDu kannst diese hier neu ordnen und deaktivieren.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "Du hast keine Plugins, die diese Funktion verwenden.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "Abstand zwischen Elementen",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "Konfiguriere hier den Abstand zwischen den Einträgen in der Server-Infoleiste.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "Richtung der Server-Infoleiste",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "Wenn aktiviert, werden die Elemente der Server Info Bar nach rechts anstatt nach links erweitert.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "Plugin-Testversionen erhalten",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "Aktiviere diese Option, um Testversionen von Plugins zu erhalten.",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Test-Plugins wurden möglicherweise nicht von uns geprüft. Bitte aktiviere dies nur, wenn du dir der Risiken bewusst bist.",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "Versteckte Plugins wiederherstellen",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "Diese Option bringt Plugins, die du vorher im Plugin-Installer versteckt hast, zurück.",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "Drittanbieter-Quellen",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingsChanged": {
+    "message": "(geändert)",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "Hier kannst du Drittanbieter-Quellen hinzufügen.",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "Wir können keine Verantwortung für Plugins und Quellen von Drittanbietern übernehmen.\nSei bitte vorsichtig, wenn du Plugins von Drittanbietern installierst.",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "Diese Quelle existiert bereits.",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingsDevPluginLocation": {
+    "message": "Entwickler-Plugin Pfade",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "DalamudSettingsDevPluginLocationsHint": {
+    "message": "Fügen Sie zusätzliche Entwickler-Plugin Pfade hinzu.\nDies kann entweder das Verzeichnis oder der DLL-Pfad sein.",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "DalamudDevPluginLocationExists": {
+    "message": "Pfad existiert bereits.",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "Save": {
+    "message": "Schließen",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "Close": {
+    "message": "Schließen",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "SaveAndClose": {
+    "message": "Speichern und Schließen",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "RenameStyleModalTitle": {
+    "message": "Stil umbenennen",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorChooseStyle": {
+    "message": "Stil auswählen:",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorAddNew": {
+    "message": "Neuen Stil hinzufügen",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorDeleteStyle": {
+    "message": "Aktuellen Stil löschen",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorRenameStyle": {
+    "message": "Stil umbenennen",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorCopy": {
+    "message": "Stil zur Freigabe in die Zwischenablage kopieren",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorImport": {
+    "message": "Stil aus Zwischenablage importieren",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorNotAllowed": {
+    "message": "Du kannst eingebaute Stile nicht bearbeiten. Bitte füge zuerst einen neuen Stil hinzu.",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorApplying": {
+    "message": "Stil wird angewendet...",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorVariables": {
+    "message": "Variablen",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorColors": {
+    "message": "Farben",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorEnterName": {
+    "message": "Bitte gebe den neuen Namen für diesen Stil ein.",
+    "description": "StyleEditorWindow.Draw"
   },
   "InstallerHeader": {
     "message": "Plugin-Installer",
@@ -191,6 +599,10 @@
     "message": "Neu oder nicht neu",
     "description": "Locs.get_SortBy_NewOrNot"
   },
+  "InstallerNotInstalled": {
+    "message": "Nicht installiert",
+    "description": "Locs.get_SortBy_NotInstalled"
+  },
   "InstallerSortBy": {
     "message": "Sortiere nach",
     "description": "Locs.get_SortBy_Label"
@@ -218,6 +630,10 @@
   "InstallerNoInstalled": {
     "message": "Derzeit sind keine Plugins installiert. Du kannst sie über die Registerkarte \"Verfügbare Plugins\" installieren.",
     "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "Keines deiner installierten Plugins hat einen Changelog.",
+    "description": "Locs.get_TabBody_ChangelogNone"
   },
   "InstallerInstalled": {
     "message": " (installiert)",
@@ -260,7 +676,7 @@
     "description": "Locs.get_PluginTitleMod_OutdatedError"
   },
   "InstallerBannedError": {
-    "message": " (gesperrt)",
+    "message": " (automatisch deaktiviert)",
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
   "InstallerNewPlugin ": {
@@ -316,8 +732,12 @@
     "description": "Locs.get_PluginBody_Outdated"
   },
   "InstallerBannedPluginBody ": {
-    "message": "Diese Plugin-Version ist aufgrund von Inkompatibilitäten gesperrt und momentan nicht verfügbar. Bitte warten, bis es von seinem Autor aktualisiert wird.",
+    "message": "Diese Plugin-Version ist aufgrund von Inkompatibilitäten gesperrt und momentan nicht verfügbar. Bitte warte bis dieses Plugin von seinem Autor upgedatet wird.",
     "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "Plugin wurde automatisch deaktiviert: {0}",
+    "description": "Locs.PluginBody_BannedReason"
   },
   "InstallerInstall": {
     "message": "v{0} installieren",
@@ -496,8 +916,12 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "Du kannst hier Feedback an den Entwickler von \"{0}\" senden.\nDu kannst deinen Discord-Tag oder deine E-Mail-Adresse angeben, wenn du ihr/ihm die Möglichkeit geben möchtest, zu antworten.",
+    "message": "Sie können hier Feedback an den Entwickler von \"{0}\" senden.\nDu kannst deinen Discord Tag oder deine E-Mail-Adresse angeben, wenn du ihnen die Möglichkeit geben möchtest zu antworten.\n\nWenn du einen Fehler des Problems melden möchtest, empfehlen wir dir dem XIVLauncher Discord Server beizutreten.",
     "description": "Locs.FeedbackModal_Text"
+  },
+  "InstallerFeedbackHasUpdate": {
+    "message": "Eine neue Version dieses Plugins ist verfügbar, bitte aktualisiere es vor dem Melden von Fehlern.",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
   },
   "InstallerFeedbackContactInfo": {
     "message": "Kontakt-Informationen",
@@ -531,274 +955,6 @@
     "message": "OK",
     "description": "Locs.get_ErrorModalButton_Ok"
   },
-  "DalamudSettingsHeader": {
-    "message": "Dalamud-Einstellungen",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "Allgemein",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "Aussehen",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsExperimental": {
-    "message": "Experimentell",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "Sprache",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "Wähle die Anzeigesprache für Dalamud.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannel": {
-    "message": "Chat-Kanal",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannelHint": {
-    "message": "Wähle den Chat-Kanal, der für generelle Nachrichten von Dalamud verwendet werden soll.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlash": {
-    "message": "Fenster aufblinken lassen, wenn ein Inhalt gefunden wurde",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlashHint": {
-    "message": "Aktiviere diese Option, falls das FFXIV-Icon in der Taskleiste aufblinken soll, wenn ein Inhalt gefunden wird.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessage": {
-    "message": "Chat-Nachricht, wenn ein Inhalt gefunden wurde",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Aktiviere diese Option, falls eine Nachricht in den Chat gesendet werden soll, wenn ein Inhalt gefunden wird.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Geladene Plugins in der Login-Nachricht anzeigen",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Zeigt geladene Plugins im FFXIV Chat an, wenn du dich mit einem Charakter anmeldest.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Plugins automatisch aktualisieren",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Plugins automatisch aktualisieren, wenn du dich mit einem Charakter anmeldest.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenu": {
-    "message": "Dalamud-Verknüpfungen im Systemmenü",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Fügt Verknüpfungen für Dalamud-Plugins und Einstellungen in das Systemmenü ein.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "RMT-Filter deaktivieren",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Deaktiviert Dalamud's eingebaute RMT-Anzeigenfilterung.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "Globale Interface-Skalierung",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaliere alle XIVLauncher Interface-Elemente - nützlich für 4K-Monitore.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsOpenStyleEditor": {
-    "message": "Stil-Editor öffnen",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsStyleEditorHint": {
-    "message": "Ändere das Aussehen von Dalamud-Fenstern.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Plugins können sich selbständig von den folgenden Einstellungen ausschließen.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHide": {
-    "message": "Verstecke UI, wenn das Spiel UI versteckt wird",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideHint": {
-    "message": "Aktiviere diese Option, um alle offenen XIVLauncher Fenster zu verstecken, wenn das HUD des Spiels versteckt wird.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Plugin-Fenster während Cutscenes verstecken",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Versteckt alle Plugin-Fenster, wenn eine Cutscene abgespielt wird.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Plugin-Fenster während Gpose verstecken",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Versteckt alle Plugin-Fenster, wenn der Gpose-Modus aktiv ist.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagement": {
-    "message": "Escape nutzen, um Dalamud Fenster zu schließen",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagementHint": {
-    "message": "Dies führt dazu, dass sich die Dalamud-Fenster beim Drücken von Escape wie die Fenster im Spiel verhalten.\nSie schließen eins nach dem anderen, bis alle geschlossen sind. Kann nicht für alle Plugins funktionieren.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewports": {
-    "message": "Multi-Monitor-Fenster aktivieren",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewportsHint": {
-    "message": "Dies ermöglicht das Verschieben von Plugin-Fenstern auf andere Monitore.\nFunktioniert nur im randlosen Fenstermodus oder im Fenstermodus.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDocking": {
-    "message": "Fenster-Docking aktivieren",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDockingHint": {
-    "message": "Dies erlaubt es, Plugin-Fenster zu \"verschmelzen\" und zu docken.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigation": {
-    "message": "Plugins über Gamepad steuern",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "Dies erlaubt es dir, zwischen Spiel- und Plugin-Navigation über L1+L3 umzuschalten.\nSchalte das Plugin-Installer-Fenster über R3 um, wenn die ImGui-Navigation aktiviert ist.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "Plugin-Testversionen erhalten",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "Aktiviere diese Option, um Testversionen von Plugins zu erhalten.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "Test-Plugins wurden möglicherweise nicht von uns geprüft. Bitte aktiviere dies nur, wenn du dir der Risiken bewusst bist.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "Versteckte Plugins wiederherstellen",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "Diese Option bringt Plugins, die du vorher im Plugin-Installer versteckt hast, zurück.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "Drittanbieter-Quellen",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsChanged": {
-    "message": "(geändert)",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "Hier kannst du Drittanbieter-Quellen hinzufügen.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "Wir können keine Verantwortung für Plugins und Quellen von Drittanbietern übernehmen.\nSei bitte vorsichtig, wenn du Plugins von Drittanbietern installierst.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "Diese Quelle existiert bereits.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "Entwickler-Plugin Pfade",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Fügen Sie zusätzliche Entwickler-Plugin Pfade hinzu.\nDies kann entweder das Verzeichnis oder der DLL-Pfad sein.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudDevPluginLocationExists": {
-    "message": "Pfad existiert bereits.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "Save": {
-    "message": "Schließen",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "Close": {
-    "message": "Schließen",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "SaveAndClose": {
-    "message": "Speichern und Schließen",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "RenameStyleModalTitle": {
-    "message": "Stil umbenennen",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorChooseStyle": {
-    "message": "Stil auswählen:",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorAddNew": {
-    "message": "Neuen Stil hinzufügen",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorDeleteStyle": {
-    "message": "Aktuellen Stil löschen",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorRenameStyle": {
-    "message": "Stil umbenennen",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorCopy": {
-    "message": "Stil zur Freigabe in die Zwischenablage kopieren",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorImport": {
-    "message": "Stil aus Zwischenablage importieren",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorNotAllowed": {
-    "message": "Du kannst eingebaute Stile nicht bearbeiten. Bitte füge zuerst einen neuen Stil hinzu.",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorApplying": {
-    "message": "Stil wird angewendet...",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorVariables": {
-    "message": "Variablen",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorColors": {
-    "message": "Farben",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorEnterName": {
-    "message": "Bitte gebe den neuen Namen für diesen Stil ein.",
-    "description": "StyleEditorWindow.Draw"
-  },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} geladen.",
     "description": "ChatHandlers.PrintWelcomeMessage"
@@ -812,7 +968,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Das In-Game-Addon wurde aktualisiert oder neu installiert. Bitte prüfe unseren Discord-Server für weitere Informationen!",
+    "message": "Dalamud wurde erfolgreich aktualisiert. Bitte prüfe unseren Discord-Server für weitere Informationen.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
@@ -837,10 +993,10 @@
   },
   "SystemMenuPlugins": {
     "message": "Dalamud Plugins",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
     "message": "Dalamud-Einstellungen",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   }
 }

@@ -48,7 +48,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudIMEPanelHelp": {
-    "message": "Draw IME panel",
+    "message": "Открыть панель IME",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudDevLogHelp": {
@@ -64,7 +64,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "Установите язык для внутриигровых дополнений и плагинов, которые это поддерживают. Доступные языки: ",
+    "message": "Установить язык Dalamud и плагинов, которые это поддерживают. Доступные языки: ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
@@ -103,436 +103,108 @@
     "message": "Установлен язык: {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
+  "TSMDalamudPlugins": {
+    "message": "Установщик плагинов",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudSettings": {
+    "message": "Настройки Dalamud",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudDevMenu": {
+    "message": "Меню разработчика",
+    "description": "DalamudInterface..ctor"
+  },
   "InstallerDevTools": {
-    "message": "Dev Tools",
+    "message": "Инструменты разработчика",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
-    "message": "Installed Plugins",
+    "message": "Установленные плагины",
     "description": "Locs.get_Group_Installed"
   },
-  "InstallerAvailablePlugins": {
-    "message": "Available Plugins",
+  "InstallerAllPlugins": {
+    "message": "Все плагины",
     "description": "Locs.get_Group_Available"
   },
+  "InstallerChangelog": {
+    "message": "Список изменений",
+    "description": "Locs.get_Group_Changelog"
+  },
   "InstallerCategoryAll": {
-    "message": "All",
+    "message": "Все",
     "description": "Locs.get_Category_All"
   },
   "InstallerInstalledDevPlugins": {
-    "message": "Installed Dev Plugins",
+    "message": "Установленные Dev плагины",
     "description": "Locs.get_Category_DevInstalled"
   },
   "InstallerCategoryOther": {
-    "message": "Other",
+    "message": "Другое",
     "description": "Locs.get_Category_Other"
   },
   "InstallerCategoryJobs": {
-    "message": "Jobs",
+    "message": "Классы",
     "description": "Locs.get_Category_Jobs"
   },
   "InstallerCategoryUI": {
-    "message": "UI",
+    "message": "Интерфейс",
     "description": "Locs.get_Category_UI"
   },
   "InstallerCategoryMiniGames": {
-    "message": "Mini games",
+    "message": "Мини игры",
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
-    "message": "Inventory",
+    "message": "Инвентарь",
     "description": "Locs.get_Category_Inventory"
   },
   "InstallerCategorySound": {
-    "message": "Sound",
+    "message": "Звук",
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
-    "message": "Social",
+    "message": "Общение",
     "description": "Locs.get_Category_Social"
   },
   "InstallerCategoryUtility": {
-    "message": "Utility",
+    "message": "Инструменты",
     "description": "Locs.get_Category_Utility"
   },
+  "InstallerCategoryPlugins": {
+    "message": "Плагины",
+    "description": "Locs.get_Category_Plugins"
+  },
+  "InstallerCategoryDalamud": {
+    "message": "Dalamud",
+    "description": "Locs.get_Category_Dalamud"
+  },
   "DalamudGamepadModeNotifierText": {
-    "message": "Gamepad mode is ON. Press L1+L3 to deactivate, press R3 to toggle PluginInstaller.",
+    "message": "Режим геймпада включен. Нажмите L1+L3 для отключения, нажмите R3 для включения установщика плагинов.",
     "description": "GamepadModeNotifierWindow.Draw"
-  },
-  "InstallerHeader": {
-    "message": "Установщик плагинов",
-    "description": "Locs.get_WindowTitle"
-  },
-  "InstallerHeaderTesting": {
-    "message": " (TESTING)",
-    "description": "Locs.get_WindowTitleMod_Testing"
-  },
-  "InstallerHint": {
-    "message": "Это окно позволяет устанавливать и удалять внутриигровые плагины.\nОни сделаны сторонними разработчиками.",
-    "description": "Locs.get_Header_Hint"
-  },
-  "InstallerSearch": {
-    "message": "Поиск",
-    "description": "Locs.get_Header_SearchPlaceholder"
-  },
-  "InstallerAlphabetical": {
-    "message": "Alphabetical",
-    "description": "Locs.get_SortBy_Alphabetical"
-  },
-  "InstallerDownloadCount": {
-    "message": "Download Count",
-    "description": "Locs.get_SortBy_DownloadCounts"
-  },
-  "InstallerLastUpdate": {
-    "message": "Last Update",
-    "description": "Locs.get_SortBy_LastUpdate"
-  },
-  "InstallerNewOrNot": {
-    "message": "New or not",
-    "description": "Locs.get_SortBy_NewOrNot"
-  },
-  "InstallerSortBy": {
-    "message": "Sort By",
-    "description": "Locs.get_SortBy_Label"
-  },
-  "InstallerLoading": {
-    "message": "Загрузка плагинов...",
-    "description": "Locs.get_TabBody_LoadingPlugins"
-  },
-  "InstallerDownloadFailed": {
-    "message": "Загрузка не удалась.",
-    "description": "Locs.get_TabBody_DownloadFailed"
-  },
-  "InstallerSafeMode": {
-    "message": "Dalamud is running in Plugin Safe Mode, restart to activate plugins.",
-    "description": "Locs.get_TabBody_SafeMode"
-  },
-  "InstallerNoMatching": {
-    "message": "No plugins were found matching your search.",
-    "description": "Locs.get_TabBody_SearchNoMatching"
-  },
-  "InstallerNoCompatible": {
-    "message": "Совместимые плагины не найдены :( Пожалуйста, перезапустите игру и попробуйте еще раз.",
-    "description": "Locs.get_TabBody_SearchNoCompatible"
-  },
-  "InstallerNoInstalled": {
-    "message": "В настоящее время плагины не установлены. Вы можете установить их на вкладке «Доступные плагины».",
-    "description": "Locs.get_TabBody_SearchNoInstalled"
-  },
-  "InstallerInstalled": {
-    "message": " (установлено)",
-    "description": "Locs.get_PluginTitleMod_Installed"
-  },
-  "InstallerDisabled": {
-    "message": " (отключено)",
-    "description": "Locs.get_PluginTitleMod_Disabled"
-  },
-  "InstallerUnloaded": {
-    "message": " (unloaded)",
-    "description": "Locs.get_PluginTitleMod_Unloaded"
-  },
-  "InstallerHasUpdate": {
-    "message": " (has update)",
-    "description": "Locs.get_PluginTitleMod_HasUpdate"
-  },
-  "InstallerUpdated": {
-    "message": " (обновлено)",
-    "description": "Locs.get_PluginTitleMod_Updated"
-  },
-  "InstallerTestingVersion": {
-    "message": " (тестовая версия)",
-    "description": "Locs.get_PluginTitleMod_TestingVersion"
-  },
-  "InstallerUpdateFailed": {
-    "message": " (обновление не удалось)",
-    "description": "Locs.get_PluginTitleMod_UpdateFailed"
-  },
-  "InstallerLoadError": {
-    "message": " (load error)",
-    "description": "Locs.get_PluginTitleMod_LoadError"
-  },
-  "InstallerUnloadError": {
-    "message": " (unload error)",
-    "description": "Locs.get_PluginTitleMod_UnloadError"
-  },
-  "InstallerOutdatedError": {
-    "message": " (outdated)",
-    "description": "Locs.get_PluginTitleMod_OutdatedError"
-  },
-  "InstallerBannedError": {
-    "message": " (banned)",
-    "description": "Locs.get_PluginTitleMod_BannedError"
-  },
-  "InstallerNewPlugin ": {
-    "message": " New!",
-    "description": "Locs.get_PluginTitleMod_New"
-  },
-  "InstallerMarkAllSeen": {
-    "message": "Mark all as seen",
-    "description": "Locs.get_PluginContext_MarkAllSeen"
-  },
-  "InstallerHidePlugin": {
-    "message": "Hide from installer",
-    "description": "Locs.get_PluginContext_HidePlugin"
-  },
-  "InstallerDeletePluginConfig": {
-    "message": "Reset plugin",
-    "description": "Locs.get_PluginContext_DeletePluginConfig"
-  },
-  "InstallerDeletePluginConfigReload": {
-    "message": "Reset plugin settings & reload",
-    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
-  },
-  "InstallerAuthorWithoutDownloadCount": {
-    "message": " by {0}",
-    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCount": {
-    "message": " by {0}, {1} downloads",
-    "description": "Locs.PluginBody_AuthorWithDownloadCount"
-  },
-  "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " by {0}, download count unavailable",
-    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
-  },
-  "InstallerDevPluginPath": {
-    "message": "From {0}",
-    "description": "Locs.PluginBody_DevPluginPath"
-  },
-  "InstallerPlugin3rdPartyRepo": {
-    "message": "From custom plugin repository {0}",
-    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
-  },
-  "InstallerDevPlugin": {
-    "message": " This plugin is available in one of your repos, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " To delete this plugin, please remove it from the devPlugins folder.",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
-  "InstallerOutdatedPluginBody ": {
-    "message": "This plugin is outdated and incompatible at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Outdated"
-  },
-  "InstallerBannedPluginBody ": {
-    "message": "This plugin version is banned due to incompatibilities and not available at the moment. Please wait for it to be updated by its author.",
-    "description": "Locs.get_PluginBody_Banned"
-  },
-  "InstallerInstall": {
-    "message": "Install v{0}",
-    "description": "Locs.PluginButton_InstallVersion"
-  },
-  "InstallerWorking": {
-    "message": "Working",
-    "description": "Locs.get_PluginButton_Working"
-  },
-  "InstallerDisable": {
-    "message": "Отключить",
-    "description": "Locs.get_PluginButton_Disable"
-  },
-  "InstallerLoad": {
-    "message": "Load",
-    "description": "Locs.get_PluginButton_Load"
-  },
-  "InstallerUnload": {
-    "message": "Unload",
-    "description": "Locs.get_PluginButton_Unload"
-  },
-  "InstallerOpenConfig": {
-    "message": "Открыть конфигурацию",
-    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
-  },
-  "InstallerStartOnBoot": {
-    "message": "Start on boot",
-    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
-  },
-  "InstallerAutomaticReloading": {
-    "message": "Automatic reloading",
-    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
-  },
-  "InstallerDeletePlugin ": {
-    "message": "Delete plugin",
-    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
-  },
-  "InstallerVisitPluginUrl": {
-    "message": "Visit plugin URL",
-    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
-  },
-  "InstallerUpdateSingle": {
-    "message": "Update to {0}",
-    "description": "Locs.PluginButtonToolTip_UpdateSingle"
-  },
-  "InstallerUnloadFailedTooltip": {
-    "message": "Plugin unload failed, please restart your game and try again.",
-    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
-  },
-  "NotificationsPluginInstalledTitle": {
-    "message": "Plugin installed!",
-    "description": "Locs.get_Notifications_PluginInstalledTitle"
-  },
-  "NotificationsPluginInstalled": {
-    "message": "'{0}' was successfully installed.",
-    "description": "Locs.Notifications_PluginInstalled"
-  },
-  "NotificationsPluginNotInstalledTitle": {
-    "message": "Plugin not installed!",
-    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
-  },
-  "NotificationsPluginNotInstalled": {
-    "message": "'{0}' failed to install.",
-    "description": "Locs.Notifications_PluginNotInstalled"
-  },
-  "NotificationsNoUpdatesFoundTitle": {
-    "message": "No updates found!",
-    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
-  },
-  "NotificationsNoUpdatesFound": {
-    "message": "No updates were found.",
-    "description": "Locs.get_Notifications_NoUpdatesFound"
-  },
-  "NotificationsUpdatesInstalledTitle": {
-    "message": "Updates installed!",
-    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
-  },
-  "NotificationsUpdatesInstalled": {
-    "message": "Updates for {0} of your plugins were installed.",
-    "description": "Locs.Notifications_UpdatesInstalled"
-  },
-  "NotificationsPluginDisabledTitle": {
-    "message": "Plugin disabled!",
-    "description": "Locs.get_Notifications_PluginDisabledTitle"
-  },
-  "NotificationsPluginDisabled": {
-    "message": "'{0}' was disabled.",
-    "description": "Locs.Notifications_PluginDisabled"
-  },
-  "InstallerUpdatePlugins": {
-    "message": "Обновить плагины",
-    "description": "Locs.get_FooterButton_UpdatePlugins"
-  },
-  "InstallerInProgress": {
-    "message": "Выполняется установка...",
-    "description": "Locs.get_FooterButton_InProgress"
-  },
-  "InstallerNoUpdates": {
-    "message": "Обновлений не найдено!",
-    "description": "Locs.get_FooterButton_NoUpdates"
-  },
-  "InstallerUpdateComplete": {
-    "message": "{0} плагин(ов) обновлен(о)!",
-    "description": "Locs.FooterButton_UpdateComplete"
-  },
-  "InstallerSettings": {
-    "message": "Settings",
-    "description": "Locs.get_FooterButton_Settings"
-  },
-  "InstallerScanDevPlugins": {
-    "message": "Scan Dev Plugins",
-    "description": "Locs.get_FooterButton_ScanDevPlugins"
-  },
-  "InstallerClose": {
-    "message": "Close",
-    "description": "Locs.get_FooterButton_Close"
-  },
-  "InstallerError": {
-    "message": "Installer Error",
-    "description": "Locs.get_ErrorModal_Title"
-  },
-  "InstallerContactAuthor": {
-    "message": "Please restart your game and try again. If this error occurs again, please contact the plugin author.",
-    "description": "Locs.get_ErrorModal_InstallContactAuthor"
-  },
-  "InstallerInstallFail": {
-    "message": "Failed to install plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_InstallFail"
-  },
-  "InstallerSingleUpdateFail": {
-    "message": "Failed to update plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_SingleUpdateFail"
-  },
-  "InstallerDeleteConfigFail": {
-    "message": "Failed to reset the plugin {0}.\n\nThe plugin may not support this action. You can try deleting the configuration manually while the game is shut down - please see the FAQ.",
-    "description": "Locs.ErrorModal_DeleteConfigFail"
-  },
-  "InstallerEnableFail": {
-    "message": "Failed to enable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_EnableFail"
-  },
-  "InstallerDisableFail": {
-    "message": "Failed to disable plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DisableFail"
-  },
-  "InstallerUnloadFail": {
-    "message": "Failed to unload plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_UnloadFail"
-  },
-  "InstallerLoadFail": {
-    "message": "Failed to load plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_LoadFail"
-  },
-  "InstallerDeleteFail": {
-    "message": "Failed to delete plugin {0}.\n{1}",
-    "description": "Locs.ErrorModal_DeleteFail"
-  },
-  "InstallerUpdaterFatal": {
-    "message": "Failed to update plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.get_ErrorModal_UpdaterFatal"
-  },
-  "InstallerUpdaterFail": {
-    "message": "Failed to update {0} plugins.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFail"
-  },
-  "InstallerUpdaterFailPartial": {
-    "message": "Updated {0} plugins, failed to update {1}.\nPlease restart your game and try again. If this error occurs again, please complain.",
-    "description": "Locs.ErrorModal_UpdaterFailPartial"
-  },
-  "InstallerErrorPluginInfo": {
-    "message": "\n\nСледующие плагины вызвали эти проблемы:\n\n{0}\nВы можете попробовать удалить эти плагины вручную и переустановить их.",
-    "description": "Locs.ErrorModal_HintBlame"
-  },
-  "InstallerFeedback": {
-    "message": "Send Feedback",
-    "description": "Locs.get_FeedbackModal_Title"
-  },
-  "InstallerFeedbackInfo": {
-    "message": "You can send feedback to the developer of \"{0}\" here.\nYou can include your Discord tag or email address if you wish to give them the opportunity to answer.",
-    "description": "Locs.FeedbackModal_Text"
-  },
-  "InstallerFeedbackContactInfo": {
-    "message": "Contact information",
-    "description": "Locs.get_FeedbackModal_ContactInformation"
-  },
-  "InstallerFeedbackIncludeLastError": {
-    "message": "Include last error message",
-    "description": "Locs.get_FeedbackModal_IncludeLastError"
-  },
-  "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "This option can give the plugin developer useful feedback on what exactly went wrong.",
-    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
-  },
-  "InstallerFeedbackHint": {
-    "message": "All plugin developers will be able to see your feedback.\nPlease never include any personal or revealing information.\nIf you chose to include the last error message, information like your Windows username may be included.\n\nThe collected feedback is not stored on our end and immediately relayed to Discord.",
-    "description": "Locs.get_FeedbackModal_Hint"
-  },
-  "InstallerFeedbackNotificationSuccess": {
-    "message": "Your feedback was sent successfully!",
-    "description": "Locs.get_FeedbackModal_NotificationSuccess"
-  },
-  "InstallerFeedbackNotificationError": {
-    "message": "Your feedback could not be sent.",
-    "description": "Locs.get_FeedbackModal_NotificationError"
-  },
-  "DalamudPluginUpdates": {
-    "message": "Обновления:",
-    "description": "Locs.get_PluginUpdateHeader_Chatbox"
-  },
-  "OK": {
-    "message": "ОК",
-    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudSettingsHeader": {
     "message": "Настройки Dalamud",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "Минимальный (1к х 1к текстуры)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "Меньше (2к х 2к текстуры)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "Нормальный (4к х 4к текстуры)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "Лучше (8к х 8к текстуры, может привести к сбою)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "Лучший (16к х 16к текстуры, может привести к сбою)",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsGeneral": {
@@ -541,6 +213,10 @@
   },
   "DalamudSettingsVisual": {
     "message": "Внешний вид",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "Информация о сервере",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsExperimental": {
@@ -596,35 +272,79 @@
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "Dalamud buttons in system menu",
+    "message": "Добавить Dalamud в системное меню",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Add buttons for Dalamud plugins and settings to the system menu.",
+    "message": "Добавить кнопки Dalamud для плагинов и настроек в системное меню.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFiltering": {
-    "message": "Disable RMT Filtering",
+    "message": "Выключить фильтр RMT",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Disable dalamud's built-in RMT ad filtering.",
+    "message": "Выключить встроенный в Dalamud RMT фильтр.",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "Анонимная отправка данных маркета",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "Предоставлять анонимные данные о внутриигровой экономике сервису Universalis при просмотре Маркета. Эти данные не будут связаны с вами.",
     "description": "SettingsWindow.DrawGeneralTab"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Общий масштаб пользовательского интерфейса",
+    "message": "Глобальное масштабирование шрифта",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9.6pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset12": {
+    "message": "Сброс (12pt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36pt",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Масштабировать все элементы пользовательского интерфейса XIVLauncher - полезно для 4K дисплеев.",
+    "message": "Масштабировать текст во всех интерфейсах XIVLauncher - это полезно для дисплеев 4К.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsOpenStyleEditor": {
-    "message": "Open Style Editor",
+    "message": "Открыть редактор тем",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "Modify the look & feel of Dalamud windows.",
+    "message": "Изменить внешний вид Dalamud.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "Использовать AXIS шрифты в Dalamud по умолчанию",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "Использовать AXIS шрифт (основной шрифт интерфейса игры) как шрифт по умолчанию в Dalamud.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "Разрешение шрифта",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "Эта опция позволит шрифтам Dalamud выглядеть лучше. Если игра падает при изменении этой опции, ваш компьютер не поддерживает высокое разрешение шрифтов - придётся пользоваться более низким.\nТекущее разрешение шрифта {0}px * {1}px.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
@@ -656,11 +376,11 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "Use escape to close Dalamud windows",
+    "message": "Использовать esc для закрытия окон Dalamud",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "This will cause Dalamud windows to behave like in-game windows when pressing escape.\nThey will close one after another until all are closed. May not work for all plugins.",
+    "message": "Включение этой настройки приведет к тому, что окна Dalamud будут вести себя как внутриигровые, при нажатии на esc.\nОни будут закрываться один за другим, пока не будут закрыты все. Может не работать с некоторыми плагинами.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleViewports": {
@@ -680,12 +400,60 @@
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigation": {
-    "message": "Control plugins via gamepad",
+    "message": "Настройка плагинов при помощи геймпада",
     "description": "SettingsWindow.DrawLookAndFeelTab"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "This will allow you to toggle between game and plugin navigation via L1+L3.\nToggle the PluginInstaller window via R3 if ImGui navigation is enabled.",
+    "message": "Это позволит Вам переключать навигацию между игрой и плагином нажатием на L1+L3.\nДля переключения окон используйте R3, если включеная навигация ImGui.",
     "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "Показать меню на стартовом экране",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "Это позволит получить доступ к некоторым функциям Dalamud и плагинов со стартового экрана.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGamma": {
+    "message": "Гамма шрифта",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsIndividualConfigResetToDefaultValue": {
+    "message": "Сбросить",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGammaHint": {
+    "message": "Изменяет толщину текста.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingServerInfoBar": {
+    "message": "Настройка панели Инфо Сервера",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "Плагины могут добавить дополнительную информацию в панель Инфо Сервера (где можно увидеть название Мира и время).\nВы можете изменить их порядок или отключить их здесь.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "У вас нет плагинов, которые используют эту функцию.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "Отступы панели Инфо Сервера",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "Настроить размер отступа между строками в панели Инфо Сервера.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "Направление панели Инфо Сервера",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "Если включено, панель Инфо Сервера будет растягиваться вправо, а не влево.",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
   },
   "DalamudSettingsPluginTest": {
     "message": "Получить тестовые сборки плагинов",
@@ -712,7 +480,7 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsChanged": {
-    "message": "(Changed)",
+    "message": "(Изменено)",
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingCustomRepoHint": {
@@ -728,15 +496,15 @@
     "description": "SettingsWindow.DrawCustomReposSection"
   },
   "DalamudSettingsDevPluginLocation": {
-    "message": "Dev Plugin Locations",
+    "message": "Расположение Dev плагинов",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Add additional dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "message": "Добавить дополнительные места загрузки dev плагинов.\nЭто может быть каталог или DLL путь.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "DalamudDevPluginLocationExists": {
-    "message": "Location already exists.",
+    "message": "Такой каталог уже добавлен.",
     "description": "SettingsWindow.DrawDevPluginLocationsSection"
   },
   "Save": {
@@ -744,7 +512,7 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "Close": {
-    "message": "Close",
+    "message": "Закрыть",
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "SaveAndClose": {
@@ -752,52 +520,440 @@
     "description": "SettingsWindow.DrawSaveCloseButtons"
   },
   "RenameStyleModalTitle": {
-    "message": "Rename Style",
+    "message": "Переименовать Тему",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorChooseStyle": {
-    "message": "Choose Style:",
+    "message": "Выбрать Тему:",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorAddNew": {
-    "message": "Add new style",
+    "message": "Добавить новую тему",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorDeleteStyle": {
-    "message": "Delete current style",
+    "message": "Удалить текущую тему",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorRenameStyle": {
-    "message": "Rename style",
+    "message": "Переименовать тему",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorCopy": {
-    "message": "Copy style to clipboard for sharing",
+    "message": "Скопировать тему в буфер обмена",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorImport": {
-    "message": "Import style from clipboard",
+    "message": "Импорт из буфера обмена",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
-    "message": "You cannot edit built-in styles. Please add a new style first.",
+    "message": "Нельзя редактировать встроенные темы. Пожалуйста, добавьте сперва новую тему.",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorApplying": {
-    "message": "Applying style...",
+    "message": "Применяем тему...",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorVariables": {
-    "message": "Variables",
+    "message": "Переменные",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorColors": {
-    "message": "Colors",
+    "message": "Цвета",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorEnterName": {
-    "message": "Please enter the new name for this style.",
+    "message": "Пожалуйста, введите название этой темы.",
     "description": "StyleEditorWindow.Draw"
+  },
+  "InstallerHeader": {
+    "message": "Установщик плагинов",
+    "description": "Locs.get_WindowTitle"
+  },
+  "InstallerHeaderTesting": {
+    "message": " (ТЕСТИРОВАНИЕ)",
+    "description": "Locs.get_WindowTitleMod_Testing"
+  },
+  "InstallerHint": {
+    "message": "Это окно позволяет устанавливать и удалять внутриигровые плагины.\nОни сделаны сторонними разработчиками.",
+    "description": "Locs.get_Header_Hint"
+  },
+  "InstallerSearch": {
+    "message": "Поиск",
+    "description": "Locs.get_Header_SearchPlaceholder"
+  },
+  "InstallerAlphabetical": {
+    "message": "По алфавиту",
+    "description": "Locs.get_SortBy_Alphabetical"
+  },
+  "InstallerDownloadCount": {
+    "message": "Количество загрузок",
+    "description": "Locs.get_SortBy_DownloadCounts"
+  },
+  "InstallerLastUpdate": {
+    "message": "Последнее обновление",
+    "description": "Locs.get_SortBy_LastUpdate"
+  },
+  "InstallerNewOrNot": {
+    "message": "Новое или нет",
+    "description": "Locs.get_SortBy_NewOrNot"
+  },
+  "InstallerNotInstalled": {
+    "message": "Не установлено",
+    "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerSortBy": {
+    "message": "Сортировать по",
+    "description": "Locs.get_SortBy_Label"
+  },
+  "InstallerLoading": {
+    "message": "Загрузка плагинов...",
+    "description": "Locs.get_TabBody_LoadingPlugins"
+  },
+  "InstallerDownloadFailed": {
+    "message": "Загрузка не удалась.",
+    "description": "Locs.get_TabBody_DownloadFailed"
+  },
+  "InstallerSafeMode": {
+    "message": "Dalamud запущен в безопасном режиме, перезапустите для активации плагинов.",
+    "description": "Locs.get_TabBody_SafeMode"
+  },
+  "InstallerNoMatching": {
+    "message": "Плагины, соответствующие вашему запросу, не найдены.",
+    "description": "Locs.get_TabBody_SearchNoMatching"
+  },
+  "InstallerNoCompatible": {
+    "message": "Совместимые плагины не найдены :( Пожалуйста, перезапустите игру и попробуйте еще раз.",
+    "description": "Locs.get_TabBody_SearchNoCompatible"
+  },
+  "InstallerNoInstalled": {
+    "message": "В настоящее время плагины не установлены. Вы можете установить их на вкладке «Все плагины».",
+    "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "Ни один из установленных плагинов не имеет списка изменений.",
+    "description": "Locs.get_TabBody_ChangelogNone"
+  },
+  "InstallerInstalled": {
+    "message": " (установлено)",
+    "description": "Locs.get_PluginTitleMod_Installed"
+  },
+  "InstallerDisabled": {
+    "message": " (отключено)",
+    "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerUnloaded": {
+    "message": " (выгружено)",
+    "description": "Locs.get_PluginTitleMod_Unloaded"
+  },
+  "InstallerHasUpdate": {
+    "message": " (есть обновление)",
+    "description": "Locs.get_PluginTitleMod_HasUpdate"
+  },
+  "InstallerUpdated": {
+    "message": " (обновлено)",
+    "description": "Locs.get_PluginTitleMod_Updated"
+  },
+  "InstallerTestingVersion": {
+    "message": " (тестовая версия)",
+    "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerUpdateFailed": {
+    "message": " (обновление не удалось)",
+    "description": "Locs.get_PluginTitleMod_UpdateFailed"
+  },
+  "InstallerLoadError": {
+    "message": " (ошибка загрузки)",
+    "description": "Locs.get_PluginTitleMod_LoadError"
+  },
+  "InstallerUnloadError": {
+    "message": " (ошибка выгрузки)",
+    "description": "Locs.get_PluginTitleMod_UnloadError"
+  },
+  "InstallerOutdatedError": {
+    "message": " (устарело)",
+    "description": "Locs.get_PluginTitleMod_OutdatedError"
+  },
+  "InstallerBannedError": {
+    "message": " (отключено автоматически)",
+    "description": "Locs.get_PluginTitleMod_BannedError"
+  },
+  "InstallerNewPlugin ": {
+    "message": " Новое!",
+    "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerMarkAllSeen": {
+    "message": "Отметить все как просмотренные",
+    "description": "Locs.get_PluginContext_MarkAllSeen"
+  },
+  "InstallerHidePlugin": {
+    "message": "Скрыть",
+    "description": "Locs.get_PluginContext_HidePlugin"
+  },
+  "InstallerDeletePluginConfig": {
+    "message": "Сбросить плагин",
+    "description": "Locs.get_PluginContext_DeletePluginConfig"
+  },
+  "InstallerDeletePluginConfigReload": {
+    "message": "Сбросить настройки и перезапустить плагин",
+    "description": "Locs.get_PluginContext_DeletePluginConfigReload"
+  },
+  "InstallerAuthorWithoutDownloadCount": {
+    "message": " автор {0}",
+    "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCount": {
+    "message": " автор {0}, {1} загрузок",
+    "description": "Locs.PluginBody_AuthorWithDownloadCount"
+  },
+  "InstallerAuthorWithDownloadCountUnavailable": {
+    "message": " автор {0}, количество загрузок недоступно",
+    "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerDevPluginPath": {
+    "message": "Из {0}",
+    "description": "Locs.PluginBody_DevPluginPath"
+  },
+  "InstallerPlugin3rdPartyRepo": {
+    "message": "Из пользовательского репозитория {0}",
+    "description": "Locs.PluginBody_Plugin3rdPartyRepo"
+  },
+  "InstallerDevPlugin": {
+    "message": " Этот плагин доступен в одном из репозиториев, пожалуйста, удалите его из папки devPlugins.",
+    "description": "Locs.get_PluginBody_AvailableDevPlugin"
+  },
+  "InstallerDeleteDevPlugin ": {
+    "message": " Чтобы удалить этот плагин, удалите его из папки devPlugins.",
+    "description": "Locs.get_PluginBody_DeleteDevPlugin"
+  },
+  "InstallerOutdatedPluginBody ": {
+    "message": "Этот плагин устарел и несовместим с текущей версией. Пожалуйста, дождитесь его обновления автором.",
+    "description": "Locs.get_PluginBody_Outdated"
+  },
+  "InstallerBannedPluginBody ": {
+    "message": "Этот плагин был автоматически отключен из-за несовместимости и не доступен в данный момент. Пожалуйста, дождитесь его обновления автором.",
+    "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "Этот плагин был отключён автоматически: {0}",
+    "description": "Locs.PluginBody_BannedReason"
+  },
+  "InstallerInstall": {
+    "message": "Установить v{0}",
+    "description": "Locs.PluginButton_InstallVersion"
+  },
+  "InstallerWorking": {
+    "message": "Обработка",
+    "description": "Locs.get_PluginButton_Working"
+  },
+  "InstallerDisable": {
+    "message": "Отключить",
+    "description": "Locs.get_PluginButton_Disable"
+  },
+  "InstallerLoad": {
+    "message": "Загрузить",
+    "description": "Locs.get_PluginButton_Load"
+  },
+  "InstallerUnload": {
+    "message": "Выгрузить",
+    "description": "Locs.get_PluginButton_Unload"
+  },
+  "InstallerOpenConfig": {
+    "message": "Открыть конфигурацию",
+    "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerStartOnBoot": {
+    "message": "Запуск при старте",
+    "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
+  },
+  "InstallerAutomaticReloading": {
+    "message": "Автоматическая перезагрузка",
+    "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
+  },
+  "InstallerDeletePlugin ": {
+    "message": "Удалить плагин",
+    "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
+  },
+  "InstallerVisitPluginUrl": {
+    "message": "Посетите страницу плагина",
+    "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
+  },
+  "InstallerUpdateSingle": {
+    "message": "Обновлено до {0}",
+    "description": "Locs.PluginButtonToolTip_UpdateSingle"
+  },
+  "InstallerUnloadFailedTooltip": {
+    "message": "Не удалось выгрузить плагин, пожалуйста, перезапустите игру и попробуйте ещё раз.",
+    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "NotificationsPluginInstalledTitle": {
+    "message": "Плагин установлен!",
+    "description": "Locs.get_Notifications_PluginInstalledTitle"
+  },
+  "NotificationsPluginInstalled": {
+    "message": "'{0}' успешно установлен.",
+    "description": "Locs.Notifications_PluginInstalled"
+  },
+  "NotificationsPluginNotInstalledTitle": {
+    "message": "Плагин не установлен!",
+    "description": "Locs.get_Notifications_PluginNotInstalledTitle"
+  },
+  "NotificationsPluginNotInstalled": {
+    "message": "Не удалось установить '{0}'.",
+    "description": "Locs.Notifications_PluginNotInstalled"
+  },
+  "NotificationsNoUpdatesFoundTitle": {
+    "message": "Обновлений не найдено!",
+    "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
+  },
+  "NotificationsNoUpdatesFound": {
+    "message": "Обновлений не обнаружено.",
+    "description": "Locs.get_Notifications_NoUpdatesFound"
+  },
+  "NotificationsUpdatesInstalledTitle": {
+    "message": "Обновления установлены!",
+    "description": "Locs.get_Notifications_UpdatesInstalledTitle"
+  },
+  "NotificationsUpdatesInstalled": {
+    "message": "Установлены обновления для {0} плагинов.",
+    "description": "Locs.Notifications_UpdatesInstalled"
+  },
+  "NotificationsPluginDisabledTitle": {
+    "message": "Плагин отключён!",
+    "description": "Locs.get_Notifications_PluginDisabledTitle"
+  },
+  "NotificationsPluginDisabled": {
+    "message": "'{0}' был отключён.",
+    "description": "Locs.Notifications_PluginDisabled"
+  },
+  "InstallerUpdatePlugins": {
+    "message": "Обновить плагины",
+    "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerInProgress": {
+    "message": "Выполняется установка...",
+    "description": "Locs.get_FooterButton_InProgress"
+  },
+  "InstallerNoUpdates": {
+    "message": "Обновлений не найдено!",
+    "description": "Locs.get_FooterButton_NoUpdates"
+  },
+  "InstallerUpdateComplete": {
+    "message": "{0} плагин(ов) обновлен(о)!",
+    "description": "Locs.FooterButton_UpdateComplete"
+  },
+  "InstallerSettings": {
+    "message": "Настройки",
+    "description": "Locs.get_FooterButton_Settings"
+  },
+  "InstallerScanDevPlugins": {
+    "message": "Сканировать Dev плагины",
+    "description": "Locs.get_FooterButton_ScanDevPlugins"
+  },
+  "InstallerClose": {
+    "message": "Закрыть",
+    "description": "Locs.get_FooterButton_Close"
+  },
+  "InstallerError": {
+    "message": "Ошибка установки",
+    "description": "Locs.get_ErrorModal_Title"
+  },
+  "InstallerContactAuthor": {
+    "message": "Пожалуйста, перезапустите игру и попробуйте ещё раз. Если ошибка повторяется, свяжитесь с автором плагина.",
+    "description": "Locs.get_ErrorModal_InstallContactAuthor"
+  },
+  "InstallerInstallFail": {
+    "message": "Не удалось установить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_InstallFail"
+  },
+  "InstallerSingleUpdateFail": {
+    "message": "Не удалось обновить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_SingleUpdateFail"
+  },
+  "InstallerDeleteConfigFail": {
+    "message": "Не удалось сбросить плагин {0}.\n\nВозможно, плагин не поддерживает это действие. Вы можете попробовать удалить настройки вручную, выключив игру. Подробнее читайте в FAQ.",
+    "description": "Locs.ErrorModal_DeleteConfigFail"
+  },
+  "InstallerEnableFail": {
+    "message": "Не удалось включить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_EnableFail"
+  },
+  "InstallerDisableFail": {
+    "message": "Не удалось выключить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_DisableFail"
+  },
+  "InstallerUnloadFail": {
+    "message": "Не удалось выгрузить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_UnloadFail"
+  },
+  "InstallerLoadFail": {
+    "message": "Не удалить загрузить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_LoadFail"
+  },
+  "InstallerDeleteFail": {
+    "message": "Не удалось удалить плагин {0}.\n{1}",
+    "description": "Locs.ErrorModal_DeleteFail"
+  },
+  "InstallerUpdaterFatal": {
+    "message": "Не удалось обновить плагины.\nПожалуйста, перезапустите игру и попробуйте ещё раз. Если ошибка повторяется, сообщите об этом.",
+    "description": "Locs.get_ErrorModal_UpdaterFatal"
+  },
+  "InstallerUpdaterFail": {
+    "message": "Не удалось обновить {0} плагинов.\nПожалуйста, перезапустите игру и попробуйте ещё раз. Если ошибка повторяется, сообщите об этом.",
+    "description": "Locs.ErrorModal_UpdaterFail"
+  },
+  "InstallerUpdaterFailPartial": {
+    "message": "Обновлено {0}, не удалось обновить {1} плагинов.\nПожалуйста, перезапустите игру и попробуйте ещё раз. Если ошибка повторяется, сообщите об этом.",
+    "description": "Locs.ErrorModal_UpdaterFailPartial"
+  },
+  "InstallerErrorPluginInfo": {
+    "message": "\n\nСледующие плагины вызвали эти проблемы:\n\n{0}\nВы можете попробовать удалить эти плагины вручную и переустановить их.",
+    "description": "Locs.ErrorModal_HintBlame"
+  },
+  "InstallerFeedback": {
+    "message": "Отправить отзыв",
+    "description": "Locs.get_FeedbackModal_Title"
+  },
+  "InstallerFeedbackInfo": {
+    "message": "Вы можете отправить отзыв разработчику \"{0}\" здесь.\nВы можете включить ваш Discord тег или адрес электронной почты, если хотите дать ему возможность ответить.\n\nЕсли вы хотите сообщить об ошибке, мы рекомендуем вам присоединиться к серверу Discord XIVLauncher.",
+    "description": "Locs.FeedbackModal_Text"
+  },
+  "InstallerFeedbackHasUpdate": {
+    "message": "Доступна новая версия плагина, обновитесь, прежде чем сообщать об ошибках.",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
+  "InstallerFeedbackContactInfo": {
+    "message": "Контактная информация",
+    "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackIncludeLastError": {
+    "message": "Включить последнее сообщение об ошибке",
+    "description": "Locs.get_FeedbackModal_IncludeLastError"
+  },
+  "InstallerFeedbackIncludeLastErrorHint": {
+    "message": "Включение этой опции отправит разработчику плагина больше информации об ошибке.",
+    "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
+  },
+  "InstallerFeedbackHint": {
+    "message": "Все разработчики плагинов смогут увидеть Ваш отзыв.\nПожалуйста, никогда не указывайте личную информацию в отзыве.\nИмя пользователя Windows может быть включено в отчёт об ошибке.\n\nОтзывы нигде не хранятся и немедленно передаются в Discord.",
+    "description": "Locs.get_FeedbackModal_Hint"
+  },
+  "InstallerFeedbackNotificationSuccess": {
+    "message": "Отзыв был отправлен!",
+    "description": "Locs.get_FeedbackModal_NotificationSuccess"
+  },
+  "InstallerFeedbackNotificationError": {
+    "message": "Не удалось отправить отзыв.",
+    "description": "Locs.get_FeedbackModal_NotificationError"
+  },
+  "DalamudPluginUpdates": {
+    "message": "Обновления:",
+    "description": "Locs.get_PluginUpdateHeader_Chatbox"
+  },
+  "OK": {
+    "message": "ОК",
+    "description": "Locs.get_ErrorModalButton_Ok"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} загружен.",
@@ -812,7 +968,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Внутриигровое дополнение обновлено или успешно переустановлено! Пожалуйста, проверьте Discord, чтобы увидеть полный список изменений.",
+    "message": "Dalamud успешно обновлён! С полным списком изменений можно ознакомиться в Discord.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
@@ -824,11 +980,11 @@
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
-    "message": "{0} of your plugins were updated.",
+    "message": "{0} плагинов было обновлено.",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
-    "message": "Auto-Update",
+    "message": "Автоматическое обновление",
     "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
@@ -837,10 +993,10 @@
   },
   "SystemMenuPlugins": {
     "message": "Плагины Dalamud",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
     "message": "Настройки Dalamud",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   }
 }

@@ -64,7 +64,7 @@
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudLanguageHelp": {
-    "message": "In-Game アドオンとそのプラグインの言語を設定します。利用できる言語: ",
+    "message": "Dalamudおよびそれをサポートするプラグインの言語を設定します。 ",
     "description": "DalamudCommands.SetupCommands"
   },
   "DalamudSettingsHelp": {
@@ -103,6 +103,18 @@
     "message": "言語を {0} にセットしました。",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
+  "TSMDalamudPlugins": {
+    "message": "プラグインインストーラ",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudSettings": {
+    "message": "Dalamud 設定",
+    "description": "DalamudInterface..ctor"
+  },
+  "TSMDalamudDevMenu": {
+    "message": "開発者向けメニュー",
+    "description": "DalamudInterface..ctor"
+  },
   "InstallerDevTools": {
     "message": "開発者ツール",
     "description": "Locs.get_Group_DevTools"
@@ -111,9 +123,13 @@
     "message": "インストール済みプラグイン",
     "description": "Locs.get_Group_Installed"
   },
-  "InstallerAvailablePlugins": {
-    "message": "利用可能なプラグイン",
+  "InstallerAllPlugins": {
+    "message": "すべてのプラグイン",
     "description": "Locs.get_Group_Available"
+  },
+  "InstallerChangelog": {
+    "message": "更新履歴",
+    "description": "Locs.get_Group_Changelog"
   },
   "InstallerCategoryAll": {
     "message": "すべて",
@@ -140,11 +156,11 @@
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
-    "message": "Inventory",
+    "message": "インベントリ",
     "description": "Locs.get_Category_Inventory"
   },
   "InstallerCategorySound": {
-    "message": "Sound",
+    "message": "音声",
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
@@ -155,9 +171,401 @@
     "message": "ユーティリティ",
     "description": "Locs.get_Category_Utility"
   },
+  "InstallerCategoryPlugins": {
+    "message": "プラグイン",
+    "description": "Locs.get_Category_Plugins"
+  },
+  "InstallerCategoryDalamud": {
+    "message": "Dalamud",
+    "description": "Locs.get_Category_Dalamud"
+  },
   "DalamudGamepadModeNotifierText": {
     "message": "ゲームパッドモードはオンです。L1+L3を押して無効にし、R3を押してプラグインインストーラを切り替えます。",
     "description": "GamepadModeNotifierWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud設定",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel0": {
+    "message": "最低 (1k × 1k テクスチャ)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel1": {
+    "message": "低 (2k × 2k テクスチャ)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel2": {
+    "message": "通常 (4k × 4k テクスチャ)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel3": {
+    "message": "高 (8k × 8k テクスチャ, ゲームがクラッシュするおそれがあります)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsFontResolutionLevel4": {
+    "message": "最高 (16k × 16k テクスチャ, ゲームがクラッシュするおそれがあります)",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "全般",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsVisual": {
+    "message": "外観",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "サーバー情報バー",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "試験的機能",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "言語",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Dalamudの表示言語を選びます。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsChannel": {
+    "message": "デフォルトのチャットチャンネル",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "Dalamud からのメッセージ全般を表示するチャットチャンネルを指定します。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsFlash": {
+    "message": "コンテンツファインダーのマッチング時にウィンドウを点滅させる",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "有効にすると、コンテンツ参加申請がマッチングした際にタスクバー上で FF14 ウィンドウを点滅させます。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "コンテンツファインダーのマッチング時にチャットメッセージを表示する",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "有効にすると、コンテンツ参加申請がマッチングした際にゲーム内のチャットにメッセージを表示します。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "ロードされたプラグインをウェルカムメッセージに表示する",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "ログイン時に読み込んだプラグインをFFXIVのチャットに表示します。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "プラグインを自動でアップデートする",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "キャラクターがログインする際にプラグインを自動的に更新します。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsSystemMenu": {
+    "message": "システムメニューに Dalamud ボタンを表示する",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsSystemMenuMsgHint": {
+    "message": "システムメニューにDalamudプラグインのボタンと設定を追加します。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDisableRmtFiltering": {
+    "message": "RMT フィルタを無効にする",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsDisableRmtFilteringMsgHint": {
+    "message": "Dalamud の内蔵 RMT 広告フィルタを無効にします。",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "マーケットボードの価格情報を匿名で共有する",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "マーケットボードを閲覧する際に、ゲーム内の相場に関するデータを Universalis に匿名で提供します。 これらのデータは決してあなたと紐付けられることはなく、誰もが利益を得ることができます！",
+    "description": "SettingsWindow.DrawGeneralTab"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "グローバルのフォントサイズ",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset6": {
+    "message": "9.6pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset12": {
+    "message": "リセット (12pt)",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset14": {
+    "message": "14pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset18": {
+    "message": "18pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsUiScalePreset36": {
+    "message": "36pt",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "Scale text in all XIVLauncher UI elements - this is useful for 4K displays.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsOpenStyleEditor": {
+    "message": "スタイルエディタを開く",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsStyleEditorHint": {
+    "message": "Dalamud ウィンドウの外観を変更します。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleAxisFonts": {
+    "message": "Dalamud のデフォルト フォントとして ASIX フォントを使用する",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiAxisFontsHint": {
+    "message": "ASIX フォント (ゲーム内の主な UI フォント) を Dalamud のデフォルトのフォントとして使用します。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevel": {
+    "message": "フォントの解像度",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontResolutionLevelHint": {
+    "message": "This option allows Dalamud fonts to look better. If your game crashes when changing this option, your PC does not support high font resolutions in Dalamud - you will have to use a lower one.\nCurrent font atlas size is {0}px * {1}px.",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "プラグインは以下の設定を個別にオプトアウトできます。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "ゲーム UI が非表示のときはプラグイン UI を隠す",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "ゲームオーバーレイの切り替え時にプラグインで開いているウィンドウを非表示にします。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "カットシーン中はプラグイン UI を隠す",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "カットシーン中はプラグインウィンドウを非表示にします。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "グループポーズ中はプラグイン UI を隠す",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "グループポーズ中はプラグインウィンドウを非表示にします。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleFocusManagement": {
+    "message": "Esc キーで Dalamud ウィンドウを閉じられるようにする",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleFocusManagementHint": {
+    "message": "これを有効にすると、Esc キーを入力した際に Dalamud のウィンドウもゲーム内ウィンドウのように振る舞います。\nすべてのウィンドウが閉じられるまで順に閉じられます。一部のプラグインのウィンドウでは動作しない可能性があります。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "マルチモニタウィンドウを有効にする",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "プラグインウィンドウを他のモニターに移動できます。\nこの機能はボーダレスウィンドウまたはウィンドウモードでのみ動作します。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "ウィンドウのドッキングを有効にする",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "これにより、プラグインウィンドウを結合してタブ化することができます。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleGamepadNavigation": {
+    "message": "ゲームパッドからプラグインを操作する",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleGamepadNavigationHint": {
+    "message": "これにより、L1+L3でゲームとプラグインのナビゲーションを切り替えることができます。\nImGuiナビゲーションが有効な場合は、R3でPluginInstallerウィンドウを切り替えます。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "タイトル画面にメニューを表示する",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "これを有効にすると、ゲームのタイトル画面から一部の Dalamud や プラグインの機能にアクセスできます。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGamma": {
+    "message": "フォントのガンマ値",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsIndividualConfigResetToDefaultValue": {
+    "message": "リセット",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingsFontGammaHint": {
+    "message": "テキストの太さを変更します。",
+    "description": "SettingsWindow.DrawLookAndFeelTab"
+  },
+  "DalamudSettingServerInfoBar": {
+    "message": "サーバー情報バーの設定",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "プラグインからの追加の情報をサーバー情報バーに表示できます。\nサーバー情報バーは、ワールド名と時刻が表示される領域です。\nこれらの順序を変更したり、非表示にしたりできます。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "この機能を使用するプラグインはありません。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "サーバー情報バーの間隔",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "ここでサーバー情報バーのエントリーごとのスペースを調整します。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "サーバー情報バーの方向",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "チェックすると、サーバー情報バーの要素は左側ではなく、右側に展開されます。",
+    "description": "SettingsWindow.DrawServerInfoBarTab"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "プラグインのテストバージョンを取得する",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "プラグインのテストバージョンやプレリリースを入手します。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "試験中のプラグインは公開前に審査されていない可能性があります。リスクを認識している場合にのみ、これを有効にしてください。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "非表示のプラグインをクリア",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "以前にプラグインインストーラから非表示にしたプラグインを復元します。",
+    "description": "SettingsWindow.DrawExperimentalTab"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "カスタムプラグインリポジトリ",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingsChanged": {
+    "message": "(変更済み)",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "カスタム プラグイン リポジトリを追加します。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "サードパーティのプラグインやリポジトリについては一切責任を負いません。\n信頼できないソースからサードパーティのプラグインをインストールする場合は注意してください。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "リポジトリは既に追加されています。",
+    "description": "SettingsWindow.DrawCustomReposSection"
+  },
+  "DalamudSettingsDevPluginLocation": {
+    "message": "開発プラグインの場所",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "DalamudSettingsDevPluginLocationsHint": {
+    "message": "追加の開発プラグインの読み込み場所を追加します。\nこれらはディレクトリまたはDLLパスのいずれかになります。",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "DalamudDevPluginLocationExists": {
+    "message": "レポジトリは既に存在しています。",
+    "description": "SettingsWindow.DrawDevPluginLocationsSection"
+  },
+  "Save": {
+    "message": "保存する",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "Close": {
+    "message": "閉じる",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "SaveAndClose": {
+    "message": "保存して閉じる",
+    "description": "SettingsWindow.DrawSaveCloseButtons"
+  },
+  "RenameStyleModalTitle": {
+    "message": "スタイルの名前の変更",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorChooseStyle": {
+    "message": "選択中のスタイル:",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorAddNew": {
+    "message": "新しいスタイルを追加",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorDeleteStyle": {
+    "message": "現在のスタイルを削除",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorRenameStyle": {
+    "message": "スタイルの名前を変更",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorCopy": {
+    "message": "共有用にスタイルをクリップボードにコピー",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorImport": {
+    "message": "クリップボードからスタイルを読み込む",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorNotAllowed": {
+    "message": "ビルトインのスタイルは編集できません。先に新しいスタイルを追加してください。",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorApplying": {
+    "message": "スタイルを適用しています...",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorVariables": {
+    "message": "パラメータ",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorColors": {
+    "message": "配色",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorEnterName": {
+    "message": "このスタイルの新しい名前を入力してください。",
+    "description": "StyleEditorWindow.Draw"
   },
   "InstallerHeader": {
     "message": "プラグインインストーラ",
@@ -184,12 +592,16 @@
     "description": "Locs.get_SortBy_DownloadCounts"
   },
   "InstallerLastUpdate": {
-    "message": "最終更新",
+    "message": "最終更新日時",
     "description": "Locs.get_SortBy_LastUpdate"
   },
   "InstallerNewOrNot": {
-    "message": "追加確認",
+    "message": "追加日時",
     "description": "Locs.get_SortBy_NewOrNot"
+  },
+  "InstallerNotInstalled": {
+    "message": "未インストール",
+    "description": "Locs.get_SortBy_NotInstalled"
   },
   "InstallerSortBy": {
     "message": "ソート順",
@@ -216,8 +628,12 @@
     "description": "Locs.get_TabBody_SearchNoCompatible"
   },
   "InstallerNoInstalled": {
-    "message": "現在インストールされているプラグインはありません。利用可能なプラグインタブからインストールできます。",
+    "message": "現在インストールされているプラグインはありません。「すべてのプラグイン」タブからインストールできます。",
     "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoChangelog": {
+    "message": "インストールされているプラグインに更新履歴がありません。",
+    "description": "Locs.get_TabBody_ChangelogNone"
   },
   "InstallerInstalled": {
     "message": " (導入済み)",
@@ -256,11 +672,11 @@
     "description": "Locs.get_PluginTitleMod_UnloadError"
   },
   "InstallerOutdatedError": {
-    "message": " （期限切れ）",
+    "message": " (互換性なし)",
     "description": "Locs.get_PluginTitleMod_OutdatedError"
   },
   "InstallerBannedError": {
-    "message": " (banned)",
+    "message": " (自動的に無効)",
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
   "InstallerNewPlugin ": {
@@ -300,7 +716,7 @@
     "description": "Locs.PluginBody_DevPluginPath"
   },
   "InstallerPlugin3rdPartyRepo": {
-    "message": "カスタムプラグインリポジトリ {0}",
+    "message": "カスタムプラグインリポジトリ経由: {0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
   "InstallerDevPlugin": {
@@ -312,12 +728,16 @@
     "description": "Locs.get_PluginBody_DeleteDevPlugin"
   },
   "InstallerOutdatedPluginBody ": {
-    "message": "このプラグインは現在古く互換性がありません。作成者によって更新されるまでお待ちください。",
+    "message": "このプラグインは現在互換性がありません。開発者が更新するまでお待ちください。",
     "description": "Locs.get_PluginBody_Outdated"
   },
   "InstallerBannedPluginBody ": {
-    "message": "このプラグインのバージョンは、互換性がないため現在使用できません。開発者が更新するまでお待ちください。",
+    "message": "このプラグインは互換性がないため自動的に無効化されており、現在使用できません。\n開発者のアップデートをお待ちください。",
     "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerBannedPluginBodyReason ": {
+    "message": "このプラグインは自動的に無効化されました: {0}",
+    "description": "Locs.PluginBody_BannedReason"
   },
   "InstallerInstall": {
     "message": "v{0} をインストール",
@@ -332,7 +752,7 @@
     "description": "Locs.get_PluginButton_Disable"
   },
   "InstallerLoad": {
-    "message": "読み込み",
+    "message": "読み込む",
     "description": "Locs.get_PluginButton_Load"
   },
   "InstallerUnload": {
@@ -440,7 +860,7 @@
     "description": "Locs.get_ErrorModal_Title"
   },
   "InstallerContactAuthor": {
-    "message": "ゲームを再起動して再試行してください。このエラーが再度発生した場合は、プラグインの作成者に連絡してください。",
+    "message": "ゲームを再起動して再試行してください。このエラーが再度発生した場合は、プラグインの開発者に連絡してください。",
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
   },
   "InstallerInstallFail": {
@@ -496,11 +916,15 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "\"{0}\" の開発者にフィードバックを送ることができます。\n返信してもらいたい場合には、Discord タグかメールアドレスを記載することもできます。",
+    "message": "ここで「{0}」の開発者にフィードバックを送ることができます。\n返答を受け取りたい場合は、Discord タグやメールアドレスを記載することもできます。\n\n問題のあるエラーを報告したい場合には、XIVLauncher の Discord サーバーに参加することをおすすめします。",
     "description": "Locs.FeedbackModal_Text"
   },
+  "InstallerFeedbackHasUpdate": {
+    "message": "このプラグインの新しいバージョンが利用可能です。バグを報告する前にアップデートしてください。",
+    "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
   "InstallerFeedbackContactInfo": {
-    "message": "Contact information",
+    "message": "連絡先情報",
     "description": "Locs.get_FeedbackModal_ContactInformation"
   },
   "InstallerFeedbackIncludeLastError": {
@@ -508,7 +932,7 @@
     "description": "Locs.get_FeedbackModal_IncludeLastError"
   },
   "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "This option can give the plugin developer useful feedback on what exactly went wrong.",
+    "message": "これを有効にすると、プラグインの開発者に何が問題であったのかを正確に知らせることができます。",
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
@@ -531,274 +955,6 @@
     "message": "OK",
     "description": "Locs.get_ErrorModalButton_Ok"
   },
-  "DalamudSettingsHeader": {
-    "message": "Dalamud設定",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "全般",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "外観",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsExperimental": {
-    "message": "試験的機能",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "言語",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "Dalamudの表示言語を選びます。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannel": {
-    "message": "一般チャットチャンネル",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannelHint": {
-    "message": "Dalamudの一般メッセージチャンネルを選びます。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlash": {
-    "message": "コンテンツファインダーのマッチング時にウィンドウを点滅させる",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlashHint": {
-    "message": "有効にすると、コンテンツ参加申請がマッチングした際にタスクバー上で FF14 ウィンドウを点滅させます。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessage": {
-    "message": "コンテンツファインダーのマッチング時にチャットメッセージを表示する",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessageHint": {
-    "message": "有効にすると、コンテンツ参加申請がマッチングした際にゲーム内のチャットにメッセージを表示します。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "ロードされたプラグインをウェルカムメッセージに表示する",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "ログイン時に読み込んだプラグインをFFXIVのチャットに表示します。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "プラグインを自動でアップデートする",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "キャラクターがログインする際にプラグインを自動的に更新します。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenu": {
-    "message": "システムメニューに Dalamud ボタンを表示する",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenuMsgHint": {
-    "message": "システムメニューにDalamudプラグインのボタンと設定を追加します。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "RMT フィルタを無効にする",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Dalamud の内蔵 RMT 広告フィルタを無効にします。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "グローバルの UI スケール",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "XIVLauncher の UI 要素を全体的に大きくします。 (4K モニターにおすすめです)",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsOpenStyleEditor": {
-    "message": "スタイルエディタを開く",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsStyleEditorHint": {
-    "message": "Dalamud ウィンドウの外観を変更します。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "プラグインは以下の設定を個別にオプトアウトできます。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHide": {
-    "message": "ゲームUIが非表示ならプラグインUIを非表示します",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideHint": {
-    "message": "ゲームオーバーレイの切り替え時にプラグインで開いているウィンドウを非表示にするには、このチェックボックスをオンにします。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "カットシーン中はプラグインUIを隠す",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "カットシーン中はプラグインウィンドウを非表示にします。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "グループポーズ中はプラグインUIを隠す",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "グループポーズ中はプラグインウィンドウを非表示にします。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagement": {
-    "message": "Esc キーで Dalamud ウィンドウを閉じられるようにする",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagementHint": {
-    "message": "これを有効にすると、Esc キーを入力した際に Dalamud のウィンドウもゲーム内ウィンドウのように振る舞います。\nすべてのウィンドウが閉じられるまで順に閉じられます。一部のプラグインのウィンドウでは動作しない可能性があります。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewports": {
-    "message": "マルチモニタウィンドウを有効にする",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewportsHint": {
-    "message": "プラグインウィンドウを他のモニターに移動できます。\nこの機能はボーダレスウィンドウまたはウィンドウモードでのみ動作します。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDocking": {
-    "message": "ウィンドウのドッキングを有効にする",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDockingHint": {
-    "message": "これにより、プラグインウィンドウを結合してタブ化することができます。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigation": {
-    "message": "ゲームパッドからプラグインを操作する",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "これにより、L1+L3でゲームとプラグインのナビゲーションを切り替えることができます。\nImGuiナビゲーションが有効な場合は、R3でPluginInstallerウィンドウを切り替えます。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "プラグインのテストバージョンを取得する",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "プラグインのテストバージョンやプレリリースを入手します。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "試験中のプラグインは公開前に審査されていない可能性があります。リスクを認識している場合にのみ、これを有効にしてください。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "非表示のプラグインをクリア",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "以前にプラグインインストーラから非表示にしたプラグインを復元します。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "カスタムプラグインリポジトリ",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsChanged": {
-    "message": "(Changed)",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "カスタム プラグイン リポジトリを追加します。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "サードパーティのプラグインやリポジトリについては一切責任を負いません。\n信頼できないソースからサードパーティのプラグインをインストールする場合は注意してください。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "リポジトリは既に追加されています。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "開発プラグインの場所",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudSettingsDevPluginLocationsHint": {
-    "message": "追加の開発プラグインの読み込み場所を追加します。\nこれらはディレクトリまたはDLLパスのいずれかになります。",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudDevPluginLocationExists": {
-    "message": "レポジトリは既に存在しています。",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "Save": {
-    "message": "保存する",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "Close": {
-    "message": "Close",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "SaveAndClose": {
-    "message": "保存して閉じる",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "RenameStyleModalTitle": {
-    "message": "Rename Style",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorChooseStyle": {
-    "message": "Choose Style:",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorAddNew": {
-    "message": "Add new style",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorDeleteStyle": {
-    "message": "Delete current style",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorRenameStyle": {
-    "message": "Rename style",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorCopy": {
-    "message": "Copy style to clipboard for sharing",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorImport": {
-    "message": "クリップボードからスタイルを読み込む",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorNotAllowed": {
-    "message": "You cannot edit built-in styles. Please add a new style first.",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorApplying": {
-    "message": "Applying style...",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorVariables": {
-    "message": "Variables",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorColors": {
-    "message": "Colors",
-    "description": "StyleEditorWindow.Draw"
-  },
-  "StyleEditorEnterName": {
-    "message": "Please enter the new name for this style.",
-    "description": "StyleEditorWindow.Draw"
-  },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} を読み込みました。",
     "description": "ChatHandlers.PrintWelcomeMessage"
@@ -812,7 +968,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "In-Game アドオンの更新または、再インストールに成功しました。詳細な変更履歴はDiscordで確認してください。",
+    "message": "Dalamud の更新が完了しました！詳細な更新履歴を Discord で確認してください。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
@@ -837,10 +993,10 @@
   },
   "SystemMenuPlugins": {
     "message": "Dalamud プラグイン",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
     "message": "Dalamud 設定",
-    "description": "DalamudAtkTweaks.AgentHudOpenSystemMenuDetour"
+    "description": "DalamudAtkTweaks..ctor"
   }
 }
