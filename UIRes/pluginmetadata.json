@@ -1,6 +1,6 @@
 [
   {
-	"Name": "AccurateCountDown",
+    "Name": "AccurateCountDown",
     "DevSupportState": "Obsolete",
     "DevSupportStateReason": "Replaced by EngageTimer"
   },
@@ -16,15 +16,16 @@
   {
     "Name": "CharSyncPlugin",
     "DevSupportState": "Obsolete",
-    "DevSupportStateReason": "Replaced by Character Data Sync"
+    "DevSupportStateReason": "Use Character Data Sync"
   },
   {
     "Name": "ChatExtender",
-    "DevSupportState": "Adoptable"
+    "DevSupportState": "Obsolete",
+    "DevSupportStateReason": "Split into Chat Bubbles, Chat Translator, and XIVLogger."
   },
   {
     "Name": "Dalamud.CharacterSync",
-	"Notice": "Make Backups! This plugin is known to cause config wipes for some users. Don't use this with logitech ghub.",
+    "Notice": "Make Backups! This plugin is known to cause config wipes for some users. Don't use this with logitech ghub.",
   },
   {
     "Name": "DalamudVox",
@@ -71,7 +72,7 @@
   },
   {
     "Name": "WheresWOLdo",
-    "DevSupportState": "Obsolete",
-    "DevSupportStateReason": "Replaced by Where am I again?"
+    "DevSupportState": "MaintenanceOnly",
+    "DevSupportStateReason": "Consider using Where am I again?"
   }
 ]
