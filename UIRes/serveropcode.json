@@ -1,14 +1,14 @@
 {
-  "CfNotifyPop": 466,
-  "MarketTaxRates": 634,
-  "MarketBoardItemRequestStart": 951,
-  "MarketBoardOfferings": 922,
-  "MarketBoardHistory": 225,
-  "MarketBoardPurchase": 384,
-  "ActorControlSelf": 820,
-  "HousingWardInfo": 482,
-  "AirshipTimers": 854,
-  "SubmarineTimers": 222,
-  "AirshipStatusList": 929,
-  "SubmarineStatusList": 940
+  "CfNotifyPop": 167,
+  "MarketTaxRates": 396,
+  "MarketBoardItemRequestStart": 139,
+  "MarketBoardOfferings": 297,
+  "MarketBoardHistory": 765,
+  "MarketBoardPurchase": 559,
+  "ActorControlSelf": 776,
+  "HousingWardInfo": 898,
+  "AirshipTimers": 797,
+  "SubmarineTimers": 567,
+  "AirshipStatusList": 543,
+  "SubmarineStatusList": 913
 }
