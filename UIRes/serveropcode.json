@@ -1,18 +1,19 @@
 {
-  "CfNotifyPop": 167,
-  "MarketTaxRates": 396,
-  "MarketBoardItemRequestStart": 139,
-  "MarketBoardOfferings": 297,
-  "MarketBoardHistory": 765,
-  "MarketBoardPurchase": 559,
+  "AssetGameVersion": "2022.05.27.0000.0000"
   "ActorControlSelf": 776,
   "HousingWardInfo": 898,
+  "ContainerInfo": 258,
+  "MarketBoardItemRequestStart": 139,
+  "MarketBoardHistory": 765,
+  "MarketBoardOfferings": 297,
+  "MarketBoardPurchase": 559,
+  "InventoryActionAck": 950,
+  "MarketTaxRates": 148,
+  "RetainerInformation": 437,
+  "ItemMarketBoardInfo": 405,
+  "CfNotifyPop": 167,
   "AirshipTimers": 797,
   "SubmarineTimers": 567,
   "AirshipStatusList": 543,
-  "SubmarineStatusList": 913,
-  "RetainerInformation": 992,
-  "ItemMarketBoardInfo": 706,
-  "ContainerInfo": 140,
-  "InventoryActionAck": 269
+  "SubmarineStatusList": 913
 }
