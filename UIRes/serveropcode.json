@@ -11,8 +11,8 @@
   "SubmarineTimers": 567,
   "AirshipStatusList": 543,
   "SubmarineStatusList": 913,
-  "RetainerInformation": 992,
-  "ItemMarketBoardInfo": 706,
-  "ContainerInfo": 140,
-  "InventoryActionAck": 269
+  "RetainerInformation": 437,
+  "ItemMarketBoardInfo": 405,
+  "ContainerInfo": 258,
+  "InventoryActionAck": 950
 }
