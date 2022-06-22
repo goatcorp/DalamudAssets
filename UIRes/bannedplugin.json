@@ -272,5 +272,10 @@
     "Name": "MOAction",
     "AssemblyVersion": "4.2.5",
     "Reason": "Needs to be updated in order to work"
+  },
+  {
+    "Name": "HUDManager",
+    "AssemblyVersion": "2.5.6.3",
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
   }
 ]
