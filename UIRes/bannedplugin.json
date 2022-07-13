@@ -277,5 +277,15 @@
     "Name": "HUDManager",
     "AssemblyVersion": "2.5.6.3",
     "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "SimpleTweaksPlugin",
+    "AssemblyVersion": "1.7.3.1",
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "PartyListLayout",
+    "AssemblyVersion": "0.3.4.0",
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
   }
 ]
