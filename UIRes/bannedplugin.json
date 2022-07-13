@@ -302,5 +302,15 @@
     "Name": "Dalamud.FindAnything",
     "AssemblyVersion": "1.0.1.7",
     "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "Compass",
+    "AssemblyVersion": "1.20.1",
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "ARealmRecorded",
+    "AssemblyVersion": "0.4.1.0",
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
   }
 ]
