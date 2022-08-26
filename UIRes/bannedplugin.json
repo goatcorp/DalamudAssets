@@ -312,5 +312,10 @@
     "Name": "ARealmRecorded",
     "AssemblyVersion": "0.4.1.0",
     "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "Glamaholic",
+    "AssemblyVersion": "1.9.8.0,
+    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
   }
 ]
