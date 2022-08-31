@@ -317,5 +317,10 @@
     "Name": "Glamaholic",
     "AssemblyVersion": "1.9.8.0",
     "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+  },
+  {
+    "Name": "Tourist",
+    "AssemblyVersion": "1.2.9",
+    "Reason": "Temporarily blocked due to user reported crashes. Please wait for the developer to update it."
   }
 ]
