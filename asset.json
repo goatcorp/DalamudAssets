@@ -1,5 +1,5 @@
 {
-   "Version":120,
+   "Version":121,
    "Assets":[
       {
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/serveropcode.json",
@@ -57,6 +57,11 @@
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/disabledIcon.png",
          "FileName":"UIRes/disabledIcon.png",
          "Hash":"3AFC19400A6475198503DCC25314BCBCDC03B929"
+      },
+      {
+         "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/outdatedInstallableIcon.png",
+         "FileName":"UIRes/outdatedInstallableIcon.png",
+         "Hash":"D3B26CA713D1B4FFC9FC4FD08846DD462BEFC082"
       },
       {
          "Url":"https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/troubleIcon.png",
