@@ -322,5 +322,10 @@
     "Name": "Tourist",
     "AssemblyVersion": "1.2.9",
     "Reason": "Temporarily blocked due to user reported crashes. Please wait for the developer to update it."
+  },
+  {
+    "Name": "PlayerTrack",
+    "AssemblyVersion": "2.6.6.0",
+    "Reason": "Please install an update for this plugin to continue using it."
   }
 ]
