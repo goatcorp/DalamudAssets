@@ -327,10 +327,5 @@
     "Name": "PlayerTrack",
     "AssemblyVersion": "2.6.6.0",
     "Reason": "Please install an update for this plugin to continue using it."
-  },
-  {
-    "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.7.7.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
   }
 ]
