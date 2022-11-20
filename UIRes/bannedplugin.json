@@ -327,5 +327,10 @@
     "Name": "PlayerTrack",
     "AssemblyVersion": "2.6.6.0",
     "Reason": "Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "CharacterPanelRefined",
+    "AssemblyVersion": "1.6.0.0",
+    "Reason": "Please install an update for this plugin to continue using it."
   }
 ]
