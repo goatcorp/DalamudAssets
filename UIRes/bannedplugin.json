@@ -332,5 +332,10 @@
     "Name": "CharacterPanelRefined",
     "AssemblyVersion": "1.6.0.0",
     "Reason": "Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "DeepDungeonDex",
+    "AssemblyVersion": "2.0.1.0",
+    "Reason": "Causes a game crash under certain conditions. Please install an update for this plugin to continue using it."
   }
 ]
