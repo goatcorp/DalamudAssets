@@ -337,5 +337,10 @@
     "Name": "DeepDungeonDex",
     "AssemblyVersion": "2.0.1.0",
     "Reason": "Causes a game crash under certain conditions. Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "KikoGuide",
+    "AssemblyVersion": "1.5.0.2",
+    "Reason": "Causes configuration saving problems when certain integrations are enabled. Please wait for an update to continue using this plugin
   }
 ]
