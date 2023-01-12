@@ -176,8 +176,7 @@
     "Name": "ItemSearchPlugin",
     "AssemblyVersion": "1.8.2.2",
     "Reason": "ItemSearchPlugin is temporarily disabled due to crashes."
-  }
-  ,
+  },
   {
     "Name": "Waitingway.Dalamud",
     "AssemblyVersion": "1.2.0",
@@ -342,5 +341,10 @@
     "Name": "KikoGuide",
     "AssemblyVersion": "1.5.0.2",
     "Reason": "Causes configuration saving problems when certain integrations are enabled. Please wait for an update to continue using this plugin"
+  },
+  {
+    "Name": "DeepDungeonDex",
+    "AssemblyVersion": "2.3.0.0",
+    "Reason": "Causes a game crash after login without restarting the game. Please install an update for this plugin to continue using it."
   }
 ]
