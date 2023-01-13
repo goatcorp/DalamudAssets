@@ -346,5 +346,10 @@
     "Name": "DeepDungeonDex",
     "AssemblyVersion": "2.3.0.0",
     "Reason": "Causes a game crash after login without restarting the game. Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
+    "AssemblyVersion": "1.1.2.1",
+    "Reason": "Please install an update for this plugin to continue using it."
   }
 ]
