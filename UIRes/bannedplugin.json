@@ -28,92 +28,16 @@
     "AssemblyVersion": "1.3.7.1"
   },
   {
-    "Name": "JobBars",
-    "AssemblyVersion": "1.0.2.5"
-  },
-  {
-    "Name": "EngageTimer",
-    "AssemblyVersion": "1.2.0.0"
-  },
-  {
     "Name": "TextToTalk",
     "AssemblyVersion": "1.8.10.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.9.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.8.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.7.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.6.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.5.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.4.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.2.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.1.1"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.1.0"
-  },
-  {
-    "Name": "TextToTalk",
-    "AssemblyVersion": "1.8.0.4"
-  },
-  {
-    "Name": "RepairMe",
-    "AssemblyVersion": "0.1.0.1"
   },
   {
     "Name": "RepairMe",
     "AssemblyVersion": "0.1.1.2"
   },
   {
-    "Name": "RepairMe",
-    "AssemblyVersion": "0.1.1.1"
-  },
-  {
-    "Name": "RepairMe",
-    "AssemblyVersion": "0.1.1.0"
-  },
-  {
-    "Name": "NamePlateDebuffs",
-    "AssemblyVersion": "0.3.0.0"
-  },
-  {
-    "Name": "EnemyListDebuffs",
-    "AssemblyVersion": "0.1.1.0"
-  },
-  {
     "Name": "DelvUI",
     "AssemblyVersion": "0.2.0.0"
-  },
-  {
-    "Name": "TeleporterPlugin",
-    "AssemblyVersion": "2.0.0.6"
-  },
-  {
-    "Name": "ChatTranslator",
-    "AssemblyVersion": "1.1.0.0"
   },
   {
     "Name": "MacroRecursion",
@@ -127,18 +51,7 @@
   },
   {
     "Name": "SoundFilter",
-    "AssemblyVersion": "1.4.3.0",
-    "Reason": "SoundFilter is temporarily disabled due to a technical issue."
-  },
-  {
-    "Name": "XIVCombo",
-    "AssemblyVersion": "1.6.4",
-    "Reason": "XIVCombo is temporarily disabled in order to adjust it to job changes."
-  },
-  {
-    "Name": "MOAction",
-    "AssemblyVersion": "4.2.1",
-    "Reason": "MOAction is temporarily disabled in order to adjust it to job changes."
+    "AssemblyVersion": "1.4.3.0"
   },
   {
     "Name": "NoKillPlugin",
@@ -149,33 +62,20 @@
     "AssemblyVersion": "0.5.1.0"
   },
   {
-    "Name": "Penumbra",
-    "AssemblyVersion": "0.4.5.0"
-  },
-  {
     "Name": "faderPlugin",
-    "AssemblyVersion": "1.0.2.0",
-    "Reason": "faderPlugin is temporarily disabled due to crashes."
-  },
-  {
-    "Name": "Compass",
-    "AssemblyVersion": "1.14.0",
-    "Reason": "Compass is temporarily disabled due to crashes."
+    "AssemblyVersion": "1.0.2.0"
   },
   {
     "Name": "ChatTranslator",
-    "AssemblyVersion": "1.2.1.0",
-    "Reason": "ChatTranslator is temporarily disabled due to crashes."
+    "AssemblyVersion": "1.2.1.0"
   },
   {
     "Name": "Penumbra",
-    "AssemblyVersion": "0.4.6.6",
-    "Reason": "Penumbra is temporarily disabled due to crashes."
+    "AssemblyVersion": "0.4.6.6"
   },
   {
     "Name": "ItemSearchPlugin",
-    "AssemblyVersion": "1.8.2.2",
-    "Reason": "ItemSearchPlugin is temporarily disabled due to crashes."
+    "AssemblyVersion": "1.8.2.2"
   },
   {
     "Name": "Waitingway.Dalamud",
@@ -184,173 +84,123 @@
   },
   {
     "Name": "JobBars",
-    "AssemblyVersion": "1.2.1.0",
-    "Reason": "crashes"
-  },
-  {
-    "Name": "EnemyListDebuffs",
-    "AssemblyVersion": "0.3.0.1",
-    "Reason": "Crashes"
+    "AssemblyVersion": "1.2.1.0"
   },
   {
     "Name": "SoundSetter",
-    "AssemblyVersion": "1.5.5.0",
-    "Reason": "Incompatible with the current game version"
+    "AssemblyVersion": "1.5.5.0"
   },
   {
     "Name": "EngageTimer",
-    "AssemblyVersion": "2.2.0.1",
-    "Reason": "Crashes"
-  },
-  {
-    "Name": "EngageTimer",
-    "AssemblyVersion": "2.2.0.0",
-    "Reason": "Crashes"
+    "AssemblyVersion": "2.2.0.1"
   },
   {
     "Name": "Echoglossian",
-    "AssemblyVersion": "2.2.2112.131",
-    "Reason": "Causes issues with the current version of the game"
+    "AssemblyVersion": "2.2.2112.131"
   },
   {
     "Name": "MountCollectioner",
-    "AssemblyVersion": "1.0.1.0",
-    "Reason": "Has bugs that need to be resolved"
+    "AssemblyVersion": "1.0.1.0"
   },
   {
     "Name": "OopsAllLalafells",
-    "AssemblyVersion": "1.3.0",
-    "Reason": "Incompatible with FFXIV patch 6.1."
+    "AssemblyVersion": "1.3.0"
   },
   {
     "Name": "EnemyListDebuffs",
-    "AssemblyVersion": "0.3.3.0",
-    "Reason": "Causes crashes"
+    "AssemblyVersion": "0.3.3.0"
   },
   {
     "Name": "EB40F8A76F57D9EFD8F751229F0163BE5C64B2E376B329622527A0B04CDAE5E6",
-    "AssemblyVersion": "0.4.0.7",
-    "Reason": "Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "0.4.0.7"
   },
   {
     "Name": "RezPls",
-    "AssemblyVersion": "1.2.3.0",
-    "Reason": "Please install an update for this plugin to continue using it."
-  },
-  {
-    "Name": "Tourist",
-    "AssemblyVersion": "1.2.6",
-    "Reason": "Tourist is temporarily disabled due to crashes."
+    "AssemblyVersion": "1.2.3.0"
   },
   {
     "Name": "TitleEdit",
-    "AssemblyVersion": "2.2.6.4",
-    "Reason": "Causes crashes"
+    "AssemblyVersion": "2.2.6.4"
   },
   {
     "Name": "6F3F2D2BE3F289693A94A582558A88753F809A7DBC9F6061F488174AEA549E9B",
-    "AssemblyVersion": "1.0.5.5",
-    "Reason": "Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "1.0.5.5"
   },
   {
     "Name": "TeleporterPlugin",
-    "AssemblyVersion": "2.0.1.5",
-    "Reason": "Needs to be updated in order to work"
+    "AssemblyVersion": "2.0.1.5"
   },
   {
     "Name": "554EE42A86CE631574439D2BD827F8C0685C5F94DA760D600EFB6615B43ACC1F",
-    "AssemblyVersion": "2.0.3.2",
-    "Reason": "Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "2.0.3.2"
   },
   {
     "Name": "GatherBuddy",
-    "AssemblyVersion": "3.0.5.1",
-    "Reason": "Needs to be updated in order to work"
+    "AssemblyVersion": "3.0.5.1"
   },
   {
     "Name": "MOAction",
-    "AssemblyVersion": "4.2.5",
-    "Reason": "Needs to be updated in order to work"
+    "AssemblyVersion": "4.2.5"
   },
   {
     "Name": "HUDManager",
-    "AssemblyVersion": "2.5.6.3",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "2.5.6.3"
   },
   {
     "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.7.6.3",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "1.7.6.3"
   },
   {
     "Name": "PartyListLayout",
-    "AssemblyVersion": "0.3.4.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "0.3.4.0"
   },
   {
     "Name": "NamePlateDebuffs",
-    "AssemblyVersion": "0.5.6.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "0.5.6.0"
   },
   {
     "Name": "ChatTwo",
-    "AssemblyVersion": "1.17.0.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "1.17.0.0"
   },
   {
     "Name": "Dalamud.FindAnything",
-    "AssemblyVersion": "1.0.1.7",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "1.0.1.7"
   },
   {
     "Name": "Compass",
-    "AssemblyVersion": "1.20.1",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "1.20.1"
   },
   {
     "Name": "ARealmRecorded",
-    "AssemblyVersion": "0.4.1.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "0.4.1.0"
   },
   {
     "Name": "Glamaholic",
-    "AssemblyVersion": "1.9.8.0",
-    "Reason": "This plugin needs to be updated in order to function. Please wait for the developer to update it."
+    "AssemblyVersion": "1.9.8.0"
   },
   {
     "Name": "Tourist",
-    "AssemblyVersion": "1.2.9",
-    "Reason": "Temporarily blocked due to user reported crashes. Please wait for the developer to update it."
+    "AssemblyVersion": "1.2.9"
   },
   {
     "Name": "PlayerTrack",
-    "AssemblyVersion": "2.6.6.0",
-    "Reason": "Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "2.6.6.0"
   },
   {
     "Name": "CharacterPanelRefined",
-    "AssemblyVersion": "1.6.0.0",
-    "Reason": "Please install an update for this plugin to continue using it."
-  },
-  {
-    "Name": "DeepDungeonDex",
-    "AssemblyVersion": "2.0.1.0",
-    "Reason": "Causes a game crash under certain conditions. Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "1.6.0.0"
   },
   {
     "Name": "KikoGuide",
-    "AssemblyVersion": "1.5.0.2",
-    "Reason": "Causes configuration saving problems when certain integrations are enabled. Please wait for an update to continue using this plugin"
+    "AssemblyVersion": "1.5.0.2"
   },
   {
     "Name": "DeepDungeonDex",
-    "AssemblyVersion": "2.3.0.0",
-    "Reason": "Causes a game crash after login without restarting the game. Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "2.3.0.0"
   },
   {
     "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
-    "AssemblyVersion": "1.1.2.1",
-    "Reason": "Please install an update for this plugin to continue using it."
+    "AssemblyVersion": "1.1.2.1"
   },
   {
     "Name": "orchestrion",
@@ -367,5 +217,13 @@
   {
     "Name": "XIVCombo",
     "AssemblyVersion": "1.7.21.0"
+  },
+  {
+    "Name": "TargetFurniture",
+    "AssemblyVersion": "1.0.1.5"
+  },
+  {
+    "Name": "Housemate",
+    "AssemblyVersion": "1.0.2.8"
   }
 ]
