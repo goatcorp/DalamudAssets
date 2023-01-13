@@ -217,5 +217,13 @@
   {
     "Name": "XIVCombo",
     "AssemblyVersion": "1.7.21.0"
+  },
+  {
+    "Name": "TargetFurniture",
+    "AssemblyVersion": "1.0.1.5"
+  },
+  {
+    "Name": "Housemate",
+    "AssemblyVersion": "1.0.2.8"
   }
 ]
