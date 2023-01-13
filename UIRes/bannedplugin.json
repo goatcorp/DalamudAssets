@@ -351,5 +351,21 @@
     "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
     "AssemblyVersion": "1.1.2.1",
     "Reason": "Please install an update for this plugin to continue using it."
+  },
+  {
+    "Name": "orchestrion",
+    "AssemblyVersion": "1.8.4.5"
+  },
+  {
+    "Name": "HuntBuddy",
+    "AssemblyVersion": "1.0.0.1"
+  },
+  {
+    "Name": "DailyDuty",
+    "AssemblyVersion": "3.2.1.2"
+  },
+  {
+    "Name": "XIVCombo",
+    "AssemblyVersion": "1.7.21.0"
   }
 ]
