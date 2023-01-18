@@ -225,5 +225,9 @@
   {
     "Name": "Housemate",
     "AssemblyVersion": "1.0.2.8"
+  },
+  {
+    "Name": "Compass",
+    "AssemblyVersion": "1.26.2"
   }
 ]
