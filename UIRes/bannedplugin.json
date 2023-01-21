@@ -229,5 +229,9 @@
   {
     "Name": "Compass",
     "AssemblyVersion": "1.26.2"
+  },
+  {
+    "Name": "OrangeGuidanceTomestone",
+    "AssemblyVersion": "1.6.3.0"
   }
 ]
