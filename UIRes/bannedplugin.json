@@ -233,5 +233,9 @@
   {
     "Name": "OrangeGuidanceTomestone",
     "AssemblyVersion": "1.6.3.0"
+  },
+  {
+    "Name": "70FE14BC09ABD1A8CC2208E2BD9407517E68FB2ED644F74EF852C50261140BFC",
+    "AssemblyVersion": "0.7.37"
   }
 ]
