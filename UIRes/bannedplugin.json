@@ -242,5 +242,20 @@
     "Name": "DailyDuty",
     "AssemblyVersion": "3.2.4.2",
     "Reason": "Requires Dalamud Assets that aren't released yet"
+  },
+  {
+    "Name": "InventoryTools",
+    "AssemblyVersion": "1.3.1.0",
+    "Reason": "Please update this plugin to use it."
+  },
+  {
+    "Name": "GatherBuddy",
+    "AssemblyVersion": "3.2.1.5",
+    "Reason": "Please update this plugin to use it."
+  },
+  {
+    "Name": "InventorySearchBar",
+    "AssemblyVersion": "1.1.0.2",
+    "Reason": "Please update this plugin to use it."
   }
 ]
