@@ -196,7 +196,8 @@
   },
   {
     "Name": "DeepDungeonDex",
-    "AssemblyVersion": "2.3.0.0"
+    "AssemblyVersion": "2.5.0.0",
+    "Reason": "Please update this plugin to use it."
   },
   {
     "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
