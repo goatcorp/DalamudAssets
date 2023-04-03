@@ -268,5 +268,10 @@
     "Name": "HUDManager",
     "AssemblyVersion": "2.5.11.0",
     "Reason": "This plugin is outdated and will need to be updated its author."
+  },
+  {
+    "Name": "KitchenSync",
+    "AssemblyVersion": "1.1.1.3",
+    "Reason": "This plugin is depricated, and is now a SimpleTweak."
   }
 ]
