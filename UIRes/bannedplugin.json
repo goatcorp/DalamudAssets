@@ -273,5 +273,10 @@
     "Name": "KitchenSync",
     "AssemblyVersion": "1.1.1.3",
     "Reason": "This plugin is depricated, and is now a SimpleTweak."
+  },
+  {
+    "Name": "SubmarineTracker",
+    "AssemblyVersion": "0.0.7.0",
+    "Reason": "Crash on startup."
   }
 ]
