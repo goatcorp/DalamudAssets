@@ -180,7 +180,8 @@
   },
   {
     "Name": "Tourist",
-    "AssemblyVersion": "1.2.9"
+    "AssemblyVersion": "1.2.11",
+    "Reason": "This plugin currently causes crashes and needs to be updated by its author."
   },
   {
     "Name": "PlayerTrack",
