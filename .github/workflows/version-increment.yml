@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+
+concurrency:
+  group: increment-version
+  cancel-in-progress: false
 
 jobs:
   build:
