@@ -299,10 +299,20 @@
   },
   {
     "Name": "Visibility",
-    "AssemblyVersion": "1.1.4.8"
+    "AssemblyVersion": "1.1.4.8",
+    "Reason": "Not yet working with Patch 6.4 (CS)."
   },
   {
     "Name": "DelvUI",
     "AssemblyVersion": "1.6.2.1"
+  },
+  {
+    "Name": "EnemyListDebuffs",
+    "AssemblyVersion": "0.3.7.0",
+    "Reason": "Not yet working with Patch 6.4 (CS?)."
+  },
+  {
+    "Name": "ChatBubbles",
+    "AssemblyVersion": "2.1.3.1"
   }
 ]
