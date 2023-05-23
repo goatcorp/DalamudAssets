@@ -296,5 +296,13 @@
     "Name": "CrossUp",
     "AssemblyVersion": "0.4.3.2",
     "Reason": "This plugin is outdated and will need to be updated by its author."
+  },
+  {
+    "Name": "Visibility",
+    "AssemblyVersion": "1.1.4.8"
+  },
+  {
+    "Name": "DelvUI",
+    "AssemblyVersion": "1.6.2.1"
   }
 ]
