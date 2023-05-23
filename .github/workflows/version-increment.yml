@@ -1,0 +1,42 @@
+name: Version Increment
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: increment-version
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Increment Version
+        id: increment
+        run: |
+          asset_file="asset.json"
+          version=$(jq -r '.Version' "$asset_file")
+          new_version=$((version + 1))
+          jq --argjson new_version "$new_version" '.Version = $new_version' "$asset_file" > "$asset_file.tmp" && mv "$asset_file.tmp" "$asset_file"
+          echo "::set-output name=version::$new_version"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Increment version to ${{ steps.increment.outputs.version }}"
+          git push
+
+      - name: Make Web Request
+        env:
+          URL: ${{ secrets.REFRESH_URL }}
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{"version": "${{ steps.increment.outputs.version }}"}' $URL
