@@ -1,0 +1,32 @@
+name: Validate JSON on Pull Request
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate JSON
+        run: |
+          # Check if the file exists
+          if [ -f ./UIRes/bannedplugin.json ]; then
+            # Validate the JSON file
+            cat ./UIRes/bannedplugin.json | jq . > /dev/null
+            if [ $? -eq 0 ]; then
+              echo "JSON file is valid"
+            else
+              echo "JSON file is invalid"
+              exit 1
+            fi
+          else
+            echo "JSON file not found"
+            exit 1
+          fi
