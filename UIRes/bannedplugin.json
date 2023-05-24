@@ -323,7 +323,7 @@
   },
   {
     "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
-    "AssemblyVersion": "0.1.1.5"
+    "AssemblyVersion": "0.1.1.5",
     "Reason": "Crashes with Patch 6.4"
   },
   {
