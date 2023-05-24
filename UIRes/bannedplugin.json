@@ -373,5 +373,9 @@
   {
     "Name": "ChatTwo",
     "AssemblyVersion": "1.18.5.0"
+  },
+  {
+    "Name": "BetterShadows",
+    "AssemblyVersion": "1.1.4.0"
   }
 ]
