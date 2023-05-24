@@ -357,5 +357,9 @@
   {
     "Name": "ProperHousing",
     "AssemblyVersion": "1.1.1.0"
+  },
+  {
+    "Name": "Redirect",
+    "AssemblyVersion": "1.2.1.4"
   }
 ]
