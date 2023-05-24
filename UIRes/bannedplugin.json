@@ -349,5 +349,9 @@
   {
     "Name": "Dalamud.LoadingImage",
     "AssemblyVersion": "1.0.0.10"
+  },
+  {
+    "Name": "NamePlateDebuffs",
+    "AssemblyVersion": "1.0.1.1"
   }
 ]
