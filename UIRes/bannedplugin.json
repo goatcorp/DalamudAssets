@@ -377,5 +377,9 @@
   {
     "Name": "BetterShadows",
     "AssemblyVersion": "1.1.4.0"
+  },
+  {
+    "Name": "UsedName",
+    "AssemblyVersion": "0.8.2.3"
   }
 ]
