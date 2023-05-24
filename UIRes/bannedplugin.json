@@ -341,5 +341,9 @@
   {
     "Name": "HighFpsPhysicsPlugin",
     "AssemblyVersion": "7.1.0"
+  },
+  {
+    "Name": "BetterMountRoulette",
+    "AssemblyVersion": "1.2.0.11"
   }
 ]
