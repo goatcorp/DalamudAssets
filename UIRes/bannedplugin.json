@@ -238,7 +238,8 @@
   },
   {
     "Name": "E612C21D61F2AF12044F1D4E52E3249814128CDC6086D6EFB66449279F3D5496",
-    "AssemblyVersion": "0.8.39"
+    "AssemblyVersion": "0.8.42",
+    "Reason": "Not working with Patch 6.4"
   },
   {
     "Name": "DailyDuty",
@@ -314,6 +315,16 @@
   {
     "Name": "ChatBubbles",
     "AssemblyVersion": "2.1.3.1"
+  },
+  {
+    "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
+    "AssemblyVersion": "0.7.0.15",
+    "Reason": "Crashes with Patch 6.4"
+  },
+  {
+    "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
+    "AssemblyVersion": "0.1.1.5"
+    "Reason": "Crashes with Patch 6.4"
   },
   {
     "Name": "SubmarineTracker",
