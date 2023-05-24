@@ -345,5 +345,9 @@
   {
     "Name": "BetterMountRoulette",
     "AssemblyVersion": "1.2.0.11"
+  },
+  {
+    "Name": "Dalamud.LoadingImage",
+    "AssemblyVersion": "1.0.0.10"
   }
 ]
