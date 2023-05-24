@@ -325,5 +325,13 @@
     "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
     "AssemblyVersion": "0.1.1.5"
     "Reason": "Crashes with Patch 6.4"
+  },
+  {
+    "Name": "SubmarineTracker",
+    "AssemblyVersion": "1.4.0.0"
+  },
+  {
+    "Name": "BlueMageHelper",
+    "AssemblyVersion": "2.0.5.1"
   }
 ]
