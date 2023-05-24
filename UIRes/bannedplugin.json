@@ -318,5 +318,9 @@
   {
     "Name": "SubmarineTracker",
     "AssemblyVersion": "1.4.0.0"
+  },
+  {
+    "Name": "BlueMageHelper",
+    "AssemblyVersion": "2.0.5.1"
   }
 ]
