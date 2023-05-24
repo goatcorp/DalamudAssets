@@ -353,5 +353,9 @@
   {
     "Name": "NamePlateDebuffs",
     "AssemblyVersion": "1.0.1.1"
+  },
+  {
+    "Name": "ProperHousing",
+    "AssemblyVersion": "1.1.1.0"
   }
 ]
