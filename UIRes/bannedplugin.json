@@ -25,7 +25,7 @@
   },
   {
     "Name": "DamageInfoPlugin",
-    "AssemblyVersion": "1.3.7.1"
+    "AssemblyVersion": "2.3.0.1"
   },
   {
     "Name": "TextToTalk",
@@ -333,5 +333,13 @@
   {
     "Name": "BlueMageHelper",
     "AssemblyVersion": "2.0.5.1"
+  },
+  {
+    "Name": "ItemVendorLocation",
+    "AssemblyVersion": "2.2.0.1"
+  },
+  {
+    "Name": "HighFpsPhysicsPlugin",
+    "AssemblyVersion": "7.1.0"
   }
 ]
