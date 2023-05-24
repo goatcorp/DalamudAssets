@@ -365,5 +365,13 @@
   {
     "Name": "SoundSetter",
     "AssemblyVersion": "1.7.1.0"
+  },
+  {
+    "Name": "JobBars",
+    "AssemblyVersion": "1.2.3.5"
+  },
+  {
+    "Name": "ChatTwo",
+    "AssemblyVersion": "1.18.5.0"
   }
 ]
