@@ -381,5 +381,17 @@
   {
     "Name": "UsedName",
     "AssemblyVersion": "0.8.2.3"
+  },
+  {
+    "Name": "Distance",
+    "AssemblyVersion": "1.0.1.2"
+  },
+  {
+    "Name": "FCNameColor",
+    "AssemblyVersion": "3.0.2.1"
+  },
+  {
+    "Name": "PartyIcons",
+    "AssemblyVersion": "1.1.3.1"
   }
 ]
