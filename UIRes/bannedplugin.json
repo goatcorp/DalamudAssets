@@ -405,5 +405,9 @@
   {
     "Name": "PeepingTom",
     "AssemblyVersion": "1.7.13"
+  },
+  {
+    "Name": "D7DD759894DB06FCC38E781614FB37C97F535021927CDF7EF8BE8FE04E7A7A77",
+    "AssemblyVersion": "2.0.2.3"
   }
 ]
