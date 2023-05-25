@@ -397,5 +397,9 @@
   {
     "Name": "Wholist",
     "AssemblyVersion": "1.2.1.0"
+  },
+  {
+    "Name": "MOAction",
+    "AssemblyVersion": "4.2.13.0"
   }
 ]
