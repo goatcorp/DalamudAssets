@@ -421,5 +421,9 @@
   {
     "Name": "ReadyCheckHelper",
     "AssemblyVersion": "1.0.4.2"
+  },
+  {
+    "Name": "92D0F7F3C97C65BD0106631009402C8C04AA5F4E112B5586635CB8DD1033A296",
+    "AssemblyVersion": "0.0.1.7"
   }
 ]
