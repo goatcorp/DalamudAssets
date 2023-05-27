@@ -185,7 +185,7 @@
   },
   {
     "Name": "PlayerTrack",
-    "AssemblyVersion": "2.6.6.0"
+    "AssemblyVersion": "2.7.0.0"
   },
   {
     "Name": "CharacterPanelRefined",
@@ -413,5 +413,13 @@
   {
     "Name": "Namingway",
     "AssemblyVersion": "1.1.9.0"
+  },
+  {
+    "Name": "ActionTimeline",
+    "AssemblyVersion": "1.1.0.0"
+  },
+  {
+    "Name": "ReadyCheckHelper",
+    "AssemblyVersion": "1.0.4.2"
   }
 ]
