@@ -429,5 +429,9 @@
   {
     "Name": "CrossUp",
     "AssemblyVersion": "1.0.0.0"
+  },
+  {
+    "Name": "PriceInsight",
+    "AssemblyVersion": "2.5.0.0"
   }
 ]
