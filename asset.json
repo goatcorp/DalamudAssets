@@ -46,7 +46,7 @@
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/tsmLogo.png",
       "FileName": "UIRes/tsmLogo.png",
-      "Hash": "DE459754DB1A8B74D2E021496747D65BEC893795"
+      "Hash": "DAC17EE20C63A0CD0C5040A8A900E3CA1B67C5CC"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/defaultIcon.png",
@@ -61,7 +61,7 @@
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/outdatedInstallableIcon.png",
       "FileName": "UIRes/outdatedInstallableIcon.png",
-      "Hash": "D3B26CA713D1B4FFC9FC4FD08846DD462BEFC082"
+      "Hash": "BA96E817FE8EE2FCC976DEC986973C78BE3A37AE"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/troubleIcon.png",
@@ -76,17 +76,17 @@
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/installedIcon.png",
       "FileName": "UIRes/installedIcon.png",
-      "Hash": "4533CAD6C29FD2A0D68AF5C4576DC159CB9C4A53"
+      "Hash": "F9A7E334CB719CF36B265A212B3D32A4578429B4"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/thirdIcon.png",
       "FileName": "UIRes/thirdIcon.png",
-      "Hash": "F81DC3F9C467E138C25028418593AD99772DB606"
+      "Hash": "2DFA794867B1ABFEFFF2923FF3C1E06801F9CBC1"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/thirdInstalledIcon.png",
       "FileName": "UIRes/thirdInstalledIcon.png",
-      "Hash": "507FF41AE651D15E6A29A09C1B5FD7936CF79CD3"
+      "Hash": "05E2B4508517646F0FC4E55A821F9A990B2559F7"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_de.json",
