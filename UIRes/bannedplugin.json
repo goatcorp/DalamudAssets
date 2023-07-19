@@ -433,5 +433,9 @@
   {
     "Name": "PriceInsight",
     "AssemblyVersion": "2.5.0.0"
+  },
+  {
+    "Name": "B778B7FD16CA72AC1EA7A0F28A099D46948B4A732B6F08F12E4C5861041FE87B",
+    "AssemblyVersion": "1.2.0.3"
   }
 ]
