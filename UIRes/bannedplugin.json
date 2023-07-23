@@ -364,7 +364,8 @@
   },
   {
     "Name": "JobBars",
-    "AssemblyVersion": "1.2.3.5"
+    "AssemblyVersion": "1.2.3.7",
+    "Reason": "Crashes with Patch 6.45 under certain scenarios"
   },
   {
     "Name": "ChatTwo",
