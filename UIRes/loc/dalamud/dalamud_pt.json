@@ -711,6 +711,14 @@
     "message": " criado por {0}, contagem de downloads indisponível",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " criado por: {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", {0} downloads",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "De {0}",
     "description": "Locs.PluginBody_DevPluginPath"

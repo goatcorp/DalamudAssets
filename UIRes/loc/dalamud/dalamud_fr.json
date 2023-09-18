@@ -711,6 +711,14 @@
     "message": " par {0}, nombre de téléchargements indisponible",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " par {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", {0} téléchargements",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "Provenant de {0}",
     "description": "Locs.PluginBody_DevPluginPath"

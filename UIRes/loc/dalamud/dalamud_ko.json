@@ -711,6 +711,14 @@
     "message": " 개발자: {0}, 다운로드 횟수: 알 수 없음",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " 개발자: {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", 다운로드 횟수: {0}",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "From {0}",
     "description": "Locs.PluginBody_DevPluginPath"
