@@ -84,6 +84,11 @@
       "Hash": "2DFA794867B1ABFEFFF2923FF3C1E06801F9CBC1"
     },
     {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/changelogApiBump.png",
+      "FileName": "UIRes/changelogApiBump.png",
+      "Hash": "16BB14DEF2AD9894C9DA37483A6B0B9AADFCD72D"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/thirdInstalledIcon.png",
       "FileName": "UIRes/thirdInstalledIcon.png",
       "Hash": "05E2B4508517646F0FC4E55A821F9A990B2559F7"
