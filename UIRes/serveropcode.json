@@ -1,14 +1,14 @@
 {
-  "ActorControlSelf": 961,
-  "HousingWardInfo": 917,
-  "ContainerInfo": 520,
-  "MarketBoardItemRequestStart": 774,
-  "MarketBoardHistory": 756,
-  "MarketBoardOfferings": 475,
-  "MarketBoardPurchase": 496,
-  "InventoryActionAck": 308,
-  "MarketTaxRates": 543,
-  "RetainerInformation": 766,
-  "ItemMarketBoardInfo": 283,
-  "CfNotifyPop": 105
+  "ActorControlSelf": 406,
+  "HousingWardInfo": 218,
+  "ContainerInfo": 437,
+  "MarketBoardItemRequestStart": 360,
+  "MarketBoardHistory": 927,
+  "MarketBoardOfferings": 563,
+  "MarketBoardPurchase": 307,
+  "InventoryActionAck": 844,
+  "MarketTaxRates": 451,
+  "RetainerInformation": 981,
+  "ItemMarketBoardInfo": 826,
+  "CfNotifyPop": 268
 }
