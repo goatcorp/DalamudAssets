@@ -460,5 +460,9 @@
   {
     "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
     "AssemblyVersion": "0.8.1.6"
+  },
+  {
+    "Name": "TrackyTrack",
+    "AssemblyVersion": "1.3.0.8"
   }
 ]
