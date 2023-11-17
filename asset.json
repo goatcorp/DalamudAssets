@@ -1,5 +1,5 @@
 {
-  "Version": 230,
+  "Version": 231,
   "Assets": [
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/serveropcode.json",
@@ -32,6 +32,11 @@
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/Inconsolata-Regular.ttf",
       "FileName": "UIRes/Inconsolata-Regular.ttf",
       "Hash": "FBE9E14427D84CE3F25F4D6A8EF57F527DB5A154"
+    },
+    {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/FFXIV_Lodestone_SSF.ttf",
+      "FileName": "UIRes/FFXIV_Lodestone_SSF.ttf",
+      "Hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
     },
     {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/logo.png",
