@@ -468,5 +468,9 @@
   {
     "Name": "rtyping",
     "AssemblyVersion": "0.1.0.0"
+  },
+  {
+    "Name": "ItemIcons",
+    "AssemblyVersion": "0.4.0.0"
   }
 ]
