@@ -472,5 +472,9 @@
   {
     "Name": "ItemIcons",
     "AssemblyVersion": "0.4.0.0"
+  },
+  {
+    "Name": "scoutHelper",
+    "AssemblyVersion": "0.2.1.0"
   }
 ]
