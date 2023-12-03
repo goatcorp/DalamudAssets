@@ -476,5 +476,10 @@
   {
     "Name": "scoutHelper",
     "AssemblyVersion": "0.2.1.0"
+  },
+  {
+    "Name": "CurrencyTracker"
+    "AssemblyVersion": "1.3.2.1"
+    "Reason": "causees game crash and data loss"
   }
 ]
