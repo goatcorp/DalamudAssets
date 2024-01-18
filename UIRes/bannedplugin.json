@@ -480,8 +480,8 @@
   },
   {
     "Name": "CurrencyTracker",
-    "AssemblyVersion": "1.3.2.1",
-    "Reason": "causees game crash and data loss"
+    "AssemblyVersion": "1.3.4.0",
+    "Reason": "causes game crash"
   },
   {
     "Name": "DutyTracker",
