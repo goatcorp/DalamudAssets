@@ -69,6 +69,11 @@
       "Hash": "82F7C168A9C712BFCBADD7CFD49060BBC446A634"
     },
     {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/devPluginIcon.png",
+      "FileName": "UIRes/devPluginIcon.png",
+      "Hash": "DC33AC5B811D32815BCB4C4261563EFFE532638E"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/updateIcon.png",
       "FileName": "UIRes/updateIcon.png",
       "Hash": "544DA1125ADC03D63610127DC76E1FC5175615D3"
