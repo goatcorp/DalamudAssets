@@ -487,5 +487,10 @@
     "Name": "DutyTracker",
     "AssemblyVersion": "1.0.1.7",
     "Reason": "Potential crash to desktop"
+  },
+  {
+    "Name": "TickTracker",
+    "AssemblyVersion": "1.4.0.0",
+    "Reason": "Corrupts native texture"
   }
 ]
