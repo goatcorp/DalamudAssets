@@ -711,6 +711,14 @@
     "message": " автор {0}, количество загрузок недоступно",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " автор {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", {0} загрузок",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "Из {0}",
     "description": "Locs.PluginBody_DevPluginPath"

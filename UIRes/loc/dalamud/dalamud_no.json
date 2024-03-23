@@ -711,6 +711,14 @@
     "message": " by {0}, nedlastingstall utilgjengelig",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " fra {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", {0} nedlastinger",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "Fra {0}",
     "description": "Locs.PluginBody_DevPluginPath"

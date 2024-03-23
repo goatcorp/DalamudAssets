@@ -711,6 +711,14 @@
     "message": " 作者：{0} 下載次數：未知",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " 作者：{0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": " 下載次數：{0}",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "外挂程式路徑：{0}",
     "description": "Locs.PluginBody_DevPluginPath"
