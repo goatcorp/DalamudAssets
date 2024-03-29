@@ -1,0 +1,79 @@
+name: Update Dalamud localization files
+
+concurrency: 
+  group: dalamud-loc-sync
+
+permissions:
+  pull-requests: write
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * *'
+
+jobs:
+  export-loc-files:
+    name: 'Export localization file'
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Dalamud master
+        uses: actions/checkout@v4
+        with:
+          repository: goatcorp/Dalamud
+          path: Dalamud
+          submodules: recursive
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Run LocExporter
+        run: |
+          cd Dalamud/tools/Dalamud.LocExporter
+          dotnet run -c Release
+
+      - name: Upload loc file artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'Dalamud_Localizable'
+          if-no-files-found: error
+          path: 'Dalamud/tools/Dalamud.LocExporter/Dalamud_Localizable.json'
+
+  synchronize-with-crowdin:
+    runs-on: ubuntu-latest
+    name: Synchronize with Crowdin
+    needs: export-loc-files
+
+    steps:
+      - name: Checkout assets
+        uses: actions/checkout@v4
+    
+      - name: Download loc file artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: 'Dalamud_Localizable'
+          path: 'loc_for_upload'
+
+      - name: Upload to Crowdin
+        uses: crowdin/github-action@v1
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: true
+          
+          # We should put this to true when every language has someone that can approve
+          export_only_approved: false
+          
+          push_translations: true
+          commit_message: 'Update localization'
+          create_pull_request: true
+          pull_request_title: 'Update localization'
+          pull_request_body: 'Update localization with latest translations from crowdin'
+          config: '.github/crowdin.yml'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
