@@ -711,6 +711,14 @@
     "message": " 開発者: {0}, ダウンロード数: 不明",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " 開発者: {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", ダウンロード数: {0}",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
   "InstallerDevPluginPath": {
     "message": "From {0}",
     "description": "Locs.PluginBody_DevPluginPath"

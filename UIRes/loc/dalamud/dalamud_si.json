@@ -711,6 +711,18 @@
     "message": " by {0}, download count unavailable",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
+  "InstallerHeaderAuthor": {
+    "message": " by {0}",
+    "description": "Locs.PluginBody_Author"
+  },
+  "InstallerHeaderDownloadCount": {
+    "message": ", {0} downloads",
+    "description": "Locs.PluginBody_DownloadCount"
+  },
+  "InstallerHeaderEndorsementCount": {
+    "message": ", {0} endorsements",
+    "description": "Locs.PluginBody_EndorsementCount"
+  },
   "InstallerDevPluginPath": {
     "message": "From {0}",
     "description": "Locs.PluginBody_DevPluginPath"
