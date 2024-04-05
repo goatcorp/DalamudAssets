@@ -1,78 +1,178 @@
 {
+  "DateTimeSpanExtensions.RelativeFormatStringsLong": {
+    "message": "172800,{0:%d} days ago\n86400,yesterday\n7200,{0:%h} hours ago\n3600,an hour ago\n120,{0:%m} minutes ago\n60,a minute ago\n2,{0:%s} seconds ago\n1,a second ago\n-Infinity,just now",
+    "description": "DateTimeSpanExtensions.LocRelativePastLong"
+  },
+  "DateTimeSpanExtensions.RelativeFormatStringsShort": {
+    "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,now",
+    "description": "DateTimeSpanExtensions.LocRelativePastShort"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "Open plugin changelogs",
+    "description": "PluginManager.PrintUpdatedPlugins"
+  },
   "DalamudPluginUpdateSuccessful": {
     "message": "    》 {0} 已更新至 v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} 在尝试更新至 v{1} 时失败。",
+    "message": "    》 {0} update to v{1} failed ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "InstallerUpdateStatusPending": {
+    "message": "Pending",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedDownload": {
+    "message": "Download failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedUnload": {
+    "message": "Unload failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedLoad": {
+    "message": "Load failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusSuccess": {
+    "message": "Success",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "ProfileCommandsEnableHint": {
+    "message": "Enable a collection. Usage: /xlenablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsDisableHint": {
+    "message": "Disable a collection. Usage: /xldisablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsToggleHint": {
+    "message": "Toggle a collection. Usage: /xltogglecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsEnabling": {
+    "message": "Enabling collection \"{0}\"...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsDisabling": {
+    "message": "Disabling collection \"{0}\"...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsApplyFailed": {
+    "message": "Failed to apply your collections. Please check the console for errors.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "ProfileCommandsApplySuccess": {
+    "message": "Collections applied.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "PluginProfilesNewProfile": {
+    "message": "New Collection",
+    "description": "ProfileManager.AddNewProfile"
+  },
+  "WindowSystemContextActionPin": {
+    "message": "Pin Window",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthrough": {
+    "message": "Make clickthrough",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionAlpha": {
+    "message": "Opacity",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionReset": {
+    "message": "Reset",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthroughDisclaimer": {
+    "message": "Open this menu again to disable clickthrough.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionDisclaimer": {
+    "message": "These options may not work for all plugins at the moment.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionViewportDisclaimer": {
+    "message": "These features are only available if this window is inside the game window.",
+    "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
     "message": "卸载游戏中的 XIVLauncher 插件。",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudPluginReloadHelp": {
-    "message": "重新加载所有插件。",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
-    "message": "显示可用命令列表。",
-    "description": "DalamudCommands.SetupCommands"
+    "message": "Shows list of commands available. If an argument is provided, shows help for that command.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteHelp": {
     "message": "屏蔽聊天里出现的单词或句子。用法：/xlmute <单词或句子>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteListHelp": {
     "message": "列出屏蔽单词或句子。",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudUnmuteHelp": {
     "message": "取消屏蔽单词或句子。用法：/xlunmute <单词或句子>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLastLinkHelp": {
     "message": "在您的默认浏览器中打开上次接收到的链接。",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudBgmSetHelp": {
     "message": "设置游戏背景音乐。用法：/xlbgmset <BGM ID>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevMenuHelp": {
     "message": "绘制开发菜单 DEBUG",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudPluginStats": {
+    "message": "Draw plugin statistics window",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudBranchSwitcher": {
+    "message": "Draw branch switcher",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
     "message": "绘制调试数据菜单。用法： /xldata [数据下拉类型]",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudIMEPanelHelp": {
-    "message": "绘制输入法界面",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
     "message": "打开开发者日志 DEBUG",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
     "message": "打开插件安装器",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudCreditsHelp": {
-    "message": "打开 dalamud 的制作人表。",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
     "message": "设置 Dalamud 和插件的语言。可用语言： ",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudSettingsHelp": {
     "message": "更改不同的游戏内附加组件设置，如聊天频道和 Discord 机器人设置。",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudUiModeHelp": {
+    "message": "Toggle Dalamud UI display modes. Native UI modifications may also be affected by this, but that depends on the plugin.",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudProfilerHelp": {
+    "message": "Open Dalamud's startup timing profiler.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdHelpAvailable": {
     "message": "可用命令:",
+    "description": "DalamudCommands.OnHelpCommand"
+  },
+  "DalamudCmdHelpNotFound": {
+    "message": "Command not found.",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
@@ -105,18 +205,30 @@
   },
   "TSMDalamudPlugins": {
     "message": "插件安装器",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
     "message": "Dalamud 设置",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
     "message": "开发者菜单",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+  },
+  "ImGuiClipboardFunctionProviderClipboardInUse": {
+    "message": "Some other application is using the clipboard. Try again later.",
+    "description": "ImGuiClipboardFunctionProvider.OpenClipboardOrShowError"
+  },
+  "ImGuiClipboardFunctionProviderErrorCopy": {
+    "message": "Failed to copy. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.SetClipboardTextImpl"
+  },
+  "ImGuiClipboardFunctionProviderErrorPaste": {
+    "message": "Failed to paste. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.GetClipboardTextImpl"
   },
   "InstallerDevTools": {
-    "message": "开发工具",
+    "message": "开发者工具",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
@@ -135,9 +247,21 @@
     "message": "全部",
     "description": "Locs.get_Category_All"
   },
+  "InstallerCategoryIsTesting": {
+    "message": "Currently Testing",
+    "description": "Locs.get_Category_IsTesting"
+  },
+  "InstallerCategoryAvailableForTesting": {
+    "message": "Testing Available",
+    "description": "Locs.get_Category_AvailableForTesting"
+  },
   "InstallerInstalledDevPlugins": {
     "message": "开发版插件",
     "description": "Locs.get_Category_DevInstalled"
+  },
+  "InstallerCategoryPluginProfiles": {
+    "message": "Plugin Collections",
+    "description": "Locs.get_Category_PluginProfiles"
   },
   "InstallerCategoryOther": {
     "message": "其他",
@@ -183,342 +307,6 @@
     "message": "当前处于手柄模式。按 L1+L3 以禁用，按 R3 打开插件菜单。",
     "description": "GamepadModeNotifierWindow.Draw"
   },
-  "DalamudSettingsHeader": {
-    "message": "Dalamud 设置",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel0": {
-    "message": "最小 (1k x 1k 纹理)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel1": {
-    "message": "較小 (2k x 2k 纹理)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel2": {
-    "message": "正常 (4k x 4k 纹理)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel3": {
-    "message": "较大 (8k x 8k 纹理，可能会崩溃游戏)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel4": {
-    "message": "最大 (16k x 16k 纹理，可能会崩溃游戏)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "基本配置",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "界面外观",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsServerInfoBar": {
-    "message": "服务器信息栏",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsExperimental": {
-    "message": "测试版",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "语言",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "选择 Dalamud 显示语言。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannel": {
-    "message": "通用聊天频道",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannelHint": {
-    "message": "选择用于常规 Dalamud 消息的聊天频道。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlash": {
-    "message": "在排本成功后闪烁 FFXIV 窗口",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlashHint": {
-    "message": "若选中，当任务准备进行时，FFXIV窗口将会在您的任务栏中闪烁。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessage": {
-    "message": "任务搜索器上的聊天信息",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessageHint": {
-    "message": "若选中，当任务准备进行时，将会在 FFXIV 聊天中发送消息。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "在欢迎消息中显示已加载的插件",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "在角色登入时显示已加载的插件。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "自动更新插件",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "在角色登入时自动更新插件。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenu": {
-    "message": "显示 Dalamud 快捷菜单",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenuMsgHint": {
-    "message": "在系统菜单中显示 Dalamud 插件菜单及设置按钮。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "禁用 RMT 过滤",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "禁用 Dalamud 内置的 RMT 广告过滤。",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollect": {
-    "message": "匿名上传市场数据",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollectHint": {
-    "message": "在浏览市场板时向 Universalis 提供有关游戏内经济的匿名数据。 这些数据不能以任何方式来识别你，而每个人都能从中受益！",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "全局字体比例",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset6": {
-    "message": "9.6pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset12": {
-    "message": "重置 (12pt)",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset14": {
-    "message": "14pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset18": {
-    "message": "18pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset36": {
-    "message": "36pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "缩放所有 XIVLauncher 界面元素中的文本 - 适用于 4K 分辨率。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsOpenStyleEditor": {
-    "message": "打开样式编辑器",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsStyleEditorHint": {
-    "message": "修改 Dalamud 窗口的外观。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleAxisFonts": {
-    "message": "使用 AXIS 字体作为默认字体",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiAxisFontsHint": {
-    "message": "使用 AXIS 字体 (游戏的主界面字体) 作为默认字体。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevel": {
-    "message": "字体分辨率级别",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevelHint": {
-    "message": "This option allows Dalamud fonts to look better. If your game crashes when changing this option, your PC does not support high font resolutions in Dalamud - you will have to use a lower one.\nCurrent font atlas size is {0}px * {1}px.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "部分插件会忽略下列设置。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHide": {
-    "message": "当游戏界面隐藏时隐藏插件界面",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideHint": {
-    "message": "勾选此框以在切换游戏悬浮窗时隐藏任何插件打开的窗口。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "播放过场动画时隐藏插件 UI",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "在播放过场动画时隐藏所有插件窗口。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "激活 GPose 时隐藏插件 UI",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "在激活 GPose 时隐藏所有插件窗口。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagement": {
-    "message": "使用 ESC 关闭 Dalamud 窗口",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagementHint": {
-    "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewports": {
-    "message": "启用多屏模式",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewportsHint": {
-    "message": "这将允许你将插件窗口移动到其他显示器。\n只在无边框窗口或窗口模式下有效。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDocking": {
-    "message": "启用窗口合并",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDockingHint": {
-    "message": "这允许你将多个插件窗口合并到同一窗口中，并通过选项卡分割它们。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigation": {
-    "message": "启用手柄模式",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "你将可以使用 L1+L3 来切换游戏和插件界面。\n如果你正在使用 ImGui，则可以通过 R3 来切换插件管理器窗口。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsm": {
-    "message": "显示标题界面菜单",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsmHint": {
-    "message": "This will allow you to access certain Dalamud and Plugin functionality from the title screen.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGamma": {
-    "message": "字体伽玛校正",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsIndividualConfigResetToDefaultValue": {
-    "message": "重置",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGammaHint": {
-    "message": "更改文字的粗细。",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingServerInfoBar": {
-    "message": "服务器信息栏配置",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarHint": {
-    "message": "Plugins can put additional information into your server information bar(where world & time can be seen).\nYou can reorder and disable these here.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDidNone": {
-    "message": "您没有使用此功能的插件。",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacing": {
-    "message": "服务器信息栏间距",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacingHint": {
-    "message": "Configure the amount of space between entries in the server info bar here.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirection": {
-    "message": "服务器信息栏方向",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirectionHint": {
-    "message": "If checked, the Server Info Bar elements will expand to the right instead of the left.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "获取插件测试版本",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "选中此框以接收插件预发布的测试。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "测试插件在发布前不一定经过了测试和审核。您需要自行承担使用可能带来的风险。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "清除隐藏插件",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "从插件安装器中取消隐藏所有插件。",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "自定义插件仓库",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsChanged": {
-    "message": "（修改）",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "添加自定义插件仓库。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "我们对第三方插件和仓库所造成的后果不承担任何责任。\n从不受信任的来源安装第三方插件时请多加注意。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "仓库已经存在。",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "开发版插件位置",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudSettingsDevPluginLocationsHint": {
-    "message": "添加额外的开发版插件加载位置。\n支持目录或 DLL 路径。",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudDevPluginLocationExists": {
-    "message": "位置已经存在。",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "Save": {
-    "message": "保存",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "Close": {
-    "message": "关闭",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "SaveAndClose": {
-    "message": "保存并关闭",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
   "RenameStyleModalTitle": {
     "message": "重命名样式",
     "description": "StyleEditorWindow.Draw"
@@ -563,9 +351,397 @@
     "message": "配色",
     "description": "StyleEditorWindow.Draw"
   },
+  "Close": {
+    "message": "关闭",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "保存并关闭",
+    "description": "StyleEditorWindow.Draw"
+  },
   "StyleEditorEnterName": {
     "message": "请输入新的样式名称。",
     "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud 设置",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsSave": {
+    "message": "Save changes",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsSaveAndExit": {
+    "message": "Save changes and close",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsDevPluginLocation": {
+    "message": "开发版插件位置",
+    "description": "DevPluginsSettingsEntry..ctor"
+  },
+  "DalamudSettingsChanged": {
+    "message": "（修改）",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsDevPluginLocationsHint": {
+    "message": "Add dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginLocationExists": {
+    "message": "位置已经存在。",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginInvalid": {
+    "message": "The entered value is not a valid path to a potential Dev Plugin.\nDid you mean to enter it as a custom plugin repository in the fields below instead?",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "语言",
+    "description": "LanguageChooserSettingsEntry..ctor"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "选择 Dalamud 显示语言。",
+    "description": "LanguageChooserSettingsEntry.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "自定义插件仓库",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "添加自定义插件仓库。",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningReadThis": {
+    "message": "READ THIS FIRST!",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "We cannot take any responsibility for custom plugins and repositories.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning5": {
+    "message": "If someone told you to copy/paste something here, it's very possible that you are being scammed or taken advantage of.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning2": {
+    "message": "Plugins have full control over your PC, like any other program, and may cause harm or crashes.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning4": {
+    "message": "They can delete your character, steal your FC or Discord account, and burn down your house.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning3": {
+    "message": "Please make absolutely sure that you only install plugins from developers you trust.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningPleaseWait": {
+    "message": "Please wait {0} seconds...",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningIReadIt": {
+    "message": "Ok, I have read and understood this warning",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "仓库已经存在。",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoNotUrl": {
+    "message": "The entered address is not a valid URL.\nDid you mean to enter it as a DevPlugin in the fields above instead?",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudAbout": {
+    "message": "About",
+    "description": "SettingsTabAbout.get_Title"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "服务器信息栏",
+    "description": "SettingsTabDtr.get_Title"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "插件可以将额外的信息放到服务器信息栏里(可以看到世界和时间)。\n你可以在这里重新排序和禁用这些信息。",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "您没有使用此功能的插件。",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "服务器信息栏间距",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "这里可以配置服务器信息栏中条目间的空间大小。",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "服务器信息栏方向",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "如果选中，服务器信息栏元素将向右扩展而不是向左。",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "测试版",
+    "description": "SettingsTabExperimental.get_Title"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "获取插件测试版本",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"{0}\" tab of the plugin installer and select \"{1}\".",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Testing plugins may contain bugs or crash your game. Please only enable this if you are aware of the risks.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptions": {
+    "message": "Add a button to the title bar of plugin windows to open additional options",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
+    "message": "This will allow you to pin certain plugin windows, make them clickthrough or adjust their opacity.\nThis may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "清除隐藏插件",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "从插件安装器中取消隐藏所有插件。",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "基本配置",
+    "description": "SettingsTabGeneral.get_Title"
+  },
+  "DalamudSettingsChannel": {
+    "message": "Dalamud Chat Channel",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "选择用于常规 Dalamud 消息的聊天频道。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartup": {
+    "message": "Wait for plugins before game loads",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartupHint": {
+    "message": "Do not let the game load, until plugins are loaded.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlash": {
+    "message": "在排本成功后闪烁 FFXIV 窗口",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "若选中，当任务准备进行时，FFXIV窗口将会在您的任务栏中闪烁。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "任务搜索器上的聊天信息",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "若选中，当任务准备进行时，将会在 FFXIV 聊天中发送消息。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsg": {
+    "message": "Display Dalamud's welcome message",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsgHint": {
+    "message": "Display Dalamud's welcome message in FFXIV chat when logging in with a character.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "在欢迎消息中显示已加载的插件",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "在角色登入时显示已加载的插件。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "自动更新插件",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "在角色登入时自动更新插件。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenu": {
+    "message": "显示 Dalamud 快捷菜单",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenuMsgHint": {
+    "message": "在系统菜单中显示 Dalamud 插件菜单及设置按钮。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFiltering": {
+    "message": "Enable RMT Filtering",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFilteringMsgHint": {
+    "message": "Enable Dalamud's built-in RMT ad filtering.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "匿名上传市场数据",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "在浏览市场板时向 Universalis 提供有关游戏内经济的匿名数据。 这些数据不能以任何方式来识别你，而每个人都能从中受益！",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelNone": {
+    "message": "Do not pick \"None\".",
+    "description": "<>c.<.ctor>b__5_2"
+  },
+  "DalamudSettingsVisual": {
+    "message": "界面外观",
+    "description": "SettingsTabLook.get_Title"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "全局字体比例",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildInProgressWithEndingThreeDots": {
+    "message": "Building fonts...",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "缩放所有 XIVLauncher 界面元素中的文本 - 适用于 4K 分辨率。",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildFaulted": {
+    "message": "Failed to load fonts as requested.",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingChooseDefaultFont": {
+    "message": "Choose Default Font",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingResetDefaultFont": {
+    "message": "Reset Default Font",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsOpenStyleEditor": {
+    "message": "打开样式编辑器",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsStyleEditorHint": {
+    "message": "修改 Dalamud 窗口的外观。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkMode": {
+    "message": "Use Windows immersive/dark mode",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkModeHint": {
+    "message": "This will cause the FFXIV window title bar to follow your preferred Windows color settings, and switch to dark mode if enabled.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "部分插件会忽略下列设置。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "当游戏界面隐藏时隐藏插件界面",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "勾选此框以在切换游戏悬浮窗时隐藏任何插件打开的窗口。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "播放过场动画时隐藏插件 UI",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "在播放过场动画时隐藏所有插件窗口。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "激活 GPose 时隐藏插件 UI",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "在激活 GPose 时隐藏所有插件窗口。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagement": {
+    "message": "使用 ESC 关闭 Dalamud 窗口",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagementHint": {
+    "message": "这会让 Dalamud 窗口和游戏窗口一样，在按下 ESC 键时关闭。\n它们会逐个关闭。但可能不适用于所有插件。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "启用多屏模式",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "这将允许你将插件窗口移动到其他显示器。\n只在无边框窗口或窗口模式下有效。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "启用窗口合并",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "这允许你将多个插件窗口合并到同一窗口中，并通过选项卡分割它们。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffects": {
+    "message": "Enable sound effects for plugin windows",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffectsHint": {
+    "message": "This will allow you to enable or disable sound effects generated by plugin user interfaces.\nThis is affected by your in-game `System Sounds` volume settings.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigation": {
+    "message": "启用手柄模式",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigationHint": {
+    "message": "你将可以使用 L1+L3 来切换游戏和插件界面。\n如果你正在使用 ImGui，则可以通过 R3 来切换插件管理器窗口。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "显示标题界面菜单",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "这将使你能够从标题画面上访问Dalamud和插件的某些功能。",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefault": {
+    "message": "Open the Plugin Installer to the \"Installed Plugins\" tab by default",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefaultHint": {
+    "message": "This will allow you to open the Plugin Installer to the \"Installed Plugins\" tab by default, instead of the \"Available Plugins\" tab.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotion": {
+    "message": "Reduce motions",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotionHint": {
+    "message": "This will suppress certain animations from Dalamud, such as the notification popup.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "ChangelogNoText": {
+    "message": "No changelog for this version.",
+    "description": "PluginChangelogEntry..ctor"
   },
   "InstallerHeader": {
     "message": "插件安装器",
@@ -576,7 +752,7 @@
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "此窗口允许您安装和移除游戏内插件。\n这些插件是由第三方开发者制作的。",
+    "message": "This window allows you to install and remove Dalamud plugins.\nThey are made by the community.",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
@@ -602,6 +778,14 @@
   "InstallerNotInstalled": {
     "message": "未安装",
     "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerEnabledDisabled": {
+    "message": "Enabled/Disabled",
+    "description": "Locs.get_SortBy_EnabledDisabled"
+  },
+  "InstallerProfileOrNot": {
+    "message": "In a collection",
+    "description": "Locs.get_SortBy_ProfileOrNot"
   },
   "InstallerSortBy": {
     "message": "排序方式",
@@ -635,6 +819,10 @@
     "message": "您已安装的插件都没有更新日志。",
     "description": "Locs.get_TabBody_ChangelogNone"
   },
+  "InstallerChangelogError": {
+    "message": "Could not download changelogs.",
+    "description": "Locs.get_TabBody_ChangelogError"
+  },
   "InstallerInstalled": {
     "message": " （已安装）",
     "description": "Locs.get_PluginTitleMod_Installed"
@@ -642,6 +830,10 @@
   "InstallerDisabled": {
     "message": " （已禁用）",
     "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerNoService": {
+    "message": " (decommissioned)",
+    "description": "Locs.get_PluginTitleMod_NoService"
   },
   "InstallerUnloaded": {
     "message": "（已禁用）",
@@ -658,6 +850,18 @@
   "InstallerTestingVersion": {
     "message": " （测试版本）",
     "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerTestingExclusive": {
+    "message": " (testing exclusive)",
+    "description": "Locs.get_PluginTitleMod_TestingExclusive"
+  },
+  "InstallerTestingAvailable": {
+    "message": " (has testing version)",
+    "description": "Locs.get_PluginTitleMod_TestingAvailable"
+  },
+  "InstallerDevPlugin": {
+    "message": " (dev plugin)",
+    "description": "Locs.get_PluginTitleMod_DevPlugin"
   },
   "InstallerUpdateFailed": {
     "message": " （更新失败）",
@@ -679,9 +883,21 @@
     "message": " (自动禁用)",
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
+  "InstallerOrphanedError": {
+    "message": " (unknown repository)",
+    "description": "Locs.get_PluginTitleMod_OrphanedError"
+  },
+  "InstallerScheduledForDeletion": {
+    "message": " (scheduled for deletion)",
+    "description": "Locs.get_PluginTitleMod_ScheduledForDeletion"
+  },
   "InstallerNewPlugin ": {
     "message": " 新品！",
     "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerTestingOptIn": {
+    "message": "Receive plugin testing versions",
+    "description": "Locs.get_PluginContext_TestingOptIn"
   },
   "InstallerMarkAllSeen": {
     "message": "全部已阅",
@@ -692,11 +908,11 @@
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "重置",
+    "message": "Reset plugin data",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "重置并重新加载",
+    "message": "Reset plugin data and reload",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
@@ -704,12 +920,20 @@
     "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
   },
   "InstallerAuthorWithDownloadCount": {
-    "message": " 作者：{0}   下载次数：{1}",
+    "message": " by {0} ({1} downloads)",
     "description": "Locs.PluginBody_AuthorWithDownloadCount"
   },
   "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " 作者：{0}   下载次数：未知",
+    "message": " by {0}",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerCurrentChangeLog": {
+    "message": "Changelog (v{0})",
+    "description": "Locs.PluginBody_CurrentChangeLog"
+  },
+  "InstallerUpdateChangeLog": {
+    "message": "Available update changelog (v{0})",
+    "description": "Locs.PluginBody_UpdateChangeLog"
   },
   "InstallerDevPluginPath": {
     "message": "插件路径：{0}",
@@ -719,21 +943,41 @@
     "message": "插件仓库：{0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
-  "InstallerDevPlugin": {
-    "message": " 此插件已被上传至插件仓库，你可以在 devPlugins 文件夹中删除它了。",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " 你需要手动在 devPlugins 文件夹删除此插件。",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
   "InstallerOutdatedPluginBody ": {
-    "message": "此插件年代过于久远，无法与当前版本的框架兼容。请等待其作者更新。",
+    "message": "This plugin is outdated and incompatible.",
     "description": "Locs.get_PluginBody_Outdated"
   },
+  "InstallerOutdatedWaitForUpdate": {
+    "message": "Please wait for it to be updated by its author.",
+    "description": "Locs.get_PluginBody_Outdated_WaitForUpdate"
+  },
+  "InstallerOutdatedCanNowUpdate": {
+    "message": "An update is available for installation.",
+    "description": "Locs.get_PluginBody_Outdated_CanNowUpdate"
+  },
+  "InstallerOrphanedPluginBody ": {
+    "message": "This plugin's source repository is no longer available. You may need to reinstall it from its repository, or re-add the repository.",
+    "description": "Locs.get_PluginBody_Orphaned"
+  },
+  "InstallerNoServiceOfficialPluginBody": {
+    "message": "This plugin is no longer being maintained. It will still work, but there will be no further updates and you can't reinstall it.",
+    "description": "Locs.get_PluginBody_NoServiceOfficial"
+  },
+  "InstallerNoServiceThirdPluginBody": {
+    "message": "This plugin is no longer being serviced by its source repo. You may have to look for an updated version in another repo.",
+    "description": "Locs.get_PluginBody_NoServiceThird"
+  },
+  "InstallerLoadFailedPluginBody ": {
+    "message": "This plugin failed to load. Please contact the author for more information.",
+    "description": "Locs.get_PluginBody_LoadFailed"
+  },
   "InstallerBannedPluginBody ": {
-    "message": "此插件因兼容性问题而被自动禁用，目前还未能使用。请等待作者更新。",
+    "message": "This plugin was automatically disabled due to incompatibilities and is not available.",
     "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerPolicyPluginBody ": {
+    "message": "Plugin loads for this type of plugin were manually disabled.",
+    "description": "Locs.get_PluginBody_Policy"
   },
   "InstallerBannedPluginBodyReason ": {
     "message": "此插件已被自动禁用： {0}",
@@ -759,9 +1003,33 @@
     "message": "卸载",
     "description": "Locs.get_PluginButton_Unload"
   },
-  "InstallerOpenConfig": {
-    "message": "打开配置",
+  "InstallerSafeModeButton": {
+    "message": "Can't change in safe mode",
+    "description": "Locs.get_PluginButton_SafeMode"
+  },
+  "InstallerOpenPluginUi": {
+    "message": "Open",
+    "description": "Locs.get_PluginButton_OpenUi"
+  },
+  "InstallerOpenPluginSettings": {
+    "message": "Settings",
+    "description": "Locs.get_PluginButton_OpenSettings"
+  },
+  "InstallerTooltipOpenUi": {
+    "message": "Open this plugin's interface",
+    "description": "Locs.get_PluginButtonToolTip_OpenUi"
+  },
+  "InstallerTooltipOpenConfig": {
+    "message": "Open this plugin's settings",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerPickProfiles": {
+    "message": "Pick collections for this plugin",
+    "description": "Locs.get_PluginButtonToolTip_PickProfiles"
+  },
+  "InstallerProfilesNotSupported": {
+    "message": "This plugin does not support collections",
+    "description": "Locs.get_PluginButtonToolTip_ProfilesNotSupported"
   },
   "InstallerStartOnBoot": {
     "message": "自启动",
@@ -775,6 +1043,22 @@
     "message": "删除",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
   },
+  "InstallerDeletePluginRestricted": {
+    "message": "Cannot delete right now - please restart the game.",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginRestricted"
+  },
+  "InstallerDeletePluginScheduled": {
+    "message": "Delete plugin on next restart",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduled"
+  },
+  "InstallerDeletePluginScheduledCancel": {
+    "message": "Cancel scheduled deletion",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduledCancel"
+  },
+  "InstallerDeletePluginLoaded": {
+    "message": "Disable this plugin before deleting it.",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginLoaded"
+  },
   "InstallerVisitPluginUrl": {
     "message": "浏览插件主页",
     "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
@@ -783,9 +1067,21 @@
     "message": "更新至 {0}",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
-  "InstallerUnloadFailedTooltip": {
-    "message": "插件卸载失败，请重启游戏后再试。",
+  "InstallerLoadUnloadFailedTooltip": {
+    "message": "Plugin load/unload failed, please restart your game and try again.",
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "InstallerUnloadNeedsToBeInDefault": {
+    "message": "This plugin is in one or more collections. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it manually, remove it from all collections.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInDefault"
+  },
+  "InstallerUnloadNeedsToBeInSingleProfile": {
+    "message": "This plugin is in more than one collection. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it here, make sure it is only in a single collection.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
+  },
+  "InstallerSingleProfileDisabled": {
+    "message": "The collection '{0}' which contains this plugin is disabled.\nPlease enable it in the collections manager to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
   "NotificationsPluginInstalledTitle": {
     "message": "插件安装完成",
@@ -827,9 +1123,21 @@
     "message": "「{0}」已禁用。",
     "description": "Locs.Notifications_PluginDisabled"
   },
+  "NotificationsPluginEnabledTitle": {
+    "message": "Plugin enabled!",
+    "description": "Locs.get_Notifications_PluginEnabledTitle"
+  },
+  "NotificationsPluginEnabled": {
+    "message": "'{0}' was enabled.",
+    "description": "Locs.Notifications_PluginEnabled"
+  },
   "InstallerUpdatePlugins": {
     "message": "更新插件",
     "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerUpdateSafeMode": {
+    "message": "Can't update in safe mode",
+    "description": "Locs.get_FooterButton_UpdateSafeMode"
   },
   "InstallerInProgress": {
     "message": "正在安装...",
@@ -855,6 +1163,22 @@
     "message": "关闭",
     "description": "Locs.get_FooterButton_Close"
   },
+  "UpdateQuestionModal": {
+    "message": "Update Available",
+    "description": "Locs.get_UpdateModal_Title"
+  },
+  "UpdateModalUpdateAvailable": {
+    "message": "An update for \"{0}\" is available.\nDo you want to update it before enabling?\nUpdates will fix bugs and incompatibilities, and may add new features.",
+    "description": "Locs.UpdateModal_UpdateAvailable"
+  },
+  "UpdateModalYes": {
+    "message": "Update plugin",
+    "description": "Locs.get_UpdateModal_Yes"
+  },
+  "UpdateModalNo": {
+    "message": "Just enable",
+    "description": "Locs.get_UpdateModal_No"
+  },
   "InstallerError": {
     "message": "安装程序错误",
     "description": "Locs.get_ErrorModal_Title"
@@ -868,7 +1192,7 @@
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "插件 {0} 更新失败。\n{1}",
+    "message": "Failed to update plugin {0} ({1}).\n{2}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
@@ -899,6 +1223,10 @@
     "message": "插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
+  "InstallerProfileApplyFail": {
+    "message": "Failed to process collections.\nPlease restart your game and try again. If this error occurs again, please complain.",
+    "description": "Locs.get_ErrorModal_ProfileApplyFail"
+  },
   "InstallerUpdaterFail": {
     "message": "{0} 个插件更新失败。\n请重启游戏后再试一次。如果问题依然存在，请向我们报告。",
     "description": "Locs.ErrorModal_UpdaterFail"
@@ -916,16 +1244,44 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "您可以在这里向「{0}」的开发者发送反馈。\n如果您希望他们回答您，您可以提供您的 Discord 标签或电子邮件地址。\n\n如果您想报告一个错误，我们建议您加入 XIVLauncher 的 Discord 服务器。",
+    "message": "You can send feedback to the developer of \"{0}\" here.",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
     "message": "此插件有可用的新版本，请先在报告错误前更新。",
     "description": "Locs.get_FeedbackModal_HasUpdate"
   },
+  "InstallerFeedbackContactAnonymous": {
+    "message": "Submit feedback anonymously",
+    "description": "Locs.get_FeedbackModal_ContactAnonymous"
+  },
+  "InstallerFeedbackContactAnonymousWarning": {
+    "message": "No response will be forthcoming.\nUntick \"{0}\" and provide contact information if you need help.",
+    "description": "Locs.get_FeedbackModal_ContactAnonymousWarning"
+  },
   "InstallerFeedbackContactInfo": {
     "message": "联系信息",
     "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackContactInfoHelp": {
+    "message": "Discord usernames and e-mail addresses are accepted.\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
+    "description": "Locs.get_FeedbackModal_ContactInformationHelp"
+  },
+  "InstallerFeedbackContactInfoWarning": {
+    "message": "Do not submit in-game character names.",
+    "description": "Locs.get_FeedbackModal_ContactInformationWarning"
+  },
+  "InstallerFeedbackContactInfoRequired": {
+    "message": "Contact information has not been provided. We require contact information to respond to questions, or to request additional information to troubleshoot problems.",
+    "description": "Locs.get_FeedbackModal_ContactInformationRequired"
+  },
+  "ContactInformationDiscordButton": {
+    "message": "Join XIVLauncher & Dalamud Discord",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordButton"
+  },
+  "ContactInformationDiscordUrl": {
+    "message": "https://goat.place/",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordUrl"
   },
   "InstallerFeedbackIncludeLastError": {
     "message": "包含最后一次报错信息",
@@ -947,6 +1303,30 @@
     "message": "您的反馈无法发送。",
     "description": "Locs.get_FeedbackModal_NotificationError"
   },
+  "InstallerTestingWarning": {
+    "message": "Warning###InstallerTestingWarning",
+    "description": "Locs.get_TestingWarningModal_Title"
+  },
+  "InstallerTestingWarningDowngradeBody": {
+    "message": "Take care! If you opt out of testing for a plugin, you will remain on the testing version until it is deleted and reinstalled, or the non-testing version of the plugin is updated.\nKeep in mind that you may lose the settings for this plugin if you downgrade manually.",
+    "description": "Locs.get_TestingWarningModal_DowngradeBody"
+  },
+  "InstallerDeletePluginConfigWarning": {
+    "message": "Warning###InstallerDeletePluginConfigWarning",
+    "description": "Locs.get_DeletePluginConfigWarningModal_Title"
+  },
+  "InstallerDeletePluginConfigWarningBody": {
+    "message": "Are you sure you want to delete all data and configuration for {0}?",
+    "description": "Locs.DeletePluginConfigWarningModal_Body"
+  },
+  "InstallerDeletePluginConfigWarningYes": {
+    "message": "Yes",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_Yes"
+  },
+  "InstallerDeletePluginConfigWarningNo": {
+    "message": "No",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_No"
+  },
   "DalamudPluginUpdates": {
     "message": "更新：",
     "description": "Locs.get_PluginUpdateHeader_Chatbox"
@@ -954,6 +1334,198 @@
   "OK": {
     "message": "确定",
     "description": "Locs.get_ErrorModalButton_Ok"
+  },
+  "SafeModeDisclaimer": {
+    "message": "You enabled safe mode, no plugins will be loaded.\nYou may delete plugins from the \"Installed plugins\" tab.\nSimply restart your game to disable safe mode.",
+    "description": "Locs.get_SafeModeDisclaimer"
+  },
+  "InstallerProfilesCouldNotAdd": {
+    "message": "Couldn't add plugin to this collection.",
+    "description": "Locs.get_Profiles_CouldNotAdd"
+  },
+  "InstallerProfilesCouldNotRemove": {
+    "message": "Couldn't remove plugin from this collection.",
+    "description": "Locs.get_Profiles_CouldNotRemove"
+  },
+  "InstallerProfilesNone": {
+    "message": "No collections! Go add some in \"Plugin Collections\"!",
+    "description": "Locs.get_Profiles_None"
+  },
+  "InstallerProfilesRemoveFromAll": {
+    "message": "Remove from all collections",
+    "description": "Locs.get_Profiles_RemoveFromAll"
+  },
+  "VerifiedCheckmarkVerifiedTooltip": {
+    "message": "This plugin has been reviewed by the Dalamud team.\nIt follows our technical and safety criteria, and adheres to our guidelines.",
+    "description": "Locs.get_VerifiedCheckmark_VerifiedTooltip"
+  },
+  "VerifiedCheckmarkUnverifiedTooltip": {
+    "message": "This plugin has not been reviewed by the Dalamud team.\nWe cannot take any responsibility for custom plugins and repositories.\nPlease make absolutely sure that you only install plugins from developers you trust.\n\nYou will not receive support for plugins installed from custom repositories on the XIVLauncher & Dalamud server.",
+    "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
+  },
+  "ProfileManagerEnableDisableHint": {
+    "message": "Enable/Disable this collection",
+    "description": "Locs.get_TooltipEnableDisable"
+  },
+  "ProfileManagerInstall": {
+    "message": "Install this plugin",
+    "description": "Locs.get_InstallPlugin"
+  },
+  "ProfileManagerRemoveFromProfile": {
+    "message": "Remove plugin from this collection",
+    "description": "Locs.get_RemovePlugin"
+  },
+  "ProfileManagerAddPlugin": {
+    "message": "Add a plugin!",
+    "description": "Locs.get_AddPlugin"
+  },
+  "ProfileManagerNoPluginsInProfile": {
+    "message": "Collection has no plugins!",
+    "description": "Locs.get_NoPluginsInProfile"
+  },
+  "ProfileManagerAlwaysEnableAtBoot": {
+    "message": "Always enable when game starts",
+    "description": "Locs.get_AlwaysEnableAtBoot"
+  },
+  "ProfileManagerDeleteProfile": {
+    "message": "Delete this collection",
+    "description": "Locs.get_DeleteProfileHint"
+  },
+  "ProfileManagerCopyToClipboard": {
+    "message": "Copy collection to clipboard for sharing",
+    "description": "Locs.get_CopyToClipboardHint"
+  },
+  "ProfileManagerCopyToClipboardHint": {
+    "message": "Copied to clipboard!",
+    "description": "Locs.get_CopyToClipboardNotification"
+  },
+  "ProfileManagerBackToOverview": {
+    "message": "Back to overview",
+    "description": "Locs.get_BackToOverview"
+  },
+  "ProfileManagerSearchHint": {
+    "message": "Search...",
+    "description": "Locs.get_SearchHint"
+  },
+  "ProfileManagerAddProfileHint": {
+    "message": "No collections! Add one!",
+    "description": "Locs.get_AddProfileHint"
+  },
+  "ProfileManagerCloneProfile": {
+    "message": "Clone this collection",
+    "description": "Locs.get_CloneProfileHint"
+  },
+  "ProfileManagerEditProfile": {
+    "message": "Edit this collection",
+    "description": "Locs.get_EditProfileHint"
+  },
+  "ProfileManagerImportProfile": {
+    "message": "Import a shared collection from your clipboard",
+    "description": "Locs.get_ImportProfileHint"
+  },
+  "ProfileManagerTutorialHint": {
+    "message": "Learn more about collections",
+    "description": "Locs.get_TutorialHint"
+  },
+  "ProfileManagerAddProfile": {
+    "message": "Add a new collection",
+    "description": "Locs.get_AddProfile"
+  },
+  "ProfileManagerNotificationImportSuccess": {
+    "message": "Collection successfully imported!",
+    "description": "Locs.get_NotificationImportSuccess"
+  },
+  "ProfileManagerNotificationImportError": {
+    "message": "Could not import collection.",
+    "description": "Locs.get_NotificationImportError"
+  },
+  "ProfileManagerCouldNotRemove": {
+    "message": "Could not remove plugin.",
+    "description": "Locs.get_ErrorCouldNotRemove"
+  },
+  "ProfileManagerCouldNotChangeState": {
+    "message": "Could not change plugin state.",
+    "description": "Locs.get_ErrorCouldNotChangeState"
+  },
+  "ProfileManagerTutorial": {
+    "message": "About Collections",
+    "description": "Locs.get_TutorialTitle"
+  },
+  "ProfileManagerTutorialParagraphOne": {
+    "message": "Collections are shareable lists of plugins that can be enabled or disabled in the plugin installer or via chat commands.\nWhen a plugin is part of a collection, it will be enabled if the collection is enabled. If a plugin is part of multiple collections, it will be enabled if one or more collections it is a part of are enabled.",
+    "description": "Locs.get_TutorialParagraphOne"
+  },
+  "ProfileManagerTutorialParagraphTwo": {
+    "message": "You can add plugins to collections by clicking the plus button when editing a collection on this screen, or by using the button with the toolbox icon on the \"Installed Plugins\" screen.",
+    "description": "Locs.get_TutorialParagraphTwo"
+  },
+  "ProfileManagerTutorialParagraphThree": {
+    "message": "If a collection's \"Start on boot\" checkbox is ticked, the collection and the plugins within will be enabled every time the game starts up, even if it has been manually disabled in a prior session.",
+    "description": "Locs.get_TutorialParagraphThree"
+  },
+  "ProfileManagerTutorialParagraphFour": {
+    "message": "Individual plugins inside a collection also have a checkbox next to them. This indicates if a plugin is active within that collection - if the checkbox is not ticked, the plugin will not be enabled if that collection is active. Mind that it will still be enabled if the plugin is an active part of any other collection.",
+    "description": "Locs.get_TutorialParagraphFour"
+  },
+  "ProfileManagerTutorialCommands": {
+    "message": "You can use the following commands in chat or in macros to manage active collections:",
+    "description": "Locs.get_TutorialCommands"
+  },
+  "ProfileManagerTutorialCommandsEnable": {
+    "message": "{0} \"Collection Name\" - Enable a collection",
+    "description": "Locs.get_TutorialCommandsEnable"
+  },
+  "ProfileManagerTutorialCommandsDisable": {
+    "message": "{0} \"Collection Name\" - Disable a collection",
+    "description": "Locs.get_TutorialCommandsDisable"
+  },
+  "ProfileManagerTutorialCommandsToggle": {
+    "message": "{0} \"Collection Name\" - Toggle a collection's state",
+    "description": "Locs.get_TutorialCommandsToggle"
+  },
+  "ProfileManagerTutorialCommandsEnd": {
+    "message": "If you run multiple of these commands, they will be executed in order.",
+    "description": "Locs.get_TutorialCommandsEnd"
+  },
+  "ProfileManagerChoice1": {
+    "message": "Plugin collections are a new feature that allow you to group plugins into collections which can be toggled and shared.",
+    "description": "Locs.get_Choice1"
+  },
+  "ProfileManagerChoice2": {
+    "message": "They are experimental and may still contain bugs. Do you want to enable them now?",
+    "description": "Locs.get_Choice2"
+  },
+  "ProfileManagerChoiceConfirmation": {
+    "message": "Yes, enable Plugin Collections",
+    "description": "Locs.get_ChoiceConfirmation"
+  },
+  "ProfileManagerNotInstalled": {
+    "message": "{0} (Not Installed)",
+    "description": "Locs.NotInstalled"
+  },
+  "NotificationConstants.DefaultInitiator": {
+    "message": "Dalamud",
+    "description": "NotificationConstants.get_DefaultInitiator"
+  },
+  "NotificationConstants.UnloadedInitiatorNameFormat": {
+    "message": "{0} (unloaded)",
+    "description": "NotificationConstants.get_UnloadedInitiatorNameFormat"
+  },
+  "NotificationConstants.Title.Success": {
+    "message": "Success",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Warning": {
+    "message": "Warning",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Error": {
+    "message": "Error",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Info": {
+    "message": "Info",
+    "description": "NotificationConstants.ToTitle"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} 已加载。",
@@ -973,23 +1545,23 @@
   },
   "DalamudPluginUpdateCheckFail": {
     "message": "无法检查插件更新。",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginAutoUpdate": {
     "message": "自动更新：",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
     "message": "{0} 个插件更新成功。",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
     "message": "自动更新",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
     "message": "您需要更新一个或多个插件。请使用游戏中的 /xlplugins 命令来更新它们！",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "SystemMenuPlugins": {
     "message": "插件中心",
