@@ -1,78 +1,178 @@
 {
+  "DateTimeSpanExtensions.RelativeFormatStringsLong": {
+    "message": "172800,{0:%d} days ago\n86400,yesterday\n7200,{0:%h} hours ago\n3600,an hour ago\n120,{0:%m} minutes ago\n60,a minute ago\n2,{0:%s} seconds ago\n1,a second ago\n-Infinity,just now",
+    "description": "DateTimeSpanExtensions.LocRelativePastLong"
+  },
+  "DateTimeSpanExtensions.RelativeFormatStringsShort": {
+    "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,now",
+    "description": "DateTimeSpanExtensions.LocRelativePastShort"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "Open plugin changelogs",
+    "description": "PluginManager.PrintUpdatedPlugins"
+  },
   "DalamudPluginUpdateSuccessful": {
     "message": "    》 {0} oppdatert til v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 Klarte ikke å oppdatere {0} til v{1}.",
+    "message": "    》 {0} update to v{1} failed ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "InstallerUpdateStatusPending": {
+    "message": "Pending",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedDownload": {
+    "message": "Download failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedUnload": {
+    "message": "Unload failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedLoad": {
+    "message": "Load failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusSuccess": {
+    "message": "Success",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "ProfileCommandsEnableHint": {
+    "message": "Enable a collection. Usage: /xlenablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsDisableHint": {
+    "message": "Disable a collection. Usage: /xldisablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsToggleHint": {
+    "message": "Toggle a collection. Usage: /xltogglecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsEnabling": {
+    "message": "Enabling collection \"{0}\"...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsDisabling": {
+    "message": "Disabling collection \"{0}\"...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsApplyFailed": {
+    "message": "Failed to apply your collections. Please check the console for errors.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "ProfileCommandsApplySuccess": {
+    "message": "Collections applied.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "PluginProfilesNewProfile": {
+    "message": "New Collection",
+    "description": "ProfileManager.AddNewProfile"
+  },
+  "WindowSystemContextActionPin": {
+    "message": "Pin Window",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthrough": {
+    "message": "Make clickthrough",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionAlpha": {
+    "message": "Opacity",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionReset": {
+    "message": "Reset",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthroughDisclaimer": {
+    "message": "Open this menu again to disable clickthrough.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionDisclaimer": {
+    "message": "These options may not work for all plugins at the moment.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionViewportDisclaimer": {
+    "message": "These features are only available if this window is inside the game window.",
+    "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
     "message": "Avlaster XIVLauncher spilltillegget.",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudPluginReloadHelp": {
-    "message": "Laster inn alle tillegg på nytt.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Viser liste over tilgjengelige kommandoer.",
-    "description": "DalamudCommands.SetupCommands"
+    "message": "Shows list of commands available. If an argument is provided, shows help for that command.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteHelp": {
     "message": "Blokker ett ord eller en setning fra å vises i chattevinduet. Bruk: /xlmute <ord eller setning>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteListHelp": {
     "message": "Vis blokkerte ord eller setninger.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudUnmuteHelp": {
     "message": "Opphev blokkering av ett ord eller en setning. Bruk: /xlunmute <ord eller setning>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLastLinkHelp": {
     "message": "Åpne den sist sendte lenken i din standardnettleser.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudBgmSetHelp": {
     "message": "Sett bakgrunnsmusikk i spillet. Bruk: /xlbgmset <MUSIKK ID>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevMenuHelp": {
     "message": "Tegn utviklermeny FEILSØK",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudPluginStats": {
+    "message": "Draw plugin statistics window",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudBranchSwitcher": {
+    "message": "Draw branch switcher",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
     "message": "Vis utviklermeny DEBUG. Bruk: /xldata [nedtrekkstype]",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudIMEPanelHelp": {
-    "message": "Vis IME-panel",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
     "message": "Åpne utviklerlogg DEBUG",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
     "message": "Åpne tilleggsinstallatøren",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudCreditsHelp": {
-    "message": "Vis medvirkende for Dalamud.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
     "message": "Sett språket for Dalamud og tillegg som støtter det. Tilgjengelige språk: ",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudSettingsHelp": {
     "message": "Endre forskjellige innstillinger for spilltillegg som chat-kanaler og oppsettet til Discord roboten.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudUiModeHelp": {
+    "message": "Toggle Dalamud UI display modes. Native UI modifications may also be affected by this, but that depends on the plugin.",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudProfilerHelp": {
+    "message": "Open Dalamud's startup timing profiler.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdHelpAvailable": {
     "message": "Tilgjengelige kommandoer:",
+    "description": "DalamudCommands.OnHelpCommand"
+  },
+  "DalamudCmdHelpNotFound": {
+    "message": "Command not found.",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
@@ -105,15 +205,27 @@
   },
   "TSMDalamudPlugins": {
     "message": "Tilleggsoppsett",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
     "message": "Dalamud Innstillinger",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
     "message": "Utviklermeny",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+  },
+  "ImGuiClipboardFunctionProviderClipboardInUse": {
+    "message": "Some other application is using the clipboard. Try again later.",
+    "description": "ImGuiClipboardFunctionProvider.OpenClipboardOrShowError"
+  },
+  "ImGuiClipboardFunctionProviderErrorCopy": {
+    "message": "Failed to copy. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.SetClipboardTextImpl"
+  },
+  "ImGuiClipboardFunctionProviderErrorPaste": {
+    "message": "Failed to paste. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.GetClipboardTextImpl"
   },
   "InstallerDevTools": {
     "message": "Verktøy for utviklere",
@@ -135,9 +247,21 @@
     "message": "Alle",
     "description": "Locs.get_Category_All"
   },
+  "InstallerCategoryIsTesting": {
+    "message": "Currently Testing",
+    "description": "Locs.get_Category_IsTesting"
+  },
+  "InstallerCategoryAvailableForTesting": {
+    "message": "Testing Available",
+    "description": "Locs.get_Category_AvailableForTesting"
+  },
   "InstallerInstalledDevPlugins": {
     "message": "Installerte utviklingsprogramtillegg",
     "description": "Locs.get_Category_DevInstalled"
+  },
+  "InstallerCategoryPluginProfiles": {
+    "message": "Plugin Collections",
+    "description": "Locs.get_Category_PluginProfiles"
   },
   "InstallerCategoryOther": {
     "message": "Annet",
@@ -183,342 +307,6 @@
     "message": "Spillkontrollermodus er skrudd på. Trykk L1 + L3 for å deaktivere, trykk R3 for å vise/skjule installasjonsvinduet.",
     "description": "GamepadModeNotifierWindow.Draw"
   },
-  "DalamudSettingsHeader": {
-    "message": "Dalamud Innstillinger",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel0": {
-    "message": "Minst (1k x 1k tekstur)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel1": {
-    "message": "Mindre (2k x 2k tekstur)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel2": {
-    "message": "Normal (4k x 4k tekstur)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel3": {
-    "message": "Bedre (8k x 8k tekstur, kan krasje spillet ditt)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel4": {
-    "message": "Best (16k x 16k tekstur, kan krasje spillet ditt)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "Generelt",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "Utseende & Stil",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsServerInfoBar": {
-    "message": "Serverinformasjonslinje",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsExperimental": {
-    "message": "Eksperimentelt",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "Språk",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "Velg språket Dalamud skal vises i.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannel": {
-    "message": "Generell Chattekanal",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannelHint": {
-    "message": "Velg chattekanalen som skal brukes for Dalamud meldinger.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlash": {
-    "message": "Blink FFXIV vinduet når Duty Finder er klar",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlashHint": {
-    "message": "Velg, om FFXIV skal blinke i oppgavelinjen når Duty Finder har funnet en gruppe for deg.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessage": {
-    "message": "Send melding til chatteloggen når Duty Finder er klar",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Velg dersom du vil en melding skal sendes til FFXIV chatten når Duty Finder er klar.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Vis aktiverte programtillegg i velkomstmeldingen",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Vis aktiverte programtillegg i FFXIV-chatten når du logger inn med en karakter.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Oppdater programtillegg automatisk",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Oppdater programtillegg automatisk når du logger inn med en karakter.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenu": {
-    "message": "Dalamudknapper i systemmenyen",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Vis knapper for Dalamudprogramtillegg og -instillinger i systemmenyen.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "Slå av RMT-filtrering",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Slå av Dalamuds innebygde RMT-reklamefilter.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollect": {
-    "message": "Last opp anonymisert data om markedstavlen",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollectHint": {
-    "message": "Gi anonymisert data om spillets økonomi til Universalis mens du ser på markedstavla. Denne dataen kan ikke knyttes mot deg på noen måte og gagner alle!",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "Global skriftstørrelse",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset6": {
-    "message": "9,6 pkt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset12": {
-    "message": "Nullstill (12 pkt)",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset14": {
-    "message": "14 pkt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset18": {
-    "message": "18 pkt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset36": {
-    "message": "36 pkt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaler tekst i brukergrensesnittet til XIVLauncher, dette kan være nyttig for 4K-skjermer.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsOpenStyleEditor": {
-    "message": "Rediger stilsett",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsStyleEditorHint": {
-    "message": "Endre hvordan Dalamud-vinduer ser ut.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleAxisFonts": {
-    "message": "Bruk skriftsnittet AXIS som standardskriftsnitt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiAxisFontsHint": {
-    "message": "Bruk skriftsnittet AXIS (samme som spillet bruker) som standardskriftsnitt i Dalamud.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevel": {
-    "message": "Skriftoppløsning",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevelHint": {
-    "message": "Denne innstillingen kan gjøre at skrift i Dalamud ser bedre ut. Hvis spillet krasjer når du endrer denne innstillingen så støtter ikke PC-en din høy oppløsning for skrift i Dalamud, du må i så fall bruke en lavere oppløsning.\nGjeldende skriftatlasstørrelse er {0} × {1}.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Programtillegg kan velge å se bort fra innstillingene under.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHide": {
-    "message": "Skjul brukergrensesnittet når spillets brukergrensesnitt også er skjult",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideHint": {
-    "message": "Huk av denne boksen for å skjule tilleggsvindu når du skjuler spillets grensesnitt.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Skjul programtillegg under filmsekvenser",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Skjuler alle åpne vinduer fra programtillegg under filmsekvenser.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Skjul programtillegg når gpose er i bruk",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Skjuler alle åpne vinduer fra programtillegg mens gpose er i bruk.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagement": {
-    "message": "Bruk Escape for å lukke Dalamud-vinduer",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagementHint": {
-    "message": "Dette gjør at Dalamud-vinduer oppfører seg på samme måte som spillvinduer når du trykker på Escape.\nDe lukker seg en om gangen til alle er lukket. Fungerer ikke for alle programtillegg.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewports": {
-    "message": "Slå på støtte for flere skjermer",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewportsHint": {
-    "message": "Dette lar deg flytte programtillegsvinduer til andre skjermer.\nVirker bare når spillet er i «Borderless Window» eller «Windowed»-modus.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDocking": {
-    "message": "Slå på vindusforankring",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDockingHint": {
-    "message": "Dette vil la deg slå sammen programtillegsvinduer samt å lage faner.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigation": {
-    "message": "Kontroller programtillegg med spillkontroller",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "Dette lar deg bytte mellom å navigere i spillet og i programtillegg med L1 + L3.\nSkjul eller vis installasjonvinduet med R3 hvis ImGui-navigering er slått på.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsm": {
-    "message": "Vis meny på tittelskjermbildet",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsmHint": {
-    "message": "Dette gir deg tilgang til noen funksjoner i Dalamud og programtillegg fra tittelskjermbildet.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGamma": {
-    "message": "Skriftgamma",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsIndividualConfigResetToDefaultValue": {
-    "message": "Nullstill",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGammaHint": {
-    "message": "Endrer tykkelsen på teksten.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingServerInfoBar": {
-    "message": "Innstillinger for serverinfolinje",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarHint": {
-    "message": "Programtilleg kan legge til mer informasjon i serverinfolinjen din (hvor du ser klokkeslett og verden).\nDu kan velge rekkefølge samt slå av enkelte elementer her.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDidNone": {
-    "message": "Du har ingen programtillegg som bruker denne funksjonen.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacing": {
-    "message": "Avstand mellom elementer i serverinfolinjen",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacingHint": {
-    "message": "Velg hvor mye avstand du vil ha mellom elementene i serverinfolinjen her.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirection": {
-    "message": "Retning på serverinfolinje",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirectionHint": {
-    "message": "Kryss av her for å utvide elementene i serverinfolinjen mot høyre i stedet for mot venstre.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "Huk av denne boksen for å få forhåndsvisningsversjoner av tillegg.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "Testprogramtillegg er ikke alltid like godt undersøkt før de publiseres. Ikke slå på disse hvis du ikke forstår risikoene.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "Nulstill skjulte programtillegg",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "Gjenopprett programtillegg du tidligere har skjult fra programtilleggsinstallatøren.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "Ekstra pakkelagre",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsChanged": {
-    "message": "(Endret)",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "Legg til ekstra pakkelagre.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "Vi kan ikke ta ansvar for tredjepartsprogramtillegg og pakkelagre.\nVær forsiktig når du installerer tredjepartsprogramtillegg.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "Pakkelageret finnes allerede.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "Adresser for programtillegg under utvikling",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Legg till ekstra adresser for programtillegg.\nDisse kan enten være mapper eller DLL-filer.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudDevPluginLocationExists": {
-    "message": "Adressen finnes allerede.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "Save": {
-    "message": "Lagre",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "Close": {
-    "message": "Lukk",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "SaveAndClose": {
-    "message": "Lagre og Lukk",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
   "RenameStyleModalTitle": {
     "message": "Endre navn på stilsett",
     "description": "StyleEditorWindow.Draw"
@@ -563,9 +351,397 @@
     "message": "Farger",
     "description": "StyleEditorWindow.Draw"
   },
+  "Close": {
+    "message": "Lukk",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "Lagre og Lukk",
+    "description": "StyleEditorWindow.Draw"
+  },
   "StyleEditorEnterName": {
     "message": "Skriv inn ett nytt navn for dette stilsettet.",
     "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud Innstillinger",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsSave": {
+    "message": "Save changes",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsSaveAndExit": {
+    "message": "Save changes and close",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsDevPluginLocation": {
+    "message": "Adresser for programtillegg under utvikling",
+    "description": "DevPluginsSettingsEntry..ctor"
+  },
+  "DalamudSettingsChanged": {
+    "message": "(Endret)",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsDevPluginLocationsHint": {
+    "message": "Add dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginLocationExists": {
+    "message": "Adressen finnes allerede.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginInvalid": {
+    "message": "The entered value is not a valid path to a potential Dev Plugin.\nDid you mean to enter it as a custom plugin repository in the fields below instead?",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "Språk",
+    "description": "LanguageChooserSettingsEntry..ctor"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Velg språket Dalamud skal vises i.",
+    "description": "LanguageChooserSettingsEntry.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "Ekstra pakkelagre",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "Legg til ekstra pakkelagre.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningReadThis": {
+    "message": "READ THIS FIRST!",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "We cannot take any responsibility for custom plugins and repositories.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning5": {
+    "message": "If someone told you to copy/paste something here, it's very possible that you are being scammed or taken advantage of.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning2": {
+    "message": "Plugins have full control over your PC, like any other program, and may cause harm or crashes.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning4": {
+    "message": "They can delete your character, steal your FC or Discord account, and burn down your house.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning3": {
+    "message": "Please make absolutely sure that you only install plugins from developers you trust.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningPleaseWait": {
+    "message": "Please wait {0} seconds...",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningIReadIt": {
+    "message": "Ok, I have read and understood this warning",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "Pakkelageret finnes allerede.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoNotUrl": {
+    "message": "The entered address is not a valid URL.\nDid you mean to enter it as a DevPlugin in the fields above instead?",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudAbout": {
+    "message": "About",
+    "description": "SettingsTabAbout.get_Title"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "Serverinformasjonslinje",
+    "description": "SettingsTabDtr.get_Title"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "Programtilleg kan legge til mer informasjon i serverinfolinjen din (hvor du ser klokkeslett og verden).\nDu kan velge rekkefølge samt slå av enkelte elementer her.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "Du har ingen programtillegg som bruker denne funksjonen.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "Avstand mellom elementer i serverinfolinjen",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "Velg hvor mye avstand du vil ha mellom elementene i serverinfolinjen her.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "Retning på serverinfolinje",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "Kryss av her for å utvide elementene i serverinfolinjen mot høyre i stedet for mot venstre.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "Eksperimentelt",
+    "description": "SettingsTabExperimental.get_Title"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "Skaff deg forhåndsvisningsversjoner av tillegg",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"{0}\" tab of the plugin installer and select \"{1}\".",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Testing plugins may contain bugs or crash your game. Please only enable this if you are aware of the risks.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptions": {
+    "message": "Add a button to the title bar of plugin windows to open additional options",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
+    "message": "This will allow you to pin certain plugin windows, make them clickthrough or adjust their opacity.\nThis may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "Nulstill skjulte programtillegg",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "Gjenopprett programtillegg du tidligere har skjult fra programtilleggsinstallatøren.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "Generelt",
+    "description": "SettingsTabGeneral.get_Title"
+  },
+  "DalamudSettingsChannel": {
+    "message": "Dalamud Chat Channel",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "Velg chattekanalen som skal brukes for Dalamud meldinger.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartup": {
+    "message": "Wait for plugins before game loads",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartupHint": {
+    "message": "Do not let the game load, until plugins are loaded.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlash": {
+    "message": "Blink FFXIV vinduet når Duty Finder er klar",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "Velg, om FFXIV skal blinke i oppgavelinjen når Duty Finder har funnet en gruppe for deg.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "Send melding til chatteloggen når Duty Finder er klar",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "Velg dersom du vil en melding skal sendes til FFXIV chatten når Duty Finder er klar.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsg": {
+    "message": "Display Dalamud's welcome message",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsgHint": {
+    "message": "Display Dalamud's welcome message in FFXIV chat when logging in with a character.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "Vis aktiverte programtillegg i velkomstmeldingen",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "Vis aktiverte programtillegg i FFXIV-chatten når du logger inn med en karakter.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "Oppdater programtillegg automatisk",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "Oppdater programtillegg automatisk når du logger inn med en karakter.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenu": {
+    "message": "Dalamudknapper i systemmenyen",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenuMsgHint": {
+    "message": "Vis knapper for Dalamudprogramtillegg og -instillinger i systemmenyen.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFiltering": {
+    "message": "Enable RMT Filtering",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFilteringMsgHint": {
+    "message": "Enable Dalamud's built-in RMT ad filtering.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "Last opp anonymisert data om markedstavlen",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "Gi anonymisert data om spillets økonomi til Universalis mens du ser på markedstavla. Denne dataen kan ikke knyttes mot deg på noen måte og gagner alle!",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelNone": {
+    "message": "Do not pick \"None\".",
+    "description": "<>c.<.ctor>b__5_2"
+  },
+  "DalamudSettingsVisual": {
+    "message": "Utseende & Stil",
+    "description": "SettingsTabLook.get_Title"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "Global skriftstørrelse",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildInProgressWithEndingThreeDots": {
+    "message": "Building fonts...",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "Skaler tekst i brukergrensesnittet til XIVLauncher, dette kan være nyttig for 4K-skjermer.",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildFaulted": {
+    "message": "Failed to load fonts as requested.",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingChooseDefaultFont": {
+    "message": "Choose Default Font",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingResetDefaultFont": {
+    "message": "Reset Default Font",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsOpenStyleEditor": {
+    "message": "Rediger stilsett",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsStyleEditorHint": {
+    "message": "Endre hvordan Dalamud-vinduer ser ut.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkMode": {
+    "message": "Use Windows immersive/dark mode",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkModeHint": {
+    "message": "This will cause the FFXIV window title bar to follow your preferred Windows color settings, and switch to dark mode if enabled.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "Programtillegg kan velge å se bort fra innstillingene under.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "Skjul brukergrensesnittet når spillets brukergrensesnitt også er skjult",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "Huk av denne boksen for å skjule tilleggsvindu når du skjuler spillets grensesnitt.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "Skjul programtillegg under filmsekvenser",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "Skjuler alle åpne vinduer fra programtillegg under filmsekvenser.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "Skjul programtillegg når gpose er i bruk",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "Skjuler alle åpne vinduer fra programtillegg mens gpose er i bruk.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagement": {
+    "message": "Bruk Escape for å lukke Dalamud-vinduer",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagementHint": {
+    "message": "Dette gjør at Dalamud-vinduer oppfører seg på samme måte som spillvinduer når du trykker på Escape.\nDe lukker seg en om gangen til alle er lukket. Fungerer ikke for alle programtillegg.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "Slå på støtte for flere skjermer",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "Dette lar deg flytte programtillegsvinduer til andre skjermer.\nVirker bare når spillet er i «Borderless Window» eller «Windowed»-modus.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "Slå på vindusforankring",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "Dette vil la deg slå sammen programtillegsvinduer samt å lage faner.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffects": {
+    "message": "Enable sound effects for plugin windows",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffectsHint": {
+    "message": "This will allow you to enable or disable sound effects generated by plugin user interfaces.\nThis is affected by your in-game `System Sounds` volume settings.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigation": {
+    "message": "Kontroller programtillegg med spillkontroller",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigationHint": {
+    "message": "Dette lar deg bytte mellom å navigere i spillet og i programtillegg med L1 + L3.\nSkjul eller vis installasjonvinduet med R3 hvis ImGui-navigering er slått på.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "Vis meny på tittelskjermbildet",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "Dette gir deg tilgang til noen funksjoner i Dalamud og programtillegg fra tittelskjermbildet.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefault": {
+    "message": "Open the Plugin Installer to the \"Installed Plugins\" tab by default",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefaultHint": {
+    "message": "This will allow you to open the Plugin Installer to the \"Installed Plugins\" tab by default, instead of the \"Available Plugins\" tab.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotion": {
+    "message": "Reduce motions",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotionHint": {
+    "message": "This will suppress certain animations from Dalamud, such as the notification popup.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "ChangelogNoText": {
+    "message": "No changelog for this version.",
+    "description": "PluginChangelogEntry..ctor"
   },
   "InstallerHeader": {
     "message": "Tilleggsoppsett",
@@ -576,7 +752,7 @@
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "Dette vinduet lar deg installere og fjerne tillegg i spillet.\nDe er laget av tredjepartsutviklere.",
+    "message": "This window allows you to install and remove Dalamud plugins.\nThey are made by the community.",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
@@ -602,6 +778,14 @@
   "InstallerNotInstalled": {
     "message": "Ikke installert",
     "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerEnabledDisabled": {
+    "message": "Enabled/Disabled",
+    "description": "Locs.get_SortBy_EnabledDisabled"
+  },
+  "InstallerProfileOrNot": {
+    "message": "In a collection",
+    "description": "Locs.get_SortBy_ProfileOrNot"
   },
   "InstallerSortBy": {
     "message": "Sorter etter",
@@ -635,6 +819,10 @@
     "message": "Ingen av de installerte programtilleggene har en endringslogg.",
     "description": "Locs.get_TabBody_ChangelogNone"
   },
+  "InstallerChangelogError": {
+    "message": "Could not download changelogs.",
+    "description": "Locs.get_TabBody_ChangelogError"
+  },
   "InstallerInstalled": {
     "message": " (installert)",
     "description": "Locs.get_PluginTitleMod_Installed"
@@ -642,6 +830,10 @@
   "InstallerDisabled": {
     "message": " (deaktivert)",
     "description": "Locs.get_PluginTitleMod_Disabled"
+  },
+  "InstallerNoService": {
+    "message": " (decommissioned)",
+    "description": "Locs.get_PluginTitleMod_NoService"
   },
   "InstallerUnloaded": {
     "message": " (deaktivert)",
@@ -658,6 +850,18 @@
   "InstallerTestingVersion": {
     "message": " (testversjon)",
     "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerTestingExclusive": {
+    "message": " (testing exclusive)",
+    "description": "Locs.get_PluginTitleMod_TestingExclusive"
+  },
+  "InstallerTestingAvailable": {
+    "message": " (has testing version)",
+    "description": "Locs.get_PluginTitleMod_TestingAvailable"
+  },
+  "InstallerDevPlugin": {
+    "message": " (dev plugin)",
+    "description": "Locs.get_PluginTitleMod_DevPlugin"
   },
   "InstallerUpdateFailed": {
     "message": " (oppdatering mislyktes)",
@@ -679,9 +883,21 @@
     "message": " (deaktivert automatisk)",
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
+  "InstallerOrphanedError": {
+    "message": " (unknown repository)",
+    "description": "Locs.get_PluginTitleMod_OrphanedError"
+  },
+  "InstallerScheduledForDeletion": {
+    "message": " (scheduled for deletion)",
+    "description": "Locs.get_PluginTitleMod_ScheduledForDeletion"
+  },
   "InstallerNewPlugin ": {
     "message": " Ny!",
     "description": "Locs.get_PluginTitleMod_New"
+  },
+  "InstallerTestingOptIn": {
+    "message": "Receive plugin testing versions",
+    "description": "Locs.get_PluginContext_TestingOptIn"
   },
   "InstallerMarkAllSeen": {
     "message": "Marker alle som lest",
@@ -692,11 +908,11 @@
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "Nullstill programtillegg",
+    "message": "Reset plugin data",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "Nulstill innstillinger for programtillegg og last på nytt",
+    "message": "Reset plugin data and reload",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
@@ -704,12 +920,20 @@
     "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
   },
   "InstallerAuthorWithDownloadCount": {
-    "message": " fra {0}, {1} nedlastinger",
+    "message": " by {0} ({1} downloads)",
     "description": "Locs.PluginBody_AuthorWithDownloadCount"
   },
   "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " by {0}, nedlastingstall utilgjengelig",
+    "message": " by {0}",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerCurrentChangeLog": {
+    "message": "Changelog (v{0})",
+    "description": "Locs.PluginBody_CurrentChangeLog"
+  },
+  "InstallerUpdateChangeLog": {
+    "message": "Available update changelog (v{0})",
+    "description": "Locs.PluginBody_UpdateChangeLog"
   },
   "InstallerDevPluginPath": {
     "message": "Fra {0}",
@@ -719,21 +943,41 @@
     "message": "Fra ekstra pakkelager {0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
-  "InstallerDevPlugin": {
-    "message": " Dette programtilleget er tilgjengelig i ett av pakkelagrene dine, vennligst slett det fra devPlugins-mappen din.",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " Fjern programtillegget fra devPlugins-mappen din for å slette det.",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
   "InstallerOutdatedPluginBody ": {
-    "message": "Dette programtillegget er utdatert og ikke kompatibelt for øyeblikket. Vent på en oppdatering fra utvikleren.",
+    "message": "This plugin is outdated and incompatible.",
     "description": "Locs.get_PluginBody_Outdated"
   },
+  "InstallerOutdatedWaitForUpdate": {
+    "message": "Please wait for it to be updated by its author.",
+    "description": "Locs.get_PluginBody_Outdated_WaitForUpdate"
+  },
+  "InstallerOutdatedCanNowUpdate": {
+    "message": "An update is available for installation.",
+    "description": "Locs.get_PluginBody_Outdated_CanNowUpdate"
+  },
+  "InstallerOrphanedPluginBody ": {
+    "message": "This plugin's source repository is no longer available. You may need to reinstall it from its repository, or re-add the repository.",
+    "description": "Locs.get_PluginBody_Orphaned"
+  },
+  "InstallerNoServiceOfficialPluginBody": {
+    "message": "This plugin is no longer being maintained. It will still work, but there will be no further updates and you can't reinstall it.",
+    "description": "Locs.get_PluginBody_NoServiceOfficial"
+  },
+  "InstallerNoServiceThirdPluginBody": {
+    "message": "This plugin is no longer being serviced by its source repo. You may have to look for an updated version in another repo.",
+    "description": "Locs.get_PluginBody_NoServiceThird"
+  },
+  "InstallerLoadFailedPluginBody ": {
+    "message": "This plugin failed to load. Please contact the author for more information.",
+    "description": "Locs.get_PluginBody_LoadFailed"
+  },
   "InstallerBannedPluginBody ": {
-    "message": "Programtilleget er ikke kompatibelt og har blitt deaktivert automatisk. Vennligst vent på en oppdatering fra utvikleren av programtillegget.",
+    "message": "This plugin was automatically disabled due to incompatibilities and is not available.",
     "description": "Locs.get_PluginBody_Banned"
+  },
+  "InstallerPolicyPluginBody ": {
+    "message": "Plugin loads for this type of plugin were manually disabled.",
+    "description": "Locs.get_PluginBody_Policy"
   },
   "InstallerBannedPluginBodyReason ": {
     "message": "Dette programtillegget har blitt deaktivert automatisk: {0}",
@@ -759,9 +1003,33 @@
     "message": "Deaktiver",
     "description": "Locs.get_PluginButton_Unload"
   },
-  "InstallerOpenConfig": {
-    "message": "Åpne Konfigurasjon",
+  "InstallerSafeModeButton": {
+    "message": "Can't change in safe mode",
+    "description": "Locs.get_PluginButton_SafeMode"
+  },
+  "InstallerOpenPluginUi": {
+    "message": "Open",
+    "description": "Locs.get_PluginButton_OpenUi"
+  },
+  "InstallerOpenPluginSettings": {
+    "message": "Settings",
+    "description": "Locs.get_PluginButton_OpenSettings"
+  },
+  "InstallerTooltipOpenUi": {
+    "message": "Open this plugin's interface",
+    "description": "Locs.get_PluginButtonToolTip_OpenUi"
+  },
+  "InstallerTooltipOpenConfig": {
+    "message": "Open this plugin's settings",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerPickProfiles": {
+    "message": "Pick collections for this plugin",
+    "description": "Locs.get_PluginButtonToolTip_PickProfiles"
+  },
+  "InstallerProfilesNotSupported": {
+    "message": "This plugin does not support collections",
+    "description": "Locs.get_PluginButtonToolTip_ProfilesNotSupported"
   },
   "InstallerStartOnBoot": {
     "message": "Start ved oppstart",
@@ -775,6 +1043,22 @@
     "message": "Slett programtillegg",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
   },
+  "InstallerDeletePluginRestricted": {
+    "message": "Cannot delete right now - please restart the game.",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginRestricted"
+  },
+  "InstallerDeletePluginScheduled": {
+    "message": "Delete plugin on next restart",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduled"
+  },
+  "InstallerDeletePluginScheduledCancel": {
+    "message": "Cancel scheduled deletion",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduledCancel"
+  },
+  "InstallerDeletePluginLoaded": {
+    "message": "Disable this plugin before deleting it.",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginLoaded"
+  },
   "InstallerVisitPluginUrl": {
     "message": "Besøk programtilleggets nettadresse",
     "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
@@ -783,9 +1067,21 @@
     "message": "Oppdater til {0}",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
-  "InstallerUnloadFailedTooltip": {
-    "message": "Klarte ikke å deaktivere programtillegg, start spillet på nytt og prøv igjen.",
+  "InstallerLoadUnloadFailedTooltip": {
+    "message": "Plugin load/unload failed, please restart your game and try again.",
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "InstallerUnloadNeedsToBeInDefault": {
+    "message": "This plugin is in one or more collections. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it manually, remove it from all collections.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInDefault"
+  },
+  "InstallerUnloadNeedsToBeInSingleProfile": {
+    "message": "This plugin is in more than one collection. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it here, make sure it is only in a single collection.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
+  },
+  "InstallerSingleProfileDisabled": {
+    "message": "The collection '{0}' which contains this plugin is disabled.\nPlease enable it in the collections manager to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
   "NotificationsPluginInstalledTitle": {
     "message": "Programtillegg installert",
@@ -827,9 +1123,21 @@
     "message": "«{0}» er deaktivert.",
     "description": "Locs.Notifications_PluginDisabled"
   },
+  "NotificationsPluginEnabledTitle": {
+    "message": "Plugin enabled!",
+    "description": "Locs.get_Notifications_PluginEnabledTitle"
+  },
+  "NotificationsPluginEnabled": {
+    "message": "'{0}' was enabled.",
+    "description": "Locs.Notifications_PluginEnabled"
+  },
   "InstallerUpdatePlugins": {
     "message": "Oppdater tillegg",
     "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerUpdateSafeMode": {
+    "message": "Can't update in safe mode",
+    "description": "Locs.get_FooterButton_UpdateSafeMode"
   },
   "InstallerInProgress": {
     "message": "Installasjon pågår...",
@@ -855,6 +1163,22 @@
     "message": "Lukk",
     "description": "Locs.get_FooterButton_Close"
   },
+  "UpdateQuestionModal": {
+    "message": "Update Available",
+    "description": "Locs.get_UpdateModal_Title"
+  },
+  "UpdateModalUpdateAvailable": {
+    "message": "An update for \"{0}\" is available.\nDo you want to update it before enabling?\nUpdates will fix bugs and incompatibilities, and may add new features.",
+    "description": "Locs.UpdateModal_UpdateAvailable"
+  },
+  "UpdateModalYes": {
+    "message": "Update plugin",
+    "description": "Locs.get_UpdateModal_Yes"
+  },
+  "UpdateModalNo": {
+    "message": "Just enable",
+    "description": "Locs.get_UpdateModal_No"
+  },
   "InstallerError": {
     "message": "Installasjonsfeil",
     "description": "Locs.get_ErrorModal_Title"
@@ -868,7 +1192,7 @@
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "Klarte ikke å oppdatere programtillegg {0}.\n{1}",
+    "message": "Failed to update plugin {0} ({1}).\n{2}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
@@ -899,6 +1223,10 @@
     "message": "Klarte ikke å oppdatere programtillegg.\nStart spillet på nytt og prøv igjen. Hvis denne feilen skjer igjen, si ifra.",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
+  "InstallerProfileApplyFail": {
+    "message": "Failed to process collections.\nPlease restart your game and try again. If this error occurs again, please complain.",
+    "description": "Locs.get_ErrorModal_ProfileApplyFail"
+  },
   "InstallerUpdaterFail": {
     "message": "Klarte ikke å oppdatere {0} programtillegg.\nStart spillet på nytt og prøv igjen. Hvis denne feilen skjer igjen, si ifra.",
     "description": "Locs.ErrorModal_UpdaterFail"
@@ -916,16 +1244,44 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "Du kan sende tilbakemelding til utvikleren av «{0}» her.\nDu kan inkludere Discord-brukernavnet eller e-postadressen din hvis du vil gi dem mulighet til å svare.\n\nHvis du vil rapportere en feil med programtillegget så anbefaler vi at du blir med i XIVLauncher-Discorden.",
+    "message": "You can send feedback to the developer of \"{0}\" here.",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
     "message": "En ny versjon av dette programtillegget er tilgjengelig, vennligst oppdater før du rapporterer en feil.",
     "description": "Locs.get_FeedbackModal_HasUpdate"
   },
+  "InstallerFeedbackContactAnonymous": {
+    "message": "Submit feedback anonymously",
+    "description": "Locs.get_FeedbackModal_ContactAnonymous"
+  },
+  "InstallerFeedbackContactAnonymousWarning": {
+    "message": "No response will be forthcoming.\nUntick \"{0}\" and provide contact information if you need help.",
+    "description": "Locs.get_FeedbackModal_ContactAnonymousWarning"
+  },
   "InstallerFeedbackContactInfo": {
     "message": "Kontaktinformasjon",
     "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackContactInfoHelp": {
+    "message": "Discord usernames and e-mail addresses are accepted.\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
+    "description": "Locs.get_FeedbackModal_ContactInformationHelp"
+  },
+  "InstallerFeedbackContactInfoWarning": {
+    "message": "Do not submit in-game character names.",
+    "description": "Locs.get_FeedbackModal_ContactInformationWarning"
+  },
+  "InstallerFeedbackContactInfoRequired": {
+    "message": "Contact information has not been provided. We require contact information to respond to questions, or to request additional information to troubleshoot problems.",
+    "description": "Locs.get_FeedbackModal_ContactInformationRequired"
+  },
+  "ContactInformationDiscordButton": {
+    "message": "Join XIVLauncher & Dalamud Discord",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordButton"
+  },
+  "ContactInformationDiscordUrl": {
+    "message": "https://goat.place/",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordUrl"
   },
   "InstallerFeedbackIncludeLastError": {
     "message": "Inkluder siste feilmelding",
@@ -947,6 +1303,30 @@
     "message": "Klarte ikke å sende din tilbakemelding.",
     "description": "Locs.get_FeedbackModal_NotificationError"
   },
+  "InstallerTestingWarning": {
+    "message": "Warning###InstallerTestingWarning",
+    "description": "Locs.get_TestingWarningModal_Title"
+  },
+  "InstallerTestingWarningDowngradeBody": {
+    "message": "Take care! If you opt out of testing for a plugin, you will remain on the testing version until it is deleted and reinstalled, or the non-testing version of the plugin is updated.\nKeep in mind that you may lose the settings for this plugin if you downgrade manually.",
+    "description": "Locs.get_TestingWarningModal_DowngradeBody"
+  },
+  "InstallerDeletePluginConfigWarning": {
+    "message": "Warning###InstallerDeletePluginConfigWarning",
+    "description": "Locs.get_DeletePluginConfigWarningModal_Title"
+  },
+  "InstallerDeletePluginConfigWarningBody": {
+    "message": "Are you sure you want to delete all data and configuration for {0}?",
+    "description": "Locs.DeletePluginConfigWarningModal_Body"
+  },
+  "InstallerDeletePluginConfigWarningYes": {
+    "message": "Yes",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_Yes"
+  },
+  "InstallerDeletePluginConfigWarningNo": {
+    "message": "No",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_No"
+  },
   "DalamudPluginUpdates": {
     "message": "Oppdateringer:",
     "description": "Locs.get_PluginUpdateHeader_Chatbox"
@@ -954,6 +1334,198 @@
   "OK": {
     "message": "OK",
     "description": "Locs.get_ErrorModalButton_Ok"
+  },
+  "SafeModeDisclaimer": {
+    "message": "You enabled safe mode, no plugins will be loaded.\nYou may delete plugins from the \"Installed plugins\" tab.\nSimply restart your game to disable safe mode.",
+    "description": "Locs.get_SafeModeDisclaimer"
+  },
+  "InstallerProfilesCouldNotAdd": {
+    "message": "Couldn't add plugin to this collection.",
+    "description": "Locs.get_Profiles_CouldNotAdd"
+  },
+  "InstallerProfilesCouldNotRemove": {
+    "message": "Couldn't remove plugin from this collection.",
+    "description": "Locs.get_Profiles_CouldNotRemove"
+  },
+  "InstallerProfilesNone": {
+    "message": "No collections! Go add some in \"Plugin Collections\"!",
+    "description": "Locs.get_Profiles_None"
+  },
+  "InstallerProfilesRemoveFromAll": {
+    "message": "Remove from all collections",
+    "description": "Locs.get_Profiles_RemoveFromAll"
+  },
+  "VerifiedCheckmarkVerifiedTooltip": {
+    "message": "This plugin has been reviewed by the Dalamud team.\nIt follows our technical and safety criteria, and adheres to our guidelines.",
+    "description": "Locs.get_VerifiedCheckmark_VerifiedTooltip"
+  },
+  "VerifiedCheckmarkUnverifiedTooltip": {
+    "message": "This plugin has not been reviewed by the Dalamud team.\nWe cannot take any responsibility for custom plugins and repositories.\nPlease make absolutely sure that you only install plugins from developers you trust.\n\nYou will not receive support for plugins installed from custom repositories on the XIVLauncher & Dalamud server.",
+    "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
+  },
+  "ProfileManagerEnableDisableHint": {
+    "message": "Enable/Disable this collection",
+    "description": "Locs.get_TooltipEnableDisable"
+  },
+  "ProfileManagerInstall": {
+    "message": "Install this plugin",
+    "description": "Locs.get_InstallPlugin"
+  },
+  "ProfileManagerRemoveFromProfile": {
+    "message": "Remove plugin from this collection",
+    "description": "Locs.get_RemovePlugin"
+  },
+  "ProfileManagerAddPlugin": {
+    "message": "Add a plugin!",
+    "description": "Locs.get_AddPlugin"
+  },
+  "ProfileManagerNoPluginsInProfile": {
+    "message": "Collection has no plugins!",
+    "description": "Locs.get_NoPluginsInProfile"
+  },
+  "ProfileManagerAlwaysEnableAtBoot": {
+    "message": "Always enable when game starts",
+    "description": "Locs.get_AlwaysEnableAtBoot"
+  },
+  "ProfileManagerDeleteProfile": {
+    "message": "Delete this collection",
+    "description": "Locs.get_DeleteProfileHint"
+  },
+  "ProfileManagerCopyToClipboard": {
+    "message": "Copy collection to clipboard for sharing",
+    "description": "Locs.get_CopyToClipboardHint"
+  },
+  "ProfileManagerCopyToClipboardHint": {
+    "message": "Copied to clipboard!",
+    "description": "Locs.get_CopyToClipboardNotification"
+  },
+  "ProfileManagerBackToOverview": {
+    "message": "Back to overview",
+    "description": "Locs.get_BackToOverview"
+  },
+  "ProfileManagerSearchHint": {
+    "message": "Search...",
+    "description": "Locs.get_SearchHint"
+  },
+  "ProfileManagerAddProfileHint": {
+    "message": "No collections! Add one!",
+    "description": "Locs.get_AddProfileHint"
+  },
+  "ProfileManagerCloneProfile": {
+    "message": "Clone this collection",
+    "description": "Locs.get_CloneProfileHint"
+  },
+  "ProfileManagerEditProfile": {
+    "message": "Edit this collection",
+    "description": "Locs.get_EditProfileHint"
+  },
+  "ProfileManagerImportProfile": {
+    "message": "Import a shared collection from your clipboard",
+    "description": "Locs.get_ImportProfileHint"
+  },
+  "ProfileManagerTutorialHint": {
+    "message": "Learn more about collections",
+    "description": "Locs.get_TutorialHint"
+  },
+  "ProfileManagerAddProfile": {
+    "message": "Add a new collection",
+    "description": "Locs.get_AddProfile"
+  },
+  "ProfileManagerNotificationImportSuccess": {
+    "message": "Collection successfully imported!",
+    "description": "Locs.get_NotificationImportSuccess"
+  },
+  "ProfileManagerNotificationImportError": {
+    "message": "Could not import collection.",
+    "description": "Locs.get_NotificationImportError"
+  },
+  "ProfileManagerCouldNotRemove": {
+    "message": "Could not remove plugin.",
+    "description": "Locs.get_ErrorCouldNotRemove"
+  },
+  "ProfileManagerCouldNotChangeState": {
+    "message": "Could not change plugin state.",
+    "description": "Locs.get_ErrorCouldNotChangeState"
+  },
+  "ProfileManagerTutorial": {
+    "message": "About Collections",
+    "description": "Locs.get_TutorialTitle"
+  },
+  "ProfileManagerTutorialParagraphOne": {
+    "message": "Collections are shareable lists of plugins that can be enabled or disabled in the plugin installer or via chat commands.\nWhen a plugin is part of a collection, it will be enabled if the collection is enabled. If a plugin is part of multiple collections, it will be enabled if one or more collections it is a part of are enabled.",
+    "description": "Locs.get_TutorialParagraphOne"
+  },
+  "ProfileManagerTutorialParagraphTwo": {
+    "message": "You can add plugins to collections by clicking the plus button when editing a collection on this screen, or by using the button with the toolbox icon on the \"Installed Plugins\" screen.",
+    "description": "Locs.get_TutorialParagraphTwo"
+  },
+  "ProfileManagerTutorialParagraphThree": {
+    "message": "If a collection's \"Start on boot\" checkbox is ticked, the collection and the plugins within will be enabled every time the game starts up, even if it has been manually disabled in a prior session.",
+    "description": "Locs.get_TutorialParagraphThree"
+  },
+  "ProfileManagerTutorialParagraphFour": {
+    "message": "Individual plugins inside a collection also have a checkbox next to them. This indicates if a plugin is active within that collection - if the checkbox is not ticked, the plugin will not be enabled if that collection is active. Mind that it will still be enabled if the plugin is an active part of any other collection.",
+    "description": "Locs.get_TutorialParagraphFour"
+  },
+  "ProfileManagerTutorialCommands": {
+    "message": "You can use the following commands in chat or in macros to manage active collections:",
+    "description": "Locs.get_TutorialCommands"
+  },
+  "ProfileManagerTutorialCommandsEnable": {
+    "message": "{0} \"Collection Name\" - Enable a collection",
+    "description": "Locs.get_TutorialCommandsEnable"
+  },
+  "ProfileManagerTutorialCommandsDisable": {
+    "message": "{0} \"Collection Name\" - Disable a collection",
+    "description": "Locs.get_TutorialCommandsDisable"
+  },
+  "ProfileManagerTutorialCommandsToggle": {
+    "message": "{0} \"Collection Name\" - Toggle a collection's state",
+    "description": "Locs.get_TutorialCommandsToggle"
+  },
+  "ProfileManagerTutorialCommandsEnd": {
+    "message": "If you run multiple of these commands, they will be executed in order.",
+    "description": "Locs.get_TutorialCommandsEnd"
+  },
+  "ProfileManagerChoice1": {
+    "message": "Plugin collections are a new feature that allow you to group plugins into collections which can be toggled and shared.",
+    "description": "Locs.get_Choice1"
+  },
+  "ProfileManagerChoice2": {
+    "message": "They are experimental and may still contain bugs. Do you want to enable them now?",
+    "description": "Locs.get_Choice2"
+  },
+  "ProfileManagerChoiceConfirmation": {
+    "message": "Yes, enable Plugin Collections",
+    "description": "Locs.get_ChoiceConfirmation"
+  },
+  "ProfileManagerNotInstalled": {
+    "message": "{0} (Not Installed)",
+    "description": "Locs.NotInstalled"
+  },
+  "NotificationConstants.DefaultInitiator": {
+    "message": "Dalamud",
+    "description": "NotificationConstants.get_DefaultInitiator"
+  },
+  "NotificationConstants.UnloadedInitiatorNameFormat": {
+    "message": "{0} (unloaded)",
+    "description": "NotificationConstants.get_UnloadedInitiatorNameFormat"
+  },
+  "NotificationConstants.Title.Success": {
+    "message": "Success",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Warning": {
+    "message": "Warning",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Error": {
+    "message": "Error",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Info": {
+    "message": "Info",
+    "description": "NotificationConstants.ToTitle"
   },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} lastet.",
@@ -973,23 +1545,23 @@
   },
   "DalamudPluginUpdateCheckFail": {
     "message": "Kunne ikke se etter tilleggsoppdateringer.",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginAutoUpdate": {
     "message": "Automatisk oppdatering:",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
     "message": "{0} av programtilleggene dine ble oppdatert.",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
     "message": "Automatisk oppdatering",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
     "message": "Ett eller flere av tilleggene dine må oppdateres. Vennligst bruk /xlplugins kommandoen i spillet for å oppdatere dem!",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "SystemMenuPlugins": {
     "message": "Dalamud-programtillegg",

@@ -1,78 +1,178 @@
 {
+  "DateTimeSpanExtensions.RelativeFormatStringsLong": {
+    "message": "172800,{0:%d} days ago\n86400,yesterday\n7200,{0:%h} hours ago\n3600,an hour ago\n120,{0:%m} minutes ago\n60,a minute ago\n2,{0:%s} seconds ago\n1,a second ago\n-Infinity,just now",
+    "description": "DateTimeSpanExtensions.LocRelativePastLong"
+  },
+  "DateTimeSpanExtensions.RelativeFormatStringsShort": {
+    "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,now",
+    "description": "DateTimeSpanExtensions.LocRelativePastShort"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "플러그인 변경사항 보기",
+    "description": "PluginManager.PrintUpdatedPlugins"
+  },
   "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} 을(를) v{1} 로 업데이트.",
+    "message": "    》 {0} v{1}로 업데이트했습니다.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 {0} 을(를) v{1} 로 업데이트 실패.",
+    "message": "    》 {0} update to v{1} failed ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "InstallerUpdateStatusPending": {
+    "message": "대기 중",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedDownload": {
+    "message": "다운로드 실패",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedUnload": {
+    "message": "Unload failed",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusFailedLoad": {
+    "message": "불러오기 실패",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "InstallerUpdateStatusSuccess": {
+    "message": "성공",
+    "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
+  },
+  "ProfileCommandsEnableHint": {
+    "message": "Enable a collection. Usage: /xlenablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsDisableHint": {
+    "message": "Disable a collection. Usage: /xldisablecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsToggleHint": {
+    "message": "Toggle a collection. Usage: /xltogglecollection \"Collection Name\"",
+    "description": "ProfileCommandHandler..ctor"
+  },
+  "ProfileCommandsEnabling": {
+    "message": "\"{0}\" 컬렉션 활성화 중...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsDisabling": {
+    "message": "\"{0}\" 컬렉션 비활성화 중...",
+    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  },
+  "ProfileCommandsApplyFailed": {
+    "message": "Failed to apply your collections. Please check the console for errors.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "ProfileCommandsApplySuccess": {
+    "message": "컬렉션 적용 완료.",
+    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+  },
+  "PluginProfilesNewProfile": {
+    "message": "새로운 컬렉션",
+    "description": "ProfileManager.AddNewProfile"
+  },
+  "WindowSystemContextActionPin": {
+    "message": "창 고정하기",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthrough": {
+    "message": "Make clickthrough",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionAlpha": {
+    "message": "불투명도",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionReset": {
+    "message": "초기화",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthroughDisclaimer": {
+    "message": "Open this menu again to disable clickthrough.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionDisclaimer": {
+    "message": "These options may not work for all plugins at the moment.",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionViewportDisclaimer": {
+    "message": "These features are only available if this window is inside the game window.",
+    "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
     "message": "XIVLauncher 인게임 애드온 언로드.",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudPluginReloadHelp": {
-    "message": "모든 플러그인 리로드.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
-    "message": "사용할 수 있는 명령어 목록 표시.",
-    "description": "DalamudCommands.SetupCommands"
+    "message": "Shows list of commands available. If an argument is provided, shows help for that command.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteHelp": {
     "message": "채팅에 표시되는 단어나 문장을 뮤트합니다. 사용법: /xlmute <단어 또는 문장>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudMuteListHelp": {
     "message": "뮤트된 단어나 문장의 목록을 표시합니다.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudUnmuteHelp": {
     "message": "단어나 문장의 뮤트를 해제합니다. 사용법: /xlunmute <단어나 문장>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLastLinkHelp": {
     "message": "기본 브라우저로 마지막으로 게시된 링크를 엽니다.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudBgmSetHelp": {
     "message": "게임의 BGM을 설정합니다. 사용법: /xlbgmset <BGM ID>",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevMenuHelp": {
     "message": "DEBUG 개발 메뉴를 표시합니다.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudPluginStats": {
+    "message": "Draw plugin statistics window",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudBranchSwitcher": {
+    "message": "Draw branch switcher",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
     "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudIMEPanelHelp": {
-    "message": "IME 패널 표시",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
     "message": "개발자 로그 DEBUG 열기",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
     "message": "플러그인 인스톨러를 엽니다.",
-    "description": "DalamudCommands.SetupCommands"
-  },
-  "DalamudCreditsHelp": {
-    "message": "Dalamud의 크레딧을 엽니다.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
     "message": "Dalamud와 플러그인의 언어를 설정합니다. 지원하는 언어: ",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
   },
   "DalamudSettingsHelp": {
     "message": "채팅 채널과 디스코드 봇 설정과 같은 다양한 인게임 애드온의 설정을 변경합니다.",
-    "description": "DalamudCommands.SetupCommands"
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudUiModeHelp": {
+    "message": "Toggle Dalamud UI display modes. Native UI modifications may also be affected by this, but that depends on the plugin.",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudProfilerHelp": {
+    "message": "Open Dalamud's startup timing profiler.",
+    "description": "DalamudCommands..ctor"
   },
   "DalamudCmdHelpAvailable": {
     "message": "사용 가능한 명령어:",
+    "description": "DalamudCommands.OnHelpCommand"
+  },
+  "DalamudCmdHelpNotFound": {
+    "message": "Command not found.",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteNoArgs": {
@@ -80,7 +180,7 @@
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudMuted": {
-    "message": "뮤트됨 \"{0}\".",
+    "message": "\"{0}\" 뮤트됨.",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
@@ -96,24 +196,36 @@
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "{0} 을 여는 중",
+    "message": "{0} 여는 중",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "언어를 {0} 로 설정했습니다.",
+    "message": "언어를 {0}로 설정했습니다.",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
   "TSMDalamudPlugins": {
     "message": "플러그인 인스톨러",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
     "message": "Dalamud 설정",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
     "message": "개발자 메뉴",
-    "description": "DalamudInterface..ctor"
+    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+  },
+  "ImGuiClipboardFunctionProviderClipboardInUse": {
+    "message": "Some other application is using the clipboard. Try again later.",
+    "description": "ImGuiClipboardFunctionProvider.OpenClipboardOrShowError"
+  },
+  "ImGuiClipboardFunctionProviderErrorCopy": {
+    "message": "Failed to copy. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.SetClipboardTextImpl"
+  },
+  "ImGuiClipboardFunctionProviderErrorPaste": {
+    "message": "Failed to paste. See logs for details.",
+    "description": "ImGuiClipboardFunctionProvider.GetClipboardTextImpl"
   },
   "InstallerDevTools": {
     "message": "개발자 도구",
@@ -135,9 +247,21 @@
     "message": "전체",
     "description": "Locs.get_Category_All"
   },
+  "InstallerCategoryIsTesting": {
+    "message": "현재 테스트 중",
+    "description": "Locs.get_Category_IsTesting"
+  },
+  "InstallerCategoryAvailableForTesting": {
+    "message": "Testing Available",
+    "description": "Locs.get_Category_AvailableForTesting"
+  },
   "InstallerInstalledDevPlugins": {
     "message": "설치된 개발자 플러그인",
     "description": "Locs.get_Category_DevInstalled"
+  },
+  "InstallerCategoryPluginProfiles": {
+    "message": "플러그인 모음집",
+    "description": "Locs.get_Category_PluginProfiles"
   },
   "InstallerCategoryOther": {
     "message": "기타",
@@ -183,342 +307,6 @@
     "message": "게임패드 모드가 켜져 있습니다. 비활성화 하려면 L1+L3를 누르고, 플러그인 인스톨러를 토글하려면 R3를 누르십시오.",
     "description": "GamepadModeNotifierWindow.Draw"
   },
-  "DalamudSettingsHeader": {
-    "message": "Dalamud 설정",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel0": {
-    "message": "최저 (1k x 1k 텍스쳐)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel1": {
-    "message": "낮음 (2k x 2k 텍스쳐)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel2": {
-    "message": "보통 (4k x 4k 텍스쳐)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel3": {
-    "message": "높음 (8k x 8k 텍스쳐, 게임 크래시를 유발할 수 있음)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsFontResolutionLevel4": {
-    "message": "최고 (16k x 16k 텍스쳐, 게임 크래시를 유발할 수 있음)",
-    "description": "SettingsWindow..ctor"
-  },
-  "DalamudSettingsGeneral": {
-    "message": "일반",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsVisual": {
-    "message": "스타일",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsServerInfoBar": {
-    "message": "서버 정보 바",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsExperimental": {
-    "message": "실험적",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsLanguage": {
-    "message": "언어",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsLanguageHint": {
-    "message": "Dalamud의 표시 언어를 선택하십시오.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannel": {
-    "message": "일반 채팅 채널",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsChannelHint": {
-    "message": "일반 Dalamud 메세지를 표시할 채팅 채널을 선택하십시오.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlash": {
-    "message": "매칭이 되었을 때 FF14 윈도우를 깜빡입니다.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsFlashHint": {
-    "message": "선택 시, 매칭이 되면 사용자의 작업 표시줄에서 FF14 윈도우가 깜빡입니다.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessage": {
-    "message": "매칭 시의 채팅로그 메세지",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDutyFinderMessageHint": {
-    "message": "선택 시, 매칭이 되면 인게임에서 메세지를 보냅니다.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "환영 메세지에 로드 된 플러그인을 표시",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "접속할 때 채팅창에 로드 된 플러그인을 표시",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "플러그인 자동 업데이트",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "접속할 때 플러그인을 자동으로 업데이트",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenu": {
-    "message": "시스템 메뉴에 있는 Dalamud 버튼을 표시",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsSystemMenuMsgHint": {
-    "message": "시스템 메뉴에 Dalamud 플러그인 및 설정 버튼을 추가.",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFiltering": {
-    "message": "RMT 필터링 비활성화",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsDisableRmtFilteringMsgHint": {
-    "message": "Dalamud 내장 RMT 광고 필터링 비활성화",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollect": {
-    "message": "장터 데이터 익명 업로드",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingDoMbCollectHint": {
-    "message": "장터 게시판을 볼 때 게임 내 경제 정보를 익명으로 Universalis에 제공합니다. 이 정보는 어떤 식으로든 여러분과 연관되지 않으며 모두의 이익을 위해 사용됩니다!",
-    "description": "SettingsWindow.DrawGeneralTab"
-  },
-  "DalamudSettingsGlobalUiScale": {
-    "message": "전역 폰트 크기",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset6": {
-    "message": "9.6pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset12": {
-    "message": "리셋 (12pt)",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset14": {
-    "message": "14pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset18": {
-    "message": "18pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsUiScalePreset36": {
-    "message": "36pt",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsGlobalUiScaleHint": {
-    "message": "모든 XIVLauncher의 UI 구성요소의 스케일을 조정합니다 - 4K 디스플레이에 유용",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsOpenStyleEditor": {
-    "message": "스타일 에디터 열기",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsStyleEditorHint": {
-    "message": "Dalamud 윈도우의 외관을 수정합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleAxisFonts": {
-    "message": "Dalamud의 기본 폰트로 AXIS 폰트를 사용",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiAxisFontsHint": {
-    "message": "Dalamud의 기본 폰트로 AXIS 폰트 (게임의 메인 UI 폰트) 를 사용",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevel": {
-    "message": "폰트 해상도",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontResolutionLevelHint": {
-    "message": "이 옵션은 Dalamud 폰트가 더 좋게 보이게 해줍니다. 이 옵션을 바꿀 때 게임이 크래시 됐다면, 사용자의 PC가 Dalamud에서의 고해상도 폰트를 지원하지 않는다는 뜻입니다. 한 단계 낮은 해상도를 사용해야 합니다.\n현재의 폰트 사이즈는 {0}px * {1}px 입니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "플러그인은 아래의 설정에서 스스로 자신을 제외할 수 있습니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHide": {
-    "message": "게임 UI가 숨겨지면 플러그인 UI도 숨깁니다",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideHint": {
-    "message": "게임 오버레이를 토글하면서 열려 있는 모든 플러그인의 창을 숨기려면 이 체크박스를 체크하십시오.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "컷신 중 플러그인 UI 숨기기",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "컷신 중 모든 플러그인 윈도우 숨기기",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Gpose가 활성화 중일 때 플러그인 UI 숨기기",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Gposer가 활성화 중일 때 모든 플러그인 윈도우 숨기기.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagement": {
-    "message": "Dalamud 윈도우를 닫기 위해 ESC 키를 사용",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleFocusManagementHint": {
-    "message": "이 기능은 ESC 키를 누르는 동안 Dalamud 윈도우가 게임 내의 윈도우처럼 취급되게 합니다.\n모든 윈도우가 닫히기 전 까지 순서대로 닫힙니다. 모든 플러그인에 대응하진 않습니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewports": {
-    "message": "멀티 모니터 윈도우 활성화",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleViewportsHint": {
-    "message": "이 기능 플러그인 윈도우를 다른 모니터로 옮길 수 있게 해줍니다.\n경계 없는 창모드 또는 창모드에서만 동작합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDocking": {
-    "message": "윈도우 도킹 활성화",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleDockingHint": {
-    "message": "이것은 플러그인 윈도우를 합치고 탭할 수 있도록 합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigation": {
-    "message": "게임패드를 통해 플러그인 제어",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "이 기능은 L1+L3로 게임과 플러그인간의 네비게이션을 토글할 수 있게 합니다.\nImGui가 활성화 돼있다면, R3로 PluginInstaller 윈도우를 토글합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsm": {
-    "message": "타이틀 화면 메뉴를 표시",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingToggleTsmHint": {
-    "message": "이 기능은 게임의 메인 화면부터 Dalamud와 플러그인의 기능에 접근할 수 있게 합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGamma": {
-    "message": "폰트 감마",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsIndividualConfigResetToDefaultValue": {
-    "message": "리셋",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingsFontGammaHint": {
-    "message": "텍스트의 굵기를 변경합니다.",
-    "description": "SettingsWindow.DrawLookAndFeelTab"
-  },
-  "DalamudSettingServerInfoBar": {
-    "message": "서버 정보 바 설정",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarHint": {
-    "message": "플러그인이 서버 정보 바에 추가적인 정보를 넣을 수 있습니다(월드 & 시간을 볼 수 있는 곳).\n여기서 재배열 하거나 비활성화 할 수 있습니다.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDidNone": {
-    "message": "이 기능을 사용하는 플러그인이 없습니다.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacing": {
-    "message": "서버 정보 바 간격",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarSpacingHint": {
-    "message": "여기서 서버 정보 바에 있는 항목 사이의 공간을 설정합니다.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirection": {
-    "message": "서버 정보 바 방향",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingServerInfoBarDirectionHint": {
-    "message": "체크하면, 서버 정보 바의 요소가 좌측이 아닌 우측에 펼쳐집니다.",
-    "description": "SettingsWindow.DrawServerInfoBarTab"
-  },
-  "DalamudSettingsPluginTest": {
-    "message": "플러그인의 테스팅 빌드 가져오기",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestHint": {
-    "message": "플러그인의 테스팅 릴리즈를 받으려면 체크박스를 체크하십시오.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsPluginTestWarning": {
-    "message": "테스트 플러그인은 검증되지 않았을 수 있습니다. 위험에 대해 인지하고 있는 경우에만 활성화 하십시오.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHidden": {
-    "message": "숨겨진 플러그인 정리",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsClearHiddenHint": {
-    "message": "이전에 플러그인 인스톨러를 통해 숨긴 플러그인을 복원합니다.",
-    "description": "SettingsWindow.DrawExperimentalTab"
-  },
-  "DalamudSettingsCustomRepo": {
-    "message": "커스텀 플러그인 리포지토리",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsChanged": {
-    "message": "(변경됨)",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoHint": {
-    "message": "커스텀 플러그인 리포지토리 추가",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingCustomRepoWarning": {
-    "message": "저희는 서드파티 플러그인과 리포지토리에 대해 어떤 책임도 지지 않습니다.\n신뢰할 수 없는 소스로부터 서드파티 플러그인을 설치할 땐 조심하십시오.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudThirdRepoExists": {
-    "message": "리포지토리가 이미 존재합니다.",
-    "description": "SettingsWindow.DrawCustomReposSection"
-  },
-  "DalamudSettingsDevPluginLocation": {
-    "message": "개발 플러그인 경로",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudSettingsDevPluginLocationsHint": {
-    "message": "추가적 개발 플러그인 경로를 추가합니다.\n디렉토리나 DLL의 경로일 수 있습니다.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "DalamudDevPluginLocationExists": {
-    "message": "경로가 이미 존재합니다.",
-    "description": "SettingsWindow.DrawDevPluginLocationsSection"
-  },
-  "Save": {
-    "message": "저장",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "Close": {
-    "message": "닫기",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
-  "SaveAndClose": {
-    "message": "저장하고 닫기",
-    "description": "SettingsWindow.DrawSaveCloseButtons"
-  },
   "RenameStyleModalTitle": {
     "message": "스타일의 이름 변경",
     "description": "StyleEditorWindow.Draw"
@@ -548,7 +336,7 @@
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
-    "message": "빌트인 스타일은 변경할 수 없습니다. 먼저 새 스타일을 추가하세요.",
+    "message": "기본 스타일은 수정할 수 없습니다. 먼저 새 스타일을 추가하세요.",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorApplying": {
@@ -563,20 +351,408 @@
     "message": "색상",
     "description": "StyleEditorWindow.Draw"
   },
+  "Close": {
+    "message": "닫기",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "SaveAndClose": {
+    "message": "저장하고 닫기",
+    "description": "StyleEditorWindow.Draw"
+  },
   "StyleEditorEnterName": {
     "message": "이 스타일의 새 이름을 입력해주세요.",
     "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingsHeader": {
+    "message": "Dalamud 설정",
+    "description": "SettingsWindow..ctor"
+  },
+  "DalamudSettingsSave": {
+    "message": "변경사항 저장",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsSaveAndExit": {
+    "message": "변경사항 저장하고 닫기",
+    "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsDevPluginLocation": {
+    "message": "개발 플러그인 경로",
+    "description": "DevPluginsSettingsEntry..ctor"
+  },
+  "DalamudSettingsChanged": {
+    "message": "(변경됨)",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsDevPluginLocationsHint": {
+    "message": "Add dev plugin load locations.\nThese can be either the directory or DLL path.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginLocationExists": {
+    "message": "경로가 이미 존재합니다.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginInvalid": {
+    "message": "The entered value is not a valid path to a potential Dev Plugin.\nDid you mean to enter it as a custom plugin repository in the fields below instead?",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudSettingsLanguage": {
+    "message": "언어",
+    "description": "LanguageChooserSettingsEntry..ctor"
+  },
+  "DalamudSettingsLanguageHint": {
+    "message": "Dalamud의 표시 언어를 선택하세요.",
+    "description": "LanguageChooserSettingsEntry.Draw"
+  },
+  "DalamudSettingsCustomRepo": {
+    "message": "커스텀 플러그인 저장소",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoHint": {
+    "message": "커스텀 플러그인 저장소 추가",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningReadThis": {
+    "message": "READ THIS FIRST!",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning": {
+    "message": "We cannot take any responsibility for custom plugins and repositories.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning5": {
+    "message": "If someone told you to copy/paste something here, it's very possible that you are being scammed or taken advantage of.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning2": {
+    "message": "Plugins have full control over your PC, like any other program, and may cause harm or crashes.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning4": {
+    "message": "They can delete your character, steal your FC or Discord account, and burn down your house.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarning3": {
+    "message": "Please make absolutely sure that you only install plugins from developers you trust.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningPleaseWait": {
+    "message": "Please wait {0} seconds...",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudSettingCustomRepoWarningIReadIt": {
+    "message": "Ok, I have read and understood this warning",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoExists": {
+    "message": "저장소가 이미 존재합니다.",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudThirdRepoNotUrl": {
+    "message": "The entered address is not a valid URL.\nDid you mean to enter it as a DevPlugin in the fields above instead?",
+    "description": "ThirdRepoSettingsEntry.Draw"
+  },
+  "DalamudAbout": {
+    "message": "소개",
+    "description": "SettingsTabAbout.get_Title"
+  },
+  "DalamudSettingsServerInfoBar": {
+    "message": "서버 정보 바",
+    "description": "SettingsTabDtr.get_Title"
+  },
+  "DalamudSettingServerInfoBarHint": {
+    "message": "플러그인이 서버 정보 바에 추가적인 정보를 넣을 수 있습니다 (월드 & 시간을 볼 수 있는 곳).\n여기서 항목의 순서를 바꾸거나 숨길 수 있습니다.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDidNone": {
+    "message": "이 기능을 사용하는 플러그인이 없습니다.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacing": {
+    "message": "서버 정보 바 간격",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarSpacingHint": {
+    "message": "여기서 서버 정보 바에 있는 항목 사이의 공간을 설정합니다.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirection": {
+    "message": "서버 정보 바 방향",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingServerInfoBarDirectionHint": {
+    "message": "체크하면 서버 정보 바의 요소가 좌측이 아닌 우측에 펼쳐집니다.",
+    "description": "SettingsTabDtr.Draw"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "실험적 기능",
+    "description": "SettingsTabExperimental.get_Title"
+  },
+  "DalamudSettingsPluginTest": {
+    "message": "플러그인의 테스팅 빌드 가져오기",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestHint": {
+    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"{0}\" tab of the plugin installer and select \"{1}\".",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsPluginTestWarning": {
+    "message": "Testing plugins may contain bugs or crash your game. Please only enable this if you are aware of the risks.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptions": {
+    "message": "Add a button to the title bar of plugin windows to open additional options",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
+    "message": "This will allow you to pin certain plugin windows, make them clickthrough or adjust their opacity.\nThis may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHidden": {
+    "message": "숨겨진 플러그인 정리",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsClearHiddenHint": {
+    "message": "이전에 플러그인 인스톨러를 통해 숨긴 플러그인을 복원합니다.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsGeneral": {
+    "message": "일반",
+    "description": "SettingsTabGeneral.get_Title"
+  },
+  "DalamudSettingsChannel": {
+    "message": "달라무드 채팅 채널",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelHint": {
+    "message": "일반 Dalamud 메세지를 표시할 채팅 채널을 선택하세요.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartup": {
+    "message": "Wait for plugins before game loads",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsWaitForPluginsOnStartupHint": {
+    "message": "플러그인 로딩 다 될 때까지 게임 로딩 하지 않기",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlash": {
+    "message": "매칭이 되었을 때 FF14 윈도우를 깜빡입니다.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsFlashHint": {
+    "message": "선택 시, 매칭이 되면 사용자의 작업 표시줄에서 FF14 윈도우가 깜빡입니다.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessage": {
+    "message": "매칭 시의 채팅로그 메세지",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsDutyFinderMessageHint": {
+    "message": "선택 시, 매칭이 되면 인게임에서 메세지를 보냅니다.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsg": {
+    "message": "Display Dalamud's welcome message",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintDalamudWelcomeMsgHint": {
+    "message": "Display Dalamud's welcome message in FFXIV chat when logging in with a character.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsg": {
+    "message": "환영 메세지에 로드된 플러그인을 표시",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsPrintPluginsWelcomeMsgHint": {
+    "message": "접속할 때 채팅창에 로드된 플러그인을 표시",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePlugins": {
+    "message": "플러그인 자동 업데이트",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsAutoUpdatePluginsMsgHint": {
+    "message": "접속할 때 플러그인을 자동으로 업데이트",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenu": {
+    "message": "시스템 메뉴에 Dalamud 버튼을 표시",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsSystemMenuMsgHint": {
+    "message": "시스템 메뉴에 Dalamud 플러그인 및 설정 버튼을 추가.",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFiltering": {
+    "message": "RMT (현금 거래) 필터링 켜기",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsEnableRmtFilteringMsgHint": {
+    "message": "Dalamud 내장 RMT (현금거래) 광고 필터링 활성화",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollect": {
+    "message": "장터 데이터 익명 업로드",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingDoMbCollectHint": {
+    "message": "장터 게시판을 볼 때 게임 내 경제 정보를 익명으로 Universalis에 제공합니다. 이 정보는 어떤 식으로든 여러분과 연관되지 않으며 모두의 이익을 위해 사용됩니다!",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsChannelNone": {
+    "message": "Do not pick \"None\".",
+    "description": "<>c.<.ctor>b__5_2"
+  },
+  "DalamudSettingsVisual": {
+    "message": "스타일",
+    "description": "SettingsTabLook.get_Title"
+  },
+  "DalamudSettingsGlobalUiScale": {
+    "message": "전역 폰트 크기",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildInProgressWithEndingThreeDots": {
+    "message": "Building fonts...",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsGlobalUiScaleHint": {
+    "message": "모든 XIVLauncher의 UI 구성요소의 스케일을 조정합니다 - 4K 디스플레이에 유용",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsFontBuildFaulted": {
+    "message": "Failed to load fonts as requested.",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingChooseDefaultFont": {
+    "message": "기본 글꼴 선택하기",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingResetDefaultFont": {
+    "message": "기본 글꼴 초기화",
+    "description": "SettingsTabLook.Draw"
+  },
+  "DalamudSettingsOpenStyleEditor": {
+    "message": "스타일 에디터 열기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsStyleEditorHint": {
+    "message": "Dalamud 윈도우의 스타일을 수정합니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkMode": {
+    "message": "Use Windows immersive/dark mode",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsUseDarkModeHint": {
+    "message": "This will cause the FFXIV window title bar to follow your preferred Windows color settings, and switch to dark mode if enabled.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideOptOutNote": {
+    "message": "플러그인은 아래의 설정에서 스스로 자신을 제외할 수 있습니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHide": {
+    "message": "게임 UI가 숨겨지면 플러그인 UI도 숨깁니다",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideHint": {
+    "message": "게임 오버레이를 토글하면서 열려 있는 모든 플러그인의 창을 숨기려면 이 체크박스를 체크하세요.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenes": {
+    "message": "컷신 중 플러그인 UI 숨기기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringCutscenesHint": {
+    "message": "컷신 중 모든 플러그인 윈도우 숨기기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGpose": {
+    "message": "단체 자세 중에 플러그인 UI 숨기기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleUiHideDuringGposeHint": {
+    "message": "단체 자세 중에 모든 플러그인 윈도우를 숨깁니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagement": {
+    "message": "Dalamud 윈도우를 닫기 위해 Esc 키를 사용",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleFocusManagementHint": {
+    "message": "이 기능은 Esc 키를 누를 때 Dalamud 윈도우가 게임 내의 윈도우처럼 취급되게 합니다.\n모든 윈도우가 닫히기 전 까지 순서대로 닫힙니다. 모든 플러그인에 대응하진 않습니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewports": {
+    "message": "멀티 모니터 윈도우 활성화",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleViewportsHint": {
+    "message": "이 기능은 플러그인 윈도우를 다른 모니터로 옮길 수 있게 해 줍니다.\n경계 없는 창 모드 또는 창 모드에서만 동작합니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDocking": {
+    "message": "윈도우 도킹 활성화",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleDockingHint": {
+    "message": "플러그인 윈도우를 합치고 탭으로 넘길 수 있도록 합니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffects": {
+    "message": "플러그인 창에서 효과음 켜기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUISoundEffectsHint": {
+    "message": "This will allow you to enable or disable sound effects generated by plugin user interfaces.\nThis is affected by your in-game `System Sounds` volume settings.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigation": {
+    "message": "게임패드를 통해 플러그인 제어",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleGamepadNavigationHint": {
+    "message": "이 기능은 L1+L3(LB+LS)로 게임과 플러그인 간의 조작을 토글할 수 있게 합니다.\nImGui 조작이 활성화되어 있을 때 R3(RS)를 누르면 플러그인 인스톨러를 엽니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsm": {
+    "message": "타이틀 화면에 메뉴를 표시",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingToggleTsmHint": {
+    "message": "이 기능은 게임의 메인 화면부터 Dalamud와 플러그인의 기능에 접근할 수 있게 합니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefault": {
+    "message": "Open the Plugin Installer to the \"Installed Plugins\" tab by default",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingInstallerOpenDefaultHint": {
+    "message": "This will allow you to open the Plugin Installer to the \"Installed Plugins\" tab by default, instead of the \"Available Plugins\" tab.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotion": {
+    "message": "움직임 줄이기",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingReducedMotionHint": {
+    "message": "This will suppress certain animations from Dalamud, such as the notification popup.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "ChangelogNoText": {
+    "message": "이 버전에서는 변경사항 없음",
+    "description": "PluginChangelogEntry..ctor"
   },
   "InstallerHeader": {
     "message": "플러그인 인스톨러",
     "description": "Locs.get_WindowTitle"
   },
   "InstallerHeaderTesting": {
-    "message": " (테스트중)",
+    "message": " (테스트 중)",
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "이 윈도우로 인게임 플러그인을 설치하거나 제거할 수 있습니다.\n플러그인은 서드파티 개발자에 의해 개발되었습니다.",
+    "message": "This window allows you to install and remove Dalamud plugins.\nThey are made by the community.",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
@@ -584,7 +760,7 @@
     "description": "Locs.get_Header_SearchPlaceholder"
   },
   "InstallerAlphabetical": {
-    "message": "알파벳 순",
+    "message": "이름 순",
     "description": "Locs.get_SortBy_Alphabetical"
   },
   "InstallerDownloadCount": {
@@ -596,12 +772,20 @@
     "description": "Locs.get_SortBy_LastUpdate"
   },
   "InstallerNewOrNot": {
-    "message": "New or not",
+    "message": "New",
     "description": "Locs.get_SortBy_NewOrNot"
   },
   "InstallerNotInstalled": {
     "message": "설치되지 않음",
     "description": "Locs.get_SortBy_NotInstalled"
+  },
+  "InstallerEnabledDisabled": {
+    "message": "활성/비활성",
+    "description": "Locs.get_SortBy_EnabledDisabled"
+  },
+  "InstallerProfileOrNot": {
+    "message": "In a collection",
+    "description": "Locs.get_SortBy_ProfileOrNot"
   },
   "InstallerSortBy": {
     "message": "정렬 순서",
@@ -616,15 +800,15 @@
     "description": "Locs.get_TabBody_DownloadFailed"
   },
   "InstallerSafeMode": {
-    "message": "Dalamud가 플러그인 세이프 모드로 실행되고 있습니다. 플러그인을 활성화 하려면 껐다 키세요.",
+    "message": "Dalamud가 플러그인 안전 모드로 실행되고 있습니다. 플러그인을 사용하려면 게임을 재시작하세요.",
     "description": "Locs.get_TabBody_SafeMode"
   },
   "InstallerNoMatching": {
-    "message": "검색과 일치하는 플러그인을 찾을 수 없습니다.",
+    "message": "검색된 플러그인이 없습니다.",
     "description": "Locs.get_TabBody_SearchNoMatching"
   },
   "InstallerNoCompatible": {
-    "message": "호환되는 플러그인을 찾을 수 없습니다 :( 게임을 재시작하고 재시도 해보십시오.",
+    "message": "호환되는 플러그인을 찾을 수 없습니다 :( 게임을 재시작하고 다시 시도하십시오.",
     "description": "Locs.get_TabBody_SearchNoCompatible"
   },
   "InstallerNoInstalled": {
@@ -632,8 +816,12 @@
     "description": "Locs.get_TabBody_SearchNoInstalled"
   },
   "InstallerNoChangelog": {
-    "message": "설치된 플러그인에 대한 변경사항은 없습니다.",
+    "message": "설치된 플러그인에 대한 변경 사항이 없습니다.",
     "description": "Locs.get_TabBody_ChangelogNone"
+  },
+  "InstallerChangelogError": {
+    "message": "Could not download changelogs.",
+    "description": "Locs.get_TabBody_ChangelogError"
   },
   "InstallerInstalled": {
     "message": " (설치됨)",
@@ -643,8 +831,12 @@
     "message": " (비활성화됨)",
     "description": "Locs.get_PluginTitleMod_Disabled"
   },
+  "InstallerNoService": {
+    "message": " (개발 중단)",
+    "description": "Locs.get_PluginTitleMod_NoService"
+  },
   "InstallerUnloaded": {
-    "message": " (언로드 됨)",
+    "message": " (언로드됨)",
     "description": "Locs.get_PluginTitleMod_Unloaded"
   },
   "InstallerHasUpdate": {
@@ -656,8 +848,20 @@
     "description": "Locs.get_PluginTitleMod_Updated"
   },
   "InstallerTestingVersion": {
-    "message": " (테스트 버전)",
+    "message": " (테스팅 버전)",
     "description": "Locs.get_PluginTitleMod_TestingVersion"
+  },
+  "InstallerTestingExclusive": {
+    "message": " (테스트 전용)",
+    "description": "Locs.get_PluginTitleMod_TestingExclusive"
+  },
+  "InstallerTestingAvailable": {
+    "message": " (테스트 버전 있음)",
+    "description": "Locs.get_PluginTitleMod_TestingAvailable"
+  },
+  "InstallerDevPlugin": {
+    "message": " (개발자 플러그인)",
+    "description": "Locs.get_PluginTitleMod_DevPlugin"
   },
   "InstallerUpdateFailed": {
     "message": " (업데이트 실패)",
@@ -672,31 +876,43 @@
     "description": "Locs.get_PluginTitleMod_UnloadError"
   },
   "InstallerOutdatedError": {
-    "message": " (구버전)",
+    "message": " (구 버전)",
     "description": "Locs.get_PluginTitleMod_OutdatedError"
   },
   "InstallerBannedError": {
-    "message": " (자동적으로 비활성화 됨)",
+    "message": " (자동으로 비활성화됨)",
     "description": "Locs.get_PluginTitleMod_BannedError"
+  },
+  "InstallerOrphanedError": {
+    "message": " (알 수 없는 리포지토리)",
+    "description": "Locs.get_PluginTitleMod_OrphanedError"
+  },
+  "InstallerScheduledForDeletion": {
+    "message": " (삭제 예정)",
+    "description": "Locs.get_PluginTitleMod_ScheduledForDeletion"
   },
   "InstallerNewPlugin ": {
     "message": " New!",
     "description": "Locs.get_PluginTitleMod_New"
   },
+  "InstallerTestingOptIn": {
+    "message": "플러그인 시험 버전 받기",
+    "description": "Locs.get_PluginContext_TestingOptIn"
+  },
   "InstallerMarkAllSeen": {
-    "message": "모두 읽은 상태로 표시",
+    "message": "전부 확인한 상태로 표시",
     "description": "Locs.get_PluginContext_MarkAllSeen"
   },
   "InstallerHidePlugin": {
-    "message": "인스톨러로부터 숨기기",
+    "message": "인스톨러에서 숨기기",
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "플러그인 리셋",
+    "message": "플러그인 초기화",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "플러그인 세팅을 리셋하고 리로드",
+    "message": "플러그인 설정 초기화하고 다시 불러오기",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
@@ -704,47 +920,75 @@
     "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
   },
   "InstallerAuthorWithDownloadCount": {
-    "message": " 개발자: {0}, 다운로드 횟수: {1}",
+    "message": " by {0} ({1} downloads)",
     "description": "Locs.PluginBody_AuthorWithDownloadCount"
   },
   "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " 개발자: {0}, 다운로드 횟수: 알 수 없음",
+    "message": " by {0}",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
+  },
+  "InstallerCurrentChangeLog": {
+    "message": "변경사항 (v{0})",
+    "description": "Locs.PluginBody_CurrentChangeLog"
+  },
+  "InstallerUpdateChangeLog": {
+    "message": "Available update changelog (v{0})",
+    "description": "Locs.PluginBody_UpdateChangeLog"
   },
   "InstallerDevPluginPath": {
     "message": "From {0}",
     "description": "Locs.PluginBody_DevPluginPath"
   },
   "InstallerPlugin3rdPartyRepo": {
-    "message": "커스텀 플러그인 리포지토리 경유: {0}",
+    "message": "커스텀 플러그인 저장소에서 옴: {0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
-  "InstallerDevPlugin": {
-    "message": " 이 플러그인은 당신의 리포지토리 중 하나에서 이용 가능합니다. devPlugins 폴더에서 제거 하십시오.",
-    "description": "Locs.get_PluginBody_AvailableDevPlugin"
-  },
-  "InstallerDeleteDevPlugin ": {
-    "message": " 이 플러그인을 삭제하려면, devPlugins 폴더에서 제거 하십시오.",
-    "description": "Locs.get_PluginBody_DeleteDevPlugin"
-  },
   "InstallerOutdatedPluginBody ": {
-    "message": "이 플러그인은 현재 호환되지 않습니다. 개발자로부터의 업데이트를 기다리십시오.",
+    "message": "해당 플러그인은 오래되어 호환되지 않습니다.",
     "description": "Locs.get_PluginBody_Outdated"
   },
+  "InstallerOutdatedWaitForUpdate": {
+    "message": "Please wait for it to be updated by its author.",
+    "description": "Locs.get_PluginBody_Outdated_WaitForUpdate"
+  },
+  "InstallerOutdatedCanNowUpdate": {
+    "message": "업데이트 설치 가능",
+    "description": "Locs.get_PluginBody_Outdated_CanNowUpdate"
+  },
+  "InstallerOrphanedPluginBody ": {
+    "message": "This plugin's source repository is no longer available. You may need to reinstall it from its repository, or re-add the repository.",
+    "description": "Locs.get_PluginBody_Orphaned"
+  },
+  "InstallerNoServiceOfficialPluginBody": {
+    "message": "This plugin is no longer being maintained. It will still work, but there will be no further updates and you can't reinstall it.",
+    "description": "Locs.get_PluginBody_NoServiceOfficial"
+  },
+  "InstallerNoServiceThirdPluginBody": {
+    "message": "이 플러그인은 원 경로에서 제공되지 않습니다. 새로운 리포지토리에서 업데이트 된 버전을 찾아보세요.",
+    "description": "Locs.get_PluginBody_NoServiceThird"
+  },
+  "InstallerLoadFailedPluginBody ": {
+    "message": "This plugin failed to load. Please contact the author for more information.",
+    "description": "Locs.get_PluginBody_LoadFailed"
+  },
   "InstallerBannedPluginBody ": {
-    "message": "이 플러그인은 호환되지 않아서 자동적으로 비활성화 되었습니다. 개발자로부터의 업데이트를 기다리십시오.",
+    "message": "This plugin was automatically disabled due to incompatibilities and is not available.",
     "description": "Locs.get_PluginBody_Banned"
   },
+  "InstallerPolicyPluginBody ": {
+    "message": "Plugin loads for this type of plugin were manually disabled.",
+    "description": "Locs.get_PluginBody_Policy"
+  },
   "InstallerBannedPluginBodyReason ": {
-    "message": "이 플러그인은 자동적으로 비활성화 되어습니다: {0}",
+    "message": "이 플러그인은 자동으로 비활성화되었습니다: {0}",
     "description": "Locs.PluginBody_BannedReason"
   },
   "InstallerInstall": {
-    "message": "v{0} 을 설치",
+    "message": "v{0} 설치",
     "description": "Locs.PluginButton_InstallVersion"
   },
   "InstallerWorking": {
-    "message": "처리중",
+    "message": "처리 중",
     "description": "Locs.get_PluginButton_Working"
   },
   "InstallerDisable": {
@@ -759,21 +1003,61 @@
     "message": "언로드",
     "description": "Locs.get_PluginButton_Unload"
   },
-  "InstallerOpenConfig": {
-    "message": "설정 열기",
+  "InstallerSafeModeButton": {
+    "message": "안전 모드에서 변경 할 수 없습니다",
+    "description": "Locs.get_PluginButton_SafeMode"
+  },
+  "InstallerOpenPluginUi": {
+    "message": "열기",
+    "description": "Locs.get_PluginButton_OpenUi"
+  },
+  "InstallerOpenPluginSettings": {
+    "message": "설정",
+    "description": "Locs.get_PluginButton_OpenSettings"
+  },
+  "InstallerTooltipOpenUi": {
+    "message": "이 플러그인 인터페이스 열기",
+    "description": "Locs.get_PluginButtonToolTip_OpenUi"
+  },
+  "InstallerTooltipOpenConfig": {
+    "message": "이 플러그인 설정 열기",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
+  },
+  "InstallerPickProfiles": {
+    "message": "Pick collections for this plugin",
+    "description": "Locs.get_PluginButtonToolTip_PickProfiles"
+  },
+  "InstallerProfilesNotSupported": {
+    "message": "This plugin does not support collections",
+    "description": "Locs.get_PluginButtonToolTip_ProfilesNotSupported"
   },
   "InstallerStartOnBoot": {
     "message": "부팅 시 실행",
     "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
   },
   "InstallerAutomaticReloading": {
-    "message": "자동 재로딩",
+    "message": "자동으로 다시 로드",
     "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
   },
   "InstallerDeletePlugin ": {
     "message": "플러그인 삭제",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
+  },
+  "InstallerDeletePluginRestricted": {
+    "message": "지금 삭제 할 수 없으니 게임을 재접속 하세요",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginRestricted"
+  },
+  "InstallerDeletePluginScheduled": {
+    "message": "재접속 시 플러그인 삭제",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduled"
+  },
+  "InstallerDeletePluginScheduledCancel": {
+    "message": "삭제 예약 취소",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduledCancel"
+  },
+  "InstallerDeletePluginLoaded": {
+    "message": "삭제 전 플러그인 비활성화를 하시오.",
+    "description": "Locs.get_PluginButtonToolTip_DeletePluginLoaded"
   },
   "InstallerVisitPluginUrl": {
     "message": "플러그인 URL 열기",
@@ -783,16 +1067,28 @@
     "message": "{0} 로 업데이트",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
-  "InstallerUnloadFailedTooltip": {
-    "message": "플러그인 언로드에 실패했습니다, 게임을 다시 시작하고 다시 시도하십시오.",
+  "InstallerLoadUnloadFailedTooltip": {
+    "message": "Plugin load/unload failed, please restart your game and try again.",
     "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+  },
+  "InstallerUnloadNeedsToBeInDefault": {
+    "message": "This plugin is in one or more collections. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it manually, remove it from all collections.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInDefault"
+  },
+  "InstallerUnloadNeedsToBeInSingleProfile": {
+    "message": "This plugin is in more than one collection. If you want to enable or disable it, please do so by enabling or disabling the collections it is in.\nIf you want to manage it here, make sure it is only in a single collection.",
+    "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
+  },
+  "InstallerSingleProfileDisabled": {
+    "message": "The collection '{0}' which contains this plugin is disabled.\nPlease enable it in the collections manager to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
   "NotificationsPluginInstalledTitle": {
     "message": "플러그인이 설치되었습니다!",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
   },
   "NotificationsPluginInstalled": {
-    "message": "'{0}' 가 성공적으로 설치되었습니다.",
+    "message": "'{0}' 성공적으로 설치되었습니다.",
     "description": "Locs.Notifications_PluginInstalled"
   },
   "NotificationsPluginNotInstalledTitle": {
@@ -800,7 +1096,7 @@
     "description": "Locs.get_Notifications_PluginNotInstalledTitle"
   },
   "NotificationsPluginNotInstalled": {
-    "message": "'{0}' 의 설치에 실패했습니다.",
+    "message": "'{0}' 설치에 실패했습니다.",
     "description": "Locs.Notifications_PluginNotInstalled"
   },
   "NotificationsNoUpdatesFoundTitle": {
@@ -816,20 +1112,32 @@
     "description": "Locs.get_Notifications_UpdatesInstalledTitle"
   },
   "NotificationsUpdatesInstalled": {
-    "message": "{0} 의 플러그인 업데이트가 설치되었습니다.",
+    "message": "{0}개 플러그인의 업데이트가 설치되었습니다.",
     "description": "Locs.Notifications_UpdatesInstalled"
   },
   "NotificationsPluginDisabledTitle": {
-    "message": "플러그인이 비활성화 되었습니다!",
+    "message": "플러그인이 비활성화되었습니다!",
     "description": "Locs.get_Notifications_PluginDisabledTitle"
   },
   "NotificationsPluginDisabled": {
-    "message": "'{0}' 가 비활성화 되었습니다.",
+    "message": "'{0}' 비활성화되었습니다.",
     "description": "Locs.Notifications_PluginDisabled"
+  },
+  "NotificationsPluginEnabledTitle": {
+    "message": "플러그인 활성화 됨",
+    "description": "Locs.get_Notifications_PluginEnabledTitle"
+  },
+  "NotificationsPluginEnabled": {
+    "message": "'{0}' 이(가) 활성화 되었습니다.",
+    "description": "Locs.Notifications_PluginEnabled"
   },
   "InstallerUpdatePlugins": {
     "message": "플러그인 업데이트",
     "description": "Locs.get_FooterButton_UpdatePlugins"
+  },
+  "InstallerUpdateSafeMode": {
+    "message": "안전 모드에서 업데이트 할 수 없습니다",
+    "description": "Locs.get_FooterButton_UpdateSafeMode"
   },
   "InstallerInProgress": {
     "message": "설치 진행 중...",
@@ -840,7 +1148,7 @@
     "description": "Locs.get_FooterButton_NoUpdates"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} 개의 플러그인이 업데이트 되었습니다!",
+    "message": "{0}개의 플러그인이 업데이트되었습니다!",
     "description": "Locs.FooterButton_UpdateComplete"
   },
   "InstallerSettings": {
@@ -848,35 +1156,51 @@
     "description": "Locs.get_FooterButton_Settings"
   },
   "InstallerScanDevPlugins": {
-    "message": "Dev Plugins 확인",
+    "message": "개발 플러그인 확인",
     "description": "Locs.get_FooterButton_ScanDevPlugins"
   },
   "InstallerClose": {
     "message": "닫기",
     "description": "Locs.get_FooterButton_Close"
   },
+  "UpdateQuestionModal": {
+    "message": "업데이트 가능",
+    "description": "Locs.get_UpdateModal_Title"
+  },
+  "UpdateModalUpdateAvailable": {
+    "message": "An update for \"{0}\" is available.\nDo you want to update it before enabling?\nUpdates will fix bugs and incompatibilities, and may add new features.",
+    "description": "Locs.UpdateModal_UpdateAvailable"
+  },
+  "UpdateModalYes": {
+    "message": "플러그인 업데이트",
+    "description": "Locs.get_UpdateModal_Yes"
+  },
+  "UpdateModalNo": {
+    "message": "활성화 하기",
+    "description": "Locs.get_UpdateModal_No"
+  },
   "InstallerError": {
     "message": "인스톨러 에러",
     "description": "Locs.get_ErrorModal_Title"
   },
   "InstallerContactAuthor": {
-    "message": "게임을 다시 시작하고 재시도 하십시오. 다시 이 에러가 발생한다면, 개발자에게 문의하십시오.",
+    "message": "게임을 재시작하고 다시 시도하세요. 다시 같은 에러가 발생한다면, 플러그인 개발자에게 문의하세요.",
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
   },
   "InstallerInstallFail": {
-    "message": "플러그인 {0} 의 설치에 실패했습니다.\n{1}",
+    "message": "플러그인 {0}의 설치에 실패했습니다.\n{1}",
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "플러그인 {0} 의 업데이트에 실패했습니다.\n{1}",
+    "message": "Failed to update plugin {0} ({1}).\n{2}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
-    "message": "플러그인 {0} 의 리셋에 실패했습니다.\n\n플러그인이 이 조작을 지원하지 않을 수 있습니다. 게임이 꺼져있을 때 설정 파일을 수동으로 지우십시오 - FAQ를 확인하십시오.",
+    "message": "플러그인 {0}의 초기화에 실패했습니다.\n\n플러그인이 이 조작을 지원하지 않을 수 있습니다. 게임을 종료하고 설정 파일을 수동으로 삭제하세요. (FAQ를 확인하세요.)",
     "description": "Locs.ErrorModal_DeleteConfigFail"
   },
   "InstallerEnableFail": {
-    "message": "플러그인 {0} 의 활성화에 실패했습니다.\n{1}",
+    "message": "플러그인 {0}의 활성화에 실패했습니다.\n{1}",
     "description": "Locs.ErrorModal_EnableFail"
   },
   "InstallerDisableFail": {
@@ -884,31 +1208,35 @@
     "description": "Locs.ErrorModal_DisableFail"
   },
   "InstallerUnloadFail": {
-    "message": "플러그인 {0} 의 언로드에 실패했습니다.\n{1}",
+    "message": "플러그인 {0}의 언로드에 실패했습니다.\n{1}",
     "description": "Locs.ErrorModal_UnloadFail"
   },
   "InstallerLoadFail": {
-    "message": "플러그인 {0} 의 로드에 실패했습니다.\n{1}",
+    "message": "플러그인 {0}의 로드에 실패했습니다.\n{1}",
     "description": "Locs.ErrorModal_LoadFail"
   },
   "InstallerDeleteFail": {
-    "message": "플러그인 {0} 의 삭제에 실패했습니다.\n{1}",
+    "message": "플러그인 {0}의 삭제에 실패했습니다.\n{1}",
     "description": "Locs.ErrorModal_DeleteFail"
   },
   "InstallerUpdaterFatal": {
-    "message": "플러그인 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하십시오. 만약 이 에러가 다시 발생한다면, 보고해 주십시오.",
+    "message": "플러그인 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하세요. 만약 이 에러가 다시 발생한다면, 보고해 주세요.",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
+  "InstallerProfileApplyFail": {
+    "message": "Failed to process collections.\nPlease restart your game and try again. If this error occurs again, please complain.",
+    "description": "Locs.get_ErrorModal_ProfileApplyFail"
+  },
   "InstallerUpdaterFail": {
-    "message": "{0} 플러그인의 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하십시오. 만약 이 에러가 다시 발생한다면, 보고해 주십시오.",
+    "message": "플러그인 {0}개의 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하세요. 만약 이 에러가 다시 발생한다면, 보고해 주세요.",
     "description": "Locs.ErrorModal_UpdaterFail"
   },
   "InstallerUpdaterFailPartial": {
-    "message": "{0} 플러그인을 업데이트 했습니다. {1} 플러그인의 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하십시오. 만약 이 에러가 다시 발생한다면, 보고해 주십시오.",
+    "message": "{0} 플러그인을 업데이트 했습니다. {1} 플러그인의 업데이트에 실패했습니다.\n게임을 재시작하고 다시 시도하세요. 만약 이 에러가 다시 발생한다면, 보고해 주세요.",
     "description": "Locs.ErrorModal_UpdaterFailPartial"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\n다음의 플러그인에서 문제가 발생했습니다.\n\n{0}\n수동으로 플러그인을 삭제하고 재설치 하십시오.",
+    "message": "\n\n다음의 플러그인에서 문제가 발생했습니다.\n\n{0}\n수동으로 플러그인을 삭제하고 재설치하십시오.",
     "description": "Locs.ErrorModal_HintBlame"
   },
   "InstallerFeedback": {
@@ -916,27 +1244,55 @@
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "여기서 「{0}」의 개발자에게 피드백을 보낼 수 있습니다.\n대답을 받고 싶다면 디스코드 태그나 이메일 주소를 포함해 보낼 수 있습니다.\n\n에러를 제보하고 싶다면、XIVLauncher의 Discord 서버에 참가하는 것을 권장합니다.",
+    "message": "You can send feedback to the developer of \"{0}\" here.",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
-    "message": "이 플러그인의 새로운 버전이 있습니다. 버그를 제보하기 전에 업데이트 하십시오.",
+    "message": "이 플러그인의 새로운 버전이 있습니다. 버그를 제보하기 전에 업데이트하세요.",
     "description": "Locs.get_FeedbackModal_HasUpdate"
+  },
+  "InstallerFeedbackContactAnonymous": {
+    "message": "익명으로 피드백 제출하기",
+    "description": "Locs.get_FeedbackModal_ContactAnonymous"
+  },
+  "InstallerFeedbackContactAnonymousWarning": {
+    "message": "No response will be forthcoming.\nUntick \"{0}\" and provide contact information if you need help.",
+    "description": "Locs.get_FeedbackModal_ContactAnonymousWarning"
   },
   "InstallerFeedbackContactInfo": {
     "message": "연락처 정보",
     "description": "Locs.get_FeedbackModal_ContactInformation"
+  },
+  "InstallerFeedbackContactInfoHelp": {
+    "message": "Discord usernames and e-mail addresses are accepted.\nIf you submit a Discord username, please join our discord server so that we can reach out to you easier.",
+    "description": "Locs.get_FeedbackModal_ContactInformationHelp"
+  },
+  "InstallerFeedbackContactInfoWarning": {
+    "message": "인게임 닉 제출하지 마시오.",
+    "description": "Locs.get_FeedbackModal_ContactInformationWarning"
+  },
+  "InstallerFeedbackContactInfoRequired": {
+    "message": "Contact information has not been provided. We require contact information to respond to questions, or to request additional information to troubleshoot problems.",
+    "description": "Locs.get_FeedbackModal_ContactInformationRequired"
+  },
+  "ContactInformationDiscordButton": {
+    "message": "Join XIVLauncher & Dalamud Discord",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordButton"
+  },
+  "ContactInformationDiscordUrl": {
+    "message": "https://goat.place/",
+    "description": "Locs.get_FeedbackModal_ContactInformationDiscordUrl"
   },
   "InstallerFeedbackIncludeLastError": {
     "message": "마지막 에러 메세지 포함",
     "description": "Locs.get_FeedbackModal_IncludeLastError"
   },
   "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "이 옵션은 플러그인 개발자에게 뭐가 문제였는지 피드백을 주는 것이 가능합니다.",
+    "message": "이 옵션은 플러그인 개발자에게 어떤 문제가 있었는지에 관한 피드백을 줄 수 있습니다.",
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
-    "message": "모든 플러그인 개발자들이 당신의 피드백을 볼 수 있습니다.\n절대 개인정보를 포함하지 마시기 바랍니다.\n만약 [마지막 에러 메세지 포함] 을 선택했다면, 윈도우의 사용자 이름 같은 정보가 포함될 수 있습니다.\n\n수집된 피드백은 저희 서버에 저장되지 않고, 바로 Discord로 전달됩니다.",
+    "message": "모든 플러그인 개발자들이 당신의 피드백을 볼 수 있습니다.\n절대 개인정보를 포함하지 마시기 바랍니다.\n만약 [마지막 에러 메세지 포함] 을 선택했다면, 윈도우의 사용자 이름 같은 정보가 포함될 수 있습니다.\n\n수집된 피드백은 서버에 저장되지 않고 바로 Discord로 전달됩니다.",
     "description": "Locs.get_FeedbackModal_Hint"
   },
   "InstallerFeedbackNotificationSuccess": {
@@ -947,6 +1303,30 @@
     "message": "피드백이 전송되지 않았습니다.",
     "description": "Locs.get_FeedbackModal_NotificationError"
   },
+  "InstallerTestingWarning": {
+    "message": "Warning###InstallerTestingWarning",
+    "description": "Locs.get_TestingWarningModal_Title"
+  },
+  "InstallerTestingWarningDowngradeBody": {
+    "message": "Take care! If you opt out of testing for a plugin, you will remain on the testing version until it is deleted and reinstalled, or the non-testing version of the plugin is updated.\nKeep in mind that you may lose the settings for this plugin if you downgrade manually.",
+    "description": "Locs.get_TestingWarningModal_DowngradeBody"
+  },
+  "InstallerDeletePluginConfigWarning": {
+    "message": "Warning###InstallerDeletePluginConfigWarning",
+    "description": "Locs.get_DeletePluginConfigWarningModal_Title"
+  },
+  "InstallerDeletePluginConfigWarningBody": {
+    "message": "Are you sure you want to delete all data and configuration for {0}?",
+    "description": "Locs.DeletePluginConfigWarningModal_Body"
+  },
+  "InstallerDeletePluginConfigWarningYes": {
+    "message": "예",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_Yes"
+  },
+  "InstallerDeletePluginConfigWarningNo": {
+    "message": "아니오",
+    "description": "Locs.get_DeletePluginConfirmWarningModal_No"
+  },
   "DalamudPluginUpdates": {
     "message": "업데이트:",
     "description": "Locs.get_PluginUpdateHeader_Chatbox"
@@ -955,12 +1335,204 @@
     "message": "OK",
     "description": "Locs.get_ErrorModalButton_Ok"
   },
+  "SafeModeDisclaimer": {
+    "message": "You enabled safe mode, no plugins will be loaded.\nYou may delete plugins from the \"Installed plugins\" tab.\nSimply restart your game to disable safe mode.",
+    "description": "Locs.get_SafeModeDisclaimer"
+  },
+  "InstallerProfilesCouldNotAdd": {
+    "message": "해당 컬렉션에 플러그인을 추가할 수 없습니다.",
+    "description": "Locs.get_Profiles_CouldNotAdd"
+  },
+  "InstallerProfilesCouldNotRemove": {
+    "message": "Couldn't remove plugin from this collection.",
+    "description": "Locs.get_Profiles_CouldNotRemove"
+  },
+  "InstallerProfilesNone": {
+    "message": "No collections! Go add some in \"Plugin Collections\"!",
+    "description": "Locs.get_Profiles_None"
+  },
+  "InstallerProfilesRemoveFromAll": {
+    "message": "모든 컬렉션에서 제거",
+    "description": "Locs.get_Profiles_RemoveFromAll"
+  },
+  "VerifiedCheckmarkVerifiedTooltip": {
+    "message": "This plugin has been reviewed by the Dalamud team.\nIt follows our technical and safety criteria, and adheres to our guidelines.",
+    "description": "Locs.get_VerifiedCheckmark_VerifiedTooltip"
+  },
+  "VerifiedCheckmarkUnverifiedTooltip": {
+    "message": "This plugin has not been reviewed by the Dalamud team.\nWe cannot take any responsibility for custom plugins and repositories.\nPlease make absolutely sure that you only install plugins from developers you trust.\n\nYou will not receive support for plugins installed from custom repositories on the XIVLauncher & Dalamud server.",
+    "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
+  },
+  "ProfileManagerEnableDisableHint": {
+    "message": "이 컬렉션 활성/비활성화 하기",
+    "description": "Locs.get_TooltipEnableDisable"
+  },
+  "ProfileManagerInstall": {
+    "message": "이 플러그인 설치하기",
+    "description": "Locs.get_InstallPlugin"
+  },
+  "ProfileManagerRemoveFromProfile": {
+    "message": "이 컬렉션에서 플러그인 삭제하기",
+    "description": "Locs.get_RemovePlugin"
+  },
+  "ProfileManagerAddPlugin": {
+    "message": "플러그인 추가",
+    "description": "Locs.get_AddPlugin"
+  },
+  "ProfileManagerNoPluginsInProfile": {
+    "message": "컬렉션에 플러그인 없음",
+    "description": "Locs.get_NoPluginsInProfile"
+  },
+  "ProfileManagerAlwaysEnableAtBoot": {
+    "message": "게임 시작 시 항상 켜기",
+    "description": "Locs.get_AlwaysEnableAtBoot"
+  },
+  "ProfileManagerDeleteProfile": {
+    "message": "컬렉션 삭제",
+    "description": "Locs.get_DeleteProfileHint"
+  },
+  "ProfileManagerCopyToClipboard": {
+    "message": "Copy collection to clipboard for sharing",
+    "description": "Locs.get_CopyToClipboardHint"
+  },
+  "ProfileManagerCopyToClipboardHint": {
+    "message": "클립보드에 복사되었습니다",
+    "description": "Locs.get_CopyToClipboardNotification"
+  },
+  "ProfileManagerBackToOverview": {
+    "message": "처음으로 돌아가기",
+    "description": "Locs.get_BackToOverview"
+  },
+  "ProfileManagerSearchHint": {
+    "message": "검색하기...",
+    "description": "Locs.get_SearchHint"
+  },
+  "ProfileManagerAddProfileHint": {
+    "message": "No collections! Add one!",
+    "description": "Locs.get_AddProfileHint"
+  },
+  "ProfileManagerCloneProfile": {
+    "message": "컬렉션 복제하기",
+    "description": "Locs.get_CloneProfileHint"
+  },
+  "ProfileManagerEditProfile": {
+    "message": "이 컬렉션 편집하기",
+    "description": "Locs.get_EditProfileHint"
+  },
+  "ProfileManagerImportProfile": {
+    "message": "Import a shared collection from your clipboard",
+    "description": "Locs.get_ImportProfileHint"
+  },
+  "ProfileManagerTutorialHint": {
+    "message": "Learn more about collections",
+    "description": "Locs.get_TutorialHint"
+  },
+  "ProfileManagerAddProfile": {
+    "message": "새 컬렉션 만들기",
+    "description": "Locs.get_AddProfile"
+  },
+  "ProfileManagerNotificationImportSuccess": {
+    "message": "Collection successfully imported!",
+    "description": "Locs.get_NotificationImportSuccess"
+  },
+  "ProfileManagerNotificationImportError": {
+    "message": "컬렉션을 불러올 수 없습니다.",
+    "description": "Locs.get_NotificationImportError"
+  },
+  "ProfileManagerCouldNotRemove": {
+    "message": "플러그인을 삭제할 수 없습니다.",
+    "description": "Locs.get_ErrorCouldNotRemove"
+  },
+  "ProfileManagerCouldNotChangeState": {
+    "message": "플러그인 상태를 변경할 수 없습니다.",
+    "description": "Locs.get_ErrorCouldNotChangeState"
+  },
+  "ProfileManagerTutorial": {
+    "message": "컬렉션 정보",
+    "description": "Locs.get_TutorialTitle"
+  },
+  "ProfileManagerTutorialParagraphOne": {
+    "message": "Collections are shareable lists of plugins that can be enabled or disabled in the plugin installer or via chat commands.\nWhen a plugin is part of a collection, it will be enabled if the collection is enabled. If a plugin is part of multiple collections, it will be enabled if one or more collections it is a part of are enabled.",
+    "description": "Locs.get_TutorialParagraphOne"
+  },
+  "ProfileManagerTutorialParagraphTwo": {
+    "message": "You can add plugins to collections by clicking the plus button when editing a collection on this screen, or by using the button with the toolbox icon on the \"Installed Plugins\" screen.",
+    "description": "Locs.get_TutorialParagraphTwo"
+  },
+  "ProfileManagerTutorialParagraphThree": {
+    "message": "If a collection's \"Start on boot\" checkbox is ticked, the collection and the plugins within will be enabled every time the game starts up, even if it has been manually disabled in a prior session.",
+    "description": "Locs.get_TutorialParagraphThree"
+  },
+  "ProfileManagerTutorialParagraphFour": {
+    "message": "Individual plugins inside a collection also have a checkbox next to them. This indicates if a plugin is active within that collection - if the checkbox is not ticked, the plugin will not be enabled if that collection is active. Mind that it will still be enabled if the plugin is an active part of any other collection.",
+    "description": "Locs.get_TutorialParagraphFour"
+  },
+  "ProfileManagerTutorialCommands": {
+    "message": "You can use the following commands in chat or in macros to manage active collections:",
+    "description": "Locs.get_TutorialCommands"
+  },
+  "ProfileManagerTutorialCommandsEnable": {
+    "message": "{0} \"Collection Name\" - Enable a collection",
+    "description": "Locs.get_TutorialCommandsEnable"
+  },
+  "ProfileManagerTutorialCommandsDisable": {
+    "message": "{0} \"Collection Name\" - Disable a collection",
+    "description": "Locs.get_TutorialCommandsDisable"
+  },
+  "ProfileManagerTutorialCommandsToggle": {
+    "message": "{0} \"Collection Name\" - Toggle a collection's state",
+    "description": "Locs.get_TutorialCommandsToggle"
+  },
+  "ProfileManagerTutorialCommandsEnd": {
+    "message": "If you run multiple of these commands, they will be executed in order.",
+    "description": "Locs.get_TutorialCommandsEnd"
+  },
+  "ProfileManagerChoice1": {
+    "message": "Plugin collections are a new feature that allow you to group plugins into collections which can be toggled and shared.",
+    "description": "Locs.get_Choice1"
+  },
+  "ProfileManagerChoice2": {
+    "message": "They are experimental and may still contain bugs. Do you want to enable them now?",
+    "description": "Locs.get_Choice2"
+  },
+  "ProfileManagerChoiceConfirmation": {
+    "message": "Yes, enable Plugin Collections",
+    "description": "Locs.get_ChoiceConfirmation"
+  },
+  "ProfileManagerNotInstalled": {
+    "message": "{0} (미설치)",
+    "description": "Locs.NotInstalled"
+  },
+  "NotificationConstants.DefaultInitiator": {
+    "message": "달라무드",
+    "description": "NotificationConstants.get_DefaultInitiator"
+  },
+  "NotificationConstants.UnloadedInitiatorNameFormat": {
+    "message": "{0} (unloaded)",
+    "description": "NotificationConstants.get_UnloadedInitiatorNameFormat"
+  },
+  "NotificationConstants.Title.Success": {
+    "message": "성공",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Warning": {
+    "message": "경고",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Error": {
+    "message": "오류",
+    "description": "NotificationConstants.ToTitle"
+  },
+  "NotificationConstants.Title.Info": {
+    "message": "정보",
+    "description": "NotificationConstants.ToTitle"
+  },
   "DalamudWelcome": {
     "message": "Dalamud vD{0} 로드됨.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0} 개의 플러그인이 로드되었습니다.",
+    "message": " {0}개의 플러그인이 로드되었습니다.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
@@ -968,28 +1540,28 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Dalamud가 성공적으로 업데이트 되었습니다! 상세한 변경사항은 Discord에서 확인하세요.",
+    "message": "Dalamud가 성공적으로 업데이트되었습니다! 상세한 변경사항은 Discord에서 확인하세요.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginUpdateCheckFail": {
     "message": "플러그인 업데이트를 확인할 수 없습니다.",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginAutoUpdate": {
     "message": "자동 업데이트:",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationUpdatedPlugins": {
-    "message": "{0} 개의 플러그인이 업데이트 되었습니다.",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "message": "{0}개의 플러그인이 업데이트되었습니다.",
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "NotificationAutoUpdate": {
     "message": "자동 업데이트",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "DalamudPluginUpdateRequired": {
-    "message": "하나 이상의 플러그인이 업데이트가 필요합니다. 인게임에서 /xlplugins 명령어를 사용하여 업데이트 하십시오.",
-    "description": "<>c__DisplayClass16_0.<AutoUpdatePlugins>b__1"
+    "message": "하나 이상의 플러그인이 업데이트가 필요합니다. /xlplugins 명령어를 사용하여 업데이트하세요.",
+    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
   },
   "SystemMenuPlugins": {
     "message": "Dalamud 플러그인",
