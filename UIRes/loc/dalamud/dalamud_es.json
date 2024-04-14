@@ -7,10 +7,6 @@
     "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,ahora",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
-  "DalamudInstallerPluginChangelogHelp": {
-    "message": "Abrir changelog de plugin",
-    "description": "PluginManager.PrintUpdatedPlugins"
-  },
   "DalamudPluginUpdateSuccessful": {
     "message": "    》{0} actualización a v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
@@ -18,6 +14,10 @@
   "DalamudPluginUpdateFailed": {
     "message": "    {0} la actualización a v{1} falló ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "Abrir changelog de plugin",
+    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Pendiente",

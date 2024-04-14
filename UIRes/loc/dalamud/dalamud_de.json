@@ -7,10 +7,6 @@
     "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,now",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
-  "DalamudInstallerPluginChangelogHelp": {
-    "message": "Plugin-Changelogs öffnen",
-    "description": "PluginManager.PrintUpdatedPlugins"
-  },
   "DalamudPluginUpdateSuccessful": {
     "message": "    》 {0} aktualisiert auf v{1}.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
@@ -18,6 +14,10 @@
   "DalamudPluginUpdateFailed": {
     "message": "    》 Update für {0} auf v{1} fehlgeschlagen ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "Plugin-Changelogs öffnen",
+    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Ausstehend",
@@ -528,7 +528,7 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartup": {
-    "message": "Wait for plugins before game loads",
+    "message": "Warte auf Plugins bevor das Spiel geladen wird",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartupHint": {
@@ -552,11 +552,11 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsg": {
-    "message": "Display Dalamud's welcome message",
+    "message": "Zeige die Willkommensnachricht von Dalamud an",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsgHint": {
-    "message": "Display Dalamud's welcome message in FFXIV chat when logging in with a character.",
+    "message": "Dalamuds Willkommensnachricht im FFXIV-Chat anzeigen, wenn man sich mit einem Charakter anmeldet.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
@@ -584,11 +584,11 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsEnableRmtFiltering": {
-    "message": "Enable RMT Filtering",
+    "message": "RMT-Filterung aktivieren",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsEnableRmtFilteringMsgHint": {
-    "message": "Enable Dalamud's built-in RMT ad filtering.",
+    "message": "Aktiviere die von Dalamud integrierte RMT-Anzeigenfilterung.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollect": {
@@ -600,7 +600,7 @@
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsChannelNone": {
-    "message": "Do not pick \"None\".",
+    "message": "Wählen Sie nicht \"Keine\".",
     "description": "<>c.<.ctor>b__5_2"
   },
   "DalamudSettingsVisual": {
@@ -780,11 +780,11 @@
     "description": "Locs.get_SortBy_NotInstalled"
   },
   "InstallerEnabledDisabled": {
-    "message": "Enabled/Disabled",
+    "message": "Aktiviert/Deaktiviert",
     "description": "Locs.get_SortBy_EnabledDisabled"
   },
   "InstallerProfileOrNot": {
-    "message": "In a collection",
+    "message": "In einer Kollektion",
     "description": "Locs.get_SortBy_ProfileOrNot"
   },
   "InstallerSortBy": {
@@ -820,7 +820,7 @@
     "description": "Locs.get_TabBody_ChangelogNone"
   },
   "InstallerChangelogError": {
-    "message": "Could not download changelogs.",
+    "message": "Changelogs konnte nicht heruntergeladen werden.",
     "description": "Locs.get_TabBody_ChangelogError"
   },
   "InstallerInstalled": {
@@ -908,11 +908,11 @@
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "Reset plugin data",
+    "message": "Plugin-Daten zurücksetzen",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "Reset plugin data and reload",
+    "message": "Plugin-Einstellungen zurücksetzen und neu laden",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
