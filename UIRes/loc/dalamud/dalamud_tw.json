@@ -7,10 +7,6 @@
     "message": "86400,{0:%d} 天\n3600,{0:%h} 小時\n60,{0:%m} 分鐘\n1,{0:%s} 秒\n-Infinity,現在",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
-  "DalamudInstallerPluginChangelogHelp": {
-    "message": "查閲插件更新日誌",
-    "description": "PluginManager.PrintUpdatedPlugins"
-  },
   "DalamudPluginUpdateSuccessful": {
     "message": "    》 {0} 已更新至 v{1}。",
     "description": "Locs.DalamudPluginUpdateSuccessful"
@@ -18,6 +14,10 @@
   "DalamudPluginUpdateFailed": {
     "message": "    》 {0} 在嘗試更新至 v{1} 時失敗（{2}）。",
     "description": "Locs.DalamudPluginUpdateFailed"
+  },
+  "DalamudInstallerPluginChangelogHelp": {
+    "message": "查閲插件更新日誌",
+    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "擱置中",
