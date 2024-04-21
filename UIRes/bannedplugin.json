@@ -507,5 +507,10 @@
     "Name": "MBHistory",
     "AssemblyVersion": "1.0.0.2",
     "Reason": "Needs to be updated."
+  },
+  {
+    "Name": "ChatTranslated",
+    "AssemblyVersion": "1.4.1.5",
+    "Reason": "API changes."
   } 
 ]
