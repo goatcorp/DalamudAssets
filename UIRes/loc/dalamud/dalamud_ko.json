@@ -1,10 +1,10 @@
 {
   "DateTimeSpanExtensions.RelativeFormatStringsLong": {
-    "message": "172800,{0:%d} 일 전\n86400,어제\n7200,{0:%h} 시간 전\n3600,한 시간 \n120,{0:%m} 분 전\n60,1분 전\n2,{0:%s} 초 전\n1,1초 전\n-Infinity,지금",
+    "message": "86400,{0:%d}일 전\n3600,{0:%h}시간 전\n60,{0:%m}분 전\n1,{0:%s}초 전\n-Infinity,방금 전",
     "description": "DateTimeSpanExtensions.LocRelativePastLong"
   },
   "DateTimeSpanExtensions.RelativeFormatStringsShort": {
-    "message": "86400,{0:%d}일\n3600,{0:%h}시\n60,{0:%m}분\n1,{0:%s}초\n-Infinity,현재",
+    "message": "86400,{0:%d}일\n3600,{0:%h}시\n60,{0:%m}분\n1,{0:%s}초\n-Infinity,방금",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
   "DalamudPluginUpdateSuccessful": {
@@ -17,7 +17,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "플러그인 변경사항 보기",
-    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass68_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "대기 중",
@@ -100,7 +100,7 @@
     "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
-    "message": "XIVLauncher 인게임 애드온 언로드.",
+    "message": "Unloads XIVLauncher in-game addon. For debug use only!",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
@@ -136,7 +136,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudBranchSwitcher": {
-    "message": "브랜치 스위쳐 그리기",
+    "message": "브랜치 선택기 열기",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
@@ -144,7 +144,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
-    "message": "개발자 로그 DEBUG 열기",
+    "message": "플러그인 로그 창 열기",
     "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
@@ -737,6 +737,14 @@
   },
   "DalamudSettingReducedMotionHint": {
     "message": "알림 팝업과 같은 달라무드의 특정 애니메이션이 표시되지 않습니다.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacity": {
+    "message": "다국어 입력기 (IME) 상태 표시 창 불투명도",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacityHint": {
+    "message": "한국어/중국어/일본어 입력기를 사용할 때, 현재 입력 언어를 입력 상자 위에 표시합니다. 이 옵션으로 입력 언어 표시 창을 투명하게 설정할 수 있습니다.",
     "description": "SettingsTabLook..ctor"
   },
   "ChangelogNoText": {

@@ -17,7 +17,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Open plugin changelogs",
-    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass68_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Pending",
@@ -100,7 +100,7 @@
     "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
-    "message": "XIVLauncher In-Game アドオンをアンロードします。",
+    "message": "Unloads XIVLauncher in-game addon. For debug use only!",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
@@ -136,7 +136,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudBranchSwitcher": {
-    "message": "Draw branch switcher",
+    "message": "Open the branch switcher",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
@@ -144,7 +144,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
-    "message": "開発ログを開く DEBUG",
+    "message": "Open the plugin log window/console",
     "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
@@ -737,6 +737,14 @@
   },
   "DalamudSettingReducedMotionHint": {
     "message": "This will suppress certain animations from Dalamud, such as the notification popup.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacity": {
+    "message": "IME State Indicator Opacity (CJK only)",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacityHint": {
+    "message": "When any of CJK IMEs is in use, the state of IME will be shown with the opacity specified here.",
     "description": "SettingsTabLook..ctor"
   },
   "ChangelogNoText": {
