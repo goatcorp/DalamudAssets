@@ -17,7 +17,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Open plugin wijzigingen",
-    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass68_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "In behandeling",
@@ -100,7 +100,7 @@
     "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
-    "message": "Stopt de XIVLauncher addon in het spel.",
+    "message": "Laadt de XIVLauncher addon in het spel. Alleen voor foutopsporing!",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
@@ -136,7 +136,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudBranchSwitcher": {
-    "message": "Teken filiaal switcher",
+    "message": "Open de filiaalwissel",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
@@ -144,7 +144,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
-    "message": "Open ontwikkelaarslogboek DEBUG",
+    "message": "Open het logboekvenster/console van plugin",
     "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
@@ -737,6 +737,14 @@
   },
   "DalamudSettingReducedMotionHint": {
     "message": "Hierdoor worden bepaalde animaties van Dalamud onderdrukt, zoals de meldingspop-up.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacity": {
+    "message": "Dekking IME-statusindicator (alleen CJK)",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacityHint": {
+    "message": "Wanneer een van de CJK-IME's in gebruik is, wordt de status van IME weergegeven met de hier opgegeven dekking.",
     "description": "SettingsTabLook..ctor"
   },
   "ChangelogNoText": {
