@@ -159,10 +159,6 @@
     "AssemblyVersion": "0.5.6.0"
   },
   {
-    "Name": "ChatTwo",
-    "AssemblyVersion": "1.17.0.0"
-  },
-  {
     "Name": "Dalamud.FindAnything",
     "AssemblyVersion": "1.0.1.7"
   },
@@ -381,7 +377,7 @@
   },
   {
     "Name": "ChatTwo",
-    "AssemblyVersion": "1.18.5.0"
+    "AssemblyVersion": "1.27.1.0"
   },
   {
     "Name": "BetterShadows",
