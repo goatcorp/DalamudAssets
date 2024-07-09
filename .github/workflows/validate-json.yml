@@ -19,9 +19,15 @@ jobs:
           # Check if the file exists
           if [ -f ./UIRes/bannedplugin.json ]; then
             # Validate the JSON file
-            cat ./UIRes/bannedplugin.json | jq . > /dev/null
+            DUPES=$(cat ./UIRes/bannedplugin.json | jq 'group_by(.Name)[] | {Name: .[0].Name, length: length} | select(.length > 1)')
+            echo "${#DUPES}"
+            echo "${DUPES}"
             if [ $? -eq 0 ]; then
               echo "JSON file is valid"
+              if [ "${#DUPES}" -gt 0 ]; then
+                echo "Duplicate entries found. Please correct them. ${DUPES}"
+                exit 1
+              fi
             else
               echo "JSON file is invalid"
               exit 1

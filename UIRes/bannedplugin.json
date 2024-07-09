@@ -83,14 +83,6 @@
     "Reason": "Requested by Ava. Download the new/current version."
   },
   {
-    "Name": "JobBars",
-    "AssemblyVersion": "1.2.1.0"
-  },
-  {
-    "Name": "SoundSetter",
-    "AssemblyVersion": "1.5.5.0"
-  },
-  {
     "Name": "EngageTimer",
     "AssemblyVersion": "2.2.0.1"
   },
@@ -105,10 +97,6 @@
   {
     "Name": "OopsAllLalafells",
     "AssemblyVersion": "1.3.0"
-  },
-  {
-    "Name": "EnemyListDebuffs",
-    "AssemblyVersion": "0.3.3.0"
   },
   {
     "Name": "EB40F8A76F57D9EFD8F751229F0163BE5C64B2E376B329622527A0B04CDAE5E6",
@@ -135,36 +123,12 @@
     "AssemblyVersion": "2.0.3.2"
   },
   {
-    "Name": "GatherBuddy",
-    "AssemblyVersion": "3.0.5.1"
-  },
-  {
-    "Name": "MOAction",
-    "AssemblyVersion": "4.2.5"
-  },
-  {
-    "Name": "HUDManager",
-    "AssemblyVersion": "2.5.6.3"
-  },
-  {
-    "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.8.3.0"
-  },
-  {
     "Name": "PartyListLayout",
     "AssemblyVersion": "0.3.4.0"
   },
   {
-    "Name": "NamePlateDebuffs",
-    "AssemblyVersion": "0.5.6.0"
-  },
-  {
     "Name": "Dalamud.FindAnything",
     "AssemblyVersion": "1.0.1.7"
-  },
-  {
-    "Name": "Compass",
-    "AssemblyVersion": "1.20.1"
   },
   {
     "Name": "ARealmRecorded",
@@ -240,16 +204,6 @@
     "Reason": "Loading/Updating issue from 0.9.29 to next versions"
   },
   {
-    "Name": "DailyDuty",
-    "AssemblyVersion": "3.2.4.2",
-    "Reason": "Requires Dalamud Assets that aren't released yet"
-  },
-  {
-    "Name": "InventoryTools",
-    "AssemblyVersion": "1.3.1.0",
-    "Reason": "Please update this plugin to use it."
-  },
-  {
     "Name": "GatherBuddy",
     "AssemblyVersion": "3.2.1.5",
     "Reason": "Please update this plugin to use it."
@@ -258,16 +212,6 @@
     "Name": "InventorySearchBar",
     "AssemblyVersion": "1.1.0.2",
     "Reason": "Please update this plugin to use it."
-  },
-  {
-    "Name": "CrossUp",
-    "AssemblyVersion": "0.3.3.4",
-    "Reason": "This plugin is outdated and will need to be updated its author."
-  },
-  {
-    "Name": "CrossUp",
-    "AssemblyVersion": "1.7.0.0",
-    "Reason": "This plugin is outdated and will need to be updated its author."
   },
   {
     "Name": "CrossUp",
@@ -285,11 +229,6 @@
     "Reason": "This plugin is depricated, and is now a SimpleTweak."
   },
   {
-    "Name": "SubmarineTracker",
-    "AssemblyVersion": "0.0.7.0",
-    "Reason": "Crash on startup."
-  },
-  {
     "Name": "SimpleTweaksPlugin",
     "AssemblyVersion": "1.8.7.0"
   },
@@ -298,18 +237,9 @@
     "AssemblyVersion": "1.3.0.0"
   },
   {
-    "Name": "CrossUp",
-    "AssemblyVersion": "0.4.3.2",
-    "Reason": "This plugin is outdated and will need to be updated by its author."
-  },
-  {
     "Name": "Visibility",
     "AssemblyVersion": "1.1.4.8",
     "Reason": "Not yet working with Patch 6.4 (CS)."
-  },
-  {
-    "Name": "DelvUI",
-    "AssemblyVersion": "1.6.2.1"
   },
   {
     "Name": "EnemyListDebuffs",
@@ -319,11 +249,6 @@
   {
     "Name": "ChatBubbles",
     "AssemblyVersion": "2.1.3.1"
-  },
-  {
-    "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
-    "AssemblyVersion": "0.7.0.15",
-    "Reason": "Crashes with Patch 6.4"
   },
   {
     "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
@@ -345,10 +270,6 @@
   {
     "Name": "HighFpsPhysicsPlugin",
     "AssemblyVersion": "7.1.0.0"
-  },
-  {
-    "Name": "BetterMountRoulette",
-    "AssemblyVersion": "1.2.0.11"
   },
   {
     "Name": "Dalamud.LoadingImage",
@@ -437,17 +358,8 @@
     "AssemblyVersion": "0.0.1.7"
   },
   {
-    "Name": "CrossUp",
-    "AssemblyVersion": "1.0.0.0"
-  },
-  {
     "Name": "PriceInsight",
     "AssemblyVersion": "2.5.0.0"
-  },
-  {
-    "Name": "CurrencyTracker",
-    "AssemblyVersion": "1.1.1.2",
-    "Reason": "crashes when UI open for ten minutes"
   },
   {
     "Name": "B778B7FD16CA72AC1EA7A0F28A099D46948B4A732B6F08F12E4C5861041FE87B",
@@ -456,10 +368,6 @@
   {
     "Name": "BetterMountRoulette",
     "AssemblyVersion": "1.2.0.13"
-  },
-  {
-    "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
-    "AssemblyVersion": "0.8.1.0"
   },
   {
     "Name": "Honorific",
