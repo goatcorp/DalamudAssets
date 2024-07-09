@@ -521,7 +521,7 @@
   },
   {
     "Name": "InventoryTools",
-    "AssemblyVersion": "1.7.9.0",
+    "AssemblyVersion": "1.7.0.9",
     "Reason": "Crash on clean install"
   }
 ]
