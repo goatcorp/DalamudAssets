@@ -518,5 +518,10 @@
     "Name": "ChatTranslated",
     "AssemblyVersion": "1.4.1.5",
     "Reason": "API changes."
-  } 
+  },
+  {
+    "Name": "InventoryTools",
+    "AssemblyVersion": "1.7.9.0",
+    "Reason": "Crash on clean install"
+  }
 ]
