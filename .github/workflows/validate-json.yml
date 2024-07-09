@@ -19,7 +19,8 @@ jobs:
           # Check if the file exists
           if [ -f ./UIRes/bannedplugin.json ]; then
             # Validate the JSON file
-            cat ./UIRes/bannedplugin.json | jq . > /dev/null
+            cat ./UIRes/bannedplugin.json | jq group_by(.) | map(select(length>1) | .[0] > /dev/null
+            echo $?
             if [ $? -eq 0 ]; then
               echo "JSON file is valid"
             else
