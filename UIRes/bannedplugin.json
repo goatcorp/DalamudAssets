@@ -431,5 +431,10 @@
     "Name": "InventoryTools",
     "AssemblyVersion": "1.7.0.9",
     "Reason": "Crash on clean install"
+  },
+  {
+    "Name": "Echoglossian",
+    "AssemblyVersion": "3.3.2407.221",
+    "Reason": "Crashes on battletalk"
   }
 ]
