@@ -87,10 +87,6 @@
     "AssemblyVersion": "2.2.0.1"
   },
   {
-    "Name": "Echoglossian",
-    "AssemblyVersion": "2.2.2112.131"
-  },
-  {
     "Name": "MountCollectioner",
     "AssemblyVersion": "1.0.1.0"
   },
@@ -431,5 +427,10 @@
     "Name": "InventoryTools",
     "AssemblyVersion": "1.7.0.9",
     "Reason": "Crash on clean install"
+  },
+  {
+    "Name": "Echoglossian",
+    "AssemblyVersion": "3.3.2407.221",
+    "Reason": "Crashes on battletalk"
   }
 ]
