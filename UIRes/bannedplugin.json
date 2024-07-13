@@ -432,5 +432,10 @@
     "Name": "Echoglossian",
     "AssemblyVersion": "3.3.2407.221",
     "Reason": "Crashes on battletalk"
+  },
+  {
+    "Name": "ezWondrousTails",
+    "AssemblyVersion": "3.0.0.0",
+    "Reason": "Not functioning correctly, moved to testing only for now."
   }
 ]
