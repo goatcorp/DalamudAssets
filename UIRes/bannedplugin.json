@@ -440,5 +440,10 @@
   {
     "Name": "CurrencyAlert",
     "AssemblyVersion": "2.0.0.2"
+  },
+  {
+    "Name": "ezWondrousTails",
+    "AssemblyVersion": "3.0.0.0",
+    "Reason": "Not functioning correctly, moved to testing only for now."
   }
 ]
