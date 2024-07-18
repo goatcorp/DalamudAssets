@@ -288,11 +288,6 @@
     "AssemblyVersion": "1.7.1.0"
   },
   {
-    "Name": "JobBars",
-    "AssemblyVersion": "1.3.1.2",
-    "Reason": "Crashes with Patch 7.01 under certain scenarios"
-  },
-  {
     "Name": "ChatTwo",
     "AssemblyVersion": "1.27.1.0"
   },
