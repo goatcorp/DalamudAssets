@@ -441,5 +441,10 @@
     "Name": "ezWondrousTails",
     "AssemblyVersion": "3.0.0.0",
     "Reason": "Not functioning correctly, moved to testing only for now."
+  },
+  {
+    "Name": "Gauge-O-Matic",
+    "AssemblyVersion": "0.7.0.5",
+    "Reason": "Needs update to 0.7.0.6 due to a preset error"
   }
 ]
