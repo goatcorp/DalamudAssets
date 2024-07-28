@@ -451,5 +451,10 @@
     "Name": "Chatter",
     "AssemblyVersion": "0.5.0.0",
     "Reason": "A bug prior to version 0.6.0 may cause data loss."
+  },
+  {
+    "Name": "MemoryMarker",
+    "AssemblyVersion": "2.0.0.1",
+    "Reason": "Temporarly Disabled, doesn't work correctly."
   }
 ]
