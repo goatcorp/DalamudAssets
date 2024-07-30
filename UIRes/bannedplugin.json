@@ -444,8 +444,8 @@
   },
   {
     "Name": "Gauge-O-Matic",
-    "AssemblyVersion": "0.7.0.5",
-    "Reason": "Needs update to 0.7.0.6 due to a preset error"
+    "AssemblyVersion": "0.7.0.7",
+    "Reason": "Please wait for this plugin to be updated for compatibility with Patch 7.05"
   },
   {
     "Name": "Chatter",
