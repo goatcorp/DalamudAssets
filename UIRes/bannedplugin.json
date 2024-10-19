@@ -456,5 +456,10 @@
     "Name": "MemoryMarker",
     "AssemblyVersion": "2.0.0.1",
     "Reason": "Temporarly Disabled, doesn't work correctly."
+  },
+  {
+    "Name": "AbsoluteRoleplay",
+    "AssemblyVersion": "0.0.0.1",
+    "Reason": "Server down for maintenance and upgrades."
   }
 ]
