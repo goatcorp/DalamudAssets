@@ -461,5 +461,10 @@
     "Name": "AbsoluteRoleplay",
     "AssemblyVersion": "0.0.0.1",
     "Reason": "Server down for maintenance and upgrades."
+  },
+  {
+    "Name": "PrefPro",
+    "AssemblyVersion": "1.2.2.2",
+    "Reason": "CTDs in cutscenes."
   }
 ]
