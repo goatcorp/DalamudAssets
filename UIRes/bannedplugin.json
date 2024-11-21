@@ -192,7 +192,8 @@
   },
   {
     "Name": "OrangeGuidanceTomestone",
-    "AssemblyVersion": "1.8.2.0"
+    "AssemblyVersion": "1.10.1.0",
+    "Reason": "There is a bug where normally untargetable NPCs can be targeted, which could result in an invalid action to the server."
   },
   {
     "Name": "E612C21D61F2AF12044F1D4E52E3249814128CDC6086D6EFB66449279F3D5496",
