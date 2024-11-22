@@ -1,442 +1,442 @@
 {
   "LoadingDialogMainInstructionLoadingDalamud": {
-    "message": "Dalamud is loading...",
+    "message": "A Dalamud betöltése folyamatban...",
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogMainInstructionLoadingPlugins": {
-    "message": "Waiting for plugins to load...",
+    "message": "Várakozás a bővítmények betöltésére...",
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogMainInstructionAutoUpdatePlugins": {
-    "message": "Updating plugins...",
+    "message": "Bővítmények frissítése folyamatban...",
     "description": "LoadingDialog.UpdateMainInstructionText"
   },
   "LoadingDialogContentInfo": {
-    "message": "Some of the plugins you have installed through Dalamud are taking a long time to load.\nThis is likely normal, please wait a little while longer.",
+    "message": "A Dalamudon keresztül telepített bővítményeid némelyike a vártnál hosszabb ideig tölt.\nLehetséges, hogy ez normális. Légy türelemmel!",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogContentCurrentPlugin": {
-    "message": "Waiting for: {0}",
+    "message": "Várakozási idő: {0}",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogContentTakingTooLong": {
-    "message": "It's been a while now. Please report this issue on our Discord server.",
+    "message": "Ez már eltart egy ideje. Kérjük, jelentsd a problémát a Discord-szerverünkön!",
     "description": "LoadingDialog.UpdateContentText"
   },
   "LoadingDialogHide": {
-    "message": "Hide",
+    "message": "Elrejtés",
     "description": "LoadingDialog.ThreadStart"
   },
   "LoadingDialogShowLatestLogs": {
-    "message": "Show Latest Logs",
+    "message": "Legfrissebb napló mutatása",
     "description": "LoadingDialog.ThreadStart"
   },
   "LoadingDialogHideLatestLogs": {
-    "message": "Hide Latest Logs",
+    "message": "Legfrissebb napló elrejtése",
     "description": "LoadingDialog.ThreadStart"
   },
   "DateTimeSpanExtensions.RelativeFormatStringsLong": {
-    "message": "172800,{0:%d} days ago\n86400,yesterday\n7200,{0:%h} hours ago\n3600,an hour ago\n120,{0:%m} minutes ago\n60,a minute ago\n2,{0:%s} seconds ago\n1,a second ago\n-Infinity,just now",
+    "message": "172800,{0:%d} napja\n86400,tegnap\n7200,{0:%h} órája\n3600,egy órája\n120,{0:%m} perce\n60,egy perce\n2,{0:%s} másodperce\n1,a egy másodperce\n-Infinity,épp most",
     "description": "DateTimeSpanExtensions.LocRelativePastLong"
   },
   "DateTimeSpanExtensions.RelativeFormatStringsShort": {
-    "message": "86400,{0:%d}d\n3600,{0:%h}h\n60,{0:%m}m\n1,{0:%s}s\n-Infinity,now",
+    "message": "86400,{0:%d} napja\n3600,{0:%h} órája\n60,{0:%m} perce\n1,{0:%s} másodperce\n-Infinity,épp most",
     "description": "DateTimeSpanExtensions.LocRelativePastShort"
   },
   "DalamudPluginUpdateSuccessful": {
-    "message": "    》 {0} aktualisiert auf v{1}.",
+    "message": "    》 A(z) {0} frissítése a(z) {1} kiadásra sikeresen befejeződött.",
     "description": "Locs.DalamudPluginUpdateSuccessful"
   },
   "DalamudPluginUpdateFailed": {
-    "message": "    》 Update für {0} auf v{1} fehlgeschlagen ({2}).",
+    "message": "    》 A(z) {0} frissítése a(z) {1} kiadásra meghiúsult ({2}).",
     "description": "Locs.DalamudPluginUpdateFailed"
   },
   "DalamudInstallerPluginChangelogHelp": {
-    "message": "Plugin-Changelogs öffnen",
+    "message": "Változásnapló megnyitása",
     "description": "<>c__DisplayClass68_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
-    "message": "Ausstehend",
+    "message": "Függőben",
     "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
   },
   "InstallerUpdateStatusFailedDownload": {
-    "message": "Download fehlgeschlagen",
+    "message": "A letöltés meghiúsult",
     "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
   },
   "InstallerUpdateStatusFailedUnload": {
-    "message": "Entladen fehlgeschlagen",
+    "message": "A kitöltés meghiúsult",
     "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
   },
   "InstallerUpdateStatusFailedLoad": {
-    "message": "Laden fehlgeschlagen",
+    "message": "A betöltés meghiúsult",
     "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
   },
   "InstallerUpdateStatusSuccess": {
-    "message": "Erfolgreich",
+    "message": "Sikeres",
     "description": "PluginUpdateStatus.LocalizeUpdateStatusKind"
   },
   "ProfileCommandsEnableHint": {
-    "message": "Sammlung aktivieren. Verwendung: /xlenablecollection \"Sammlungsname\"",
+    "message": "Gyűjtemény engedélyezése. Használat: /xlenablecollection \"Gyűjtemény címe\"",
     "description": "ProfileCommandHandler..ctor"
   },
   "ProfileCommandsDisableHint": {
-    "message": "Sammlung deaktivieren. Verwendung: /xldisablecollection \"Sammlungsname\"",
+    "message": "Gyűjtemény letiltása. Használat: /xldisablecollection \"Gyűjtemény címe\"",
     "description": "ProfileCommandHandler..ctor"
   },
   "ProfileCommandsToggleHint": {
-    "message": "Sammlung umschalten. Verwendung: /xltogglecollection \"Sammlungsname\"",
+    "message": "Gyűjtemény ki-/bekapcsolása. Használat: /xltogglecollection \"Gyűjtemény címe\"",
     "description": "ProfileCommandHandler..ctor"
   },
   "ProfileCommandsEnabling": {
-    "message": "Aktiviere Sammlung \"{0}\"...",
+    "message": "A(z) „{0}” gyűjtemény engedélyezése folyamatban...",
     "description": "ProfileCommandHandler.FrameworkOnUpdate"
   },
   "ProfileCommandsDisabling": {
-    "message": "Deaktiviere Sammlung \"{0}\"...",
+    "message": "A(z) „{0}” gyűjtemény letiltása folyamatban...",
     "description": "ProfileCommandHandler.FrameworkOnUpdate"
   },
   "ProfileCommandsApplyFailed": {
-    "message": "Deine Sammlungen konnten nicht angewendet werden. Bitte überprüfe die Konsole auf Fehler.",
+    "message": "A gyűjtemények engedélyezése meghiúsult. A részletekért ld. a parancssort.",
     "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
   },
   "ProfileCommandsApplySuccess": {
-    "message": "Sammlungen angewandt.",
+    "message": "Engedélyezted a gyűjteményeket.",
     "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
   },
   "PluginProfilesNewProfile": {
-    "message": "Neue Sammlung",
+    "message": "Új gyűjtemény",
     "description": "ProfileManager.AddNewProfile"
   },
   "AutoUpdateOpenPluginInstaller": {
-    "message": "Open installer",
+    "message": "Telepítő megnyitása",
     "description": "Locs.get_NotificationButtonOpenPluginInstaller"
   },
   "AutoUpdateUpdate": {
-    "message": "Update",
+    "message": "Frissítés",
     "description": "Locs.get_NotificationButtonUpdate"
   },
   "AutoUpdateUpdatesAvailable": {
-    "message": "Updates available!",
+    "message": "Van elérhető frissítés!",
     "description": "Locs.get_NotificationTitleUpdatesAvailable"
   },
   "AutoUpdateUpdatesSuccessful": {
-    "message": "Updates successful!",
+    "message": "A frissítések sikeresen befejeződtek.",
     "description": "Locs.get_NotificationTitleUpdatesSuccessful"
   },
   "AutoUpdateUpdatingPlugins": {
-    "message": "Updating plugins...",
+    "message": "Bővítmények frissítése folyamatban...",
     "description": "Locs.get_NotificationTitleUpdatingPlugins"
   },
   "AutoUpdateUpdatesFailed": {
-    "message": "Updates failed!",
+    "message": "A frissítések telepítése meghiúsult!",
     "description": "Locs.get_NotificationTitleUpdatesFailed"
   },
   "AutoUpdateUpdatesSuccessfulContent": {
-    "message": "All plugins have been updated successfully.",
+    "message": "Az összes bővítmény sikeresen frissítve.",
     "description": "Locs.get_NotificationContentUpdatesSuccessful"
   },
   "AutoUpdateUpdatesSuccessfulContentMinimized": {
-    "message": "Plugins updated successfully.",
+    "message": "Sikeres frissítés.",
     "description": "Locs.get_NotificationContentUpdatesSuccessfulMinimized"
   },
   "AutoUpdateUpdatesFailedContent": {
-    "message": "Some plugins failed to update. Please check the plugin installer for more information.",
+    "message": "Bizonyos bővítmények frissítése meghiúsult. A részletekért ld. a bővítménytelepítőt.",
     "description": "Locs.get_NotificationContentUpdatesFailed"
   },
   "AutoUpdateUpdatesFailedContentMinimized": {
-    "message": "Plugins failed to update.",
+    "message": "Sikertelen frissítés.",
     "description": "Locs.get_NotificationContentUpdatesFailedMinimized"
   },
   "AutoUpdateUpdatesAvailableContentPlural": {
-    "message": "There are {0} plugins that can be updated:",
+    "message": "Az alábbi {0} bővítményhez van elérhető frissítés:",
     "description": "Locs.NotificationContentUpdatesAvailable"
   },
   "AutoUpdateUpdatesAvailableContentSingular": {
-    "message": "There is a plugin that can be updated:",
+    "message": "Az alábbi bővítményhez van elérhető frissítés:",
     "description": "Locs.NotificationContentUpdatesAvailable"
   },
   "AutoUpdateUpdatesAvailableContentMinimizedPlural": {
-    "message": "{0} plugin updates available",
+    "message": "{0} bővítményfrissítés érhető el",
     "description": "Locs.NotificationContentUpdatesAvailableMinimized"
   },
   "AutoUpdateUpdatesAvailableContentMinimizedSingular": {
-    "message": "1 plugin update available",
+    "message": "1 bővítményfrissítés érhető el",
     "description": "Locs.NotificationContentUpdatesAvailableMinimized"
   },
   "AutoUpdatePreparingToUpdatePlural": {
-    "message": "Preparing to update {0} plugins...",
+    "message": "{0} bővítmény frissítésének előkészítése folyamatban...",
     "description": "Locs.NotificationContentPreparingToUpdate"
   },
   "AutoUpdatePreparingToUpdateSingular": {
-    "message": "Preparing to update 1 plugin...",
+    "message": "1 bővítmény frissítésének előkészítése folyamatban...",
     "description": "Locs.NotificationContentPreparingToUpdate"
   },
   "AutoUpdateUpdating": {
-    "message": "Updating {0}...",
+    "message": "{0} frissítése folyamatban...",
     "description": "Locs.NotificationContentUpdating"
   },
   "AutoUpdateFailedPlugins": {
-    "message": "Failed plugin(s): {0}",
+    "message": "Meghiúsult bővítmény(ek): {0}",
     "description": "Locs.NotificationContentFailedPlugins"
   },
   "DalamudPluginAutoUpdate": {
-    "message": "The following plugins were auto-updated:",
+    "message": "Az alábbi bővítmények automatikusan frissítésre kerültek:",
     "description": "<RunAutoUpdates>d__31.MoveNext"
   },
   "WindowSystemContextActionPin": {
-    "message": "Fenster anpinnen",
+    "message": "Ablak kitűzése",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionClickthrough": {
-    "message": "Fenster durchklickbar machen",
+    "message": "Átkattinthatóvá tétel",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionAlpha": {
-    "message": "Deckkraft",
+    "message": "Átlátszatlanság",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionReset": {
-    "message": "Zurücksetzen",
+    "message": "Alaphelyzet",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionClickthroughDisclaimer": {
-    "message": "Öffne dieses Menü erneut, um Durchklick zu deaktivieren.",
+    "message": "Az átkattinthatóság letiltásához nyisd meg újra ezt a menüt.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionDisclaimer": {
-    "message": "Diese Optionen funktionieren im Moment möglicherweise nicht für alle Plugins.",
+    "message": "Lehetséges, hogy ezek a lehetőségek jelenleg nem minden bővítménnyel működnek.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Diese Funktionen sind nur verfügbar, wenn sich dieses Fenster im Spielfenster befindet.",
+    "message": "Ezek a lehetőségek csak akkor elérhetőek, ha a bővítmény ablaka a játék ablakán belül van megjelenítve.",
     "description": "Window.DrawInternal"
   },
   "DalamudUnloadHelp": {
-    "message": "Unloads XIVLauncher in-game addon. For debug use only!",
+    "message": "A XIVLauncher játékbeli bővítményének kitöltése. Csak hibakeresési használatra!",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
-    "message": "Zeigt die Liste der verfügbaren Befehle an. Wenn ein Argument angegeben wird, zeigt Hilfe für diesen Befehl an.",
+    "message": "Az elérhető parancsok listájának megjelenítése. Argumentum megadása mellett a megadott parancs magyarázatát mutatja.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudMuteHelp": {
-    "message": "Gib ein Wort oder einen Satz ein, der nicht im Chat auftauchen soll. Nutzung: /xlmute <word or sentence>",
+    "message": "Egy szó vagy mondat elnémítása a csevegőablakban. Használat: /xlmute <szó vagy mondat>",
     "description": "DalamudCommands..ctor"
   },
   "DalamudMuteListHelp": {
-    "message": "Listet stummgeschaltete Worte oder Sätze auf.",
+    "message": "Az elnémított szavak és mondatok listájának megjelenítése.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudUnmuteHelp": {
-    "message": "Löscht ein Wort oder einen Satz von der Liste der stummgeschalteten Worte. Nutzung: /xlunmute <word or sentence>",
+    "message": "Egy szó vagy mondat némításának feloldása a csevegőablakban. Használat: /xlunmute <szó vagy mondat>",
     "description": "DalamudCommands..ctor"
   },
   "DalamudLastLinkHelp": {
-    "message": "Öffnet den zuletzt im Chat geposteten Link in deinem Browser.",
+    "message": "A csevegőablakban legutóbb közzétett hivatkozás megnyitása az alapértelmezett böngészőben.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudBgmSetHelp": {
-    "message": "Setzt die Hintergrundmusik im Spiel. Nutzung: /xlbgmset <BGM ID>",
+    "message": "A játék háttérzenéjének felülírása. Használat: /xlbgmset <ZENESZÁM AZONOSÍTÓJA>",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevMenuHelp": {
-    "message": "Öffne das dev-Menü DEBUG",
+    "message": "A fejlesztői menü megnyitása HIBAKERESÉSHEZ",
     "description": "DalamudCommands..ctor"
   },
   "DalamudPluginStats": {
-    "message": "Plugin-Statistiken anzeigen",
+    "message": "A bővítménystatisztikai ablak megjelenítése",
     "description": "DalamudCommands..ctor"
   },
   "DalamudBranchSwitcher": {
-    "message": "Open the branch switcher",
+    "message": "Az ágválasztó megnyitása",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
-    "message": "Draw dev data menu DEBUG. Usage: /xldata [Data Dropdown Type]",
+    "message": "A fejlesztői adatmenü megjelenítése HIBAKERESÉSHEZ. Használat: /xldata [adat legördülő menüjének típusa]",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
-    "message": "Open the plugin log window/console",
+    "message": "A bővítményparancssor megnyitása",
     "description": "DalamudCommands..ctor"
   },
   "DalamudInstallerHelp": {
-    "message": "Öffnet den Plugin-Installer",
+    "message": "A bővítménytelepítő megnyitása",
     "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
-    "message": "Ändere die Sprache, in der Dalamud und Plugins dargestellt werden. Verfügbare Sprachen: ",
+    "message": "A Dalamud és a támogatott bővítmények nyelvének meghatározása. Elérhető nyelvek: ",
     "description": "DalamudCommands..ctor"
   },
   "DalamudSettingsHelp": {
-    "message": "Ändere verschiedene Einstellungen, wie Chat-Kanäle und den Discord Bot.",
+    "message": "Különböző játékbeli bővítménybeállítások személyre szabása – pl.: a csevegőablak csatornái és a Discord bot beállítása.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudUiModeHelp": {
-    "message": "Dalamud UI-Anzeigemodi umschalten. Native UI-Modifikationen können auch davon betroffen sein, aber das hängt vom Plugin ab.",
+    "message": "A Dalamud-felület megjelenítési módjának megváltoztatása. Lehetséges, hogy ez befolyásolja bizonyos bővítmények natív-kezelőfelületi módosításait.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudProfilerHelp": {
-    "message": "Öffne Dalamuds Startup-Timing Profiler.",
+    "message": "A Dalamud indításiidő-profilkészítőjének megnyitása.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCopyLogHelp": {
-    "message": "Copy the dalamud.log file to your clipboard.",
+    "message": "A dalamud.log fájl másolása vágólapra.",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdHelpAvailable": {
-    "message": "Verfügbare Kommandos:",
+    "message": "Rendelkezésre álló parancsok:",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudCmdHelpNotFound": {
-    "message": "Befehl wurde nicht gefunden.",
+    "message": "A parancs nem található.",
     "description": "DalamudCommands.OnHelpCommand"
   },
   "DalamudMuteListDeprecation": {
-    "message": "The built-in Dalamud bad word list is deprecated and no new words can be added. Please use a plugin for this functionality.",
+    "message": "A beépített Dalamud csúnyaszó-lista kiesett a használatból és már nem bővíthető új szavakkal. Ehhez a funkcióhoz használj egy bővítményt!",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
-    "message": "Keine stummgeschalteten Wörte oder Sätze.",
+    "message": "Az elnémított szavak és mondatok listája üres.",
     "description": "DalamudCommands.OnBadWordsListCommand"
   },
   "DalamudUnmuted": {
-    "message": "\"{0}\" freigegeben.",
+    "message": "„{0}” némítása feloldva.",
     "description": "DalamudCommands.OnBadWordsRemoveCommand"
   },
   "DalamudNoLastLink": {
-    "message": "Keinen Link gefunden...",
+    "message": "A legutóbbi hivatkozás nem található...",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudOpeningLink": {
-    "message": "{0} wird geöffnet",
+    "message": "{0} megnyitása",
     "description": "DalamudCommands.OnLastLinkCommand"
   },
   "DalamudLanguageSetTo": {
-    "message": "Sprache auf {0} geändert",
+    "message": "A beállított nyelv: {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
   },
   "DalamudLogCopyFailure": {
-    "message": "Could not copy log file to clipboard.",
+    "message": "A naplófájl vágólapra helyezése meghiúsult.",
     "description": "DalamudCommands.OnCopyLogCommand"
   },
   "DalamudLogCopySuccess": {
-    "message": "Log file copied to clipboard.",
+    "message": "Naplófájl a vágólapra helyezve.",
     "description": "DalamudCommands.OnCopyLogCommand"
   },
   "TSMDalamudPlugins": {
-    "message": "Plugins",
+    "message": "Bővítménytelepítő",
     "description": "<>c__DisplayClass28_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
-    "message": "Einstellungen",
+    "message": "Dalamud-beállítások",
     "description": "<>c__DisplayClass28_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
-    "message": "Entwicklermenü",
+    "message": "Fejlesztői menü",
     "description": "<>c__DisplayClass28_0.<.ctor>b__0"
   },
   "ImGuiClipboardFunctionProviderClipboardInUse": {
-    "message": "Eine andere Anwendung benutzt die Zwischenablage. Versuchen es später erneut.",
+    "message": "Jelenleg egy másik alkalmazás használja a vágólapot. Próbáld újra később!",
     "description": "ImGuiClipboardFunctionProvider.OpenClipboardOrShowError"
   },
   "ImGuiClipboardFunctionProviderErrorCopy": {
-    "message": "Fehler beim Kopieren. Siehe Protokolle für Details.",
+    "message": "A másolás meghiúsult. A részletekérd ld. a naplót.",
     "description": "ImGuiClipboardFunctionProvider.SetClipboardTextImpl"
   },
   "ImGuiClipboardFunctionProviderErrorPaste": {
-    "message": "Fehler beim Einfügen. Siehe Protokolle für Details.",
+    "message": "A beillesztés meghiúsult. A részletekérd ld. a naplót.",
     "description": "ImGuiClipboardFunctionProvider.GetClipboardTextImpl"
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
-    "message": "Wrong ReShade installation",
+    "message": "Helytelen ReShade-telepítés",
     "description": "<>c.<ContinueConstruction>b__118_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
-    "message": "Your installation of ReShade does not have full addon support, and may not work with Dalamud and/or the game.\nDownload and install ReShade with full addon-support.",
+    "message": "A ReShade jelenleg telepített verziója nem rendelkezik teljes bővítménytámogatással, ezért lehetséges, hogy nem fog működni a Dalamuddal és/vagy a játékkal.\nTöltsd le és telepítsd a ReShade-et teljes bővítménytámogatással!",
     "description": "<>c.<ContinueConstruction>b__118_0"
   },
   "LearnMore": {
-    "message": "Learn more...",
+    "message": "További információ...",
     "description": "<>c.<ContinueConstruction>b__118_14"
   },
   "InstallerDevTools": {
-    "message": "Entwickler-Tools",
+    "message": "Fejlesztői eszközök",
     "description": "Locs.get_Group_DevTools"
   },
   "InstallerInstalledPlugins": {
-    "message": "Installierte Plugins",
+    "message": "Telepített bővítmények",
     "description": "Locs.get_Group_Installed"
   },
   "InstallerAllPlugins": {
-    "message": "Alle Plugins",
+    "message": "Minden bővítmény",
     "description": "Locs.get_Group_Available"
   },
   "InstallerChangelog": {
-    "message": "Changelog",
+    "message": "Változásnapló",
     "description": "Locs.get_Group_Changelog"
   },
   "InstallerCategoryAll": {
-    "message": "Alle",
+    "message": "Mind",
     "description": "Locs.get_Category_All"
   },
   "InstallerCategoryIsTesting": {
-    "message": "Aktuell am Testen",
+    "message": "Kísérlet alatt",
     "description": "Locs.get_Category_IsTesting"
   },
   "InstallerCategoryAvailableForTesting": {
-    "message": "Test verfügbar",
+    "message": "Kísérleti kiadás elérhető",
     "description": "Locs.get_Category_AvailableForTesting"
   },
   "InstallerCategoryHidden": {
-    "message": "Hidden",
+    "message": "Rejtett",
     "description": "Locs.get_Category_Hidden"
   },
   "InstallerInstalledDevPlugins": {
-    "message": "Installierte Entwickler-Plugins",
+    "message": "Fejlesztői bővítmények telepítve",
     "description": "Locs.get_Category_DevInstalled"
   },
   "InstallerCategoryPluginProfiles": {
-    "message": "Plugin-Sammlungen",
+    "message": "Bővítménygyűjtemények",
     "description": "Locs.get_Category_PluginProfiles"
   },
   "InstallerCategoryCanBeUpdated": {
-    "message": "Can be updated",
+    "message": "Frissítésre vár",
     "description": "Locs.get_Category_UpdateablePlugins"
   },
   "InstallerCategoryOther": {
-    "message": "Sonstiges",
+    "message": "Egyéb",
     "description": "Locs.get_Category_Other"
   },
   "InstallerCategoryJobs": {
-    "message": "Jobs",
+    "message": "Foglalkozások",
     "description": "Locs.get_Category_Jobs"
   },
   "InstallerCategoryUI": {
-    "message": "UI",
+    "message": "Felhasználói felület",
     "description": "Locs.get_Category_UI"
   },
   "InstallerCategoryMiniGames": {
-    "message": "Mini-Spiele",
+    "message": "Minijátékok",
     "description": "Locs.get_Category_MiniGames"
   },
   "InstallerCategoryInventory": {
-    "message": "Inventar",
+    "message": "Eszköztár",
     "description": "Locs.get_Category_Inventory"
   },
   "InstallerCategorySound": {
-    "message": "Ton",
+    "message": "Hang",
     "description": "Locs.get_Category_Sound"
   },
   "InstallerCategorySocial": {
-    "message": "Soziales",
+    "message": "Közösségi",
     "description": "Locs.get_Category_Social"
   },
   "InstallerCategoryUtility": {
-    "message": "Tools",
+    "message": "Segédeszközök",
     "description": "Locs.get_Category_Utility"
   },
   "InstallerCategoryPlugins": {
-    "message": "Plugins",
+    "message": "Bővítmények",
     "description": "Locs.get_Category_Plugins"
   },
   "InstallerCategoryDalamud": {
@@ -444,1091 +444,1091 @@
     "description": "Locs.get_Category_Dalamud"
   },
   "DalamudSettingsAutoUpdateHint": {
-    "message": "Dalamud can update your plugins automatically, making sure that you always have the newest features and bug fixes. You can choose when and how auto-updates are run here.",
+    "message": "A Dalamud képes automatikusan frissíteni a telepített bővítményeket, hogy azok mindig naprakészek legyenek a legújabb javításokkal és funkciókkal. Az automatikus frissítések hogy- és mikéntjét itt szabhatod személyre.",
     "description": "ChangelogWindow.Draw"
   },
   "DalamudSettingsAutoUpdateDisclaimer1": {
-    "message": "You can always update your plugins manually by clicking the update button in the plugin list. You can also opt into updates for specific plugins by right-clicking them and selecting \"Always auto-update\".",
+    "message": "A telepített bővítményeket kézileg is frissítheted a bővítménylistán megtalálható Frissítés gombbal. Azt is megteheted, hogy csak bizonyos bővítmények számára engedélyezed az automatikus frissítést, ha jobb gombbal rájuk kattintasz és kiválasztod az „Automatikus frissítés mindig” lehetőséget.",
     "description": "ChangelogWindow.Draw"
   },
   "DalamudSettingsAutoUpdateDisclaimer2": {
-    "message": "Dalamud will only notify you about updates while you are idle.",
+    "message": "A Dalamud csak akkor értesít a bővítmények frissítéseiről, ha éppen tétlen vagy.",
     "description": "ChangelogWindow.Draw"
   },
   "DalamudGamepadModeNotifierText": {
-    "message": "Gamepad-Modus ist aktiviert. Drücke L1+L3, um ihn zu deaktivieren, drücke R3, um den Plugin-Installer zu öffnen.",
+    "message": "Vezérlőmód engedélyezve. A kikapcsoláshoz nyomd meg egyszerre az L1 és L3 gombokat. A bővítménytelepítő mutatásához/elrejtéséhez nyomd meg az R3 gombot.",
     "description": "GamepadModeNotifierWindow.Draw"
   },
   "RenameStyleModalTitle": {
-    "message": "Stil umbenennen",
+    "message": "Stílus átnevezése",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorChooseStyle": {
-    "message": "Stil auswählen:",
+    "message": "Stílus megadása:",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorAddNew": {
-    "message": "Neuen Stil hinzufügen",
+    "message": "Új stílus",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorDeleteStyle": {
-    "message": "Aktuellen Stil löschen",
+    "message": "Jelenlegi stílus törlése",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorRenameStyle": {
-    "message": "Stil umbenennen",
+    "message": "Stílus átnevezése",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorCopy": {
-    "message": "Stil zur Freigabe in die Zwischenablage kopieren",
+    "message": "Stílus másolása vágólapra megosztás céljából",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorImport": {
-    "message": "Stil aus Zwischenablage importieren",
+    "message": "Stílus importálása a vágólapról",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorNotAllowed": {
-    "message": "Du kannst eingebaute Stile nicht bearbeiten. Bitte füge zuerst einen neuen Stil hinzu.",
+    "message": "A beépített stílusokat nem módosíthatod. Először hozz létre egy új stílust!",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorApplying": {
-    "message": "Stil wird angewendet...",
+    "message": "Stílus alkalmazása folyamatban...",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorVariables": {
-    "message": "Variablen",
+    "message": "Változók",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorColors": {
-    "message": "Farben",
+    "message": "Színek",
     "description": "StyleEditorWindow.Draw"
   },
   "Close": {
-    "message": "Schließen",
+    "message": "Bezárás",
     "description": "StyleEditorWindow.Draw"
   },
   "SaveAndClose": {
-    "message": "Speichern und Schließen",
+    "message": "Mentés és bezárás",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorEnterName": {
-    "message": "Bitte gebe den neuen Namen für diesen Stil ein.",
+    "message": "Add meg a stílus új nevét.",
     "description": "StyleEditorWindow.Draw"
   },
   "DalamudSettingsHeader": {
-    "message": "Dalamud-Einstellungen",
+    "message": "Dalamud-beállítások",
     "description": "SettingsWindow..ctor"
   },
   "DalamudSettingsSave": {
-    "message": "Änderungen speichern",
+    "message": "Módosítások mentése",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSaveAndExit": {
-    "message": "Änderungen speichern und schließen",
+    "message": "Módosítások mentése és bezárás",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsDevPluginLocation": {
-    "message": "Entwickler-Plugin Pfade",
+    "message": "Fejlesztői bővítmények elérési útja",
     "description": "DevPluginsSettingsEntry..ctor"
   },
   "DalamudSettingsChanged": {
-    "message": "(geändert)",
+    "message": "(Módosítva)",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Add dev plugin load locations.\nThis must be a path to the plugin DLL.",
+    "message": "Add meg a fejlesztői bővítmények elérési útját!\nAz elérési útnak közvetlenül a bővítmény DLL-ére kell mutatnia.",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudDevPluginLocationSelect": {
-    "message": "Select Dev Plugin DLL",
+    "message": "Fejlesztői bővítmény DLL-ének kiválasztása",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudDevPluginLocationExists": {
-    "message": "Pfad existiert bereits.",
+    "message": "Ez az elérési út már foglalt.",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudDevPluginInvalid": {
-    "message": "Der eingegebene Wert ist kein gültiger Pfad zu einem potenziellen Entwickler-Plugin.\nMeintest du stattdessen, ihn als benutzerdefiniertes Plugin-Repository in die Felder unten eingeben?",
+    "message": "A megadott elérési úton nem található fejlesztői bővítmény.\nLehetséges, hogy a lejjebb található egyéni bővítményi mezőkbe akartad megadni?",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsLanguage": {
-    "message": "Sprache",
+    "message": "Nyelv",
     "description": "LanguageChooserSettingsEntry..ctor"
   },
   "DalamudSettingsLanguageHint": {
-    "message": "Wähle die Anzeigesprache für Dalamud.",
+    "message": "Válaszd ki a Dalamud megjelenítési nyelvét.",
     "description": "LanguageChooserSettingsEntry.Draw"
   },
   "DalamudSettingsCustomRepo": {
-    "message": "Drittanbieter-Quellen",
+    "message": "Egyéni bővítmény-adattárak",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoHint": {
-    "message": "Hier kannst du Drittanbieter-Quellen hinzufügen.",
+    "message": "Egyéni bővítmény-adattárak hozzáadása.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarningReadThis": {
-    "message": "LIES DAS HIER ZUERST!",
+    "message": "OLVASS EL!",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning": {
-    "message": "Wir können keine Verantwortung für Plugins von Custom Repositories übernehmen.",
+    "message": "Az egyéni bővítményekért és adattárakért nem vállalunk felelősséget.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning5": {
-    "message": "Wenn dir jemand gesagt hat, hier etwas zu kopieren/einzufügen, ist es sehr wahrscheinlich, dass du betrogen oder ausgenutzt wirst.",
+    "message": "Ha valaki azt mondta, hogy illessz be ide valamit, erősen gyanús, hogy átverés vagy kihasználás áldozata vagy.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning2": {
-    "message": "Plugins haben wie jedes andere Programm die volle Kontrolle über deinen PC, und können Schaden anrichten oder abstürzen.",
+    "message": "A többi programhoz hasonlóan a bővítményeknek is teljes hozzáférése van a számítógépedhez, és kárt vagy lefagyásokat okozhatnak.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning4": {
-    "message": "Sie können deinen Charakter löschen, deine FC oder deinen Discord-Account stehlen und dein Haus niederbrennen.",
+    "message": "Egy káros bővítmény törölheti a karakteredet, ellophatja a szabadtársaságodat vagy a Discord-fiókodat, és felgyújthatja a házadat.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarning3": {
-    "message": "Bitte stelle unbedingt sicher, dass du nur Plugins von Entwicklern installierst, denen du vertraust.",
+    "message": "Csak és kizárólag megbízható fejlesztőktől származó bővítményeket telepíts!",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarningPleaseWait": {
-    "message": "Bitte warte {0} Sekunden...",
+    "message": "Várj még {0} másodpercet...",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudSettingCustomRepoWarningIReadIt": {
-    "message": "Ok, ich habe diese Warnung gelesen und verstanden",
+    "message": "Rendben – elolvastam és megértettem a figyelmeztetést",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudThirdRepoExists": {
-    "message": "Diese Quelle existiert bereits.",
+    "message": "Ez az adattár már létezik.",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudThirdRepoNotUrl": {
-    "message": "Die eingegebene Adresse ist keine gültige URL.\nMochtest du sie stattdessen als Entwickler-Plugin in die obigen Felder eingeben?",
+    "message": "A megadott webcím nem érvényes.\nLehetséges, hogy a feljebb található fejlesztői bővítményi mezőkbe akartad megadni?",
     "description": "ThirdRepoSettingsEntry.Draw"
   },
   "DalamudAbout": {
-    "message": "Über Dalamud",
+    "message": "Névjegy",
     "description": "SettingsTabAbout.get_Title"
   },
   "DalamudSettingsAutoUpdates": {
-    "message": "Auto-Updates",
+    "message": "Automatikus frissítések",
     "description": "SettingsTabAutoUpdates.get_Title"
   },
   "DalamudSettingsAutoUpdateBehavior": {
-    "message": "When the game starts...",
+    "message": "Amikor a játék elindul...",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateNone": {
-    "message": "Do not check for updates automatically",
+    "message": "Ne keressen frissítéseket automatikusan",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateNotify": {
-    "message": "Only notify me of new updates",
+    "message": "Csak értesítsen az elérhető frissítésekről",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateMainRepo": {
-    "message": "Auto-update main repository plugins",
+    "message": "Fő adattáras bővítmények automatikus frissítése",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateAll": {
-    "message": "Auto-update all plugins",
+    "message": "Minden bővítmény automatikus frissítése",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateAllWarning": {
-    "message": "Warning: This will update all plugins, including those not from the main repository.\nThese updates are not reviewed by the Dalamud team and may contain malicious code.",
+    "message": "Figyelmeztetés: Ezzel a beállítással az összes bővítmény automatikusan frissítésre kerül – még azok is, amelyek nem a fő adattárból származnak.\nEzeket a frissítéseket a Dalamud csapata nem ellenőrzi és káros kódot tartalmazhatnak.",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdatePeriodically": {
-    "message": "Periodically check for new updates while playing",
+    "message": "Frissítések keresése bizonyos időközönként, játék közben",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdatePeriodicallyHint": {
-    "message": "Plugins won't update automatically after startup, you will only receive a notification while you are not actively playing.",
+    "message": "Ezzel a beállítással a bővítmények nem kerülnek automatikus frissítésre a játék indulásakor, de ha játék közben éppen tétlen vagy, értesítéseket fogsz kapni az elérhető frissítésekről.",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptedIn": {
-    "message": "Per-plugin overrides",
+    "message": "Bővítményszintű felülbírálás",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOverrideHint": {
-    "message": "Here, you can choose to receive or not to receive updates for specific plugins. This will override the settings above for the selected plugins.",
+    "message": "Itt lehetőséged van külön-külön megadni minden bővítményhez, hogy szeretnéd-e őket automatikusan frissíteni. Ezekkel a lehetőségekkel a fent megadott beállításokat tudod felülbírálni.",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptedInHint2": {
-    "message": "You don't have auto-update rules for any plugins.",
+    "message": "Egy bővítményhez sem adtál meg automatikus frissítési szabályokat.",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptInUnknownPlugin": {
-    "message": "Unknown plugin",
+    "message": "Ismeretlen bővítmény",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptInRemove": {
-    "message": "Remove this override",
+    "message": "Felülbírálási szabály eltávolítása",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptInAdd": {
-    "message": "Add new override",
+    "message": "Új felülbírálási szabály",
     "description": "SettingsTabAutoUpdates.Draw"
   },
   "DalamudSettingsAutoUpdateOptInNeverUpdate": {
-    "message": "Never update this",
+    "message": "Automatikus frissítés soha",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|9_5"
   },
   "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
-    "message": "Always update this",
+    "message": "Automatikus frissítés mindig",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|9_5"
   },
   "DalamudSettingsServerInfoBar": {
-    "message": "Server-Infoleiste",
+    "message": "Kiszolgálóinformációs sáv",
     "description": "SettingsTabDtr.get_Title"
   },
   "DalamudSettingServerInfoBarHint": {
-    "message": "Plugins können zusätzliche Informationen in die Server-Informationsleiste einfügen (da, wo deine Welt & Zeit sichtbar sind).\nDu kannst diese hier neu ordnen und deaktivieren.",
+    "message": "A különböző bővítményeknek lehetősége van további információval bővíteni a kiszolgálóinformációs sávot (ahol a játék a jelenlegi világot és az időt mutatja).\nEzeket a lehetőségeket itt rendezheted át vagy tilthatod le.",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingServerInfoBarDidNone": {
-    "message": "Du hast keine Plugins, die diese Funktion verwenden.",
+    "message": "Ezt a funkciót egy telepített bővítmény sem használja.",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingServerInfoBarSpacing": {
-    "message": "Abstand zwischen Elementen",
+    "message": "Kiszolgálóinformációs sáv térköze",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingServerInfoBarSpacingHint": {
-    "message": "Konfiguriere hier den Abstand zwischen den Einträgen in der Server-Infoleiste.",
+    "message": "A kiszolgálóinformációs sáv elemei közötti térközt itt állíthatod be.",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingServerInfoBarDirection": {
-    "message": "Richtung der Server-Infoleiste",
+    "message": "Kiszolgálóinformációs sáv iránya",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingServerInfoBarDirectionHint": {
-    "message": "Wenn aktiviert, werden die Elemente der Server Info Bar nach rechts anstatt nach links erweitert.",
+    "message": "Ha ezt engedélyezed, akkor a kiszolgálóinformációs sáv elemei nem balra, hanem jobbra fognak bővülni.",
     "description": "SettingsTabDtr.Draw"
   },
   "DalamudSettingsExperimental": {
-    "message": "Experimentell",
+    "message": "Kísérleti",
     "description": "SettingsTabExperimental.get_Title"
   },
   "DalamudSettingsPluginTest": {
-    "message": "Plugin-Testversionen erhalten",
+    "message": "Kísérleti bővítményfrissítések fogadása",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Erhalte Test-Builds für ausgewählte Plugins.\nUm ein Plugin zu testen, musst du es mit der rechten Maustaste im \"{0}\" Tab des Plugin-Installers anklicken und \"{1} \" auswählen.",
+    "message": "Bizonyos bővítmények kísérleti kiadásának kipróbálása.\nHa szeretnél feliratkozni egy bővítmény kísérleti kiadására, kattints rá jobb gombbal a bővítménytelepítő „{0}” fülén és válaszd ki a(z) „{1}” lehetőséget.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
-    "message": "Test-Plugins wurden möglicherweise nicht von uns geprüft und könnten Fehler enthalten. Bitte aktiviere dies nur, wenn du dir der Risiken bewusst bist.",
+    "message": "A kísérleti kiadások hibákat tartalmazhatnak és a játék lefagyását okozhatják. Ezt csak akkor engedélyezd, ha tisztában vagy a veszélyekkel!",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnablePluginUIAdditionalOptions": {
-    "message": "Fügt einen Button in die Titelleiste der Plugin-Fenster ein, um zusätzliche Optionen zu öffnen",
+    "message": "További lehetőségek megjelenítése az ablakfejléceken",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
-    "message": "Auf diese Weise können Sie bestimmte Plugin-Fenster anpinnen, ihre Deckkraft anpassen oder sie durchklickbar machen.\nDies wird möglicherweise nicht von allen Plugins unterstützt. Kontaktieren Sie den Plugin-Autor, falls ein Plugin diese Funktion nicht unterstützt.",
+    "message": "Ezzel egy új gomb fog megjelenni az ablakok fejlécén, amely egy olyan menüt nyit meg, ahol kitűzhetsz egy ablakot, átkattinthatóvá teheted vagy megváltoztathatod az átlátszatlanságát.\nLehetséges, hogy ezt a funkciót nem minden bővítmény támogatja. Hiányos támogatás esetén vedd fel a kapcsolatot a bővítmény szerzőjével.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsClearHidden": {
-    "message": "Versteckte Plugins wiederherstellen",
+    "message": "Elrejtett bővítmények listájának törlése",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsClearHiddenHint": {
-    "message": "Diese Option bringt Plugins, die du vorher im Plugin-Installer versteckt hast, zurück.",
+    "message": "A bővítménytelepítőből korábban elrejtett bővítmények újra láthatóvá tétele.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsReShadeHandlingMode": {
-    "message": "ReShade handling mode",
+    "message": "ReShade-kezelési üzemmód",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsReShadeHandlingModeHint": {
-    "message": "You may try different options to work around problems you may encounter.\nRestart is required for changes to take effect.",
+    "message": "Próbáld ki az alábbi lehetőségeket, ha problémákba ütközöl.\nEzen beállítások érvénybe léptetéséhez újraindítás szükséges.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsGeneral": {
-    "message": "Allgemein",
+    "message": "Általános",
     "description": "SettingsTabGeneral.get_Title"
   },
   "DalamudSettingsChannel": {
-    "message": "Dalamud-Chatkanal",
+    "message": "Dalamud-csevegőcsatorna",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsChannelHint": {
-    "message": "Wähle den Chat-Kanal, der für generelle Nachrichten von Dalamud verwendet werden soll.",
+    "message": "Add meg az általános Dalamud-üzenetek által használt csevegőcsatornát.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartup": {
-    "message": "Warte auf Plugins bevor das Spiel geladen wird",
+    "message": "Bővítmények betöltése a játék előtt",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsWaitForPluginsOnStartupHint": {
-    "message": "Do not let the game load, until plugins are loaded.",
+    "message": "A játék betöltésének megakadályozása addig, amíg az összes bővítmény be nem töltött.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsFlash": {
-    "message": "Fenster aufblinken lassen, wenn ein Inhalt gefunden wurde",
+    "message": "Ablak villogtatása, ha a DUTY Finder készen áll",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsFlashHint": {
-    "message": "Aktiviere diese Option, falls das FFXIV-Icon in der Taskleiste aufblinken soll, wenn ein Inhalt gefunden wird.",
+    "message": "A játékablak villogtatása a várakozás befejeztével.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsDutyFinderMessage": {
-    "message": "Chat-Nachricht, wenn ein Inhalt gefunden wurde",
+    "message": "Csevegőüzenet közzététele, ha a DUTY Finder készen áll",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsDutyFinderMessageHint": {
-    "message": "Aktiviere diese Option, falls eine Nachricht in den Chat gesendet werden soll, wenn ein Inhalt gefunden wird.",
+    "message": "Üzenet küldése a FFXIV-csevegőablakba a várakozás befejeztével.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsg": {
-    "message": "Zeige die Willkommensnachricht von Dalamud an",
+    "message": "Dalamud-köszöntőüzenet megjelenítése",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintDalamudWelcomeMsgHint": {
-    "message": "Dalamuds Willkommensnachricht im FFXIV-Chat anzeigen, wenn man sich mit einem Charakter anmeldet.",
+    "message": "A Dalamud köszöntőüzenetének megjelenítése a FFXIV-csevegőablakban, amikor bejelentkezel egy karakterrel.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintPluginsWelcomeMsg": {
-    "message": "Geladene Plugins in der Login-Nachricht anzeigen",
+    "message": "Betöltött bővítmények megjelenítése a köszöntőüzenetben",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsPrintPluginsWelcomeMsgHint": {
-    "message": "Zeigt geladene Plugins im FFXIV Chat an, wenn du dich mit einem Charakter anmeldest.",
+    "message": "A jelenleg használt bővítmények kiírása a Dalamud köszöntőüzeneténben, amikor bejelentkezel egy karakterrel.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsSystemMenu": {
-    "message": "Dalamud-Verknüpfungen im Systemmenü",
+    "message": "Dalamud-gombok megjelenítése a rendszermenüben",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsSystemMenuMsgHint": {
-    "message": "Fügt Verknüpfungen für Dalamud-Plugins und Einstellungen in das Systemmenü ein.",
+    "message": "A Dalamud bővítményeihez és beállításaihoz vezető gombok megjelenítése a rendszermenüben.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollect": {
-    "message": "Marktbrettdaten anonym hochladen",
+    "message": "Játékbeli apróhirdetések automatikus feltöltése",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollectHint": {
-    "message": "Universalis liefert beim durchstöbern des Marktbretts anonym Daten über die Ingame-Ökonomie. Diese Daten können in keiner Weise an dich gebunden werden und alle profitieren davon!",
+    "message": "Névtelen adatmegosztás a játékbeli ökonómiáról az Universalis számára, amikor az apróhirdetéseket böngészed. Ezek az adatok nem köthetőek Hozzád és mindenki előnyére válnak!",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsChannelNone": {
-    "message": "Wählen Sie nicht \"Keine\".",
+    "message": "Ne válaszd ki a „None” (egyik sem) lehetőséget!",
     "description": "<>c.<.ctor>b__5_2"
   },
   "DalamudSettingsVisual": {
-    "message": "Aussehen",
+    "message": "Megjelenítés",
     "description": "SettingsTabLook.get_Title"
   },
   "DalamudSettingsGlobalUiScale": {
-    "message": "Globale Schriftskalierung",
+    "message": "Globális betűtípus-méretarány",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingsFontBuildInProgressWithEndingThreeDots": {
-    "message": "Building fonts...",
+    "message": "Betűtípusok fordítása folyamatban...",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingsGlobalUiScaleHint": {
-    "message": "Skaliere Text in allen XIVLauncher Interface-Elementen - dies ist nützlich für 4K-Monitore.",
+    "message": "Betűtípusok méretezése a XIVLauncherben és a kezelőfelületen – hasznos, ha 4K-s kijelzőt használsz.",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingsFontBuildFaulted": {
-    "message": "Die Schriftarten konnten nicht wie angefordert geladen werden.",
+    "message": "A kért betűtípusok betöltése meghiúsult.",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingChooseDefaultFont": {
-    "message": "Standardschriftart wählen",
+    "message": "Alapértelmezett betűtípus",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingResetDefaultFont": {
-    "message": "Standardschriftart zurücksetzen",
+    "message": "Alapértelmezett betűtípus alaphelyzetbe állítása",
     "description": "SettingsTabLook.Draw"
   },
   "DalamudSettingsOpenStyleEditor": {
-    "message": "Stil-Editor öffnen",
+    "message": "Stílusszerkesztő megnyitása",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsStyleEditorHint": {
-    "message": "Ändere das Aussehen von Dalamud-Fenstern.",
+    "message": "A Dalamud-ablakok megjelenítésének személyre szabása.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsUseDarkMode": {
-    "message": "Windows im immersiven/dunklen Modus verwenden",
+    "message": "Automatikus szín és téma",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsUseDarkModeHint": {
-    "message": "Dies führt dazu, dass die Titelleiste des FFXIV-Fensters den von dir bevorzugten Windows-Farbeinstellungen folgt und in den dunklen Modus wechselt, falls aktiviert.",
+    "message": "A FFXIV-es ablakfejlécek automatikus színezése a Windows-beállítások alapján, és a sötét téma automatikus ki-/bekapcsolása.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideOptOutNote": {
-    "message": "Plugins können sich selbständig von den folgenden Einstellungen ausschließen.",
+    "message": "Az alábbi beállításokat az egyes bővítmények felülbírálhatják.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHide": {
-    "message": "Verstecke UI, wenn das Spiel UI versteckt wird",
+    "message": "Bővítmények elrejtése a játék kezelőfelületével",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideHint": {
-    "message": "Aktiviere diese Option, um alle offenen XIVLauncher Fenster zu verstecken, wenn das HUD des Spiels versteckt wird.",
+    "message": "Ha a játék kezelőfelülete éppen el van rejtve, akkor a bővítmények ablakai is eltűnnek.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideDuringCutscenes": {
-    "message": "Plugin-Fenster während Cutscenes verstecken",
+    "message": "Bővítmények elrejtése átvezető jelenetek közben",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideDuringCutscenesHint": {
-    "message": "Versteckt alle Plugin-Fenster, wenn eine Cutscene abgespielt wird.",
+    "message": "Ha éppen egy átvezető jelenetet nézel, akkor a bővítmények ablakai eltűnnek.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideDuringGpose": {
-    "message": "Plugin-Fenster während Gpose verstecken",
+    "message": "Bővítmények elrejtése, ha a Group Pose aktív",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleUiHideDuringGposeHint": {
-    "message": "Versteckt alle Plugin-Fenster, wenn der Gpose-Modus aktiv ist.",
+    "message": "Ha éppen Group Pose módban vagy, akkor a bővítmények ablakai eltűnnek.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleFocusManagement": {
-    "message": "Escape nutzen, um Dalamud Fenster zu schließen",
+    "message": "Dalamud-ablakok bezárása az Esc billentyűvel",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleFocusManagementHint": {
-    "message": "Dies führt dazu, dass sich die Dalamud-Fenster beim Drücken von Escape wie die Fenster im Spiel verhalten.\nSie schließen eins nach dem anderen, bis alle geschlossen sind. Kann nicht für alle Plugins funktionieren.",
+    "message": "Játékbeli ablakok viselkedésének tükrözése az Esc billentyű lenyomásakor.\nAz ablakok egyenként lesznek bezárva, amíg minden ablak el nem tűnt. Lehetséges, hogy ezt a funkciót nem minden bővítmény támogatja.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleViewports": {
-    "message": "Multi-Monitor-Fenster aktivieren",
+    "message": "Többképernyős ablakok engedélyezése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleViewportsHint": {
-    "message": "Dies ermöglicht das Verschieben von Plugin-Fenstern auf andere Monitore.\nFunktioniert nur im randlosen Fenstermodus oder im Fenstermodus.",
+    "message": "A bővítményablakok másodlagos képernyőkre mozgatásának lehetővé tétele.\nEz a funkció csak ablakos és keret nélküli teljes képernyős módokban elérhető.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleDocking": {
-    "message": "Fenster-Docking aktivieren",
+    "message": "Ablakdokkolás engedélyezése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleDockingHint": {
-    "message": "Dies erlaubt es, Plugin-Fenster zu \"verschmelzen\" und zu docken.",
+    "message": "A bővítményablakok egyesítésének lehetővé tétele.\nAz egyesített ablakokban fülekkel válthatsz az ablakok között.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingEnablePluginUISoundEffects": {
-    "message": "Soundeffekte für Plugin Fenster einschalten",
+    "message": "Hangeffektusok lejátszása a bővítményablakokban",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingEnablePluginUISoundEffectsHint": {
-    "message": "Damit kannst du Soundeffekte, die von Plugin-Benutzeroberflächen erzeugt werden, aktivieren oder deaktivieren.\nDies wird durch die Lautstärkeeinstellungen für „System Sounds“ im Spiel geregelt.",
+    "message": "A bővítmények felületei által lejátszott hangok ki-/bekapcsolása.\nA hangerőt a játékbeli „System Sounds” (rendszerhangok) beállítás határozza meg.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleGamepadNavigation": {
-    "message": "Plugins über Gamepad steuern",
+    "message": "Bővítmények irányítása vezérlővel",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleGamepadNavigationHint": {
-    "message": "Dies erlaubt es dir, zwischen Spiel- und Plugin-Navigation über L1+L3 umzuschalten.\nSchalte das Plugin-Installer-Fenster über R3 um, wenn die ImGui-Navigation aktiviert ist.",
+    "message": "A játék és a bővítmények irányítása közötti váltás (L1 + L3) engedélyezése.\nA bővítménytelepítőt az R3 gombbal jelenítheted meg vagy rejtheted el.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsm": {
-    "message": "Titelbildschirm-Menü anzeigen",
+    "message": "Címképernyős menü engedélyezése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "This will allow you to access certain Dalamud and Plugin functionality from the title screen.\nDisabling this will also hide the Dalamud version text on the title screen.",
+    "message": "A Dalamud és bizonyos bővítményfunkciók hozzáférésének lehetővé tétele a címképernyőről.\nA funkció kikapcsolásával a Dalamud verzióinformációja is eltűnik a címképernyőről.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefault": {
-    "message": "Open the Plugin Installer to the \"Installed Plugins\" tab by default",
+    "message": "Bővítménytelepítő megnyitása a „Telepített bővítmények” fülön",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefaultHint": {
-    "message": "This will allow you to open the Plugin Installer to the \"Installed Plugins\" tab by default, instead of the \"Available Plugins\" tab.",
+    "message": "A bővítménytelepítő megnyitása a „Telepített bővítmények” fülön a telepíthető bővitménylista helyett.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingReducedMotion": {
-    "message": "Reduce motions",
+    "message": "Mozgás csökkentése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingReducedMotionHint": {
-    "message": "This will suppress certain animations from Dalamud, such as the notification popup.",
+    "message": "A Dalamud bizonyos animációinak kikapcsolása – pl.: a felugró értesítések mozgása.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingImeStateIndicatorOpacity": {
-    "message": "IME State Indicator Opacity (CJK only)",
+    "message": "Írásbevivő állapotjelző átlátszatlansága (csak KJK bevitelnél)",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingImeStateIndicatorOpacityHint": {
-    "message": "When any of CJK IMEs is in use, the state of IME will be shown with the opacity specified here.",
+    "message": "Kínai/japán/koreai írásbevivő használata mellett az állapotjelző az itt megadott átlátszatlansággal fog megjelenni.",
     "description": "SettingsTabLook..ctor"
   },
   "ChangelogNoText": {
-    "message": "No changelog for this version.",
+    "message": "Ehhez a verzióhoz nem tartozik változásnapló.",
     "description": "PluginChangelogEntry..ctor"
   },
   "InstallerHeader": {
-    "message": "Plugin-Installer",
+    "message": "Bővítménytelepítő",
     "description": "Locs.get_WindowTitle"
   },
   "InstallerHeaderTesting": {
-    "message": " (TESTMODUS)",
+    "message": " (KÍSÉRLETI)",
     "description": "Locs.get_WindowTitleMod_Testing"
   },
   "InstallerHint": {
-    "message": "This window allows you to install and remove Dalamud plugins.\nThey are made by the community.",
+    "message": "Ebben az ablakban telepítheted és távolíthatod el a közösség által létrehozott Dalamud-bővítményeket.",
     "description": "Locs.get_Header_Hint"
   },
   "InstallerSearch": {
-    "message": "Suche",
+    "message": "Keresés",
     "description": "Locs.get_Header_SearchPlaceholder"
   },
   "InstallerSearchScore": {
-    "message": "Search score",
+    "message": "Keresési eredmény",
     "description": "Locs.get_SortBy_SearchScore"
   },
   "InstallerAlphabetical": {
-    "message": "Alphabetisch",
+    "message": "Betűrendben",
     "description": "Locs.get_SortBy_Alphabetical"
   },
   "InstallerDownloadCount": {
-    "message": "Download-Anzahl",
+    "message": "A legtöbbet letöltött elöl",
     "description": "Locs.get_SortBy_DownloadCounts"
   },
   "InstallerLastUpdate": {
-    "message": "Letztes Update",
+    "message": "A legutóbb frissítettek elöl",
     "description": "Locs.get_SortBy_LastUpdate"
   },
   "InstallerNewOrNot": {
-    "message": "Neu oder nicht neu",
+    "message": "A legújabbak elöl",
     "description": "Locs.get_SortBy_NewOrNot"
   },
   "InstallerNotInstalled": {
-    "message": "Nicht installiert",
+    "message": "A nem telepítettek elöl",
     "description": "Locs.get_SortBy_NotInstalled"
   },
   "InstallerEnabledDisabled": {
-    "message": "Aktiviert/Deaktiviert",
+    "message": "Az engedélyezettek elöl",
     "description": "Locs.get_SortBy_EnabledDisabled"
   },
   "InstallerProfileOrNot": {
-    "message": "In einer Kollektion",
+    "message": "A gyűjteményben szereplők elöl",
     "description": "Locs.get_SortBy_ProfileOrNot"
   },
   "InstallerSortBy": {
-    "message": "Sortiere nach",
+    "message": "Rendezés...",
     "description": "Locs.get_SortBy_Label"
   },
   "InstallerLoading": {
-    "message": "Plugins werden geladen...",
+    "message": "Bővítmények betöltése folyamatban...",
     "description": "Locs.get_TabBody_LoadingPlugins"
   },
   "InstallerDownloadFailed": {
-    "message": "Download fehlgeschlagen.",
+    "message": "A letöltés meghiúsult.",
     "description": "Locs.get_TabBody_DownloadFailed"
   },
   "InstallerSafeMode": {
-    "message": "Dalamud läuft im Sicheren Modus, starte das Spiel neu um Plugins zu aktivieren.",
+    "message": "A Dalamud jelenleg csökkentett módban fut. A bővítmények engedélyezéséhez újra kell indítanod a játékot.",
     "description": "Locs.get_TabBody_SafeMode"
   },
   "InstallerNoPluginsTesting": {
-    "message": "You aren't testing any plugins at the moment!\nYou can opt in to testing versions in the plugin context menu.",
+    "message": "Jelenleg egy bővítmény kísérleti verzióját sem használod.\nA bővítmények kísérleti verziójára a környezetérzékeny menüből iratkozhatsz fel.",
     "description": "Locs.get_TabBody_NoPluginsTesting"
   },
   "InstallerNoPluginsInstalled": {
-    "message": "You don't have any plugins installed yet!\nYou can install them from the \"{0}\" tab.",
+    "message": "Még egy bővítményt sem telepítettél.\nA telepíthető bővítmények megtekintéséhez ld. a(z) „{0}” fület.",
     "description": "Locs.get_TabBody_NoPluginsInstalled"
   },
   "InstallerNoPluginsUpdate": {
-    "message": "No plugins have updates available at the moment.",
+    "message": "Minden bővítmény naprakész.",
     "description": "Locs.get_TabBody_NoPluginsUpdateable"
   },
   "InstallerNoPluginsDev": {
-    "message": "You don't have any dev plugins. Add them from the settings.",
+    "message": "Még egy fejlesztői bővítményt sem telepítettél. Ezt a beállításokban megteheted.",
     "description": "Locs.get_TabBody_NoPluginsDev"
   },
   "InstallerNoMatching": {
-    "message": "Es wurden keine Plugins gefunden, die der Suche entsprechen.",
+    "message": "Nincs találat.",
     "description": "Locs.get_TabBody_SearchNoMatching"
   },
   "InstallerNoCompatible": {
-    "message": "Es konnten keine kompatiblen Plugins gefunden werden :( Bitte starte das Spiel neu und versuche es erneut.",
+    "message": "Nem található kompatibilis bővítmény. :(\nIndítsd újra a játékot és próbáld újra.",
     "description": "Locs.get_TabBody_SearchNoCompatible"
   },
   "InstallerNoInstalled": {
-    "message": "Derzeit sind keine Plugins installiert. Du kannst sie über die Registerkarte \"Verfügbare Plugins\" installieren.",
+    "message": "Még egy bővítményt sem telepítettél. A telepíthető bővítmények megtekintéséhez ld. a „Minden bővítmény” fület.",
     "description": "Locs.get_TabBody_SearchNoInstalled"
   },
   "InstallerNoChangelog": {
-    "message": "Keines deiner installierten Plugins hat einen Changelog.",
+    "message": "A telepített bővítmények egyike sem rendelkezik változásnaplóval.",
     "description": "Locs.get_TabBody_ChangelogNone"
   },
   "InstallerChangelogError": {
-    "message": "Changelogs konnte nicht heruntergeladen werden.",
+    "message": "A változásnaplók letöltése meghiúsult.",
     "description": "Locs.get_TabBody_ChangelogError"
   },
   "InstallerInstalled": {
-    "message": " (installiert)",
+    "message": " (telepítve)",
     "description": "Locs.get_PluginTitleMod_Installed"
   },
   "InstallerDisabled": {
-    "message": " (deaktiviert)",
+    "message": " (letiltva)",
     "description": "Locs.get_PluginTitleMod_Disabled"
   },
   "InstallerNoService": {
-    "message": " (decommissioned)",
+    "message": " (elhagyott)",
     "description": "Locs.get_PluginTitleMod_NoService"
   },
   "InstallerUnloaded": {
-    "message": " (entladen)",
+    "message": " (kitöltve)",
     "description": "Locs.get_PluginTitleMod_Unloaded"
   },
   "InstallerHasUpdate": {
-    "message": " (hat Update)",
+    "message": " (frissítés érhető el)",
     "description": "Locs.get_PluginTitleMod_HasUpdate"
   },
   "InstallerUpdated": {
-    "message": " (Update installiert)",
+    "message": " (naprakész)",
     "description": "Locs.get_PluginTitleMod_Updated"
   },
   "InstallerTestingVersion": {
-    "message": " (Testversion)",
+    "message": " (kísérleti verzió)",
     "description": "Locs.get_PluginTitleMod_TestingVersion"
   },
   "InstallerTestingExclusive": {
-    "message": " (testing exclusive)",
+    "message": " (csak kísérleti kiadás elérhető)",
     "description": "Locs.get_PluginTitleMod_TestingExclusive"
   },
   "InstallerTestingAvailable": {
-    "message": " (has testing version)",
+    "message": " (van elérhető kísérleti verzió)",
     "description": "Locs.get_PluginTitleMod_TestingAvailable"
   },
   "InstallerDevPlugin": {
-    "message": " (dev plugin)",
+    "message": " (fejlesztői bővítmény)",
     "description": "Locs.get_PluginTitleMod_DevPlugin"
   },
   "InstallerUpdateFailed": {
-    "message": " (Update fehlgeschlagen)",
+    "message": " (a frissítés meghiúsult)",
     "description": "Locs.get_PluginTitleMod_UpdateFailed"
   },
   "InstallerLoadError": {
-    "message": " (Ladefehler)",
+    "message": " (betöltési hiba)",
     "description": "Locs.get_PluginTitleMod_LoadError"
   },
   "InstallerUnloadError": {
-    "message": " (Entladefehler)",
+    "message": " (kitöltési hiba)",
     "description": "Locs.get_PluginTitleMod_UnloadError"
   },
   "InstallerOutdatedError": {
-    "message": " (veraltet)",
+    "message": " (elavult)",
     "description": "Locs.get_PluginTitleMod_OutdatedError"
   },
   "InstallerBannedError": {
-    "message": " (automatisch deaktiviert)",
+    "message": " (automatikusan letiltva)",
     "description": "Locs.get_PluginTitleMod_BannedError"
   },
   "InstallerOrphanedError": {
-    "message": " (unknown repository)",
+    "message": " (ismeretlen adattár)",
     "description": "Locs.get_PluginTitleMod_OrphanedError"
   },
   "InstallerScheduledForDeletion": {
-    "message": " (scheduled for deletion)",
+    "message": " (törlésre vár)",
     "description": "Locs.get_PluginTitleMod_ScheduledForDeletion"
   },
   "InstallerNewPlugin ": {
-    "message": " Neu!",
+    "message": " Új!",
     "description": "Locs.get_PluginTitleMod_New"
   },
   "InstallerTestingOptIn": {
-    "message": "Receive plugin testing versions",
+    "message": "Kísérleti bővítményfrissítések fogadása",
     "description": "Locs.get_PluginContext_TestingOptIn"
   },
   "InstallerInstallTestingVersion": {
-    "message": "Install testing version",
+    "message": "Kísérleti verzió telepítése",
     "description": "Locs.get_PluginContext_InstallTestingVersion"
   },
   "InstallerMarkAllSeen": {
-    "message": "Alle als gesehen markieren",
+    "message": "Összes megjelölése olvasottként",
     "description": "Locs.get_PluginContext_MarkAllSeen"
   },
   "InstallerHidePlugin": {
-    "message": "Im Installer ausblenden",
+    "message": "Elrejtés a telepítőből",
     "description": "Locs.get_PluginContext_HidePlugin"
   },
   "InstallerUnhidePlugin": {
-    "message": "Unhide from installer",
+    "message": "Elrejtés feloldása",
     "description": "Locs.get_PluginContext_UnhidePlugin"
   },
   "InstallerDeletePluginConfig": {
-    "message": "Plugin-Daten zurücksetzen",
+    "message": "Bővítmény adatainak törlése",
     "description": "Locs.get_PluginContext_DeletePluginConfig"
   },
   "InstallerDeletePluginConfigReload": {
-    "message": "Plugin-Einstellungen zurücksetzen und neu laden",
+    "message": "Bővítmény adatainak törlése és újratöltés",
     "description": "Locs.get_PluginContext_DeletePluginConfigReload"
   },
   "InstallerAuthorWithoutDownloadCount": {
-    "message": " von {0}",
+    "message": " Szerző: {0}",
     "description": "Locs.PluginBody_AuthorWithoutDownloadCount"
   },
   "InstallerAuthorWithDownloadCount": {
-    "message": " by {0} ({1} downloads)",
+    "message": " Szerző: {0} ({1} letöltés)",
     "description": "Locs.PluginBody_AuthorWithDownloadCount"
   },
   "InstallerAuthorWithDownloadCountUnavailable": {
-    "message": " by {0}",
+    "message": " Szerző: {0}",
     "description": "Locs.PluginBody_AuthorWithDownloadCountUnavailable"
   },
   "InstallerCurrentChangeLog": {
-    "message": "Changelog (v{0})",
+    "message": "Változásnapló ({0})",
     "description": "Locs.PluginBody_CurrentChangeLog"
   },
   "InstallerUpdateChangeLog": {
-    "message": "Available update changelog (v{0})",
+    "message": "Frissítési változásnapló ({0})",
     "description": "Locs.PluginBody_UpdateChangeLog"
   },
   "InstallerDevPluginPath": {
-    "message": "Von {0}",
+    "message": "Forrás: {0}",
     "description": "Locs.PluginBody_DevPluginPath"
   },
   "InstallerPlugin3rdPartyRepo": {
-    "message": "Aus Drittanbieter-Quelle {0}",
+    "message": "Forrás: egyéni bővítmény-adattár – {0}",
     "description": "Locs.PluginBody_Plugin3rdPartyRepo"
   },
   "InstallerOutdatedPluginBody ": {
-    "message": "This plugin is outdated and incompatible.",
+    "message": "Ez a bővítmény elavult és már nem kompatibilis.",
     "description": "Locs.get_PluginBody_Outdated"
   },
   "InstallerOutdatedWaitForUpdate": {
-    "message": "Please wait for it to be updated by its author.",
+    "message": "Légy türelemmel, amíg a szerző frissíti.",
     "description": "Locs.get_PluginBody_Outdated_WaitForUpdate"
   },
   "InstallerOutdatedCanNowUpdate": {
-    "message": "An update is available for installation.",
+    "message": "Van elérhető frissítés.",
     "description": "Locs.get_PluginBody_Outdated_CanNowUpdate"
   },
   "InstallerOrphanedPluginBody ": {
-    "message": "This plugin's source repository is no longer available. You may need to reinstall it from its repository, or re-add the repository.",
+    "message": "A bővítmény forráskódjának adattára már nem elérhető. Lehetséges, hogy újra kell telepítened az adattárból vagy újra hozzáadni azt.",
     "description": "Locs.get_PluginBody_Orphaned"
   },
   "InstallerNoServiceOfficialPluginBody": {
-    "message": "This plugin is no longer being maintained. It will still work, but there will be no further updates and you can't reinstall it.",
+    "message": "Ezt a bővítményt már nem fejlesztik. A jelen állapotában még továbbra is működni fog, de frissítéseket nem fog kapni és nem lehet újratelepíteni.",
     "description": "Locs.get_PluginBody_NoServiceOfficial"
   },
   "InstallerNoServiceThirdPluginBody": {
-    "message": "This plugin is no longer being serviced by its source repo. You may have to look for an updated version in another repo.",
+    "message": "Ezt a bővítményt már nem szolgálja az adattára. Lehetséges, hogy egy másik adattárban találsz újabb verziót.",
     "description": "Locs.get_PluginBody_NoServiceThird"
   },
   "InstallerLoadFailedPluginBody ": {
-    "message": "This plugin failed to load. Please contact the author for more information.",
+    "message": "A bővítmény betöltése meghiúsult. További információért vedd fel a kapcsolatot a szerzővel.",
     "description": "Locs.get_PluginBody_LoadFailed"
   },
   "InstallerBannedPluginBody ": {
-    "message": "This plugin was automatically disabled due to incompatibilities and is not available.",
+    "message": "A bővítmény kompatibilitási problémák miatt automatikusan le lett tiltva és nem használható.",
     "description": "Locs.get_PluginBody_Banned"
   },
   "InstallerPolicyPluginBody ": {
-    "message": "Plugin loads for this type of plugin were manually disabled.",
+    "message": "Az ezen típusú bővítmények betöltése kézileg letiltásra került.",
     "description": "Locs.get_PluginBody_Policy"
   },
   "InstallerBannedPluginBodyReason ": {
-    "message": "Plugin wurde automatisch deaktiviert: {0}",
+    "message": "A bővítmény automatikusan letiltása került: {0}",
     "description": "Locs.PluginBody_BannedReason"
   },
   "InstallerInstall": {
-    "message": "v{0} installieren",
+    "message": "A(z) {0} verzió telepítése",
     "description": "Locs.PluginButton_InstallVersion"
   },
   "InstallerWorking": {
-    "message": "Vorgang läuft",
+    "message": "Folyamatban",
     "description": "Locs.get_PluginButton_Working"
   },
   "InstallerDisable": {
-    "message": "Deaktivieren",
+    "message": "Letiltás",
     "description": "Locs.get_PluginButton_Disable"
   },
   "InstallerLoad": {
-    "message": "Laden",
+    "message": "Betöltés",
     "description": "Locs.get_PluginButton_Load"
   },
   "InstallerUnload": {
-    "message": "Entladen",
+    "message": "Kitöltés",
     "description": "Locs.get_PluginButton_Unload"
   },
   "InstallerSafeModeButton": {
-    "message": "Can't change in safe mode",
+    "message": "Csökkentett módban korlátozott",
     "description": "Locs.get_PluginButton_SafeMode"
   },
   "InstallerOpenPluginUi": {
-    "message": "Open",
+    "message": "Megnyitás",
     "description": "Locs.get_PluginButton_OpenUi"
   },
   "InstallerOpenPluginSettings": {
-    "message": "Einstellungen",
+    "message": "Beállítások",
     "description": "Locs.get_PluginButton_OpenSettings"
   },
   "InstallerTooltipOpenUi": {
-    "message": "Öffne dieses Plugin",
+    "message": "A bővítmény kezelőfelületének megnyitása",
     "description": "Locs.get_PluginButtonToolTip_OpenUi"
   },
   "InstallerTooltipOpenConfig": {
-    "message": "Öffne die Einstellungen dieses Plugins",
+    "message": "A bővítmény beállításainak megnyitása",
     "description": "Locs.get_PluginButtonToolTip_OpenConfiguration"
   },
   "InstallerPickProfiles": {
-    "message": "Wähle Sammlungen für dieses Plugin",
+    "message": "Bővítmény gyűjteményeinek megadása",
     "description": "Locs.get_PluginButtonToolTip_PickProfiles"
   },
   "InstallerProfilesNotSupported": {
-    "message": "Dieses Plugin unterstützt keine Sammlungen",
+    "message": "Ez a bővítmény nem támogatja a gyűjteményeket",
     "description": "Locs.get_PluginButtonToolTip_ProfilesNotSupported"
   },
   "InstallerStartOnBoot": {
-    "message": "Beim Starten laden",
+    "message": "Indítás a játék indulásakor",
     "description": "Locs.get_PluginButtonToolTip_StartOnBoot"
   },
   "InstallerAutomaticReloading": {
-    "message": "Automatisches neuladen",
+    "message": "Automatikus újratöltés",
     "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
   },
   "InstallerDeletePlugin ": {
-    "message": "Plugin löschen",
+    "message": "Bővítmény törlése",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
   },
   "InstallerDeletePluginRestricted": {
-    "message": "Kann gerade nicht gelöscht werden - bitte starte das Spiel neu.",
+    "message": "A bővítmény jelenleg nem törölhető – indítsd újra a játékot!",
     "description": "Locs.get_PluginButtonToolTip_DeletePluginRestricted"
   },
   "InstallerDeletePluginScheduled": {
-    "message": "Plugin beim nächsten Neustart löschen",
+    "message": "Bővítmény törlése a legközelebbi indítás során",
     "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduled"
   },
   "InstallerDeletePluginScheduledCancel": {
-    "message": "Geplante Löschung abbrechen",
+    "message": "Tervezett törlés megszakítása",
     "description": "Locs.get_PluginButtonToolTip_DeletePluginScheduledCancel"
   },
   "InstallerDeletePluginLoaded": {
-    "message": "Deaktiviere dieses Plugin, bevor du es löschst.",
+    "message": "A bővítmény törlése előtt le kell tiltanod azt.",
     "description": "Locs.get_PluginButtonToolTip_DeletePluginLoaded"
   },
   "InstallerVisitPluginUrl": {
-    "message": "Plugin-Seite besuchen",
+    "message": "Bővítmény honlapjának megnyitása",
     "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
   },
   "InstallerUpdateSingle": {
-    "message": "Aktualisieren auf {0}",
+    "message": "Frissítés a(z) {0} kiadásra",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
   "InstallerLoadUnloadFailedTooltip": {
-    "message": "Laden/Entladen des Plugins fehlgeschlagen, bitte starte dein Spiel neu und versuche es erneut.",
+    "message": "A bővítmény be-/kitöltése meghiúsult. Indítsd újra a játékot, majd próbáld újra.",
     "description": "Locs.get_PluginButtonToolTip_LoadUnloadFailed"
   },
   "InstallerUnloadNeedsToBeInDefault": {
-    "message": "Dieses Plugin ist in einer oder mehreren Sammlungen. Wenn du es aktivieren oder deaktivieren möchten, tue dies bitte durch Aktivieren oder Deaktivieren der Sammlungen, in denen es sich befindet.\nWenn du es manuell verwalten möchtest, entferne es aus allen Sammlungen.",
+    "message": "Ez a bővítmény legalább egy gyűjtemény része. Ha szeretnéd engedélyezni vagy letiltani, akkor azt a kapcsolódó gyűjteménnyel tedd meg. Ha a bővítményt külön akarod kezelni, akkor távolítsd el minden gyűjteményből.",
     "description": "Locs.get_PluginButtonToolTip_NeedsToBeInDefault"
   },
   "InstallerUnloadNeedsToBeInSingleProfile": {
-    "message": "Dieses Plugin ist in mehr als einer Sammlung. Wenn du es aktivieren oder deaktivieren möchten, tun Sie dies bitte durch Aktivieren oder Deaktivieren der Sammlungen, in denen es sich befindet.\nWenn du es hier verwalten möchtest, stelle sicher, dass es nur in einer einzigen Sammlung ist.",
+    "message": "Ez a bővítmény több gyűjtemény része is. Ha itt szeretnéd engedélyezni vagy letiltani, akkor azt a többi gyűjteménnyel is tedd meg. Ha a bővítményt csak itt akarod kezelni, akkor távolítsd el a többi gyűjteményből.",
     "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
   },
   "InstallerSingleProfileDisabled": {
-    "message": "Die Sammlung '{0}', die dieses Plugin enthält, ist deaktiviert.\nBitte aktiviere sie im Sammlungs-Manager, um das Plugin einzeln umzuschalten.",
+    "message": "Ez a bővítmény a(z) „{0}” gyűjtemény része, ami jelenleg le van tiltva.\nA bővítmény ki-/bekapcsolásához először engedélyezd a gyűjteménykezelőben.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
   "NotificationsPluginInstalledTitle": {
-    "message": "Plugin installiert!",
+    "message": "Telepítetted a bővítményt.",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
   },
   "NotificationsPluginInstalled": {
-    "message": "'{0}' wurde erfolgreich installiert.",
+    "message": "„{0}” sikeresen telepítve.",
     "description": "Locs.Notifications_PluginInstalled"
   },
   "NotificationsPluginNotInstalledTitle": {
-    "message": "Plugin nicht installiert!",
+    "message": "A telepítés meghiúsult.",
     "description": "Locs.get_Notifications_PluginNotInstalledTitle"
   },
   "NotificationsPluginNotInstalled": {
-    "message": "'{0}' konnte nicht installiert werden.",
+    "message": "A(z) „{0}” telepítése meghiúsult.",
     "description": "Locs.Notifications_PluginNotInstalled"
   },
   "NotificationsNoUpdatesFoundTitle": {
-    "message": "Keine Updates gefunden!",
+    "message": "Nincsenek frissítések!",
     "description": "Locs.get_Notifications_NoUpdatesFoundTitle"
   },
   "NotificationsNoUpdatesFound": {
-    "message": "Keine Updates gefunden.",
+    "message": "A bővítmények naprakészek.",
     "description": "Locs.get_Notifications_NoUpdatesFound"
   },
   "NotificationsUpdatesInstalledTitle": {
-    "message": "Updates installiert!",
+    "message": "A frissítés befejeződött.",
     "description": "Locs.get_Notifications_UpdatesInstalledTitle"
   },
   "NotificationsUpdatesInstalled": {
-    "message": "Updates for {0} of your plugins were installed.\n\n{1}",
+    "message": "A(z) {0} bővítmény frissítése sikeresen befejeződött.\n\n{1}",
     "description": "Locs.Notifications_UpdatesInstalled"
   },
   "NotificationsPluginDisabledTitle": {
-    "message": "Plugin deaktiviert!",
+    "message": "Letiltottad a bővítményt.",
     "description": "Locs.get_Notifications_PluginDisabledTitle"
   },
   "NotificationsPluginDisabled": {
-    "message": "'{0}' wurde deaktiviert.",
+    "message": "A(z) „{0}” letiltásra került.",
     "description": "Locs.Notifications_PluginDisabled"
   },
   "NotificationsPluginEnabledTitle": {
-    "message": "Plugin aktiviert!",
+    "message": "Engedélyezted a bővítményt.",
     "description": "Locs.get_Notifications_PluginEnabledTitle"
   },
   "NotificationsPluginEnabled": {
-    "message": "'{0}' wurde aktiviert.",
+    "message": "A(z) „{0}” engedélyezésre került.",
     "description": "Locs.Notifications_PluginEnabled"
   },
   "InstallerUpdatePlugins": {
-    "message": "Plugins aktualisieren",
+    "message": "Bővítmények frissítése",
     "description": "Locs.get_FooterButton_UpdatePlugins"
   },
   "InstallerUpdateSafeMode": {
-    "message": "Im sicheren Modus kann nicht aktualisiert werden",
+    "message": "Csökkentett módban nem lehet frissíteni",
     "description": "Locs.get_FooterButton_UpdateSafeMode"
   },
   "InstallerInProgress": {
-    "message": "Wird installiert...",
+    "message": "Telepítés folyamatban...",
     "description": "Locs.get_FooterButton_InProgress"
   },
   "InstallerNoUpdates": {
-    "message": "Keine Aktualisierungen gefunden!",
+    "message": "Nincsenek frissítések!",
     "description": "Locs.get_FooterButton_NoUpdates"
   },
   "InstallerUpdateComplete": {
-    "message": "{0} Plugins aktualisiert!",
+    "message": "{0} bővítmény frissítésre került.",
     "description": "Locs.FooterButton_UpdateComplete"
   },
   "InstallerSettings": {
-    "message": "Einstellungen",
+    "message": "Beállítások",
     "description": "Locs.get_FooterButton_Settings"
   },
   "InstallerScanDevPlugins": {
-    "message": "Entwickler-Plugins scannen",
+    "message": "Fejlesztői bővítmények keresése",
     "description": "Locs.get_FooterButton_ScanDevPlugins"
   },
   "InstallerClose": {
-    "message": "Schließen",
+    "message": "Bezárás",
     "description": "Locs.get_FooterButton_Close"
   },
   "UpdateQuestionModal": {
-    "message": "Update verfügbar",
+    "message": "Frissítés érhető el",
     "description": "Locs.get_UpdateModal_Title"
   },
   "UpdateModalUpdateAvailable": {
-    "message": "Ein Update für \"{0}\" ist verfügbar.\nMöchtest du es vor dem Aktivieren aktualisieren?\nAktualisierungen werden Fehler und Inkompatibilitäten beheben und möglicherweise neue Funktionen hinzufügen.",
+    "message": "A(z) „{0}” számára van elérhető frissítés.\nSzeretnéd frissíteni az engedélyezés előtt?\nLehetséges, hogy a frissítés hiba- és kompatibilitási javításokat, vagy új funkciókat tartalmaz.",
     "description": "Locs.UpdateModal_UpdateAvailable"
   },
   "UpdateModalYes": {
-    "message": "Plugin updaten",
+    "message": "Bővítmény frissítése",
     "description": "Locs.get_UpdateModal_Yes"
   },
   "UpdateModalNo": {
-    "message": "Nur aktivieren",
+    "message": "Engedélyezés frissítés nélkül",
     "description": "Locs.get_UpdateModal_No"
   },
   "InstallerError": {
-    "message": "Installationsfehler",
+    "message": "Telepítési hiba",
     "description": "Locs.get_ErrorModal_Title"
   },
   "InstallerContactAuthor": {
-    "message": "Bitte starte dein Spiel neu und versuche es erneut. Wenn dieser Fehler erneut auftritt, kontaktiere bitte den Autor des Plugins.",
+    "message": "Indítsd újra a játékot, majd próbáld újra. Ha a probléma fennáll, vedd fel a kapcsolatot a bővítmény szerzőjével.",
     "description": "Locs.get_ErrorModal_InstallContactAuthor"
   },
   "InstallerInstallFail": {
-    "message": "Konnte Plugin {0} nicht installieren.\n{1}",
+    "message": "A(z) „{0}” telepítése meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_InstallFail"
   },
   "InstallerSingleUpdateFail": {
-    "message": "Konnte Plugin {0} nicht aktualisieren ({1}).\n{2}",
+    "message": "A(z) „{0}” frissítése meghiúsult ({1}).\n{2}",
     "description": "Locs.ErrorModal_SingleUpdateFail"
   },
   "InstallerDeleteConfigFail": {
-    "message": "Das Plugin {0} konnte nicht zurückgesetzt werden.\n\nDas Plugin unterstützt diese Aktion möglicherweise nicht. Du kannst versuchen, die Konfiguration manuell zu löschen, während das Spiel nicht läuft - bitte schau in der FAQ nach.",
+    "message": "A(z) „{0}” alaphelyzetbe állítása meghiúsult.\n\nLehetséges, hogy a bővítmény nem támogatja ezt a funkciót. Esetleg megpróbálhatod a bővítmény konfigurációs fájljának kézi törlését, amikor a játék épp nem fut. További információért olvasd el a GYIK-et.",
     "description": "Locs.ErrorModal_DeleteConfigFail"
   },
   "InstallerEnableFail": {
-    "message": "Konnte Plugin {0} nicht aktivieren.\n{1}",
+    "message": "A(z) „{0}” engedélyezése meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_EnableFail"
   },
   "InstallerDisableFail": {
-    "message": "Konnte Plugin {0} nicht deaktivieren.\n{1}",
+    "message": "A(z) „{0}” letiltása meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_DisableFail"
   },
   "InstallerUnloadFail": {
-    "message": "Entladen des Plugins {0} fehlgeschlagen.\n{1}",
+    "message": "A(z) „{0}” kitöltése meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_UnloadFail"
   },
   "InstallerLoadFail": {
-    "message": "Konnte Plugin {0} nicht laden.\n{1}",
+    "message": "A(z) „{0}” betöltése meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_LoadFail"
   },
   "InstallerDeleteFail": {
-    "message": "Konnte Plugin {0} nicht löschen.\n{1}",
+    "message": "A(z) „{0}” törlése meghiúsult.\n{1}",
     "description": "Locs.ErrorModal_DeleteFail"
   },
   "InstallerUpdaterFatal": {
-    "message": "Fehler beim Aktualisieren der Plugins.\nBitte starte dein Spiel neu und versuche es erneut. Falls dieser Fehler erneut auftritt, beschwere dich bitte.",
+    "message": "A bővítmények frissítése meghiúsult.\nIndítsd újra a játékot, majd próbáld újra. Ha a probléma fennáll, panaszkodj.",
     "description": "Locs.get_ErrorModal_UpdaterFatal"
   },
   "InstallerProfileApplyFail": {
-    "message": "Sammlung konnte nicht verarbeitet werden.\nBitte starte dein Spiel neu und versuche es erneut. Wenn dieser Fehler erneut auftritt, beschwere dich bitte bei uns.",
+    "message": "A gyűjtemények feldolgozása meghiúsult.\nIndítsd újra a játékot, majd próbáld újra. Ha a probléma fennáll, panaszkodj.",
     "description": "Locs.get_ErrorModal_ProfileApplyFail"
   },
   "InstallerUpdaterFail": {
-    "message": "Fehler beim Aktualisieren von {0} Plugins.\nBitte starte dein Spiel neu und versuche es erneut. Wenn dieser Fehler erneut auftritt, beschwere dich bitte.",
+    "message": "{0} bővítmény frissítése meghiúsult.\nIndítsd újra a játékot, majd próbáld újra. Ha a probléma fennáll, panaszkodj.",
     "description": "Locs.ErrorModal_UpdaterFail"
   },
   "InstallerUpdaterFailPartial": {
-    "message": "{0} Plugins aktualisiert, {1} konnte nicht aktualisiert werden.\nBitte starte dein Spiel neu und versuche es erneut. Wenn dieser Fehler erneut auftritt, bitte beschweren Sie sich.",
+    "message": "{0} bővítmény frissítése sikeresen befejeződött, viszont {1} meghiúsult.\nIndítsd újra a játékot, majd próbáld újra. Ha a probléma fennáll, panaszkodj.",
     "description": "Locs.ErrorModal_UpdaterFailPartial"
   },
   "InstallerErrorPluginInfo": {
-    "message": "\n\nDie folgenden Plugins haben dieses Problem ausgelöst:\n\n{0}\nDu kannst versuchen, sie manuell zu deinstallieren.",
+    "message": "\n\nAz alábbi bővítményekkel hiba történt:\n\n{0}\nJavasolt a bővítmények kézi eltávolítása és újratelepítése.",
     "description": "Locs.ErrorModal_HintBlame"
   },
   "InstallerFeedback": {
-    "message": "Feedback senden",
+    "message": "Visszajelzés",
     "description": "Locs.get_FeedbackModal_Title"
   },
   "InstallerFeedbackInfo": {
-    "message": "Du kannst hier Feedback an den Entwickler von \"{0}\" senden.",
+    "message": "A(z) „{0}” fejlesztőjének itt küldhetsz visszajelzést.",
     "description": "Locs.FeedbackModal_Text"
   },
   "InstallerFeedbackHasUpdate": {
-    "message": "Eine neue Version dieses Plugins ist verfügbar, bitte aktualisiere es vor dem Melden von Fehlern.",
+    "message": "Ehhez a bővítményhez van elérhető frissítés. A hibajelentés előtt kérjük, frissítsd a bővítményt!",
     "description": "Locs.get_FeedbackModal_HasUpdate"
   },
   "InstallerFeedbackContactAnonymous": {
-    "message": "Feedback anonym senden",
+    "message": "Névtelen visszajelzés",
     "description": "Locs.get_FeedbackModal_ContactAnonymous"
   },
   "InstallerFeedbackContactAnonymousWarning": {
-    "message": "Es wird keine Antwort vom Entwickler geben.\nEntferne das Häkchen an \"{0}\" und gebe Kontaktinformationen an, wenn du Hilfe benötigst.",
+    "message": "Erre a visszajelzésre nem fog érkezni válasz.\nHa segítségre van szükséged, vedd ki a pipát a „{0}” lehetőség mellől és add meg az elérhetőségedet.",
     "description": "Locs.get_FeedbackModal_ContactAnonymousWarning"
   },
   "InstallerFeedbackContactInfo": {
-    "message": "Kontakt-Informationen",
+    "message": "Elérhetőség",
     "description": "Locs.get_FeedbackModal_ContactInformation"
   },
   "InstallerFeedbackContactInfoHelp": {
-    "message": "Discord-Benutzernamen und E-Mail-Adressen werden akzeptiert.\nWenn du einen Discord Benutzernamen einreichst, trete bitte unserem Discord Server bei, damit wir dich leichter erreichen können.",
+    "message": "Discord-felhasználóneveket és email-címeket is elfogadunk.\nHa az előbbit választod, kérjük csatlakozz a Discord-szerverünkhöz, hogy könnyebben elérhessünk.",
     "description": "Locs.get_FeedbackModal_ContactInformationHelp"
   },
   "InstallerFeedbackContactInfoWarning": {
-    "message": "Gebe keine Charakternamen aus dem Spiel an.",
+    "message": "Játékbeli karakterneveket nem fogadunk el.",
     "description": "Locs.get_FeedbackModal_ContactInformationWarning"
   },
   "InstallerFeedbackContactInfoRequired": {
-    "message": "Kontaktinformationen wurden nicht bereitgestellt. Wir benötigen Kontaktdaten, um Fragen zu beantworten oder um zusätzliche Informationen zu Problembehebungen anzufordern.",
+    "message": "Nem adtál meg elérhetőséget. Erre azért van szükségünk, hogy válaszolhassunk az esetleges kérdésekre, vagy ha további információra van szükségünk a hibaelhárításhoz.",
     "description": "Locs.get_FeedbackModal_ContactInformationRequired"
   },
   "ContactInformationDiscordButton": {
-    "message": "Join XIVLauncher & Dalamud Discord",
+    "message": "Csatlakozás a „XIVLauncher & Dalamud” Discord-szerverhez",
     "description": "Locs.get_FeedbackModal_ContactInformationDiscordButton"
   },
   "ContactInformationDiscordUrl": {
@@ -1536,55 +1536,55 @@
     "description": "Locs.get_FeedbackModal_ContactInformationDiscordUrl"
   },
   "InstallerFeedbackIncludeLastError": {
-    "message": "Letzte Fehlermeldung anhängen",
+    "message": "A legutóbbi hibaüzenet csatolása",
     "description": "Locs.get_FeedbackModal_IncludeLastError"
   },
   "InstallerFeedbackIncludeLastErrorHint": {
-    "message": "Diese Option kann dem Plugin-Entwickler helfen, herauszufinden, was genau schief gelaufen ist.",
+    "message": "Ez a lehetőség hasznos információval láthatja el a bővítmény fejlesztőjét.",
     "description": "Locs.get_FeedbackModal_IncludeLastErrorHint"
   },
   "InstallerFeedbackHint": {
-    "message": "Alle Plugin-Entwickler werden dein Feedback sehen können.\nBitte gebe keine persönlichen oder offenbarenden Informationen ein.\nWenn du dich dafür entschieden hast, die letzte Fehlermeldung anzuhängen, können Informationen wie dein Windows-Benutzername enthalten sein.\n\nDas gesammelte Feedback wird nicht auf unserer Seite gespeichert und sofort an Discord weitergeleitet.",
+    "message": "A bővítmény összes fejlesztője képes lesz megtekinteni a visszajelzésedet.\nA visszajelzésben ne adj meg személyes információt!\nHa csatoltad a legutóbbi hibaüzenetedet, akkor lehetséges, hogy az további információt (pl. a Windows-felhasználónevedet) is tartalmaz.\n\nA fogadott visszajelzést mi nem tároljuk el, hanem csak továbbítjuk Discordon keresztül.",
     "description": "Locs.get_FeedbackModal_Hint"
   },
   "InstallerFeedbackNotificationSuccess": {
-    "message": "Dein Feedback wurde erfolgreich gesendet!",
+    "message": "A visszajelzést megkaptuk.",
     "description": "Locs.get_FeedbackModal_NotificationSuccess"
   },
   "InstallerFeedbackNotificationError": {
-    "message": "Dein Feedback konnte nicht gesendet werden.",
+    "message": "A visszajelzés elküldése meghiúsult.",
     "description": "Locs.get_FeedbackModal_NotificationError"
   },
   "InstallerTestingWarning": {
-    "message": "Warnung###InstallerTestingWarning",
+    "message": "Figyelmeztetés###InstallerTestingWarning",
     "description": "Locs.get_TestingWarningModal_Title"
   },
   "InstallerTestingWarningDowngradeBody": {
-    "message": "Take care! If you opt out of testing for a plugin, you will remain on the testing version until it is deleted and reinstalled, or the non-testing version of the plugin is updated.\nKeep in mind that you may lose the settings for this plugin if you downgrade manually.",
+    "message": "Figyelem! Ha leiratkozol egy bővítmény kísérleti verzióiról, akkor a bővítmény törléséig és újratelepítéséig a kísérleti verzión maradsz. Ha megjelenik egy újabb, nem kísérleti verzió, akkor képes leszel arra frissíteni.\nHa kézileg visszaváltasz egy régebbi verzióra, fennáll a bővítmény beállításaival kapcsolatos adatvesztés veszélye.",
     "description": "Locs.get_TestingWarningModal_DowngradeBody"
   },
   "InstallerDeletePluginConfigWarning": {
-    "message": "Warning###InstallerDeletePluginConfigWarning",
+    "message": "Figyelmeztetés###InstallerDeletePluginConfigWarning",
     "description": "Locs.get_DeletePluginConfigWarningModal_Title"
   },
   "InstallerDeletePluginConfigWarningExplainTesting": {
-    "message": "Do not select this option if you are only trying to disable testing!",
+    "message": "Ne válaszd ki ezt a lehetőséget, ha csak a kísérleti kiadást akarod letiltani!",
     "description": "Locs.DeletePluginConfigWarningModal_ExplainTesting"
   },
   "InstallerDeletePluginConfigWarningBody": {
-    "message": "Are you sure you want to delete all data and configuration for {0}?\nYou will lose all of your settings for this plugin.",
+    "message": "Biztosan törölni akarod a(z) „{0}” összes adatát és konfigurációját?\nA bővítmény beállításai alaphelyzetbe lesznek állítva.",
     "description": "Locs.DeletePluginConfigWarningModal_Body"
   },
   "InstallerDeletePluginConfigWarningYes": {
-    "message": "Yes",
+    "message": "Igen",
     "description": "Locs.get_DeletePluginConfirmWarningModal_Yes"
   },
   "InstallerDeletePluginConfigWarningNo": {
-    "message": "No",
+    "message": "Nem",
     "description": "Locs.get_DeletePluginConfirmWarningModal_No"
   },
   "DalamudPluginUpdates": {
-    "message": "Aktualisierungen:",
+    "message": "Frissítések:",
     "description": "Locs.get_PluginUpdateHeader_Chatbox"
   },
   "OK": {
@@ -1592,171 +1592,171 @@
     "description": "Locs.get_ErrorModalButton_Ok"
   },
   "SafeModeDisclaimer": {
-    "message": "You enabled safe mode, no plugins will be loaded.\nYou may delete plugins from the \"Installed plugins\" tab.\nSimply restart your game to disable safe mode.",
+    "message": "Csökkentett módba léptél – egy bővítmény sem lesz betöltve.\nHa szeretnéd, akkor a „Telepített bővítmények” fülről törölhetsz bővítményeket.\nA csökkentett módból való kilépéshez indítsd újra a játékot.",
     "description": "Locs.get_SafeModeDisclaimer"
   },
   "InstallerProfilesCouldNotAdd": {
-    "message": "Couldn't add plugin to this collection.",
+    "message": "A bővítmény gyűjteménybe vétele meghiúsult.",
     "description": "Locs.get_Profiles_CouldNotAdd"
   },
   "InstallerProfilesCouldNotRemove": {
-    "message": "Couldn't remove plugin from this collection.",
+    "message": "A bővítmény gyűjteményből való kivétele meghiúsult.",
     "description": "Locs.get_Profiles_CouldNotRemove"
   },
   "InstallerProfilesNone": {
-    "message": "No collections! Go add some in \"Plugin Collections\"!",
+    "message": "Még nem rendelkezel gyűjteményekkel. A Bővítménygyűjtemények fülön telepíthetsz újakat.",
     "description": "Locs.get_Profiles_None"
   },
   "InstallerProfilesRemoveFromAll": {
-    "message": "Remove from all collections",
+    "message": "Eltávolítás az összes gyűjteményből",
     "description": "Locs.get_Profiles_RemoveFromAll"
   },
   "VerifiedCheckmarkVerifiedTooltip": {
-    "message": "This plugin has been reviewed by the Dalamud team.\nIt follows our technical and safety criteria, and adheres to our guidelines.",
+    "message": "Ezt a bővítményt a Dalamud csapata felülvizsgálta.\nMegfelel a technikai- és biztonsági követelményeinknek, és betartja az irányelveinket.",
     "description": "Locs.get_VerifiedCheckmark_VerifiedTooltip"
   },
   "VerifiedCheckmarkUnverifiedTooltip": {
-    "message": "This plugin has not been reviewed by the Dalamud team.\nWe cannot take any responsibility for custom plugins and repositories.\nPlease make absolutely sure that you only install plugins from developers you trust.\n\nYou will not receive support for plugins installed from custom repositories on the XIVLauncher & Dalamud server.",
+    "message": "Ezt a bővítményt a Dalamud csapata nem vizsgálta felül.\nAz egyéni bővítményekért és adattárakért nem vállalunk felelősséget.\nCsak és kizárólag megbízható fejlesztőktől származó bővítményeket telepíts!\n\nAz egyéni adattárakból származó bővítményekhez nem nyújtunk támogatást a „XIVLauncher & Dalamud” szerveren.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
   "ProfileManagerEnableDisableHint": {
-    "message": "Enable/Disable this collection",
+    "message": "Gyűjtemény be-/kikapcsolása",
     "description": "Locs.get_TooltipEnableDisable"
   },
   "ProfileManagerInstall": {
-    "message": "Install this plugin",
+    "message": "Bővítmény telepítése",
     "description": "Locs.get_InstallPlugin"
   },
   "ProfileManagerRemoveFromProfile": {
-    "message": "Remove plugin from this collection",
+    "message": "Bővítmény eltávolítása a gyűjteményből",
     "description": "Locs.get_RemovePlugin"
   },
   "ProfileManagerAddPlugin": {
-    "message": "Add a plugin!",
+    "message": "Adj hozzá egy bővítményt!",
     "description": "Locs.get_AddPlugin"
   },
   "ProfileManagerNoPluginsInProfile": {
-    "message": "Collection has no plugins!",
+    "message": "Ez a gyűjtemény üres.",
     "description": "Locs.get_NoPluginsInProfile"
   },
   "ProfileManagerAlwaysEnableAtBoot": {
-    "message": "Always enable when game starts",
+    "message": "Automatikus engedélyezés a játék indításakor",
     "description": "Locs.get_AlwaysEnableAtBoot"
   },
   "ProfileManagerDeleteProfile": {
-    "message": "Delete this collection",
+    "message": "Gyűjtemény törlése",
     "description": "Locs.get_DeleteProfileHint"
   },
   "ProfileManagerCopyToClipboard": {
-    "message": "Copy collection to clipboard for sharing",
+    "message": "Gyűjtemény másolása vágólapra megosztás céljából",
     "description": "Locs.get_CopyToClipboardHint"
   },
   "ProfileManagerCopyToClipboardHint": {
-    "message": "Copied to clipboard!",
+    "message": "Vágólapra helyezve.",
     "description": "Locs.get_CopyToClipboardNotification"
   },
   "ProfileManagerBackToOverview": {
-    "message": "Back to overview",
+    "message": "Vissza az áttekintéshez",
     "description": "Locs.get_BackToOverview"
   },
   "ProfileManagerAddProfileHint": {
-    "message": "No collections! Add one!",
+    "message": "Még nem rendelkezel gyűjteményekkel. Adj hozzá egy újat!",
     "description": "Locs.get_AddProfileHint"
   },
   "ProfileManagerCloneProfile": {
-    "message": "Clone this collection",
+    "message": "Gyűjtemény megkettőzése",
     "description": "Locs.get_CloneProfileHint"
   },
   "ProfileManagerEditProfile": {
-    "message": "Edit this collection",
+    "message": "Gyűjtemény szerkesztése",
     "description": "Locs.get_EditProfileHint"
   },
   "ProfileManagerImportProfile": {
-    "message": "Import a shared collection from your clipboard",
+    "message": "Megosztott gyűjtemény importálása a vágólapról",
     "description": "Locs.get_ImportProfileHint"
   },
   "ProfileManagerTutorialHint": {
-    "message": "Learn more about collections",
+    "message": "További információ a gyűjteményekről",
     "description": "Locs.get_TutorialHint"
   },
   "ProfileManagerAddProfile": {
-    "message": "Add a new collection",
+    "message": "Új gyűjtemény",
     "description": "Locs.get_AddProfile"
   },
   "ProfileManagerNotificationImportSuccess": {
-    "message": "Collection successfully imported!",
+    "message": "A gyűjtemény importálása sikeresen megtörtént.",
     "description": "Locs.get_NotificationImportSuccess"
   },
   "ProfileManagerNotificationImportError": {
-    "message": "Could not import collection.",
+    "message": "A gyűjtemény importálása meghiúsult.",
     "description": "Locs.get_NotificationImportError"
   },
   "ProfileManagerCouldNotRemove": {
-    "message": "Could not remove plugin.",
+    "message": "A gyűjtemény eltávolítása meghiúsult.",
     "description": "Locs.get_ErrorCouldNotRemove"
   },
   "ProfileManagerCouldNotChangeState": {
-    "message": "Could not change plugin state.",
+    "message": "A gyűjtemény állapotának megváltoztatása meghiúsult.",
     "description": "Locs.get_ErrorCouldNotChangeState"
   },
   "ProfileManagerTutorial": {
-    "message": "About Collections",
+    "message": "Súgó",
     "description": "Locs.get_TutorialTitle"
   },
   "ProfileManagerTutorialParagraphOne": {
-    "message": "Collections are shareable lists of plugins that can be enabled or disabled in the plugin installer or via chat commands.\nWhen a plugin is part of a collection, it will be enabled if the collection is enabled. If a plugin is part of multiple collections, it will be enabled if one or more collections it is a part of are enabled.",
+    "message": "Egy gyűjtemény bővítményeknek olyan csoportja, amelyeket egyszerre lehet be- vagy kikapcsolni a bővítménytelepítőből vagy parancsokkal.\nHa egy gyűjtemény engedélyezésre kerül, akkor az összes benne található bővítmény is engedélyezve lesz. Ha egy bővítmény több gyűjteményben is megtalálható, akkor bármelyik gyűjtemény engedélyezheti.",
     "description": "Locs.get_TutorialParagraphOne"
   },
   "ProfileManagerTutorialParagraphTwo": {
-    "message": "You can add plugins to collections by clicking the plus button when editing a collection on this screen, or by using the button with the toolbox icon on the \"Installed Plugins\" screen.",
+    "message": "Egy bővítményt az ezen az oldalon található „+” gombbal adhatsz hozzá egy gyűjteményhez szerkesztés közben, vagy a „Telepített bővítmények” fülön a szerszámosláda ikonnal ellátott gomb segítségével.",
     "description": "Locs.get_TutorialParagraphTwo"
   },
   "ProfileManagerTutorialParagraphThree": {
-    "message": "If a collection's \"Start on boot\" checkbox is ticked, the collection and the plugins within will be enabled every time the game starts up, even if it has been manually disabled in a prior session.",
+    "message": "Ha egy gyűjteményen belül ki van pipálva az „Indítás a játék indulásakor” jelölőnégyzet, akkor a gyűjtemény az összes benne található bővítménnyel automatikusan engedélyezve lesz a játék újraindításakor, még akkor is, ha az előző munkamenetben kézileg le lett tiltva.",
     "description": "Locs.get_TutorialParagraphThree"
   },
   "ProfileManagerTutorialParagraphFour": {
-    "message": "Individual plugins inside a collection also have a checkbox next to them. This indicates if a plugin is active within that collection - if the checkbox is not ticked, the plugin will not be enabled if that collection is active. Mind that it will still be enabled if the plugin is an active part of any other collection.",
+    "message": "Az egyes bővítmények mellett is találhatóak jelölőnégyzetek. Ezekkel határozhatod meg a bővítmények aktív állapotát a gyűjteményen belül: Ha egy bővítmény nincs megjelölve, akkor a gyűjtemény be-/kikapcsolása nem lesz rá hatással – ha más gyűjteményekben aktívnak van megjelölve, akkor azok továbbra is hathatnak rá.",
     "description": "Locs.get_TutorialParagraphFour"
   },
   "ProfileManagerTutorialCommands": {
-    "message": "You can use the following commands in chat or in macros to manage active collections:",
+    "message": "Az aktív gyűjtemények kezeléséhez az alábbi parancsokat használhatod a csevegőablakban vagy makrókkal:",
     "description": "Locs.get_TutorialCommands"
   },
   "ProfileManagerTutorialCommandsEnable": {
-    "message": "{0} \"Collection Name\" - Enable a collection",
+    "message": "{0} \"Gyűjtemény címe\" – Gyűjtemény engedélyezése",
     "description": "Locs.get_TutorialCommandsEnable"
   },
   "ProfileManagerTutorialCommandsDisable": {
-    "message": "{0} \"Collection Name\" - Disable a collection",
+    "message": "{0} \"Gyűjtemény címe\" – Gyűjtemény letiltása",
     "description": "Locs.get_TutorialCommandsDisable"
   },
   "ProfileManagerTutorialCommandsToggle": {
-    "message": "{0} \"Collection Name\" - Toggle a collection's state",
+    "message": "{0} \"Gyűjtemény címe\" – Gyűjtemény engedélyezettségének be-/kikapcsolása",
     "description": "Locs.get_TutorialCommandsToggle"
   },
   "ProfileManagerTutorialCommandsEnd": {
-    "message": "If you run multiple of these commands, they will be executed in order.",
+    "message": "Ha egymás után több ilyen parancsot is meghatározol, akkor a megadás sorrendjében lesznek lefuttatva.",
     "description": "Locs.get_TutorialCommandsEnd"
   },
   "ProfileManagerChoice1": {
-    "message": "Plugin collections are a new feature that allow you to group plugins into collections which can be toggled and shared.",
+    "message": "A bővítménygyűjtemények egy új funkció, amely lehetővé teszi bővítmények csoportjának egyszeres be-/kikapcsolását és megosztását.",
     "description": "Locs.get_Choice1"
   },
   "ProfileManagerChoice2": {
-    "message": "They are experimental and may still contain bugs. Do you want to enable them now?",
+    "message": "Ez a funkció még fejlesztés alatt áll és lehetséges, hogy hibákat is tartalmaz. Szeretnéd engedélyezni?",
     "description": "Locs.get_Choice2"
   },
   "ProfileManagerChoiceConfirmation": {
-    "message": "Yes, enable Plugin Collections",
+    "message": "Bővítménygyűjtemények engedélyezése",
     "description": "Locs.get_ChoiceConfirmation"
   },
   "ProfileManagerNotInstalled": {
-    "message": "{0} (Not Installed)",
+    "message": "{0} (nem telepített)",
     "description": "Locs.NotInstalled"
   },
   "ProfileManagerSearchHint": {
-    "message": "Search...",
+    "message": "Keresés...",
     "description": "Locs.get_SearchHint"
   },
   "NotificationConstants.DefaultInitiator": {
@@ -1764,47 +1764,47 @@
     "description": "NotificationConstants.get_DefaultInitiator"
   },
   "NotificationConstants.UnloadedInitiatorNameFormat": {
-    "message": "{0} (unloaded)",
+    "message": "{0} (kitöltve)",
     "description": "NotificationConstants.get_UnloadedInitiatorNameFormat"
   },
   "NotificationConstants.Title.Success": {
-    "message": "Success",
+    "message": "Sikeres művelet",
     "description": "NotificationConstants.ToTitle"
   },
   "NotificationConstants.Title.Warning": {
-    "message": "Warning",
+    "message": "Figyelmeztetés",
     "description": "NotificationConstants.ToTitle"
   },
   "NotificationConstants.Title.Error": {
-    "message": "Error",
+    "message": "Hiba",
     "description": "NotificationConstants.ToTitle"
   },
   "NotificationConstants.Title.Info": {
-    "message": "Info",
+    "message": "Információ",
     "description": "NotificationConstants.ToTitle"
   },
   "DalamudWelcome": {
-    "message": "Dalamud {0} loaded.",
+    "message": "A Dalamud {0} betöltése sikeresen befejeződött.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
-    "message": " {0} Plugin(s) geladen.",
+    "message": " {0} bővítmény engedélyezésre került.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudPluginLoaded": {
-    "message": "    》 {0} v{1} geladen.",
+    "message": "    》 A(z) {0} {1} betöltésre került.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "Dalamud wurde erfolgreich aktualisiert. Bitte prüfe unseren Discord-Server für weitere Informationen.",
+    "message": "A Dalamud frissítése sikeresen befejeződött. A teljes változásnapló megtekintéséhez ld. a Discord szervert.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
-    "message": "Dalamud Plugins",
+    "message": "Dalamud bővítmények",
     "description": "DalamudAtkTweaks..ctor"
   },
   "SystemMenuSettings": {
-    "message": "Dalamud-Einstellungen",
+    "message": "Dalamud-beállítások",
     "description": "DalamudAtkTweaks..ctor"
   }
 }
