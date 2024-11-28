@@ -468,5 +468,10 @@
     "Name": "6702D8D1170198EEB0751C2654551268E6E145BD26BA8CE3A32DFB5F8CD03764",
     "AssemblyVersion": "1.0.1.0",
     "Reason": "Crashes on update attempt."
+  },
+  {
+    "Name": "CollectableCalculator",
+    "AssemblyVersion": "4.0",
+    "Reason": "Causing crashes. Will return when checked and updated."
   }
 ]
