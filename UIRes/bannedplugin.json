@@ -1,5 +1,9 @@
 [
   {
+    "Name": "PetRenamer",
+    "AssemblyVersion": "2.3.0.6"
+  },
+  {
     "Name": "PingPlugin",
     "AssemblyVersion": "1.11.0.0"
   },
