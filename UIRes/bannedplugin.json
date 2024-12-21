@@ -482,5 +482,10 @@
     "Name": "1E75B0956B4E2913C62C5441F292FAC7D261D3980EA71624D3644A8EBDFEE7B8",
     "AssemblyVersion": "1.0.0.16",
     "Reason": "Wrong opcodes leading to incorrect packet suppression server-side."
+  },
+  {
+    "Name": "WorkshopOptimizerPlugin",
+    "AssemblyVersion": "0.3.0.0",
+    "Reason": "Broken in 7.15."
   }
 ]
