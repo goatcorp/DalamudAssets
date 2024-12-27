@@ -487,5 +487,10 @@
     "Name": "WorkshopOptimizerPlugin",
     "AssemblyVersion": "0.3.0.0",
     "Reason": "Broken in 7.15."
+  },
+  {
+    "Name": "AetherCompass",
+    "AssemblyVersion": "1.6.5.0",
+    "Reason": "Causes crashes when notifications are enabled"
   }
 ]
