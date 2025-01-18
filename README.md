@@ -9,7 +9,7 @@ Material Design Icons are licensed under the [Apache License Version 2.0](https:
 2. Pull the `master` branch
 3. Make a new local branch
 4. Update `UIRes/bannedplugin.json` with your changes. 
-  <br>**NOTE**: If you need to block a plugin from a custom repository, please SHA256 the InternalAssembly name in ALL CAPS
+  <br>**NOTE**: If you need to block a plugin from a custom repository, please SHA256 the InternalAssembly name. The SHA hash must be in ALL CAPS.
 5. Commit, Push, and create a PR.
 6. Once CI checks pass, someone will merge it.
 7. Instruct affected users to relaunch.
