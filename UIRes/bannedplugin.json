@@ -493,5 +493,9 @@
     "Name": "AetherCompass",
     "AssemblyVersion": "1.6.5.0",
     "Reason": "Causes crashes when notifications are enabled"
+  },
+  {
+    "Name": "F4890140C6CA8577F8EA77E72BF52C9EAF5976C48268E8BFE78C4C5CF7ED9CFC",
+    "AssemblyVersion": "32.0.2.0"
   }
 ]
