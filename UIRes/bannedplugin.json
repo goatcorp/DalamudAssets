@@ -486,6 +486,11 @@
     "Reason": "Wrong opcodes leading to incorrect packet suppression server-side."
   },
   {
+    "Name": "D57F5A3988980C5171920FAD82C86FF0F09CA86CB9068205AF5D557B1339119B",
+    "AssemblyVersion": "0.0.0.26",
+    "Reason": "This plugin is now depreciated for safety."
+  },
+  {
     "Name": "WorkshopOptimizerPlugin",
     "AssemblyVersion": "0.3.0.0",
     "Reason": "Broken in 7.15."
