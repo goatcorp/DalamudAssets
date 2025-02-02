@@ -503,5 +503,10 @@
   {
     "Name": "F5F12CDE900C5A90BA2293DF08A84B4C6055768228E6E0F763A27AC3957BDB6B",
     "AssemblyVersion": "32.0.2.0"
+  },
+  {
+    "Name": "InventoryTools",
+    "AssemblyVersion": "1.11.0.11",
+    "Reason": "Causes infinite load on update"
   }
 ]
