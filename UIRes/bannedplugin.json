@@ -442,8 +442,8 @@
   },
   {
     "Name": "Gauge-O-Matic",
-    "AssemblyVersion": "0.7.0.7",
-    "Reason": "Please wait for this plugin to be updated for compatibility with Patch 7.05"
+    "AssemblyVersion": "0.8.1.6",
+    "Reason": "A crash on player logout has been addressed in ver 0.8.1.7"
   },
   {
     "Name": "Chatter",
