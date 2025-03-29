@@ -507,5 +507,10 @@
   {
     "Name": "C6849AC714C01220DF5EB5AA708602ADB0E39DEE1F367307E72D5EB1BBD76FF8",
     "AssemblyVersion": "4.18"
+  },
+  {
+    "Name": "HUDUnlimited",
+    "AssemblyVersion": "1.1.1.1",
+    "Reason": "Develop request - causing crashes in game."
   }
 ]
