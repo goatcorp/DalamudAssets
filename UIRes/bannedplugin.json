@@ -250,8 +250,8 @@
   },
   {
     "Name": "2128B3DC12F26BFE22CA0B14171DCE7448016F9BACBED0DC2526B57483FAB743",
-    "AssemblyVersion": "0.1.1.5",
-    "Reason": "Crashes with Patch 6.4"
+    "AssemblyVersion": "1.3.8.2",
+    "Reason": "By developer request - please update to a later version of the plugin."
   },
   {
     "Name": "SubmarineTracker",
@@ -369,7 +369,8 @@
   },
   {
     "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
-    "AssemblyVersion": "1.3.1.2"
+    "AssemblyVersion": "1.3.6.6",
+    "Reason": "By developer request - please update to a later version of the plugin."
   },
   {
     "Name": "TrackyTrack",
