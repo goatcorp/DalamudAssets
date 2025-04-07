@@ -513,5 +513,9 @@
     "Name": "HUDUnlimited",
     "AssemblyVersion": "1.1.1.1",
     "Reason": "Develop request - causing crashes in game."
+  },
+  {
+    "Name": "59F908426E5170691E49612EDD98F06BABCBCA4DE01A56DA383DC6060C0361A0",
+    "AssemblyVersion": "0.1.6.9"
   }
 ]
