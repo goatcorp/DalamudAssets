@@ -502,5 +502,10 @@
   {
     "Name": "F5F12CDE900C5A90BA2293DF08A84B4C6055768228E6E0F763A27AC3957BDB6B",
     "AssemblyVersion": "32.0.2.0"
+  },
+  {
+	"Name": "AFFBF2667CB2048C60265FFF875FE72F53D47FA1C17BA4F1527206538528FF7C",
+	"AssemblyVersion": "0.0.0.36",
+	"Reason": "ImGui crash due to bad placement of code on loadup"
   }
 ]
