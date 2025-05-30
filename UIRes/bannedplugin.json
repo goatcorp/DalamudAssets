@@ -316,8 +316,8 @@
   },
   {
     "Name": "GoodFriend",
-    "AssemblyVersion": "3.3.2.0",
-    "Reason": "Update the plugin to continue using GoodFriend"
+    "AssemblyVersion": "3.6.0.0",
+    "Reason": "Please update this plugin to continue using GoodFriend, this version is now incompatible."
   },
   {
     "Name": "Wholist",
