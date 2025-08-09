@@ -531,5 +531,10 @@
     "Name": "GlamourSpamRemover",
     "AssemblyVersion": "1.7.2.0",
     "Reason": "Added to base game chat filters with patch 7.3"
+  },
+  {
+    "Name": "NoTypeSay",
+    "AssemblyVersion": "1.0.1.0",
+    "Reason": "Crashes on zone change. Disabled by PAC until it can be checked and updated."
   }
 ]
