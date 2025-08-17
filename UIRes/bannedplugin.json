@@ -520,8 +520,8 @@
   },
   {
     "Name": "eurekaTrackerAutoPopper",
-    "AssemblyVersion": "1.5.8.0",
-    "Reason": "Prevent uploads to old table."
+    "AssemblyVersion": "1.5.9.1",
+    "Reason": "Prevent uploads from previous versions that are heavily outdated~"
   },
   {
     "Name": "ChillFrames",
