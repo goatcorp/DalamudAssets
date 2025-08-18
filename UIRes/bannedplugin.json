@@ -536,5 +536,10 @@
     "Name": "NoTypeSay",
     "AssemblyVersion": "1.0.1.0",
     "Reason": "Crashes on zone change. Disabled by PAC until it can be checked and updated."
+  },
+  {
+    "Name": "Racingway"
+    "AssemblyVersion": "0.1.1.3",
+    "Reason": "Puts Player Payloads in chat which would allow a player to blacklist themselves or add themselves as a friend."
   }
 ]
