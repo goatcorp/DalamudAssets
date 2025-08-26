@@ -545,6 +545,6 @@
   {
     "Name": "MiniCactpotSolver",
     "AssemblyVersion": "3.0.0.1",
-    "Reason": "Breaking CS change causing per-frame errorss."
+    "Reason": "Breaking CS change causing per-frame errors."
   }
 ]
