@@ -371,7 +371,7 @@
   {
     "Name": "AD93155F9CE43A9475439AF6DC639023A797197EE22A4F3FE3D2F9D0B996DFD9",
     "AssemblyVersion": "1.5.1.1",
-    "Reason": "Causes crashes at game load."
+    "Reason": "Causes Dalamud to hang on launch or crash the game."
   },
   {
     "Name": "TrackyTrack",
