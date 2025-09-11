@@ -546,5 +546,10 @@
     "Name": "MiniCactpotSolver",
     "AssemblyVersion": "3.0.0.1",
     "Reason": "Breaking CS change causing per-frame errors."
+  },
+  {
+    "Name": "Mappy",
+    "AssemblyVersion": "3.1.6.8",
+    "Reason": "Has known issues breaking the map. Developers are aware and will investigate/fix when possible."
   }
 ]
