@@ -1,4 +1,40 @@
 {
+  "LoadingDialogMainInstructionLoadingDalamud": {
+    "message": "Cargando Dalamud...",
+    "description": "LoadingDialog.UpdateMainInstructionText"
+  },
+  "LoadingDialogMainInstructionLoadingPlugins": {
+    "message": "Esperando a que carguen los plugins...",
+    "description": "LoadingDialog.UpdateMainInstructionText"
+  },
+  "LoadingDialogMainInstructionAutoUpdatePlugins": {
+    "message": "Actualizando plugins...",
+    "description": "LoadingDialog.UpdateMainInstructionText"
+  },
+  "LoadingDialogContentInfo": {
+    "message": "Algunos de los plugins que has instalado a través de Dalamud están tardando mucho en cargar.\nEsto puede ser normal, por favor espera un poco más.",
+    "description": "LoadingDialog.UpdateContentText"
+  },
+  "LoadingDialogContentCurrentPlugin": {
+    "message": "Esperando por: {0}",
+    "description": "LoadingDialog.UpdateContentText"
+  },
+  "LoadingDialogContentTakingTooLong": {
+    "message": "Ha pasado suficiente ya. Por favor reporta este problema en nuestro servidor de Discord.",
+    "description": "LoadingDialog.UpdateContentText"
+  },
+  "LoadingDialogHide": {
+    "message": "Ocultar",
+    "description": "LoadingDialog.ThreadStart"
+  },
+  "LoadingDialogShowLatestLogs": {
+    "message": "Mostrar los últimos registros",
+    "description": "LoadingDialog.ThreadStart"
+  },
+  "LoadingDialogHideLatestLogs": {
+    "message": "Ocultar los últimos registros",
+    "description": "LoadingDialog.ThreadStart"
+  },
   "DateTimeSpanExtensions.RelativeFormatStringsLong": {
     "message": "172800,{0:%d} días atrás\n86400,ayer\n7200,{0:%h} horas hace\n3600,hace una hora\n120, 0:%m} minutos atrás\n60,un minuto hace\n2,{0:%s} segundos hace\n1,un segundo hace\n-Infinity,justo ahora",
     "description": "DateTimeSpanExtensions.LocRelativePastLong"
@@ -17,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Abrir changelog de plugin",
-    "description": "<>c__DisplayClass64_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Pendiente",
@@ -41,42 +77,190 @@
   },
   "ProfileCommandsEnableHint": {
     "message": "Activar una colección. Uso: /xlenablecollection \"Nombre de la colección\"",
-    "description": "ProfileCommandHandler..ctor"
+    "description": "PluginManagementCommandHandler..ctor"
   },
   "ProfileCommandsDisableHint": {
     "message": "Desactivar una colección. Uso: /xldisablecollection \"Nombre de la colección\"",
-    "description": "ProfileCommandHandler..ctor"
+    "description": "PluginManagementCommandHandler..ctor"
   },
   "ProfileCommandsToggleHint": {
     "message": "Alterna una colección. Uso: /xltogglecollection \"Nombre de la colección\"",
-    "description": "ProfileCommandHandler..ctor"
+    "description": "PluginManagementCommandHandler..ctor"
   },
-  "ProfileCommandsEnabling": {
-    "message": "Habilitando la colección \"{0}\"...",
-    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+  "PluginCommandsEnableHint": {
+    "message": "Habilitar un plugin. Uso: /xlenableplugin \"nombre del plugin\"",
+    "description": "PluginManagementCommandHandler..ctor"
+  },
+  "PluginCommandsDisableHint": {
+    "message": "Deshabilitar un plugin. Uso: /xldisableplugin \"nombre del plugin\"",
+    "description": "PluginManagementCommandHandler..ctor"
+  },
+  "PluginCommandsToggleHint": {
+    "message": "Alternar un plugin. Uso: /xltoggleplugin \"nombre del plugin\"",
+    "description": "PluginManagementCommandHandler..ctor"
   },
   "ProfileCommandsDisabling": {
     "message": "Deshabilitando la colección \"{0}\"...",
-    "description": "ProfileCommandHandler.FrameworkOnUpdate"
+    "description": "PluginManagementCommandHandler.HandleProfileOperation"
+  },
+  "ProfileCommandsEnabling": {
+    "message": "Habilitando la colección \"{0}\"...",
+    "description": "PluginManagementCommandHandler.HandleProfileOperation"
+  },
+  "PluginCommandsFailed": {
+    "message": "El plugin \"{0}\" ha no ha podido cargar/descargar en ocasiones anteriores, no se continuará.",
+    "description": "PluginManagementCommandHandler.HandlePluginOperation"
+  },
+  "PluginCommandsAlreadyEnabled": {
+    "message": "El plugin \"{0}\" ya está habilitado.",
+    "description": "PluginManagementCommandHandler.HandlePluginOperation"
+  },
+  "PluginCommandsAlreadyDisabled": {
+    "message": "El plugin \"{0}\" ya está deshabilitado.",
+    "description": "PluginManagementCommandHandler.HandlePluginOperation"
+  },
+  "PluginCommandsEnabling": {
+    "message": "Habilitando plugin \"{0}\"...",
+    "description": "PluginManagementCommandHandler.HandlePluginOperation"
+  },
+  "PluginCommandsDisabling": {
+    "message": "Deshabilitando plugin \"{0}\"...",
+    "description": "PluginManagementCommandHandler.HandlePluginOperation"
+  },
+  "ProfileCommandsNotFound": {
+    "message": "No se encontró la colección \"{0}\".",
+    "description": "PluginManagementCommandHandler.ValidateProfileName"
+  },
+  "PluginCommandsNotFound": {
+    "message": "No se encontró el plugin \"{0}\".",
+    "description": "PluginManagementCommandHandler.ValidatePluginName"
+  },
+  "PluginCommandsNotInDefaultProfile": {
+    "message": "El plugin \"{0}\" está en una colección y no se puede manejar a través de comandos. Gestiona la colección en su lugar.",
+    "description": "PluginManagementCommandHandler.ValidatePluginName"
   },
   "ProfileCommandsApplyFailed": {
     "message": "Error al aplicar tus colecciones. Por favor comprueba los errores en la consola.",
-    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
   },
   "ProfileCommandsApplySuccess": {
     "message": "Colecciones aplicadas.",
-    "description": "ProfileCommandHandler.<FrameworkOnUpdate>b__14_1"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+  },
+  "PluginCommandsEnableSuccess": {
+    "message": "Plugin \"{0}\" habilitado.",
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
+  },
+  "PluginCommandsEnableFailed": {
+    "message": "No se pudo habiltar el plugin \"{0}\". Por favor comprueba los errores en la consola.",
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
+  },
+  "PluginCommandsDisableSuccess": {
+    "message": "Plugin \"{0}\" deshabilitado.",
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
+  },
+  "PluginCommandsDisableFailed": {
+    "message": "No se pudo deshabiltar el plugin \"{0}\". Por favor comprueba los errores en la consola.",
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
   },
   "PluginProfilesNewProfile": {
     "message": "Nueva colección",
     "description": "ProfileManager.AddNewProfile"
   },
+  "DalamudInstallerHelp": {
+    "message": "Abre el instalador de plugins",
+    "description": "AutoUpdateManager.NotifyUpdatesAreAvailable"
+  },
+  "AutoUpdateOpenPluginInstaller": {
+    "message": "Abrir instalador",
+    "description": "Locs.get_NotificationButtonOpenPluginInstaller"
+  },
+  "AutoUpdateUpdate": {
+    "message": "Actualizar",
+    "description": "Locs.get_NotificationButtonUpdate"
+  },
+  "AutoUpdateUpdatesAvailable": {
+    "message": "¡Actualizaciones disponibles!",
+    "description": "Locs.get_NotificationTitleUpdatesAvailable"
+  },
+  "AutoUpdateUpdatesSuccessful": {
+    "message": "¡Actualizaciones realizadas con éxito!",
+    "description": "Locs.get_NotificationTitleUpdatesSuccessful"
+  },
+  "AutoUpdateUpdatingPlugins": {
+    "message": "Actualizando plugins...",
+    "description": "Locs.get_NotificationTitleUpdatingPlugins"
+  },
+  "AutoUpdateUpdatesFailed": {
+    "message": "¡Actualizaciones fallidas!",
+    "description": "Locs.get_NotificationTitleUpdatesFailed"
+  },
+  "AutoUpdateUpdatesSuccessfulContent": {
+    "message": "Todos los plugins se han actualizado con éxito.",
+    "description": "Locs.get_NotificationContentUpdatesSuccessful"
+  },
+  "AutoUpdateUpdatesSuccessfulContentMinimized": {
+    "message": "Plugins actualizados con éxito.",
+    "description": "Locs.get_NotificationContentUpdatesSuccessfulMinimized"
+  },
+  "AutoUpdateUpdatesFailedContent": {
+    "message": "Algunos plugins no se han actualizado. Por favor comprueba el instalador de plugins para más información.",
+    "description": "Locs.get_NotificationContentUpdatesFailed"
+  },
+  "AutoUpdateUpdatesFailedContentMinimized": {
+    "message": "No se pudo actualizar los plugins.",
+    "description": "Locs.get_NotificationContentUpdatesFailedMinimized"
+  },
+  "AutoUpdateUpdatesAvailableContentPlural": {
+    "message": "Hay {0} plugins que se pueden actualizar:",
+    "description": "Locs.NotificationContentUpdatesAvailable"
+  },
+  "AutoUpdateUpdatesAvailableContentSingular": {
+    "message": "Hay un plugin que se puede actualizar:",
+    "description": "Locs.NotificationContentUpdatesAvailable"
+  },
+  "AutoUpdateUpdatesAvailableContentMinimizedPlural": {
+    "message": "{0} actualizaciones de plugins disponibles",
+    "description": "Locs.NotificationContentUpdatesAvailableMinimized"
+  },
+  "AutoUpdateUpdatesAvailableContentMinimizedSingular": {
+    "message": "1 actualización de plugin disponible",
+    "description": "Locs.NotificationContentUpdatesAvailableMinimized"
+  },
+  "AutoUpdatePreparingToUpdatePlural": {
+    "message": "Preparando para actualizar {0} plugins...",
+    "description": "Locs.NotificationContentPreparingToUpdate"
+  },
+  "AutoUpdatePreparingToUpdateSingular": {
+    "message": "Preparando para actualizar 1 plugin...",
+    "description": "Locs.NotificationContentPreparingToUpdate"
+  },
+  "AutoUpdateUpdating": {
+    "message": "Actualizando {0}...",
+    "description": "Locs.NotificationContentUpdating"
+  },
+  "AutoUpdateFailedPlugins": {
+    "message": "Plugin(s) fallido(s): {0}",
+    "description": "Locs.NotificationContentFailedPlugins"
+  },
+  "DalamudPluginAutoUpdate": {
+    "message": "Los siguientes plugins han sido actualizados automáticamente:",
+    "description": "<RunAutoUpdates>d__32.MoveNext"
+  },
   "WindowSystemContextActionPin": {
     "message": "Anclar ventana",
     "description": "Window.DrawInternal"
   },
+  "WindowSystemContextActionPinHint": {
+    "message": "Las ventanas fijadas no se moverán ni se podrán cambiar de tamaño cuando hagas click en ellas y arrastres. Tampoco se cerraran al pulsar Esc.",
+    "description": "Window.DrawInternal"
+  },
   "WindowSystemContextActionClickthrough": {
     "message": "Hacer click a través",
+    "description": "Window.DrawInternal"
+  },
+  "WindowSystemContextActionClickthroughHint": {
+    "message": "Las ventanas con click a través no recibirán inputs de ratón ni se moverán o cambiarán de tamaño. Son completamente inertes.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionAlpha": {
@@ -88,19 +272,19 @@
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionClickthroughDisclaimer": {
-    "message": "Abrir este menú de nuevo para deshabilitar los clicks a través.",
-    "description": "Window.DrawInternal"
-  },
-  "WindowSystemContextActionDisclaimer": {
-    "message": "Estas opciones pueden no funcionar para todos los plugins en este momento.",
+    "message": "Abre este menú de nuevo haciendo click en las tres barras para desactivar el click a través.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionViewportDisclaimer": {
     "message": "Estas características están disponibles solo si esta ventana está dentro de la ventana de juego.",
     "description": "Window.DrawInternal"
   },
+  "WindowSystemContextActionPrintWindow": {
+    "message": "Print window",
+    "description": "Window.DrawInternal"
+  },
   "DalamudUnloadHelp": {
-    "message": "Descargar el addon in-game de XIVLauncher.",
+    "message": "Descarga los addons XIVLauncher in-game. ¡Uso exclusivo para debug!",
     "description": "DalamudCommands..ctor"
   },
   "DalamudCmdInfoHelp": {
@@ -136,7 +320,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudBranchSwitcher": {
-    "message": "Recuperar cambiador de rama",
+    "message": "Abrir el cambiador de rama",
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevDataMenuHelp": {
@@ -144,11 +328,7 @@
     "description": "DalamudCommands..ctor"
   },
   "DalamudDevLogHelp": {
-    "message": "Abrir registro dev DEBUG",
-    "description": "DalamudCommands..ctor"
-  },
-  "DalamudInstallerHelp": {
-    "message": "Abre el instalador de plugins",
+    "message": "Abrir la ventana/consola de log del plugin",
     "description": "DalamudCommands..ctor"
   },
   "DalamudLanguageHelp": {
@@ -167,6 +347,14 @@
     "message": "Abrir perfilador de temporización de inicio.",
     "description": "DalamudCommands..ctor"
   },
+  "DalamudCopyLogHelp": {
+    "message": "Copiar el archivo dalamud.log a tu portapapeles.",
+    "description": "DalamudCommands..ctor"
+  },
+  "DalamudToggleMultiMonitorHelp": {
+    "message": "Alternar ventanas en varios monitores.",
+    "description": "DalamudCommands..ctor"
+  },
   "DalamudCmdHelpAvailable": {
     "message": "Comandos disponibles:",
     "description": "DalamudCommands.OnHelpCommand"
@@ -175,12 +363,8 @@
     "message": "Comando no encontrado.",
     "description": "DalamudCommands.OnHelpCommand"
   },
-  "DalamudMuteNoArgs": {
-    "message": "Por favor proporciona una palabra que quieras silenciar.",
-    "description": "DalamudCommands.OnBadWordsAddCommand"
-  },
-  "DalamudMuted": {
-    "message": "Silenciada \"{0}\".",
+  "DalamudMuteListDeprecation": {
+    "message": "La lista interna de Dalamud de palabras mal sonantes está obsoleta y no se le pueden añadir nuevas palabras. Por favor utiliza un plugin para esta función.",
     "description": "DalamudCommands.OnBadWordsAddCommand"
   },
   "DalamudNoneMuted": {
@@ -202,6 +386,22 @@
   "DalamudLanguageSetTo": {
     "message": "Idioma configurado en {0}",
     "description": "DalamudCommands.OnSetLanguageCommand"
+  },
+  "DalamudLogCopyFailure": {
+    "message": "No se pudo copiar el archivo de registro al portapapeles.",
+    "description": "DalamudCommands.OnCopyLogCommand"
+  },
+  "DalamudLogCopySuccess": {
+    "message": "Archivo de registro copiado al portapapeles.",
+    "description": "DalamudCommands.OnCopyLogCommand"
+  },
+  "DalamudMultiMonitorEnabled": {
+    "message": "Ventanas en varios monitores habilitadas.",
+    "description": "DalamudCommands.OnToggleMultiMonitorCommand"
+  },
+  "DalamudMultiMonitorDisabled": {
+    "message": "Ventanas en varios monitores deshabilitadas.",
+    "description": "DalamudCommands.OnToggleMultiMonitorCommand"
   },
   "TSMDalamudPlugins": {
     "message": "Instalador de Plugins",
@@ -226,6 +426,18 @@
   "ImGuiClipboardFunctionProviderErrorPaste": {
     "message": "Pegado fallido. Comprueba los registros para los detalles.",
     "description": "ImGuiClipboardFunctionProvider.GetClipboardTextImpl"
+  },
+  "ReShadeNoAddonSupportNotificationMinimizedText": {
+    "message": "Instalación de ReShade errónea",
+    "description": "<>c.<SetupHooks>b__134_0"
+  },
+  "ReShadeNoAddonSupportNotificationContent": {
+    "message": "Tu instalación de ReShade no tiene soporte completo para addons, puede ser que no funcione con Dalamud y/o el juego.\nDescarga e instala ReShade con soporte completo para addons.",
+    "description": "<>c.<SetupHooks>b__134_0"
+  },
+  "LearnMore": {
+    "message": "Saber más...",
+    "description": "<>c.<SetupHooks>b__134_14"
   },
   "InstallerDevTools": {
     "message": "Herramientas de desarrollo",
@@ -255,6 +467,10 @@
     "message": "Disponible para probar",
     "description": "Locs.get_Category_AvailableForTesting"
   },
+  "InstallerCategoryHidden": {
+    "message": "Oculto",
+    "description": "Locs.get_Category_Hidden"
+  },
   "InstallerInstalledDevPlugins": {
     "message": "Plugins de desarrollo instalados",
     "description": "Locs.get_Category_DevInstalled"
@@ -262,6 +478,10 @@
   "InstallerCategoryPluginProfiles": {
     "message": "Colecciones de plugins",
     "description": "Locs.get_Category_PluginProfiles"
+  },
+  "InstallerCategoryCanBeUpdated": {
+    "message": "No se puede actualizar",
+    "description": "Locs.get_Category_UpdateablePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Otros",
@@ -302,6 +522,18 @@
   "InstallerCategoryDalamud": {
     "message": "Dalamud",
     "description": "Locs.get_Category_Dalamud"
+  },
+  "DalamudSettingsAutoUpdateHint": {
+    "message": "Dalamud puede actualizar tus plugins automáticamente, asegurándose de que siempre tienes las nuevas funciones y los arreglos de bugs. Puedes escoger cuando y como se aplican las actualizaciones automáticas aquí.",
+    "description": "ChangelogWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdateDisclaimer1": {
+    "message": "Siempre puedes actualizar tus plugins de forma manual haciendo click en el botón de actualizar en la lista de plugins. También puedes escoger tener actualizaciones de plugins específicos haciendo click derecho y seleccionando \"Actualizar automáticamente siempre\".",
+    "description": "ChangelogWindow.Draw"
+  },
+  "DalamudSettingsAutoUpdateDisclaimer2": {
+    "message": "Dalamud solo te notificará sobre actualizaciones cuando estés ausente.",
+    "description": "ChangelogWindow.Draw"
   },
   "DalamudGamepadModeNotifierText": {
     "message": "El modo Gamepad está ACTIVADO. Pulsa L1+L3 para desactivarlo, o pulsa R3 para mostrar u ocultar el PluginInstaller.",
@@ -365,7 +597,11 @@
   },
   "DalamudSettingsHeader": {
     "message": "Ajustes del Dalamud",
-    "description": "SettingsWindow..ctor"
+    "description": "SettingsWindow.get_Title"
+  },
+  "DalamudSettingsSearchPlaceholder": {
+    "message": "Search for settings...",
+    "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSave": {
     "message": "Guardar cambios",
@@ -374,6 +610,14 @@
   "DalamudSettingsSaveAndExit": {
     "message": "Guardar cambios y cerrar",
     "description": "SettingsWindow.Draw"
+  },
+  "DalamudSettingsSearchResults": {
+    "message": "Search Results",
+    "description": "SettingsWindow.DrawSearchResults"
+  },
+  "DalamudSettingsNoSearchResultsFound": {
+    "message": "No results found...",
+    "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsDevPluginLocation": {
     "message": "Localizaciones de los plugins de desarrollo",
@@ -384,7 +628,11 @@
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsDevPluginLocationsHint": {
-    "message": "Añadir localizaciones de carga de plugins de desarrollo.\nEstas pueden ser el directorio o la ruta de DLL.",
+    "message": "Añadir ubicaciones de carga de plugins de desarrollador.\nEsta debe ser un directorio al DLL del plugin.",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginLocationSelect": {
+    "message": "Escoger DLL de plugin de desarrollador",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudDevPluginLocationExists": {
@@ -455,6 +703,82 @@
     "message": "Acerca de",
     "description": "SettingsTabAbout.get_Title"
   },
+  "DalamudSettingsAutoUpdates": {
+    "message": "Actualizaciones automáticas",
+    "description": "SettingsTabAutoUpdates.get_Title"
+  },
+  "DalamudSettingsAutoUpdateBehavior": {
+    "message": "Cuando el juego se inicie...",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateNone": {
+    "message": "No buscar actualizaciones de forma automática",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateNotify": {
+    "message": "Notificarme sólo de nuevas actualizaciones",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateMainRepo": {
+    "message": "Actualizar automáticamente el repositorio principal de plugins",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateAll": {
+    "message": "Actualizar automáticamente todos los plugins",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateAllWarning": {
+    "message": "Advertencia: esto actualizará todos los plugins, incluyendo los que no pertenecen al repositorio principal.\nEstas actualizaciones no están revisadas por el equipo de Dalamund y podrían contener codigo malicioso.",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateDisabledPlugins": {
+    "message": "Auto-Update plugins that are currently disabled",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateChatMessage": {
+    "message": "Mostrar notificación sobre las actualizaciones disponibles en el chat",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdatePeriodically": {
+    "message": "Comprobar periodicamente actualizaciones nuevas mientras se juega",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdatePeriodicallyHint": {
+    "message": "Los plugins no se actualizarán automáticamente tras iniciar, solo recibirás una notificación cuando no estés jugando de forma activa.",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptedIn": {
+    "message": "Sobreescritura de cada plugin",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOverrideHint": {
+    "message": "Aquí puedes escoger recibir o no actualizaciones de plugins específicos. Esto sobreescribirá los ajustes de arriba para los plugins seleccionados.",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptedInHint2": {
+    "message": "No tienes reglas de autualizaciones automaticas para ningún plugin.",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptInUnknownPlugin": {
+    "message": "Plugin desconocido",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptInRemove": {
+    "message": "Eliminar esta sobreescritura",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptInAdd": {
+    "message": "Añadir sobreescritura nueva",
+    "description": "SettingsTabAutoUpdates.Draw"
+  },
+  "DalamudSettingsAutoUpdateOptInNeverUpdate": {
+    "message": "No actualizar esto nunca",
+    "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
+  "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
+    "message": "Actualizar esto siempre",
+    "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Barra de Información de Servidor",
     "description": "SettingsTabDtr.get_Title"
@@ -492,19 +816,11 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Recibir las pruebas de pre-releases para los plugins seleccionados.\nOptar por compilaciones de prueba para un plugin, tienes que hacer clic derecho en la pestaña \"{0}\" del instalador del plugin y seleccionar \"{1}\".",
+    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"Installed Plugins\" tab of the plugin installer and select \"Receive plugin testing versions\".",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
     "message": "Los plugins de prueba pueden contener errores o bloquear el juego. Por favor, habilita esta opción sólo si estás al tanto de los riesgos.",
-    "description": "SettingsTabExperimental..ctor"
-  },
-  "DalamudSettingEnablePluginUIAdditionalOptions": {
-    "message": "Añadir un botón a la barra de título de las ventanas del plugin para abrir opciones adicionales",
-    "description": "SettingsTabExperimental..ctor"
-  },
-  "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
-    "message": "Esto te permitirá fijar ciertas ventanas de plugins, permitir clics a través o ajustar su opacidad.\nEsto puede no ser soportado por todos tus plugins. Contacta al autor del plugins si quieres que soporten esta característica.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsClearHidden": {
@@ -513,6 +829,30 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "Restaurar plugins que has escondido previamente del instalador del plugin.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnableImGuiAsserts": {
+    "message": "Habilitar aserciones ImGui",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnableImGuiAssertsHint": {
+    "message": "If this setting is enabled, a window containing further details will be shown when an internal assertion in ImGui fails.\nWe recommend enabling this when developing plugins. This setting does not persist and will reset when the game restarts.\nUse the setting below to enable it at startup.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnableImGuiAssertsAtStartup": {
+    "message": "Activar siempre ImGui al iniciar",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnableImGuiAssertsAtStartupHint": {
+    "message": "Esto habilitará las aserciones ImGui cada vez que el juego se inicie.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsReShadeHandlingMode": {
+    "message": "Modo de manejo de ReShade",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsReShadeHandlingModeHint": {
+    "message": "Puedes intentar diferentes opciones para solucionar los problemas que te puedas encontrar.\nEs necesario reiniciar para que los cambios surtan efecto.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsGeneral": {
@@ -567,28 +907,12 @@
     "message": "Mostrar plugins cargados en el chat FFXIV al iniciar sesión con un personaje.",
     "description": "SettingsTabGeneral..ctor"
   },
-  "DalamudSettingsAutoUpdatePlugins": {
-    "message": "Auto-actualizar plugins",
-    "description": "SettingsTabGeneral..ctor"
-  },
-  "DalamudSettingsAutoUpdatePluginsMsgHint": {
-    "message": "Actualizar automáticamente los plugins al iniciar sesión con un personaje.",
-    "description": "SettingsTabGeneral..ctor"
-  },
   "DalamudSettingsSystemMenu": {
     "message": "Botones Dalamud en el menú de sistema",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingsSystemMenuMsgHint": {
     "message": "Añade botones para los plugins de Dalamud y los ajustes al menú de sistema.",
-    "description": "SettingsTabGeneral..ctor"
-  },
-  "DalamudSettingsEnableRmtFiltering": {
-    "message": "Habilitar filtro de RMT",
-    "description": "SettingsTabGeneral..ctor"
-  },
-  "DalamudSettingsEnableRmtFilteringMsgHint": {
-    "message": "Permitir el filtrado de anuncios y RMT que trae Dalamud de serie.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollect": {
@@ -601,7 +925,7 @@
   },
   "DalamudSettingsChannelNone": {
     "message": "No escoger \"Ninguno\".",
-    "description": "<>c.<.ctor>b__5_2"
+    "description": "<>c.<.ctor>b__7_2"
   },
   "DalamudSettingsVisual": {
     "message": "Ver y Sentir",
@@ -637,6 +961,14 @@
   },
   "DalamudSettingsStyleEditorHint": {
     "message": "Modifica la apariencia de las ventanas de Dalamud.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsOpenNotificationEditor": {
+    "message": "Modify Notification Position",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingsNotificationEditorHint": {
+    "message": "Choose where Dalamud notifications appear on the screen.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingsUseDarkMode": {
@@ -699,6 +1031,14 @@
     "message": "Esto le permitirá fusionar y pestañas ventanas de plugin.",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingEnablePluginUIAdditionalOptions": {
+    "message": "Añadir un botón a la barra de título de las ventanas del plugin para abrir opciones adicionales",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingEnablePluginUIAdditionalOptionsHint": {
+    "message": "Esto te permitirá fijar ciertas ventanas de plugins, permitir clics a través o ajustar su opacidad.\nEsto puede no ser soportado por todos tus plugins. Contacta al autor del plugins si quieres que soporten esta característica.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingEnablePluginUISoundEffects": {
     "message": "Activar efectos de sonido para ventanas de plugin",
     "description": "SettingsTabLook..ctor"
@@ -720,7 +1060,7 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "Esta opción permite acceder a ciertas funcionalidades de Dalamud y Plugins desde la pantalla de título.",
+    "message": "Esto te permitirá tener acceso a ciertas funcionalidades de Dalamud y Plugins desde la pantalla de título. Deshabilitar esto también ocultará el texto de la versión de Dalamud en la pantalla de título.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefault": {
@@ -737,6 +1077,14 @@
   },
   "DalamudSettingReducedMotionHint": {
     "message": "Esto eliminará ciertas animaciones de Dalamud, así como la notificación pop-up.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacity": {
+    "message": "Opacidad del indicador de estado IME (sólo en CJK)",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingImeStateIndicatorOpacityHint": {
+    "message": "Cuando cualquiera de las IMEs de CJK está en uso, el estado de IME será mostrado con la opacidad especificada aquí.",
     "description": "SettingsTabLook..ctor"
   },
   "ChangelogNoText": {
@@ -758,6 +1106,10 @@
   "InstallerSearch": {
     "message": "Buscar",
     "description": "Locs.get_Header_SearchPlaceholder"
+  },
+  "InstallerSearchScore": {
+    "message": "Puntuación de búsqueda",
+    "description": "Locs.get_SortBy_SearchScore"
   },
   "InstallerAlphabetical": {
     "message": "Alfabético",
@@ -803,6 +1155,26 @@
     "message": "Dalamud se está ejectuando en Modo De Plugins Seguro, reinicia para activar los plugins.",
     "description": "Locs.get_TabBody_SafeMode"
   },
+  "InstallerNoPluginsTesting": {
+    "message": "¡No estas haciendo pruebas de ningún plugin ahora mismo!\nPuedes anotarte para probar versiones de prueba en el menú contextual de plugins.",
+    "description": "Locs.get_TabBody_NoPluginsTesting"
+  },
+  "InstallerNoPluginsInstalled": {
+    "message": "¡No tienes ningún plugin instalado todavía!\nPuedes instalarlos desde la pestaña \"{0}\".",
+    "description": "Locs.get_TabBody_NoPluginsInstalled"
+  },
+  "InstallerNoPluginsAvailable": {
+    "message": "No hay plugins disponibles en este momento.",
+    "description": "Locs.get_TabBody_NoPluginsAvailable"
+  },
+  "InstallerNoPluginsUpdate": {
+    "message": "No hay actualizaciones de plugins disponibles en este momento.",
+    "description": "Locs.get_TabBody_NoPluginsUpdateable"
+  },
+  "InstallerNoPluginsDev": {
+    "message": "No tienes ningún plugin de desarrollo. Añádelos desde los ajustes.",
+    "description": "Locs.get_TabBody_NoPluginsDev"
+  },
   "InstallerNoMatching": {
     "message": "No se han encontrado plugins que se correspondan con tu búsqueda.",
     "description": "Locs.get_TabBody_SearchNoMatching"
@@ -814,6 +1186,10 @@
   "InstallerNoInstalled": {
     "message": "En este momento no hay plugins instalados. Puedes instalarlos desde la pestaña \"Todos los Plugins\".",
     "description": "Locs.get_TabBody_SearchNoInstalled"
+  },
+  "InstallerNoMoreResultsForQuery": {
+    "message": "No hay mas resultados de búsqueda para \"{0}\".",
+    "description": "Locs.TabBody_NoMoreResultsFor"
   },
   "InstallerNoChangelog": {
     "message": "Ningún plugin instalado actualmente tiene un historial de cambios.",
@@ -859,6 +1235,10 @@
     "message": " (tiene versión de prueba)",
     "description": "Locs.get_PluginTitleMod_TestingAvailable"
   },
+  "InstallerTitleModIncompatible": {
+    "message": " (incompatible)",
+    "description": "Locs.get_PluginTitleMod_Incompatible"
+  },
   "InstallerDevPlugin": {
     "message": " (plugin de desarrollador)",
     "description": "Locs.get_PluginTitleMod_DevPlugin"
@@ -899,6 +1279,10 @@
     "message": "Recibir versiones de prueba del plugin",
     "description": "Locs.get_PluginContext_TestingOptIn"
   },
+  "InstallerInstallTestingVersion": {
+    "message": "Instalar version de prueba",
+    "description": "Locs.get_PluginContext_InstallTestingVersion"
+  },
   "InstallerMarkAllSeen": {
     "message": "Marcar todos como leído",
     "description": "Locs.get_PluginContext_MarkAllSeen"
@@ -906,6 +1290,10 @@
   "InstallerHidePlugin": {
     "message": "Ocultar del instalador",
     "description": "Locs.get_PluginContext_HidePlugin"
+  },
+  "InstallerUnhidePlugin": {
+    "message": "Mostrar desde el instalador",
+    "description": "Locs.get_PluginContext_UnhidePlugin"
   },
   "InstallerDeletePluginConfig": {
     "message": "Reestablecer datos de plugin",
@@ -947,6 +1335,10 @@
     "message": "Este plugin está desactualizado y es incompatible.",
     "description": "Locs.get_PluginBody_Outdated"
   },
+  "InstallerIncompatiblePluginBody ": {
+    "message": "This plugin is incompatible with your version of Dalamud. Please attempt to restart your game.",
+    "description": "Locs.get_PluginBody_Incompatible"
+  },
   "InstallerOutdatedWaitForUpdate": {
     "message": "Por favor, espera a que sea actualizado por su autor.",
     "description": "Locs.get_PluginBody_Outdated_WaitForUpdate"
@@ -966,6 +1358,10 @@
   "InstallerNoServiceThirdPluginBody": {
     "message": "Este plugin ya no está dando servicio por su repositorio de fuente. Es posible que tengas que buscar una versión actualizada en otro repo.",
     "description": "Locs.get_PluginBody_NoServiceThird"
+  },
+  "InstallerNoServiceThirdCrossUpdatePluginBody": {
+    "message": "Este plugin ya no esta teniendo servicio desde su repositorio fuente. Hay una actualización disponible y se actualizará a una versión del repositorio oficial.",
+    "description": "Locs.get_PluginBody_NoServiceThirdCrossUpdate"
   },
   "InstallerLoadFailedPluginBody ": {
     "message": "No se pudo cargar este plugin. Por favor, ponte en contacto con el autor para más información.",
@@ -1039,6 +1435,10 @@
     "message": "Recarga automática",
     "description": "Locs.get_PluginButtonToolTip_AutomaticReloading"
   },
+  "InstallerNotifyForErrors": {
+    "message": "Show Dalamud notifications when this plugin is creating errors",
+    "description": "Locs.get_PluginButtonToolTip_NotifyForErrors"
+  },
   "InstallerDeletePlugin ": {
     "message": "Borrar plugin",
     "description": "Locs.get_PluginButtonToolTip_DeletePlugin"
@@ -1069,7 +1469,7 @@
   },
   "InstallerLoadUnloadFailedTooltip": {
     "message": "Carga/descarga del plugin fallida, por favor reinicia el juego e inténtalo de nuevo.",
-    "description": "Locs.get_PluginButtonToolTip_UnloadFailed"
+    "description": "Locs.get_PluginButtonToolTip_LoadUnloadFailed"
   },
   "InstallerUnloadNeedsToBeInDefault": {
     "message": "Este plugin está en una o más colecciones. Si quieres habilitarlo o deshabilitarlo, por favor hazlo habilitando/deshabilitando las colecciones en las que está.\nSi quieres manejarlo manualmente, elimínalo de todas las colecciones.",
@@ -1078,6 +1478,10 @@
   "InstallerUnloadNeedsToBeInSingleProfile": {
     "message": "Este plugin está en más de una colección. Si quieres habilitarlo o deshabilitarlo, por favor hazlo habilitando/deshabilitando las colecciones en las que está.\nSi quieres manejarlo aquí, asegúrate de que solo esté en una única colección.",
     "description": "Locs.get_PluginButtonToolTip_NeedsToBeInSingleProfile"
+  },
+  "InstallerButtonSafeModeTooltip": {
+    "message": "Cannot enable plugins in safe mode.",
+    "description": "Locs.get_PluginButtonToolTip_SafeMode"
   },
   "InstallerSingleProfileDisabled": {
     "message": "La colección '{0}' que contiene este plugin está deshabilitada.\nPor favor, habilítala en el gestor de colecciones para activar el plugin individualmente.",
@@ -1112,7 +1516,7 @@
     "description": "Locs.get_Notifications_UpdatesInstalledTitle"
   },
   "NotificationsUpdatesInstalled": {
-    "message": "Se instalaron actualizaciones para {0} de tus plugins.",
+    "message": "Se instalaron actualizaciones para {0} de tus plugins.\n\n{1}",
     "description": "Locs.Notifications_UpdatesInstalled"
   },
   "NotificationsPluginDisabledTitle": {
@@ -1315,8 +1719,12 @@
     "message": "Advertencia###InstallerDeletePluginConfigAdvertencia",
     "description": "Locs.get_DeletePluginConfigWarningModal_Title"
   },
+  "InstallerDeletePluginConfigWarningExplainTesting": {
+    "message": "¡No selecciones esta opción si sólo estás tratando de deshabilitar las versiones de prueba!",
+    "description": "Locs.DeletePluginConfigWarningModal_ExplainTesting"
+  },
   "InstallerDeletePluginConfigWarningBody": {
-    "message": "¿Estás seguro de que deseas eliminar todos los datos y configuración de {0}?",
+    "message": "¿Estás seguro de que quieres eliminar toda la configuración y datos de {0}?\nPerderás todas tus configuraciones de este plugin.",
     "description": "Locs.DeletePluginConfigWarningModal_Body"
   },
   "InstallerDeletePluginConfigWarningYes": {
@@ -1363,6 +1771,10 @@
     "message": "Este plugin no ha sido revisado por el equipo de Dalamud.\nNo podemos hacernos responsables por plugins o repositorios personalizados.\nPor favor asegúrate de que solo instalas plugins de desarrolladores en los que confíes.\n\nNo recibirás soporte por los plugins instalados desde repositorios personalizados en el servidor de XIVLaunches & Dalamud.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerStartupBehavior": {
+    "message": "Startup behavior",
+    "description": "Locs.get_StartupBehavior"
+  },
   "ProfileManagerEnableDisableHint": {
     "message": "Habilitar/Deshabilitar esta colección",
     "description": "Locs.get_TooltipEnableDisable"
@@ -1383,10 +1795,6 @@
     "message": "¡La colección no tiene plugins!",
     "description": "Locs.get_NoPluginsInProfile"
   },
-  "ProfileManagerAlwaysEnableAtBoot": {
-    "message": "Habilitar siempre cuando se inicie el juego",
-    "description": "Locs.get_AlwaysEnableAtBoot"
-  },
   "ProfileManagerDeleteProfile": {
     "message": "Eliminar esta colección",
     "description": "Locs.get_DeleteProfileHint"
@@ -1402,10 +1810,6 @@
   "ProfileManagerBackToOverview": {
     "message": "Volver a la vista general",
     "description": "Locs.get_BackToOverview"
-  },
-  "ProfileManagerSearchHint": {
-    "message": "Buscar...",
-    "description": "Locs.get_SearchHint"
   },
   "ProfileManagerAddProfileHint": {
     "message": "¡No hay colecciones! ¡Añade una!",
@@ -1503,6 +1907,22 @@
     "message": "{0} (No instalado)",
     "description": "Locs.NotInstalled"
   },
+  "ProfileManagerRememberState": {
+    "message": "Remember state",
+    "description": "Locs.PolicyToLocalisedName"
+  },
+  "ProfileManagerAlwaysEnableAtBoot": {
+    "message": "Always enable at boot",
+    "description": "Locs.PolicyToLocalisedName"
+  },
+  "ProfileManagerAlwaysDisableAtBoot": {
+    "message": "Always disable at boot",
+    "description": "Locs.PolicyToLocalisedName"
+  },
+  "ProfileManagerSearchHint": {
+    "message": "Buscar...",
+    "description": "Locs.get_SearchHint"
+  },
   "NotificationConstants.DefaultInitiator": {
     "message": "Dalamud",
     "description": "NotificationConstants.get_DefaultInitiator"
@@ -1528,7 +1948,7 @@
     "description": "NotificationConstants.ToTitle"
   },
   "DalamudWelcome": {
-    "message": "Dalamud vD{0} cargado.",
+    "message": "Cargado Dalamud {0}.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "PluginsWelcome": {
@@ -1540,28 +1960,12 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudUpdated": {
-    "message": "¡Dalamud ha sido actualizado con éxito! Por favor, comprueba el historial de cambios en Discord.",
+    "message": "¡Dalamud ha sido actualizado con éxito!",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
-  "DalamudPluginUpdateCheckFail": {
-    "message": "No pudo buscar para actualizaciónes de los plugins.",
-    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
-  },
-  "DalamudPluginAutoUpdate": {
-    "message": "Actualización automática:",
-    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
-  },
-  "NotificationUpdatedPlugins": {
-    "message": "Se han actualizado {0} de tus plugins.",
-    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
-  },
-  "NotificationAutoUpdate": {
-    "message": "Actualizar automáticamente",
-    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
-  },
-  "DalamudPluginUpdateRequired": {
-    "message": "Uno o más de tus plugins deben ser actualizados. ¡Por favor utiliza el comando /xlplugins para actualizarlos!",
-    "description": "<>c__DisplayClass23_0.<AutoUpdatePlugins>b__1"
+  "DalamudClickToViewChangelogs": {
+    "message": " Haz click aquí para ver el historial de cambios.",
+    "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Plugins de Dalamud",
