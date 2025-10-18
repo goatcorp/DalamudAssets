@@ -551,5 +551,10 @@
     "Name": "Mappy",
     "AssemblyVersion": "3.1.6.8",
     "Reason": "Has known issues breaking the map. Developers are aware and will investigate/fix when possible."
+  },
+  {
+    "Name": "OhHey",
+    "AssemblyVersion": "0.0.2.0",
+    "Reason": "Causes users to crash to desktop under specific circumstances due to UI code."
   }
 ]
