@@ -1964,7 +1964,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Cliquez ici pour voir le journal des modifications.",
+    "message": "Cliquez ici pour voir le journal des modifications.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
