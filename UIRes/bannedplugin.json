@@ -155,8 +155,8 @@
   },
   {
     "Name": "DeepDungeonDex",
-    "AssemblyVersion": "2.5.0.0",
-    "Reason": "Please update this plugin to use it."
+    "AssemblyVersion": "2.13.4.0",
+    "Reason": "Versions 2.13.4.0 rellies on github for live data updates which causes issues with repo fetching at times."
   },
   {
     "Name": "05ED51D55298A2BC711689A19869A0AA48BF0B3C25BE1BAF60FAFBEFD7ED0342",
