@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Ouvrir le journal des modifications du plugin",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "En attente",
@@ -275,13 +275,29 @@
     "message": "Ouvrez à nouveau ce menu en cliquant sur les trois tirets pour désactiver le clic au travers.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Ces fonctionnalités ne sont disponibles que si cette fenêtre se trouve dans la fenêtre du jeu.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Capture d'écran de la fenêtre",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Une erreur s'est produite lors du rendu de cette fenêtre. Veuillez contacter le développeur pour plus de détails.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Nouvelle tentative",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Fermer la fenêtre",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Détails de l'erreur :",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Copier",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Décharge les extensions du jeu XIVLauncher. À utiliser uniquement pour le débogage !",
@@ -1964,7 +1980,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Cliquez ici pour voir le journal des modifications.",
+    "message": "Cliquez ici pour voir le journal des modifications.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
