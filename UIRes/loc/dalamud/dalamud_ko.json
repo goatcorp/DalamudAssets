@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "플러그인 변경사항 보기",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "대기 중",
@@ -275,13 +275,29 @@
     "message": "클릭 연결을 비활성화하려면 대시 3개를 클릭하여 이 메뉴를 다시 엽니다.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "이러한 기능은 이 창이 게임 창 안에 있는 경우에만 사용할 수 있습니다.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "윈도우 출력",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "이 창을 렌더링하는 동안 오류가 발생했습니다. 자세한 내용은 개발자에게 문의하세요.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "다시 시도하기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "창 닫기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "오류 세부 정보:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "복사",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "XIVLauncher 인게임 애드온을 언로드합니다. 디버깅 전용입니다!",
@@ -1964,7 +1980,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " 변경사항을 보려면 여기를 클릭하세요.",
+    "message": "변경사항을 보려면 여기를 클릭하세요.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
