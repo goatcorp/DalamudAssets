@@ -104,6 +104,11 @@
       "Hash": "05E2B4508517646F0FC4E55A821F9A990B2559F7"
     },
     {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/badgeAtlas.png",
+      "FileName": "UIRes/badgeAtlas.png",
+      "Hash": "ADA0C94B92ACCBB7FAE799FE500DB986E923A623"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_de.json",
       "FileName": "UIRes/loc/dalamud/dalamud_de.json"
     },
