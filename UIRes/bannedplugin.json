@@ -544,8 +544,8 @@
   },
   {
     "Name": "MiniCactpotSolver",
-    "AssemblyVersion": "3.0.0.1",
-    "Reason": "Breaking CS change causing per-frame errors."
+    "AssemblyVersion": "3.0.0.4",
+    "Reason": "Deprecated and no longer maintained, use VanillaPlus instead."
   },
   {
     "Name": "Mappy",
