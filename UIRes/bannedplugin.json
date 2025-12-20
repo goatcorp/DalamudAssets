@@ -556,5 +556,10 @@
     "Name": "OhHey",
     "AssemblyVersion": "0.0.2.0",
     "Reason": "Causes users to crash to desktop under specific circumstances due to UI code."
+  },
+  {
+    "Name": "TitleEdit",
+    "AssemblyVersion": "3.0.6.3",
+    "Reason": "Buffer over-read might cause crashes and other problems."
   }
 ]
