@@ -133,10 +133,6 @@
     "AssemblyVersion": "0.4.1.0"
   },
   {
-    "Name": "Glamaholic",
-    "AssemblyVersion": "1.9.8.0"
-  },
-  {
     "Name": "Tourist",
     "AssemblyVersion": "1.2.11",
     "Reason": "This plugin currently causes crashes and needs to be updated by its author."
@@ -557,5 +553,10 @@
     "Name": "OhHey",
     "AssemblyVersion": "0.0.2.0",
     "Reason": "Causes users to crash to desktop under specific circumstances due to UI code."
+  },
+  {
+    "Name": "Glamaholic",
+    "AssemblyVersion": "1.12.0",
+    "Reason": "Potential for invalid/impossible Glamour Plate to be sent to the server."
   }
 ]
