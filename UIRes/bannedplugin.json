@@ -133,10 +133,6 @@
     "AssemblyVersion": "0.4.1.0"
   },
   {
-    "Name": "Glamaholic",
-    "AssemblyVersion": "1.9.8.0"
-  },
-  {
     "Name": "Tourist",
     "AssemblyVersion": "1.2.11",
     "Reason": "This plugin currently causes crashes and needs to be updated by its author."
