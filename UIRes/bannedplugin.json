@@ -557,5 +557,10 @@
     "Name": "OhHey",
     "AssemblyVersion": "0.0.2.0",
     "Reason": "Causes users to crash to desktop under specific circumstances due to UI code."
+  },
+  {
+    "Name": "Glamaholic",
+    "AssemblyVersion": "1.12.0",
+    "Reason": "Potential for invalid/impossible Glamour Plate to be sent to the server."
   }
 ]
