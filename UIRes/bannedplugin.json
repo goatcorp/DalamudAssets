@@ -558,5 +558,10 @@
     "Name": "Glamaholic",
     "AssemblyVersion": "1.12.0",
     "Reason": "Potential for invalid/impossible Glamour Plate to be sent to the server."
+  },
+  {
+    "Name": "Altoholic",
+    "AssemblyVersion": "1.4.0",
+    "Reason": "Issue that crash timer and config tabs"
   }
 ]
