@@ -109,6 +109,16 @@
       "Hash": "ADA0C94B92ACCBB7FAE799FE500DB986E923A623"
     },
     {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansCJK-Medium.ttc",
+      "FileName": "UIRes/NotoSansCJK-Medium.ttc",
+      "Hash": "32D8A300209C1F8C2AC5BCA1078AAE26870861B7"
+    },
+    {
+      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/NotoSansCJK-Regular.ttc",
+      "FileName": "UIRes/NotoSansCJK-Regular.ttc",
+      "Hash": "41CEE0565517A6A1C7457C687273CF9C00159379"
+    },
+    {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/loc/dalamud/dalamud_de.json",
       "FileName": "UIRes/loc/dalamud/dalamud_de.json"
     },
