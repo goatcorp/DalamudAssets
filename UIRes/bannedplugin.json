@@ -563,5 +563,10 @@
     "Name": "Altoholic",
     "AssemblyVersion": "1.4.0",
     "Reason": "Issue that crash timer and config tabs"
+  },
+  {
+    "Name": "VanillaPlus",
+    "AssemblyVersion": "1.1.4.0",
+    "Reason": "Breaks controller navigation"
   }
 ]
