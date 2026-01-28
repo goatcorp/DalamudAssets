@@ -2,14 +2,6 @@
   "Version": 385,
   "Assets": [
     {
-      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/serveropcode.json",
-      "FileName": "UIRes/serveropcode.json"
-    },
-    {
-      "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/clientopcode.json",
-      "FileName": "UIRes/clientopcode.json"
-    },
-    {
       "Url": "https://raw.githubusercontent.com/goatcorp/DalamudAssets/master/UIRes/bannedplugin.json",
       "FileName": "UIRes/bannedplugin.json"
     },
