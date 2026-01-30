@@ -5,6 +5,16 @@
     "Reason": "Just here for my monthly blacklist... you know the deal by now."
   },
   {
+    "Name": "AcquisitionDate",
+    "AssemblyVersion": "1.1.0.0",
+    "Reason": "Aparently blocks achievements from properly completing :c",
+  },
+  {
+    "Name": "XivFatalFrame",
+    "AssemblyVersion": "1.2.0.0",
+    "Reason": "Aparently blocks achievements from properly completing :c",
+  },
+  {
     "Name": "PingPlugin",
     "AssemblyVersion": "1.11.0.0"
   },
