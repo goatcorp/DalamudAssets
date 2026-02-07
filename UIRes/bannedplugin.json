@@ -576,7 +576,7 @@
   },
   {
     "Name": "VanillaPlus",
-    "AssemblyVersion": "1.2.0.11",
+    "AssemblyVersion": "1.2.0.10",
     "Reason": "New Command Panel Sync feature crashes the game on login."
   }
 ]
