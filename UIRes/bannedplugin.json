@@ -573,5 +573,10 @@
     "Name": "Altoholic",
     "AssemblyVersion": "1.4.0",
     "Reason": "Issue that crash timer and config tabs"
+  },
+  {
+    "Name": "VanillaPlus",
+    "AssemblyVersion": "1.2.0.10",
+    "Reason": "New Command Panel Sync feature crashes the game on login."
   }
 ]
