@@ -578,5 +578,10 @@
     "Name": "VanillaPlus",
     "AssemblyVersion": "1.2.0.10",
     "Reason": "New Command Panel Sync feature crashes the game on login."
+  },
+  {
+    "Name": "CustomResolution2782",
+    "AssemblyVersion": "1.1.0.0",
+    "Reason": "Causes deadlocks and crashes on unload, preventing further updates."
   }
 ]
