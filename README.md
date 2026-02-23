@@ -13,3 +13,6 @@ Material Design Icons are licensed under the [Apache License Version 2.0](https:
 5. Commit, Push, and create a PR.
 6. Once CI checks pass, someone will merge it.
 7. Instruct affected users to relaunch.
+
+#### Important Gotcha
+Plugin Banning will block all versions equal to or lower than the version banned. For example, If you ban testing version v1.2.0.0, and your stable plugin version is v1.0.0.0, then your plugin will not be able to load.
