@@ -45,4 +45,4 @@ jobs:
         env:
           URL: ${{ secrets.REFRESH_URL }}
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"version": "${{ steps.increment.outputs.version }}"}' $URL
+          curl --fail-with-body -X POST -H "Content-Type: application/json" -d '{"version": "${{ steps.increment.outputs.version }}"}' $URL
