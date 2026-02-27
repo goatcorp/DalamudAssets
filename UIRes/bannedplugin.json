@@ -581,7 +581,7 @@
   },
   {
     "Name": "CustomResolution2782",
-    "AssemblyVersion": "1.1.0.0",
-    "Reason": "Causes deadlocks and crashes on unload, preventing further updates."
+    "AssemblyVersion": "1.1.1.0",
+    "Reason": "Affected by Dalamud metadata bug causing unload problems."
   }
 ]
