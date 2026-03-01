@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Ouvrir le journal des modifications du plugin",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "En attente",
@@ -275,13 +275,29 @@
     "message": "Ouvrez à nouveau ce menu en cliquant sur les trois tirets pour désactiver le clic au travers.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Ces fonctionnalités ne sont disponibles que si cette fenêtre se trouve dans la fenêtre du jeu.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Capture d'écran de la fenêtre",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Une erreur s'est produite lors du rendu de cette fenêtre. Veuillez contacter le développeur pour plus de détails.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Nouvelle tentative",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Fermer la fenêtre",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Détails de l'erreur :",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Copier",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Décharge les extensions du jeu XIVLauncher. À utiliser uniquement pour le débogage !",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Installation incorrecte de ReShade",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Votre installation de ReShade ne prend pas en charge le support complet des add-ons et pourrait ne pas fonctionner correctement avec Dalamud et/ou le jeu.\nVeuillez télécharger ReShade avec le support complet des add-ons.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "En savoir plus...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Outils Développeur",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Peut être mis à jour",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Autres",
@@ -778,6 +806,46 @@
   "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
     "message": "Toujours le mettre à jour",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "Sur cet onglet, vous pouvez obtenir des badges qui figurent sur votre écran-titre.\nLes codes de badges sont donnés pendant des évènements communautaires ou des concours.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Obtenir un badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "Si vous avez reçu un code pour un badge, saisissez-le ici pour l'obtenir.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Rentrer le code du badge ici",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Débloquer la fonction Badges",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Impossible d'obtenir le badge. Le code est peut-être invalide ou vous avez peut-être déjà obtenu ce badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "Vous n'avez pas encore débloqué de badges.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Afficher les badges sur l'écran-titre",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "Si activé, vos badges obtenus seront également affichés sur l'écran titre.",
+    "description": "SettingsTabBadge..ctor"
   },
   "DalamudSettingsServerInfoBar": {
     "message": "Barre d'Infos du Serveur",
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "Vous n'avez aucun plugin de développement. Ajoutez en quelques-uns dans les paramètres.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Aucun plugin correspondant à votre recherche n'a été trouvé.",
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Cliquez ici pour voir le journal des modifications.",
+    "message": "Cliquez ici pour voir le journal des modifications.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {

@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Változásnapló megnyitása",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Függőben",
@@ -275,13 +275,29 @@
     "message": "Az átkattinthatóságot a háromvonalas menüből lehet ismét letiltani.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Ezek a lehetőségek csak akkor elérhetőek, ha a bővítmény ablaka a játék ablakán belül van megjelenítve.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Ablak nyomtatása",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Hiba történt az ablak megjelenítése közben. További információért vedd fel a kapcsolatot a fejlesztővel.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Újra",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Ablak bezárása",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Részletek:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Másolás",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "A XIVLauncher játékbeli bővítményének kitöltése. Csak hibakeresési használatra!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Helytelen ReShade-telepítés",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "A ReShade jelenleg telepített verziója nem rendelkezik teljes bővítménytámogatással, ezért lehetséges, hogy nem fog működni a Dalamuddal és/vagy a játékkal.\nTöltsd le és telepítsd a ReShade-et teljes bővítménytámogatással!",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "További információ...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Fejlesztői eszközök",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Frissítésre vár",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Egyéb",
@@ -600,7 +628,7 @@
     "description": "SettingsWindow.get_Title"
   },
   "DalamudSettingsSearchPlaceholder": {
-    "message": "Search for settings...",
+    "message": "Beállítások keresése…",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSave": {
@@ -612,11 +640,11 @@
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSearchResults": {
-    "message": "Search Results",
+    "message": "Keresési eredmények",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsNoSearchResultsFound": {
-    "message": "No results found...",
+    "message": "Nincs találat…",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsDevPluginLocation": {
@@ -779,6 +807,46 @@
     "message": "Automatikus frissítés mindig",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Jelvények",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "Ezen a fülön olyan jelvényekhez nyerhetsz hozzáférést, amelyek a főcímképernyőn jelennek meg.\nFeloldókódokat általában közösségi események és vetélkedők során osztunk szét.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Jelvény feloldása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "Itt adhatod meg a kapott feloldókódot.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Feloldókód megadása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Jelvény feloldása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "A jelvény feloldása meghiúsult. Lehetséges, hogy a megadott kód érvénytelen vagy már rendelkezel ezzel a jelvénnyel.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "Még egy jelvényt sem szereztél meg.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Jelvények megjelenítése a főcímképernyőn",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "Jelvények megjelenítése a játék főcímképernyőjén is.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Kiszolgálóinformációs sáv",
     "description": "SettingsTabDtr.get_Title"
@@ -816,7 +884,7 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"Installed Plugins\" tab of the plugin installer and select \"Receive plugin testing versions\".",
+    "message": "Bizonyos bővítmények kísérleti kiadásának kipróbálása.\nHa szeretnél feliratkozni egy bővítmény kísérleti kiadására, kattints rá jobb gombbal a bővítménytelepítő „Telepített bővítmények” fülén és válaszd ki a „Kísérleti bővítményfrissítések fogadása” lehetőséget.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
@@ -1056,11 +1124,11 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsm": {
-    "message": "Címképernyős menü engedélyezése",
+    "message": "Főcímképernyős menü engedélyezése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "A Dalamud és bizonyos bővítményfunkciók hozzáférésének lehetővé tétele a címképernyőről.\nA funkció kikapcsolásával a Dalamud verzióinformációja is eltűnik a címképernyőről.",
+    "message": "A Dalamud és bizonyos bővítményfunkciók hozzáférésének lehetővé tétele a főcímképernyőről.\nA funkció kikapcsolásával a Dalamud verzióinformációja is eltűnik innen.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefault": {
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "Még egy fejlesztői bővítményt sem telepítettél. Ezt a beállításokban megteheted.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Nincs találat.",
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " A változásnapló megtekintéséhez kattints ide.",
+    "message": "A változásnapló megtekintéséhez kattints ide.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {

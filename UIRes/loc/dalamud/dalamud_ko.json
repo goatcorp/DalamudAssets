@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "플러그인 변경사항 보기",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "대기 중",
@@ -275,13 +275,29 @@
     "message": "클릭 연결을 비활성화하려면 대시 3개를 클릭하여 이 메뉴를 다시 엽니다.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "이러한 기능은 이 창이 게임 창 안에 있는 경우에만 사용할 수 있습니다.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "윈도우 출력",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "이 창을 렌더링하는 동안 오류가 발생했습니다. 자세한 내용은 개발자에게 문의하세요.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "다시 시도하기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "창 닫기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "오류 세부 정보:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "복사",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "XIVLauncher 인게임 애드온을 언로드합니다. 디버깅 전용입니다!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "지원하지 않는 ReShade 설치됨",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "현재 설치된 ReShade는 모든 애드온 기능을 지원하지 않아 달라무드 혹은 게임과 완벽히 호환되지 않을 수 있습니다.\n모든 애드온 기능을 지원하는 ReShade(with full add-on support)를 다운로드하고 설치하세요.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "더 알아보기...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "개발자 도구",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "업데이트 있음",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "기타",
@@ -778,6 +806,46 @@
   "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
     "message": "자동 업데이트 사용",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
+  "DalamudSettingsBadge": {
+    "message": "배지",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "이 탭에서 타이틀 스크린에 표시할 수 있는 작은 배지를 언락할 수 있습니다.\n배지 코드는 일반적으로 커뮤니티 이벤트나 컨테스트에서 얻을 수 있습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "배지 언락하기",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "배지 코드를 갖고 있다면, 여기에 입력해 언락하세요.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "여기에 배지 코드 입력",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "배지 언락하기",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "배지를 언락하는데 실패했습니다. 코드가 유효하지 않거나, 이미 언락했을 수 있습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "아직 어떤 배지도 언락하지 않았습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "타이틀 스크린에 배지 표시",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "활성화 시, 언락한 배지들이 타이틀 스크린에 표시됩니다.",
+    "description": "SettingsTabBadge..ctor"
   },
   "DalamudSettingsServerInfoBar": {
     "message": "서버 정보 바",
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "설치된 개발자 플러그인이 없습니다.\n필요 시 설정에서 추가하세요.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "검색된 플러그인이 없습니다.",
@@ -1672,7 +1752,7 @@
     "description": "Locs.get_FeedbackModal_ContactInformationHelp"
   },
   "InstallerFeedbackContactInfoWarning": {
-    "message": "인게임 닉 제출하지 마시오.",
+    "message": "인게임 캐릭터 닉네임을 제출하지 마세요.",
     "description": "Locs.get_FeedbackModal_ContactInformationWarning"
   },
   "InstallerFeedbackContactInfoRequired": {
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " 변경사항을 보려면 여기를 클릭하세요.",
+    "message": "변경사항을 보려면 여기를 클릭하세요.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {

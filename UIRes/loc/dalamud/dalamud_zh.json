@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "打开插件更新日志",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "处理这",
@@ -275,13 +275,29 @@
     "message": "点击三个破折号按钮再次打开此菜单，可禁用点击穿透。",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "这些功能仅在此窗口在游戏窗口内才可用。",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "打印窗口",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "渲染此窗口时发生错误。请联系开发者以获取详细信息。",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "尝试重试",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "关闭窗口",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "错误详情: ",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "复制",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "卸载游戏中的 XIVLauncher 插件。",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "错误的 ReShade 安装",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "您安装的 ReShade 不具备完整的附加组件支持，可能无法与 Dalamud 和/或游戏配合使用。\n下载并安装完整附加组件支持的 ReShade。",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "了解更多...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "开发者工具",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "可以更新",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "其他",
@@ -778,6 +806,46 @@
   "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
     "message": "总是自动更新",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
+  "DalamudSettingsBadge": {
+    "message": "徽章",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "在此标签页中，你可以解锁显示在标题界面的徽章。\n徽章代码通常通过社区活动或比赛发放。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "解锁徽章",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "请在此输入徽章代码以解锁徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "在此输入徽章代码",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "解锁徽章",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "徽章解锁失败。代码可能无效，或你已解锁过此徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "你尚未解锁任何徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "在标题界面显示徽章",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "启用此选项后，你已解锁的徽章也将显示在标题界面上。",
+    "description": "SettingsTabBadge..ctor"
   },
   "DalamudSettingsServerInfoBar": {
     "message": "服务器信息栏",
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "您没有任何开发版插件。请从设置中添加。",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "你寻找的插件不存在。",
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " 点击此处查看更新日志。",
+    "message": "点击此处查看更新日志。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {

@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Open plugin changelogs",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Pending",
@@ -275,13 +275,29 @@
     "message": "Open this menu again by clicking the three dashes to disable clickthrough.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "These features are only available if this window is inside the game window.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Print window",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "An error occurred while rendering this window. Please contact the developer for details.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Attempt to retry",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Close Window",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Error Details:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Copy",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Unloads XIVLauncher in-game addon. For debug use only!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Wrong ReShade installation",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Your installation of ReShade does not have full addon support, and may not work with Dalamud and/or the game.\nDownload and install ReShade with full addon-support.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "Learn more...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Инструменты разработчика",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Can be updated",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Другое",
@@ -778,6 +806,46 @@
   "DalamudSettingsAutoUpdateOptInAlwaysUpdate": {
     "message": "Always update this",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
+  },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "On this tab, you can unlock small badges that show on your title screen.\nBadge codes are usually given out during community events or contests.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Unlock a badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "If you have received a code for a badge, enter it here to unlock the badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Enter badge code here",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Unlock Badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Failed to unlock badge. The code may be invalid or you may have already unlocked this badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "You did not unlock any badges yet.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Show Badges on Title Screen",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "If enabled, your unlocked badges will also be shown on the title screen.",
+    "description": "SettingsTabBadge..ctor"
   },
   "DalamudSettingsServerInfoBar": {
     "message": "Информация о сервере",
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "You don't have any dev plugins. Add them from the settings.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Плагины, соответствующие вашему запросу, не найдены.",
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Click here to view the changelog.",
+    "message": "Click here to view the changelog.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {

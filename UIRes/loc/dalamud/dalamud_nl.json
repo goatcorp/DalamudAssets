@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Open plugin wijzigingen",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass70_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "In behandeling",
@@ -275,13 +275,29 @@
     "message": "Open dit menu opnieuw door op de drie streepjes te klikken om doorklikken uit te schakelen.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Deze functies zijn alleen beschikbaar als dit venster zich in het spelvenster bevindt.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Venster afdrukken",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Tijdens het weergeven van dit venster is er een fout opgetreden. Neem contact op met de ontwikkelaar voor meer informatie.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Probeer opnieuw",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Venster sluiten",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Foutdetails:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Kopiëren",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Laadt de XIVLauncher addon in het spel. Alleen voor foutopsporing!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Verkeerde ReShade installatie",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Je installatie van ReShade heeft geen volledige addon-ondersteuning en werkt mogelijk niet met Dalamud en/of het spel.\nDownload en installeer ReShade met volledige addon-ondersteuning.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "Meer Informatie...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Gereedschap voor Ontwikkelaars",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Kan worden bijgewerkt",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Overig",
@@ -600,7 +628,7 @@
     "description": "SettingsWindow.get_Title"
   },
   "DalamudSettingsSearchPlaceholder": {
-    "message": "Search for settings...",
+    "message": "Zoeken naar instellingen...",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSave": {
@@ -612,11 +640,11 @@
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSearchResults": {
-    "message": "Search Results",
+    "message": "Zoekresultaten",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsNoSearchResultsFound": {
-    "message": "No results found...",
+    "message": "Geen resultaten gevonden...",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsDevPluginLocation": {
@@ -779,6 +807,46 @@
     "message": "Update deze altijd",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "On this tab, you can unlock small badges that show on your title screen.\nBadge codes are usually given out during community events or contests.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Unlock a badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "If you have received a code for a badge, enter it here to unlock the badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Enter badge code here",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Unlock Badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Failed to unlock badge. The code may be invalid or you may have already unlocked this badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "You did not unlock any badges yet.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Show Badges on Title Screen",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "If enabled, your unlocked badges will also be shown on the title screen.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Server informatiebalk",
     "description": "SettingsTabDtr.get_Title"
@@ -816,7 +884,7 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"Installed Plugins\" tab of the plugin installer and select \"Receive plugin testing versions\".",
+    "message": "Ontvang testversies van geselecteerde plugins.\nOm je aan te melden voor het testen van een plugin, klik je met de rechtermuisknop op de plugin in het tabblad ‘Geïnstalleerde plugins’ van het plug-in-installatieprogramma en selecteer je ‘Testversies van plugins ontvangen’.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
@@ -1174,6 +1242,18 @@
   "InstallerNoPluginsDev": {
     "message": "Je hebt geen dev plugins. Voeg ze toe via de instellingen.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Er zijn geen plugins gevonden die overeenkomen met uw zoekopdracht.",
@@ -1964,7 +2044,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Klik hier om de lijst met wijzigingen te bekijken.",
+    "message": "Klik hier om de wijzigingslogboek te bekijken.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
