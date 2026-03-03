@@ -583,5 +583,10 @@
     "Name": "CustomResolution2782",
     "AssemblyVersion": "1.1.1.0",
     "Reason": "Affected by Dalamud metadata bug causing unload problems."
+  },
+  {
+    "Name": "Umbra",
+    "AssemblyVersion": "3.1.11",
+    "Reason": "Issue with modulo calculation limiter on 7.45."
   }
 ]
