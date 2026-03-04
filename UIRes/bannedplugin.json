@@ -586,7 +586,7 @@
   },
   {
     "Name": "Umbra",
-    "AssemblyVersion": "3.1.11",
+    "AssemblyVersion": "3.1.11.0",
     "Reason": "Issue with modulo calculation limiter on 7.45."
   }
 ]
