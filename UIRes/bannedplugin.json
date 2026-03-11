@@ -470,11 +470,6 @@
     "Reason": "Temporarly Disabled, doesn't work correctly."
   },
   {
-    "Name": "AbsoluteRoleplay",
-    "AssemblyVersion": "0.0.1.4",
-    "Reason": "Plugin developer has taken server offline."
-  },
-  {
     "Name": "PrefPro",
     "AssemblyVersion": "1.2.2.2",
     "Reason": "CTDs in cutscenes."
