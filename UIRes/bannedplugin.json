@@ -5,11 +5,6 @@
     "Reason": "Just here for my monthly blacklist... you know the deal by now."
   },
   {
-    "Name": "AbsoluteRoleplay",
-    "AssemblyVersion": "0.0.3.020",
-    "Reason": "Disabled until I find a new maintainer."
-  },
-  {
     "Name": "AcquisitionDate",
     "AssemblyVersion": "1.1.0.0",
     "Reason": "Aparently blocks achievements from properly completing :c"
@@ -471,8 +466,8 @@
   },
   {
     "Name": "AbsoluteRoleplay",
-    "AssemblyVersion": "0.0.1.4",
-    "Reason": "Plugin developer has taken server offline."
+    "AssemblyVersion": "0.0.3.020",
+    "Reason": "Server is offline until a new maintainer is found."
   },
   {
     "Name": "PrefPro",
