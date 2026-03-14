@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "打开插件更新日志",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "处理这",
@@ -141,11 +141,11 @@
   },
   "ProfileCommandsApplyFailed": {
     "message": "应用您的合集失败。请检查控制台是否有错误。",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "合集已启用。",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "插件 \"{0}\" 已启用。",
@@ -275,13 +275,29 @@
     "message": "点击三个破折号按钮再次打开此菜单，可禁用点击穿透。",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "这些功能仅在此窗口在游戏窗口内才可用。",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "打印窗口",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "渲染此窗口时发生错误。请联系开发者以获取详细信息。",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "尝试重试",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "关闭窗口",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "错误详情: ",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "复制",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "卸载游戏中的 XIVLauncher 插件。",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "错误的 ReShade 安装",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "您安装的 ReShade 不具备完整的附加组件支持，可能无法与 Dalamud 和/或游戏配合使用。\n下载并安装完整附加组件支持的 ReShade。",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "了解更多...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "开发者工具",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "可以更新",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "已启用",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "已禁用",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "不兼容",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "其他",
@@ -779,6 +807,46 @@
     "message": "总是自动更新",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "徽章",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "在此标签页中，你可以解锁显示在标题界面的徽章。\n徽章代码通常通过社区活动或比赛发放。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "解锁徽章",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "请在此输入徽章代码以解锁徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "在此输入徽章代码",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "解锁徽章",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "徽章解锁失败。代码可能无效，或你已解锁过此徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "你尚未解锁任何徽章。",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "在标题界面显示徽章",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "启用此选项后，你已解锁的徽章也将显示在标题界面上。",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "服务器信息栏",
     "description": "SettingsTabDtr.get_Title"
@@ -829,6 +897,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "从插件安装器中取消隐藏所有插件。",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "启用角色专属插件合集",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "如果启用该功能，你可将插件合集仅对特定角色启用，并在编辑器中为每个合集添加角色列表。\n此功能尚在实验阶段，可能与部分插件存在兼容性问题。",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1079,6 +1155,14 @@
     "message": "这将关掉Dalamud的某些动画，例如弹出通知。",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "允许季节性活动",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "允许 Dalamud 运行一些季节性活动，例如愚人节。\n若禁用此设置，插件可能会隐藏一些内容，但部分插件或不遵循此设定。",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "输入法指示器不透明度 (仅适用于中日韩)",
     "description": "SettingsTabLook..ctor"
@@ -1174,6 +1258,18 @@
   "InstallerNoPluginsDev": {
     "message": "您没有任何开发版插件。请从设置中添加。",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "你没有已启用的插件。",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "你没有已禁用的插件。",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "你没有不兼容的插件。",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "你寻找的插件不存在。",
@@ -1487,6 +1583,10 @@
     "message": "包含此插件的合集\"{0}\"已禁用。\n请在合集管理器中启用它，以单独切换插件。",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "插件所在的 '{0}' 合集已激活，但未启用于当前角色。\n你可以修改合集配置，或者直接将插件从合集中移除单独启用。",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "插件安装完成",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1771,9 +1871,25 @@
     "message": "此插件未经 Dalamud 团队审核。\n我们无法对自定义插件和软件源承担任何责任。\n请确保只安装您信任的开发者提供的插件。\n\n在 XIVLauncher & Dalamud 的QQ频道内，自定义插件将不被允许讨论并不提供任何支持。",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "移除角色",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "此插件合集尚未对任何角色生效，你可以点击下方按钮添加角色以激活。",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "请登录后添加当前角色。",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "启动行为",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "仅对特定角色启用",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "启用/禁用此合集",
@@ -1871,6 +1987,10 @@
     "message": "合集中的单个插件还旁边有一个复选框。这指示该插件是否在该合集中处于活动状态 - 如果未勾选复选框，则该合集处于活动状态，则不会启用该插件。请注意，如果插件是任何其他合集的活动部分，仍然可以启用它。",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "勾选\"{0}\"选项后，该合集仅对特定角色启用。点击加号按钮选择角色，或点击人形图标添加当前角色。便于为不同角色配置不同插件合集。",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "您可以在聊天或宏中使用以下命令来管理合集：",
     "description": "Locs.get_TutorialCommands"
@@ -1964,7 +2084,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " 点击此处查看更新日志。",
+    "message": "点击此处查看更新日志。",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
