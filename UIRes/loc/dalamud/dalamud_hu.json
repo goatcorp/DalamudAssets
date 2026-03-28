@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Változásnapló megnyitása",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Függőben",
@@ -100,67 +100,67 @@
     "description": "PluginManagementCommandHandler..ctor"
   },
   "ProfileCommandsDisabling": {
-    "message": "A(z) „{0}”-gyűjtemény letiltása folyamatban...",
+    "message": "A(z) „{0}” gyűjtemény letiltása folyamatban...",
     "description": "PluginManagementCommandHandler.HandleProfileOperation"
   },
   "ProfileCommandsEnabling": {
-    "message": "A(z) „{0}”-gyűjtemény engedélyezése folyamatban...",
+    "message": "A(z) „{0}” gyűjtemény engedélyezése folyamatban...",
     "description": "PluginManagementCommandHandler.HandleProfileOperation"
   },
   "PluginCommandsFailed": {
-    "message": "A(z) „{0}”-bővítmény legutóbbi be-/kitöltése meghiúsult. A művelet megszakadt.",
+    "message": "A(z) „{0}” bővítmény legutóbbi be-/kitöltése meghiúsult. A művelet megszakadt.",
     "description": "PluginManagementCommandHandler.HandlePluginOperation"
   },
   "PluginCommandsAlreadyEnabled": {
-    "message": "A(z) „{0}”-bővítmény már engedélyezve van.",
+    "message": "A(z) „{0}” bővítmény már engedélyezve van.",
     "description": "PluginManagementCommandHandler.HandlePluginOperation"
   },
   "PluginCommandsAlreadyDisabled": {
-    "message": "A(z) „{0}”-bővítmény már le van tiltva.",
+    "message": "A(z) „{0}” bővítmény már le van tiltva.",
     "description": "PluginManagementCommandHandler.HandlePluginOperation"
   },
   "PluginCommandsEnabling": {
-    "message": "A(z) „{0}”-bővítmény engedélyezése folyamatban...",
+    "message": "A(z) „{0}” bővítmény engedélyezése folyamatban...",
     "description": "PluginManagementCommandHandler.HandlePluginOperation"
   },
   "PluginCommandsDisabling": {
-    "message": "A(z) „{0}”-bővítmény letiltása folyamatban...",
+    "message": "A(z) „{0}” bővítmény letiltása folyamatban...",
     "description": "PluginManagementCommandHandler.HandlePluginOperation"
   },
   "ProfileCommandsNotFound": {
-    "message": "A(z) „{0}”-gyűjtemény nem található.",
+    "message": "A(z) „{0}” gyűjtemény nem található.",
     "description": "PluginManagementCommandHandler.ValidateProfileName"
   },
   "PluginCommandsNotFound": {
-    "message": "A(z) „{0}”-bővítmény nem található.",
+    "message": "A(z) „{0}” bővítmény nem található.",
     "description": "PluginManagementCommandHandler.ValidatePluginName"
   },
   "PluginCommandsNotInDefaultProfile": {
-    "message": "A(z) „{0}”-bővítmény egy gyűjtemény része, ezért parancsokkal nem befolyásolható. Ehhez a művelethez a gyűjteményt kell befolyásolnod.",
+    "message": "A(z) „{0}” bővítmény egy gyűjtemény része, ezért parancsokkal nem befolyásolható. Ehhez a művelethez a gyűjteményt kell befolyásolnod.",
     "description": "PluginManagementCommandHandler.ValidatePluginName"
   },
   "ProfileCommandsApplyFailed": {
     "message": "A gyűjtemények engedélyezése meghiúsult. A részletekért ld. a parancssort.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "Engedélyezted a gyűjteményeket.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
-    "message": "A(z) „{0}”-bővítmény engedélyezésre került.",
+    "message": "A(z) „{0}” bővítmény engedélyezésre került.",
     "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
   },
   "PluginCommandsEnableFailed": {
-    "message": "A(z) „{0}”-bővítmény engedélyezése meghiúsult. A részletekért ld. a parancssort.",
+    "message": "A(z) „{0}” bővítmény engedélyezése meghiúsult. A részletekért ld. a parancssort.",
     "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
   },
   "PluginCommandsDisableSuccess": {
-    "message": "A(z) „{0}”-bővítmény letiltásra került.",
+    "message": "A(z) „{0}” bővítmény letiltásra került.",
     "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
   },
   "PluginCommandsDisableFailed": {
-    "message": "A(z) „{0}”-bővítmény letiltása meghiúsult. A részletekért ld. a parancssort.",
+    "message": "A(z) „{0}” bővítmény letiltása meghiúsult. A részletekért ld. a parancssort.",
     "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
   },
   "PluginProfilesNewProfile": {
@@ -275,13 +275,29 @@
     "message": "Az átkattinthatóságot a háromvonalas menüből lehet ismét letiltani.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Ezek a lehetőségek csak akkor elérhetőek, ha a bővítmény ablaka a játék ablakán belül van megjelenítve.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Ablak nyomtatása",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Hiba történt az ablak megjelenítése közben. További információért vedd fel a kapcsolatot a fejlesztővel.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Újra",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Ablak bezárása",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Részletek:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Másolás",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "A XIVLauncher játékbeli bővítményének kitöltése. Csak hibakeresési használatra!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Helytelen ReShade-telepítés",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "A ReShade jelenleg telepített verziója nem rendelkezik teljes bővítménytámogatással, ezért lehetséges, hogy nem fog működni a Dalamuddal és/vagy a játékkal.\nTöltsd le és telepítsd a ReShade-et teljes bővítménytámogatással!",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "További információ...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Fejlesztői eszközök",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Frissítésre vár",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Engedélyezve",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Letiltva",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Nem kompatibilis",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Egyéb",
@@ -600,7 +628,7 @@
     "description": "SettingsWindow.get_Title"
   },
   "DalamudSettingsSearchPlaceholder": {
-    "message": "Search for settings...",
+    "message": "Beállítások keresése…",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSave": {
@@ -612,11 +640,11 @@
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSearchResults": {
-    "message": "Search Results",
+    "message": "Keresési eredmények",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsNoSearchResultsFound": {
-    "message": "No results found...",
+    "message": "Nincs találat…",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsDevPluginLocation": {
@@ -779,6 +807,46 @@
     "message": "Automatikus frissítés mindig",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Jelvények",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "Ezen a fülön olyan jelvényekhez nyerhetsz hozzáférést, amelyek a főcímképernyőn jelennek meg.\nFeloldókódokat általában közösségi események és vetélkedők során osztunk szét.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Jelvény feloldása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "Itt adhatod meg a kapott feloldókódot.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Feloldókód megadása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Jelvény feloldása",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "A jelvény feloldása meghiúsult. Lehetséges, hogy a megadott kód érvénytelen vagy már rendelkezel ezzel a jelvénnyel.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "Még egy jelvényt sem szereztél meg.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Jelvények megjelenítése a főcímképernyőn",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "Jelvények megjelenítése a játék főcímképernyőjén is.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Kiszolgálóinformációs sáv",
     "description": "SettingsTabDtr.get_Title"
@@ -816,7 +884,7 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"Installed Plugins\" tab of the plugin installer and select \"Receive plugin testing versions\".",
+    "message": "Bizonyos bővítmények kísérleti kiadásának kipróbálása.\nHa szeretnél feliratkozni egy bővítmény kísérleti kiadására, kattints rá jobb gombbal a bővítménytelepítő „Telepített bővítmények” fülén és válaszd ki a „Kísérleti bővítményfrissítések fogadása” lehetőséget.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
@@ -829,6 +897,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "A bővítménytelepítőből korábban elrejtett bővítmények újra láthatóvá tétele.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "Karakterfüggő bővítménygyűjtemények engedélyezése",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "Amíg ez a lehetőség engedélyezve van, addig minden gyűjtemény mellett megjelenik egy karakterlista, amellyel befolyásolhatod a gyűjtemény állapotát attól függően, hogy éppen melyik karaktereddel játszol.\nEz a funkció egyelőre még kísérletinek tekinthető, ugyanis bizonyos bővítményekkel hibákat okozhat.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1056,11 +1132,11 @@
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsm": {
-    "message": "Címképernyős menü engedélyezése",
+    "message": "Főcímképernyős menü engedélyezése",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingToggleTsmHint": {
-    "message": "A Dalamud és bizonyos bővítményfunkciók hozzáférésének lehetővé tétele a címképernyőről.\nA funkció kikapcsolásával a Dalamud verzióinformációja is eltűnik a címképernyőről.",
+    "message": "A Dalamud és bizonyos bővítményfunkciók hozzáférésének lehetővé tétele a főcímképernyőről.\nA funkció kikapcsolásával a Dalamud verzióinformációja is eltűnik innen.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingInstallerOpenDefault": {
@@ -1077,6 +1153,14 @@
   },
   "DalamudSettingReducedMotionHint": {
     "message": "A Dalamud bizonyos animációinak kikapcsolása – pl.: a felugró értesítések mozgása.",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Időszakos események engedélyezése",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "A Dalamud bizonyos időszakos eseményeinek engedélyezése (pl.: április 1.).\nA beállítás alapján bizonyos bővítmények megjeleníthetik vagy elrejthetik a saját időszakos tartalmaikat, viszont lehetséges, hogy ezt nem minden bővítmény veszi figyelembe.",
     "description": "SettingsTabLook..ctor"
   },
   "DalamudSettingImeStateIndicatorOpacity": {
@@ -1175,6 +1259,18 @@
     "message": "Még egy fejlesztői bővítményt sem telepítettél. Ezt a beállításokban megteheted.",
     "description": "Locs.get_TabBody_NoPluginsDev"
   },
+  "InstallerNoPluginsEnabled": {
+    "message": "Még egy bővítményt sem engedélyeztél.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "Egy bővítményt sem tiltottál le.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "Jelenleg minden telepített bővítmény kompatibilis.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
+  },
   "InstallerNoMatching": {
     "message": "Nincs találat.",
     "description": "Locs.get_TabBody_SearchNoMatching"
@@ -1188,7 +1284,7 @@
     "description": "Locs.get_TabBody_SearchNoInstalled"
   },
   "InstallerNoMoreResultsForQuery": {
-    "message": "A(z) „{0}”-kifejezésre nincsenek további találatok.",
+    "message": "A(z) „{0}” kifejezésre nincsenek további találatok.",
     "description": "Locs.TabBody_NoMoreResultsFor"
   },
   "InstallerNoChangelog": {
@@ -1484,8 +1580,12 @@
     "description": "Locs.get_PluginButtonToolTip_SafeMode"
   },
   "InstallerSingleProfileDisabled": {
-    "message": "Ez a bővítmény a(z) „{0}”-gyűjtemény része, ami jelenleg le van tiltva.\nA bővítmény ki-/bekapcsolásához először engedélyezd a gyűjteménykezelőben.",
+    "message": "Ez a bővítmény a(z) „{0}” gyűjtemény része, ami jelenleg le van tiltva.\nA bővítmény ki-/bekapcsolásához először engedélyezd a gyűjteménykezelőben.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
+  },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "Az ezen bővítményt tartalmazó, „{0}” c. gyűjtemény aktív, de a jelenlegi karakternél nem engedélyezett.\nHa a bővítményt egyénileg kívánod kezelni, akkor el kell távolítanod a gyűjteményből. Egyéb esetben módosítsd a gyűjtemény karakterlistáját.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
   },
   "NotificationsPluginInstalledTitle": {
     "message": "Telepítetted a bővítményt.",
@@ -1771,9 +1871,25 @@
     "message": "Ezt a bővítményt a Dalamud csapata nem vizsgálta felül.\nAz egyéni bővítményekért és adattárakért nem vállalunk felelősséget.\nCsak és kizárólag megbízható fejlesztőktől származó bővítményeket telepíts!\n\nAz egyéni adattárakból származó bővítményekhez nem nyújtunk támogatást a „XIVLauncher & Dalamud” szerveren.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Karakter eltávolítása",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "Ha azt szeretnéd, hogy ez a gyűjtemény bármely karakternél is engedélyezve legyen, akkor bővítsd a listát az alábbi gomb használatával.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "A jelenlegi karakter hozzáadásához először be kell jelentkezned.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "Indítási viselkedés",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Engedélyezés karakterfüggően",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "Gyűjtemény be-/kikapcsolása",
@@ -1871,6 +1987,10 @@
     "message": "Az egyes bővítmények mellett is találhatóak jelölőnégyzetek. Ezekkel határozhatod meg a bővítmények aktív állapotát a gyűjteményen belül: Ha egy bővítmény nincs megjelölve, akkor a gyűjtemény be-/kikapcsolása nem lesz rá hatással – ha más gyűjteményekben aktívnak van megjelölve, akkor azok továbbra is hathatnak rá.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "A(z) „{0}” funkció használatával ez a gyűjtemény csak bizonyos karakterek használata mellett lesz aktív. A jelenlegi karakteredet a személy ikonnal ellátott gombbal, más karaktereket pedig a „+” gombbal adhatsz hozzá a listához. Ez hasznos lehet, ha bizonyos gyűjteményeket csak bizonyos karakterekkel kívánsz használni.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "Az aktív gyűjtemények kezeléséhez az alábbi parancsokat használhatod a csevegőablakban vagy makrókkal:",
     "description": "Locs.get_TutorialCommands"
@@ -1964,7 +2084,7 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " A változásnapló megtekintéséhez kattints ide.",
+    "message": "A változásnapló megtekintéséhez kattints ide.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
