@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Ouvrir le journal des modifications du plugin",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "En attente",
@@ -141,11 +141,11 @@
   },
   "ProfileCommandsApplyFailed": {
     "message": "Impossible d'appliquer vos collections. Veuillez vérifier la console pour y consulter les erreurs.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "Collections appliquées.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "Plugin \"{0}\" activé.",
@@ -275,13 +275,29 @@
     "message": "Ouvrez à nouveau ce menu en cliquant sur les trois tirets pour désactiver le clic au travers.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Ces fonctionnalités ne sont disponibles que si cette fenêtre se trouve dans la fenêtre du jeu.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Capture d'écran de la fenêtre",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Une erreur s'est produite lors du rendu de cette fenêtre. Veuillez contacter le développeur pour plus de détails.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Nouvelle tentative",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Fermer la fenêtre",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Détails de l'erreur :",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Copier",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Décharge les extensions du jeu XIVLauncher. À utiliser uniquement pour le débogage !",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Installation incorrecte de ReShade",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Votre installation de ReShade ne prend pas en charge le support complet des add-ons et pourrait ne pas fonctionner correctement avec Dalamud et/ou le jeu.\nVeuillez télécharger ReShade avec le support complet des add-ons.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "En savoir plus...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Outils Développeur",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Peut être mis à jour",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Activé",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Désactivé",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Autres",
@@ -779,6 +807,46 @@
     "message": "Toujours le mettre à jour",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "Sur cet onglet, vous pouvez obtenir des badges qui figurent sur votre écran-titre.\nLes codes de badges sont donnés pendant des évènements communautaires ou des concours.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Obtenir un badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "Si vous avez reçu un code pour un badge, saisissez-le ici pour l'obtenir.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Rentrer le code du badge ici",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Débloquer la fonction Badges",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Impossible d'obtenir le badge. Le code est peut-être invalide ou vous avez peut-être déjà obtenu ce badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "Vous n'avez pas encore débloqué de badges.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Afficher les badges sur l'écran-titre",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "Si activé, vos badges obtenus seront également affichés sur l'écran titre.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Barre d'Infos du Serveur",
     "description": "SettingsTabDtr.get_Title"
@@ -829,6 +897,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "Restaure les plugins que vous aviez préalablement masqués de l'installateur de plugins.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "Activer les collections de plugins par personnage",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "Si activé, vous pouvez activer la collection de plugins seulement pour des personnages spécifiques. Cela ajoutera une liste de personnages à chaque collection dans l'éditeur de collection.\nCe paramètre n'est pas testé en profondeur et est considéré comme expérimental, cela peut causer des problèmes avec certains plugins.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1079,6 +1155,14 @@
     "message": "Cela supprimera certaines animations de Dalamud, telles que la fenêtre de notification.",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Autoriser les événements saisonniers",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "Permettre à Dalamud d'organiser certains événements saisonniers, comme des poissons d'avril.\nLes plugins peuvent également choisir de masquer certains contenus pendant les événements saisonniers si ce paramètre est désactivé, mais certains plugins peuvent ne pas respecter ce paramètre.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "Opacité de l'indicateur d'état de l'IME (CJK uniquement)",
     "description": "SettingsTabLook..ctor"
@@ -1174,6 +1258,18 @@
   "InstallerNoPluginsDev": {
     "message": "Vous n'avez aucun plugin de développement. Ajoutez en quelques-uns dans les paramètres.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "Vous n'avez aucuns plugins activés.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "Vous n'avez aucuns plugins désactivés.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "Vous n'avez aucuns plugins incompatibles.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Aucun plugin correspondant à votre recherche n'a été trouvé.",
@@ -1487,6 +1583,10 @@
     "message": "La collection '{0}' qui contient ce plugin est désactivée.\nVeuillez l'activer dans le gestionnaire de collections pour basculer le plugin individuellement.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "La collection '{0}' qui contient ce plugin est actif, mais n'est pas configurée pour l'activer sur ce personnage.\nVeuillez modifier les paramètres de la collection ou supprimer le plugin de cette collection pour basculer individuellement le plugin.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "Plugin installé !",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1771,9 +1871,25 @@
     "message": "Ce plugin n'a pas été vérifié par l'équipe de Dalamud.\nNous n'assumons aucune responsabilité en ce qui concerne les plugins personnalisés et dépôts.\nVeuillez vous assurer que vous installez uniquement des plugins venant de développeurs de confiance.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Retirer un personnage",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "Cette collection ne sera active pour aucun personnage tant que vous n'en aurez pas ajouté avec le bouton ci-dessous.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "Vous devez être connecté pour ajouter votre personnage actuel.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "Comportement au démarrage",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Activer uniquement pour un personnage spécifique",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "Activer/Désactiver cette collection",
@@ -1871,6 +1987,10 @@
     "message": "Les plugins individuels à l'intérieur d'une collection ont également une case à cocher à côté. Ceci indique si un plugin est actif dans cette collection - si la case à cocher n'est pas cochée, le plugin ne sera pas activé si cette collection est active. N'oubliez pas qu'il sera toujours activé si le plugin est une partie active de toute autre collection.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "Lorsque vous cochez la case \"{0}\", la collection ne sera active que pour des personnages spécifiques. Vous pouvez ajouter des personnages à la liste en cliquant sur le bouton plus et en sélectionnant un personnage, ou en cliquant sur le bouton avec l'icône de la personne pour ajouter votre personnage actuel. Ceci est utile si vous voulez des collections différentes actives sur des personnages différents.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "Vous pouvez utiliser les commandes suivantes dans le chat ou dans les macros pour gérer les collections actives :",
     "description": "Locs.get_TutorialCommands"
@@ -1964,15 +2084,19 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Cliquez ici pour voir le journal des modifications.",
+    "message": "Cliquez ici pour voir le journal des modifications.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Plugins de Dalamud",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudPlugins"
   },
   "SystemMenuSettings": {
     "message": "Paramètres de Dalamud",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudSettings"
+  },
+  "LoadingPluginsForCharacter": {
+    "message": "Chargement des plugins pour ce personnage...",
+    "description": "DalamudAtkTweaks.get_LocDalamudLoadingPluginsForCharacter"
   }
 }

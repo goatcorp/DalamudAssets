@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Abrir changelog de plugin",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "Pendiente",
@@ -141,11 +141,11 @@
   },
   "ProfileCommandsApplyFailed": {
     "message": "Error al aplicar tus colecciones. Por favor comprueba los errores en la consola.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "Colecciones aplicadas.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "Plugin \"{0}\" habilitado.",
@@ -275,13 +275,29 @@
     "message": "Abre este menú de nuevo haciendo click en las tres barras para desactivar el click a través.",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Estas características están disponibles solo si esta ventana está dentro de la ventana de juego.",
-    "description": "Window.DrawInternal"
-  },
   "WindowSystemContextActionPrintWindow": {
     "message": "Print window",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "An error occurred while rendering this window. Please contact the developer for details.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Attempt to retry",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Close Window",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Error Details:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Copy",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Descarga los addons XIVLauncher in-game. ¡Uso exclusivo para debug!",
@@ -429,15 +445,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Instalación de ReShade errónea",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Tu instalación de ReShade no tiene soporte completo para addons, puede ser que no funcione con Dalamud y/o el juego.\nDescarga e instala ReShade con soporte completo para addons.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__136_0"
   },
   "LearnMore": {
     "message": "Saber más...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__136_14"
   },
   "InstallerDevTools": {
     "message": "Herramientas de desarrollo",
@@ -482,6 +498,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "No se puede actualizar",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Otros",
@@ -779,6 +807,46 @@
     "message": "Actualizar esto siempre",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "On this tab, you can unlock small badges that show on your title screen.\nBadge codes are usually given out during community events or contests.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Unlock a badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "If you have received a code for a badge, enter it here to unlock the badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Enter badge code here",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Unlock Badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Failed to unlock badge. The code may be invalid or you may have already unlocked this badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "You did not unlock any badges yet.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Show Badges on Title Screen",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "If enabled, your unlocked badges will also be shown on the title screen.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Barra de Información de Servidor",
     "description": "SettingsTabDtr.get_Title"
@@ -829,6 +897,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "Restaurar plugins que has escondido previamente del instalador del plugin.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "Enable per-character plugin collections",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "If enabled, you can set plugin collections to be enabled only for specific characters. This will add a character list to each collection in the collection editor.\nThis setting is not thoroughly tested and considered experimental, as it may cause problems with certain plugins.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1079,6 +1155,14 @@
     "message": "Esto eliminará ciertas animaciones de Dalamud, así como la notificación pop-up.",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Allow Seasonal Events",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "Allow Dalamud to run certain seasonal events, such as April Fools.\nPlugins may also choose to hide certain content during seasonal events if this setting is disabled, but certain plugins may not respect this setting.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "Opacidad del indicador de estado IME (sólo en CJK)",
     "description": "SettingsTabLook..ctor"
@@ -1174,6 +1258,18 @@
   "InstallerNoPluginsDev": {
     "message": "No tienes ningún plugin de desarrollo. Añádelos desde los ajustes.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "No se han encontrado plugins que se correspondan con tu búsqueda.",
@@ -1487,6 +1583,10 @@
     "message": "La colección '{0}' que contiene este plugin está deshabilitada.\nPor favor, habilítala en el gestor de colecciones para activar el plugin individualmente.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "The collection '{0}' which contains this plugin is active, but is not set to activate on this character.\nPlease change the collection's settings or remove the plugin from that collection to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "¡Plugin instalado!",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1771,9 +1871,25 @@
     "message": "Este plugin no ha sido revisado por el equipo de Dalamud.\nNo podemos hacernos responsables por plugins o repositorios personalizados.\nPor favor asegúrate de que solo instalas plugins de desarrolladores en los que confíes.\n\nNo recibirás soporte por los plugins instalados desde repositorios personalizados en el servidor de XIVLaunches & Dalamud.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Remove character",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "This collection will not be active for any characters until you add some with the button below.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "You must be logged in to add your current character.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "Startup behavior",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Only enable for specific characters",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "Habilitar/Deshabilitar esta colección",
@@ -1871,6 +1987,10 @@
     "message": "Los plugins individuales dentro de una colección tambien tienen una casilla al lado. Esto indica si un plugin está activado dentro de esa colección - si la casilla no está marcada, el plugin no será habilitado si esa colección está activa. Ten en cuenta que será habilitado igualmente si el plugin es una parte activa de cualquier otra colección.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "When ticking the \"{0}\" checkbox, the collection will only be active for specific characters. You can add characters to the list by clicking the plus button and selecting a character, or by clicking the button with the person icon to add your current character. This is useful if you want different collections active on different characters.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "Puedes usar los siguientes comandos en el chat o en macros para administrar las colecciones activas:",
     "description": "Locs.get_TutorialCommands"
@@ -1964,15 +2084,19 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Haz click aquí para ver el historial de cambios.",
+    "message": "Click here to view the changelog.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Plugins de Dalamud",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudPlugins"
   },
   "SystemMenuSettings": {
     "message": "Ajustes de Dalamud",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudSettings"
+  },
+  "LoadingPluginsForCharacter": {
+    "message": "Loading plugins for this character...",
+    "description": "DalamudAtkTweaks.get_LocDalamudLoadingPluginsForCharacter"
   }
 }
