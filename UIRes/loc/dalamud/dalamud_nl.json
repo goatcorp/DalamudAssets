@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "Open plugin wijzigingen",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "In behandeling",
@@ -141,11 +141,11 @@
   },
   "ProfileCommandsApplyFailed": {
     "message": "Het is niet gelukt om uw verzamelingen toe te passen. Controleer de console op fouten.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "Verzamelingen toegepast.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "Plugin “{0}” ingeschakeld.",
@@ -271,17 +271,37 @@
     "message": "Herstellen",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionClickthroughDisclaimer": {
-    "message": "Open dit menu opnieuw door op de drie streepjes te klikken om doorklikken uit te schakelen.",
+  "WindowSystemContextActionBlur": {
+    "message": "Background Blur",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "Deze functies zijn alleen beschikbaar als dit venster zich in het spelvenster bevindt.",
+  "WindowSystemContextActionClickthroughDisclaimer": {
+    "message": "Open dit menu opnieuw door op de drie streepjes te klikken om doorklikken uit te schakelen.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionPrintWindow": {
     "message": "Venster afdrukken",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "Tijdens het weergeven van dit venster is er een fout opgetreden. Neem contact op met de ontwikkelaar voor meer informatie.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Probeer opnieuw",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Venster sluiten",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "Foutdetails:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "Kopiëren",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "Laadt de XIVLauncher addon in het spel. Alleen voor foutopsporing!",
@@ -429,15 +449,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Verkeerde ReShade installatie",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__135_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Je installatie van ReShade heeft geen volledige addon-ondersteuning en werkt mogelijk niet met Dalamud en/of het spel.\nDownload en installeer ReShade met volledige addon-ondersteuning.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__135_0"
   },
   "LearnMore": {
     "message": "Meer Informatie...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__135_14"
   },
   "InstallerDevTools": {
     "message": "Gereedschap voor Ontwikkelaars",
@@ -482,6 +502,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "Kan worden bijgewerkt",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "Overig",
@@ -583,6 +615,18 @@
     "message": "Kleuren",
     "description": "StyleEditorWindow.Draw"
   },
+  "StyleEditorBlur": {
+    "message": "Blur",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorWindowBgBlur": {
+    "message": "Window Background Blur strength",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingBackgroundBlurHint": {
+    "message": "This will allow you to set the strength of the blur effect for plugin windows.\nSet to 0% to disable the blur effect. This may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
+    "description": "StyleEditorWindow.Draw"
+  },
   "Close": {
     "message": "Sluiten",
     "description": "StyleEditorWindow.Draw"
@@ -600,7 +644,7 @@
     "description": "SettingsWindow.get_Title"
   },
   "DalamudSettingsSearchPlaceholder": {
-    "message": "Search for settings...",
+    "message": "Zoeken naar instellingen...",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSave": {
@@ -612,11 +656,11 @@
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSearchResults": {
-    "message": "Search Results",
+    "message": "Zoekresultaten",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsNoSearchResultsFound": {
-    "message": "No results found...",
+    "message": "Geen resultaten gevonden...",
     "description": "SettingsWindow.DrawSearchResults"
   },
   "DalamudSettingsDevPluginLocation": {
@@ -779,6 +823,46 @@
     "message": "Update deze altijd",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "On this tab, you can unlock small badges that show on your title screen.\nBadge codes are usually given out during community events or contests.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Unlock a badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "If you have received a code for a badge, enter it here to unlock the badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Enter badge code here",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Unlock Badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Failed to unlock badge. The code may be invalid or you may have already unlocked this badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "You did not unlock any badges yet.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Show Badges on Title Screen",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "If enabled, your unlocked badges will also be shown on the title screen.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "Server informatiebalk",
     "description": "SettingsTabDtr.get_Title"
@@ -816,7 +900,7 @@
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestHint": {
-    "message": "Receive testing prereleases for selected plugins.\nTo opt-in to testing builds for a plugin, you have to right click it in the \"Installed Plugins\" tab of the plugin installer and select \"Receive plugin testing versions\".",
+    "message": "Ontvang testversies van geselecteerde plugins.\nOm je aan te melden voor het testen van een plugin, klik je met de rechtermuisknop op de plugin in het tabblad ‘Geïnstalleerde plugins’ van het plug-in-installatieprogramma en selecteer je ‘Testversies van plugins ontvangen’.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTestWarning": {
@@ -829,6 +913,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "Herstel plugins die u eerder hebt verborgen in het installatieprogramma voor plugins.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "Enable per-character plugin collections",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "If enabled, you can set plugin collections to be enabled only for specific characters. This will add a character list to each collection in the collection editor.\nThis setting is not thoroughly tested and considered experimental, as it may cause problems with certain plugins.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1079,6 +1171,14 @@
     "message": "Hierdoor worden bepaalde animaties van Dalamud onderdrukt, zoals de meldingspop-up.",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Allow Seasonal Events",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "Allow Dalamud to run certain seasonal events, such as April Fools.\nPlugins may also choose to hide certain content during seasonal events if this setting is disabled, but certain plugins may not respect this setting.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "Dekking IME-statusindicator (alleen CJK)",
     "description": "SettingsTabLook..ctor"
@@ -1174,6 +1274,18 @@
   "InstallerNoPluginsDev": {
     "message": "Je hebt geen dev plugins. Voeg ze toe via de instellingen.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "Er zijn geen plugins gevonden die overeenkomen met uw zoekopdracht.",
@@ -1487,6 +1599,10 @@
     "message": "De collectie '{0}' die deze plugin bevat is uitgeschakeld.\nActiveer deze in de collectiebeheerder om de plugin individueel aan te zetten.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "The collection '{0}' which contains this plugin is active, but is not set to activate on this character.\nPlease change the collection's settings or remove the plugin from that collection to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "Plugin geïnstalleerd!",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1771,9 +1887,25 @@
     "message": "Deze plugin is niet beoordeeld door het Dalamud team.\nWe kunnen geen verantwoordelijkheid nemen voor aangepaste plugins en repositories.\nZorg ervoor dat je alleen plugins installeert van ontwikkelaars die je vertrouwt.\n\nJe krijgt geen ondersteuning voor plugins die geïnstalleerd zijn vanuit aangepaste repositories op de XIVLauncher & Dalamud server.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Remove character",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "This collection will not be active for any characters until you add some with the button below.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "You must be logged in to add your current character.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "Opstartgedrag",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Only enable for specific characters",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "Deze verzameling in-/uitschakelen",
@@ -1871,6 +2003,10 @@
     "message": "Individuele plugins binnen een verzameling hebben ook een selectievakje ernaast. Dit geeft aan of een plugin actief is binnen die verzameling - als het selectievakje niet is aangevinkt, wordt de plugin niet ingeschakeld als die verzameling actief is. Houd er rekening mee dat de plugin nog steeds actief is als deze deel uitmaakt van een andere verzameling.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "When ticking the \"{0}\" checkbox, the collection will only be active for specific characters. You can add characters to the list by clicking the plus button and selecting a character, or by clicking the button with the person icon to add your current character. This is useful if you want different collections active on different characters.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "Je kunt de volgende commando's in chat of in macro's gebruiken om actieve verzamelingen te beheren:",
     "description": "Locs.get_TutorialCommands"
@@ -1964,15 +2100,19 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Klik hier om de lijst met wijzigingen te bekijken.",
+    "message": "Klik hier om de wijzigingslogboek te bekijken.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Dalamud Plugins",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudPlugins"
   },
   "SystemMenuSettings": {
     "message": "Dalamud Instellingen",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudSettings"
+  },
+  "LoadingPluginsForCharacter": {
+    "message": "Loading plugins for this character...",
+    "description": "DalamudAtkTweaks.get_LocDalamudLoadingPluginsForCharacter"
   }
 }

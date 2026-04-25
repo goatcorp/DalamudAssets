@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "플러그인 변경사항 보기",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass69_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "대기 중",
@@ -141,11 +141,11 @@
   },
   "ProfileCommandsApplyFailed": {
     "message": "컬렉션 활성화에 실패했습니다. 콘솔에서 에러를 확인하세요.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "컬렉션 적용 완료.",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "플러그인 \"{0}\" 활성화 됨.",
@@ -271,17 +271,37 @@
     "message": "초기화",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionClickthroughDisclaimer": {
-    "message": "클릭 연결을 비활성화하려면 대시 3개를 클릭하여 이 메뉴를 다시 엽니다.",
+  "WindowSystemContextActionBlur": {
+    "message": "Background Blur",
     "description": "Window.DrawInternal"
   },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "이러한 기능은 이 창이 게임 창 안에 있는 경우에만 사용할 수 있습니다.",
+  "WindowSystemContextActionClickthroughDisclaimer": {
+    "message": "클릭 연결을 비활성화하려면 대시 3개를 클릭하여 이 메뉴를 다시 엽니다.",
     "description": "Window.DrawInternal"
   },
   "WindowSystemContextActionPrintWindow": {
     "message": "윈도우 출력",
     "description": "Window.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "이 창을 렌더링하는 동안 오류가 발생했습니다. 자세한 내용은 개발자에게 문의하세요.",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "다시 시도하기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "창 닫기",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorDetails": {
+    "message": "오류 세부 정보:",
+    "description": "Window.DrawErrorMessage"
+  },
+  "WindowSystemErrorCopy": {
+    "message": "복사",
+    "description": "Window.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "XIVLauncher 인게임 애드온을 언로드합니다. 디버깅 전용입니다!",
@@ -429,15 +449,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "지원하지 않는 ReShade 설치됨",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__135_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "현재 설치된 ReShade는 모든 애드온 기능을 지원하지 않아 달라무드 혹은 게임과 완벽히 호환되지 않을 수 있습니다.\n모든 애드온 기능을 지원하는 ReShade(with full add-on support)를 다운로드하고 설치하세요.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__135_0"
   },
   "LearnMore": {
     "message": "더 알아보기...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__135_14"
   },
   "InstallerDevTools": {
     "message": "개발자 도구",
@@ -482,6 +502,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "업데이트 있음",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "기타",
@@ -581,6 +613,18 @@
   },
   "StyleEditorColors": {
     "message": "색상",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorBlur": {
+    "message": "Blur",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorWindowBgBlur": {
+    "message": "Window Background Blur strength",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingBackgroundBlurHint": {
+    "message": "This will allow you to set the strength of the blur effect for plugin windows.\nSet to 0% to disable the blur effect. This may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
     "description": "StyleEditorWindow.Draw"
   },
   "Close": {
@@ -779,6 +823,46 @@
     "message": "자동 업데이트 사용",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "배지",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "이 탭에서 타이틀 스크린에 표시할 수 있는 작은 배지를 언락할 수 있습니다.\n배지 코드는 일반적으로 커뮤니티 이벤트나 컨테스트에서 얻을 수 있습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "배지 언락하기",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "배지 코드를 갖고 있다면, 여기에 입력해 언락하세요.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "여기에 배지 코드 입력",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "배지 언락하기",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "배지를 언락하는데 실패했습니다. 코드가 유효하지 않거나, 이미 언락했을 수 있습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "아직 어떤 배지도 언락하지 않았습니다.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "타이틀 스크린에 배지 표시",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "활성화 시, 언락한 배지들이 타이틀 스크린에 표시됩니다.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "서버 정보 바",
     "description": "SettingsTabDtr.get_Title"
@@ -829,6 +913,14 @@
   },
   "DalamudSettingsClearHiddenHint": {
     "message": "이전에 플러그인 인스톨러를 통해 숨긴 플러그인을 복원합니다.",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfiles": {
+    "message": "Enable per-character plugin collections",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsCharacterProfilesHint": {
+    "message": "If enabled, you can set plugin collections to be enabled only for specific characters. This will add a character list to each collection in the collection editor.\nThis setting is not thoroughly tested and considered experimental, as it may cause problems with certain plugins.",
     "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingEnableImGuiAsserts": {
@@ -1079,6 +1171,14 @@
     "message": "알림 팝업과 같은 달라무드의 특정 애니메이션이 표시되지 않습니다.",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Allow Seasonal Events",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "Allow Dalamud to run certain seasonal events, such as April Fools.\nPlugins may also choose to hide certain content during seasonal events if this setting is disabled, but certain plugins may not respect this setting.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "다국어 입력기 (IME) 상태 표시 창 불투명도",
     "description": "SettingsTabLook..ctor"
@@ -1174,6 +1274,18 @@
   "InstallerNoPluginsDev": {
     "message": "설치된 개발자 플러그인이 없습니다.\n필요 시 설정에서 추가하세요.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "검색된 플러그인이 없습니다.",
@@ -1487,6 +1599,10 @@
     "message": "이 플러그인이 포함된 '{0}' 컬렉션이 비활성화되었습니다.\n플러그인을 개별적으로 토글하려면 컬렉션 관리자에서 활성화하세요.",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "The collection '{0}' which contains this plugin is active, but is not set to activate on this character.\nPlease change the collection's settings or remove the plugin from that collection to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "플러그인이 설치되었습니다!",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1672,7 +1788,7 @@
     "description": "Locs.get_FeedbackModal_ContactInformationHelp"
   },
   "InstallerFeedbackContactInfoWarning": {
-    "message": "인게임 닉 제출하지 마시오.",
+    "message": "인게임 캐릭터 닉네임을 제출하지 마세요.",
     "description": "Locs.get_FeedbackModal_ContactInformationWarning"
   },
   "InstallerFeedbackContactInfoRequired": {
@@ -1771,9 +1887,25 @@
     "message": "이 플러그인은 달라무드 팀에서 검토하지 않았습니다.\n사용자 정의 플러그인 및 저장소에 대해 어떠한 책임도 지지 않습니다.\n신뢰할 수 있는 개발자의 플러그인만 설치하시기 바랍니다.\n\n사용자 정의 저장소에서 설치한 플러그인에 대해서는 XIVLauncher & Dalamud 서버에서 지원을 받을 수 없습니다.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Remove character",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "This collection will not be active for any characters until you add some with the button below.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "You must be logged in to add your current character.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "시작 동작",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Only enable for specific characters",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "이 컬렉션 활성/비활성화 하기",
@@ -1871,6 +2003,10 @@
     "message": "컬렉션 내의 개별 플러그인 옆에도 체크박스가 있습니다. 이 체크박스는 해당 컬렉션 내에서 플러그인이 활성화되어 있는지 여부를 나타내며, 체크박스가 선택되어 있지 않으면 해당 컬렉션이 활성화되어 있어도 플러그인이 활성화되지 않습니다. 플러그인이 다른 컬렉션의 활성화된 경우에도 활성화된다는 점에 유의하세요.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "When ticking the \"{0}\" checkbox, the collection will only be active for specific characters. You can add characters to the list by clicking the plus button and selecting a character, or by clicking the button with the person icon to add your current character. This is useful if you want different collections active on different characters.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "채팅 또는 매크로에서 다음 명령을 사용하여 활성 컬렉션을 관리할 수 있습니다:",
     "description": "Locs.get_TutorialCommands"
@@ -1964,15 +2100,19 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " 변경사항을 보려면 여기를 클릭하세요.",
+    "message": "변경사항을 보려면 여기를 클릭하세요.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Dalamud 플러그인",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudPlugins"
   },
   "SystemMenuSettings": {
     "message": "Dalamud 설정",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudSettings"
+  },
+  "LoadingPluginsForCharacter": {
+    "message": "Loading plugins for this character...",
+    "description": "DalamudAtkTweaks.get_LocDalamudLoadingPluginsForCharacter"
   }
 }
