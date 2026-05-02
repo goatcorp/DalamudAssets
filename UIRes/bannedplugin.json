@@ -603,5 +603,10 @@
     "Name": "NoPolice",
     "AssemblyVersion": "1.0.0.5",
     "Reason": "Hiding unintended player characters in portraits and cutscenes"
+  },
+  {
+    "Name": "90D3826866720434758AAD17E5B7C7301018E754",
+    "AssemblyVersion": "1.6.1.3",
+    "Reason": "Incompatible with newest Dalamud release"
   }
 ]
