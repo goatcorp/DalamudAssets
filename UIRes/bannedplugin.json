@@ -235,7 +235,7 @@
   },
   {
     "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.14.0.3",
+    "AssemblyVersion": "1.14.1.3",
     "Reason": "Errors calling ClientStructs function."
   },
   {
