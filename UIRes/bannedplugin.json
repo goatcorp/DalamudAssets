@@ -335,7 +335,8 @@
   },
   {
     "Name": "MOAction",
-    "AssemblyVersion": "4.6.0.0"
+    "AssemblyVersion": "4.10.0.0",
+    "Reason": "Errors calling ClientStructs function."
   },
   {
     "Name": "PeepingTom",
