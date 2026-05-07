@@ -235,7 +235,7 @@
   },
   {
     "Name": "SimpleTweaksPlugin",
-    "AssemblyVersion": "1.14.0.3",
+    "AssemblyVersion": "1.14.1.3",
     "Reason": "Errors calling ClientStructs function."
   },
   {
@@ -335,7 +335,8 @@
   },
   {
     "Name": "MOAction",
-    "AssemblyVersion": "4.6.0.0"
+    "AssemblyVersion": "4.10.0.0",
+    "Reason": "Errors calling ClientStructs function."
   },
   {
     "Name": "PeepingTom",
