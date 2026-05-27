@@ -215,8 +215,8 @@
   },
   {
     "Name": "InventorySearchBar",
-    "AssemblyVersion": "1.1.0.2",
-    "Reason": "Please update this plugin to use it."
+    "AssemblyVersion": "1.9.4.0",
+    "Reason": "Severe memory leak."
   },
   {
     "Name": "CrossUp",
