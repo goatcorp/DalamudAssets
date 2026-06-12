@@ -1464,7 +1464,7 @@
     "description": "Locs.get_PluginButtonToolTip_VisitPluginUrl"
   },
   "InstallerUpdateSingle": {
-    "message": "Metre à jour vers {0}",
+    "message": "Mettre à jour vers {0}",
     "description": "Locs.PluginButtonToolTip_UpdateSingle"
   },
   "InstallerLoadUnloadFailedTooltip": {
