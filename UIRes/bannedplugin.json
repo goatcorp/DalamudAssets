@@ -615,5 +615,10 @@
     "Name": "QoLBar",
     "AssemblyVersion": "2.3.3.8",
     "Reason": "Errors calling ClientStructs function."
+  },
+  {
+    "Name": "WDIGViewer",
+    "Reason": "Deprecated by author, use AetherDraw.",
+    "AssemblyVersion": "1.0.4.1"
   }
 ]
