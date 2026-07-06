@@ -620,5 +620,10 @@
     "Name": "WDIGViewer",
     "Reason": "Deprecated by author, use AetherDraw.",
     "AssemblyVersion": "1.0.4.1"
+  },
+  {
+    "Name": "D1B4E41F98706E0840C55246EDEDBF98120AFEB8B10A25E92D3C05811896D989",
+    "Reason": "Causing Crashes",
+    "AssemblyVersion": "0.11.1.6"
   }
 ]
