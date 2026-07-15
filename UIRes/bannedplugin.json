@@ -630,4 +630,9 @@
     "Reason": "Causing Crashes",
     "AssemblyVersion": "0.11.1.6"
   }
+  {
+    "Name": "GlamourRoulette",
+    "Reason": "Does not adhere to all client restrictions when attempting to open Glamour Plate window.",
+    "AssemblyVersion": "0.9.9.0"
+  }  
 ]
