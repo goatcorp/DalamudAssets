@@ -538,9 +538,9 @@
     "Reason": "Causes a crash on logout"
   },
   {
-    "Name": "eurekaTrackerAutoPopper",
-    "AssemblyVersion": "1.5.9.1",
-    "Reason": "Prevent uploads from previous versions that are heavily outdated~"
+    "Name": "EurekaTrackerAutoPopper",
+    "AssemblyVersion": "1.7.3.12",
+    "Reason": "Prevent buggy uploads from previous versions that are heavily outdated~"
   },
   {
     "Name": "ChillFrames",
