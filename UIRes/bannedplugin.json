@@ -539,7 +539,7 @@
   },
   {
     "Name": "EurekaTrackerAutoPopper",
-    "AssemblyVersion": "1.7.3.11",
+    "AssemblyVersion": "1.7.3.16",
     "Reason": "Prevent buggy uploads from previous versions that are heavily outdated~"
   },
   {
