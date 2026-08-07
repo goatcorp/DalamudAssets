@@ -388,7 +388,7 @@
   },
   {
     "Name": "TrackyTrack",
-    "AssemblyVersion": "1.6.0.7",
+    "AssemblyVersion": "1.7.1.9",
     "Reason": "Prevent outdated uploads."
   },
   {
