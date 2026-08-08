@@ -53,7 +53,7 @@
   },
   "DalamudInstallerPluginChangelogHelp": {
     "message": "查閲插件更新日誌",
-    "description": "<>c__DisplayClass71_0.<PrintUpdatedPlugins>b__0"
+    "description": "<>c__DisplayClass65_0.<PrintUpdatedPlugins>b__0"
   },
   "InstallerUpdateStatusPending": {
     "message": "擱置中",
@@ -136,32 +136,32 @@
     "description": "PluginManagementCommandHandler.ValidatePluginName"
   },
   "PluginCommandsNotInDefaultProfile": {
-    "message": "Plugin \"{0}\" is in a collection and can't be managed through commands. Manage the collection instead.",
+    "message": "Plugin \"{0}\" is multiple collections and cannot be toggled individually. Manage the collections instead.",
     "description": "PluginManagementCommandHandler.ValidatePluginName"
   },
   "ProfileCommandsApplyFailed": {
     "message": "無法套用指定合集。請檢查主控台以取得詳細信息。",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "ProfileCommandsApplySuccess": {
     "message": "合集已套用。",
-    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__4"
+    "description": "<>c__DisplayClass18_0.<HandleProfileOperation>b__5"
   },
   "PluginCommandsEnableSuccess": {
     "message": "Plugin \"{0}\" enabled.",
-    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__4"
   },
   "PluginCommandsEnableFailed": {
     "message": "Failed to enable plugin \"{0}\". Please check the console for errors.",
-    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__3"
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__4"
   },
   "PluginCommandsDisableSuccess": {
     "message": "Plugin \"{0}\" disabled.",
-    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__6"
   },
   "PluginCommandsDisableFailed": {
     "message": "Failed to disable plugin \"{0}\". Please check the console for errors.",
-    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__5"
+    "description": "<>c__DisplayClass19_0.<HandlePluginOperation>b__6"
   },
   "PluginProfilesNewProfile": {
     "message": "新合集",
@@ -247,41 +247,93 @@
     "message": "The following plugins were auto-updated:",
     "description": "<RunAutoUpdates>d__32.MoveNext"
   },
+  "UiBuilderErrorOccurred": {
+    "message": "An error occurred while rendering this plugin. Please contact the developer for details.",
+    "description": "UiBuilder.DrawErrorWindow"
+  },
+  "UiBuilderErrorRecoverButton": {
+    "message": "Attempt to retry",
+    "description": "UiBuilder.DrawErrorWindow"
+  },
+  "UiBuilderErrorReloadButton": {
+    "message": "Reload Plugin",
+    "description": "UiBuilder.DrawErrorWindow"
+  },
+  "UiBuilderReloadSuccess": {
+    "message": "The plugin '{0}' was reloaded successfully.",
+    "description": "<>c__DisplayClass143_0.<DrawErrorWindow>b__2"
+  },
+  "UiBuilderReloadSuccessTitle": {
+    "message": "Plugin reloaded!",
+    "description": "<>c__DisplayClass143_0.<DrawErrorWindow>b__2"
+  },
+  "UiBuilderReloadFailure": {
+    "message": "The plugin '{0}' could not be reloaded.",
+    "description": "<>c__DisplayClass143_0.<DrawErrorWindow>b__2"
+  },
+  "UiBuilderReloadFailureTitle": {
+    "message": "Plugin reload failed!",
+    "description": "<>c__DisplayClass143_0.<DrawErrorWindow>b__2"
+  },
   "WindowSystemContextActionPin": {
     "message": "固定窗口",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionPinHint": {
     "message": "Pinned windows will not move or resize when you click and drag them, nor will they close when escape is pressed.",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionClickthrough": {
     "message": "鼠標穿透",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionClickthroughHint": {
     "message": "視窗穿透模式啟用時會停用所有滑鼠輸入/移動/縮放的指令。",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
   },
-  "WindowSystemContextActionAlpha": {
-    "message": "不透明度",
-    "description": "Window.DrawInternal"
+  "WindowSystemContextActionTopMost": {
+    "message": "Stay on top",
+    "description": "WindowHost.DrawInternal"
+  },
+  "WindowSystemContextActionTopMostHint": {
+    "message": "Stay-on-top windows will not move into the background.",
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionReset": {
     "message": "重置",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
+  },
+  "WindowSystemContextActionAlpha": {
+    "message": "不透明度",
+    "description": "WindowHost.DrawInternal"
+  },
+  "WindowSystemContextActionBlur": {
+    "message": "Background Blur",
+    "description": "WindowHost.DrawInternal"
+  },
+  "WindowSystemContextActionBlurDisabledHint": {
+    "message": "Background blur only takes effect when the window is inside the game window.",
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionClickthroughDisclaimer": {
     "message": "請透過點擊三橫線圖示來停用視窗穿透模式以再次開啟此選單。",
-    "description": "Window.DrawInternal"
-  },
-  "WindowSystemContextActionViewportDisclaimer": {
-    "message": "這些功能只有在窗口位於游戲視窗内時才生效。",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
   },
   "WindowSystemContextActionPrintWindow": {
     "message": "Print window",
-    "description": "Window.DrawInternal"
+    "description": "WindowHost.DrawInternal"
+  },
+  "WindowSystemErrorOccurred": {
+    "message": "An error occurred while rendering this window. Please contact the developer for details.",
+    "description": "WindowHost.DrawErrorMessage"
+  },
+  "WindowSystemErrorRecoverButton": {
+    "message": "Attempt to retry",
+    "description": "WindowHost.DrawErrorMessage"
+  },
+  "WindowSystemErrorClose": {
+    "message": "Close Window",
+    "description": "WindowHost.DrawErrorMessage"
   },
   "DalamudUnloadHelp": {
     "message": "卸載游戲内插件。僅供調試使用！",
@@ -403,17 +455,33 @@
     "message": "Multi-monitor windows disabled.",
     "description": "DalamudCommands.OnToggleMultiMonitorCommand"
   },
+  "DalamudInternalDrawErrorTitle": {
+    "message": "Dalamud Error",
+    "description": "DalamudInterface.DrawInternalErrorWindow"
+  },
+  "DalamudInternalDrawError": {
+    "message": "An error occurred while rendering the Dalamud interface. Some features may be unavailable, you may need to restart your game to continue using plugins.\nPlease contact us via Discord or GitHub.",
+    "description": "DalamudInterface.DrawInternalErrorWindow"
+  },
+  "DalamudInternalDrawErrorRecoverButton": {
+    "message": "Attempt to retry",
+    "description": "DalamudInterface.DrawInternalErrorWindow"
+  },
+  "DalamudInternalDrawErrorIgnoreButton": {
+    "message": "Ignore and disable Dalamud UI",
+    "description": "DalamudInterface.DrawInternalErrorWindow"
+  },
   "TSMDalamudPlugins": {
     "message": "外掛程式管理員",
-    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+    "description": "<>c__DisplayClass30_0.<.ctor>b__0"
   },
   "TSMDalamudSettings": {
     "message": "Dalamud 設置",
-    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+    "description": "<>c__DisplayClass30_0.<.ctor>b__0"
   },
   "TSMDalamudDevMenu": {
     "message": "開發者選單",
-    "description": "<>c__DisplayClass27_0.<.ctor>b__0"
+    "description": "<>c__DisplayClass30_0.<.ctor>b__0"
   },
   "ImGuiClipboardFunctionProviderClipboardInUse": {
     "message": "有其他應用程式正在存取剪貼簿。請稍後再試一次。",
@@ -429,15 +497,15 @@
   },
   "ReShadeNoAddonSupportNotificationMinimizedText": {
     "message": "Wrong ReShade installation",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__137_0"
   },
   "ReShadeNoAddonSupportNotificationContent": {
     "message": "Your installation of ReShade does not have full addon support, and may not work with Dalamud and/or the game.\nDownload and install ReShade with full addon-support.",
-    "description": "<>c.<SetupHooks>b__134_0"
+    "description": "<>c.<SetupHooks>b__137_0"
   },
   "LearnMore": {
     "message": "Learn more...",
-    "description": "<>c.<SetupHooks>b__134_14"
+    "description": "<>c.<SetupHooks>b__137_14"
   },
   "InstallerDevTools": {
     "message": "開發者工具",
@@ -482,6 +550,18 @@
   "InstallerCategoryCanBeUpdated": {
     "message": "可供更新",
     "description": "Locs.get_Category_UpdateablePlugins"
+  },
+  "InstallerCategoryEnabledPlugins": {
+    "message": "Enabled",
+    "description": "Locs.get_Category_EnabledPlugins"
+  },
+  "InstallerCategoryDisabledPlugins": {
+    "message": "Disabled",
+    "description": "Locs.get_Category_DisabledPlugins"
+  },
+  "InstallerCategoryIncompatiblePlugins": {
+    "message": "Incompatible",
+    "description": "Locs.get_Category_IncompatiblePlugins"
   },
   "InstallerCategoryOther": {
     "message": "其他",
@@ -567,10 +647,6 @@
     "message": "從剪貼簿中導入風格",
     "description": "StyleEditorWindow.Draw"
   },
-  "StyleEditorNotAllowed": {
-    "message": "內置風格無法被編輯。請先添加一個新風格。",
-    "description": "StyleEditorWindow.Draw"
-  },
   "StyleEditorApplying": {
     "message": "正在應用風格…",
     "description": "StyleEditorWindow.Draw"
@@ -583,17 +659,53 @@
     "message": "顏色",
     "description": "StyleEditorWindow.Draw"
   },
-  "Close": {
-    "message": "關閉",
+  "StyleEditorBlur": {
+    "message": "Blur",
     "description": "StyleEditorWindow.Draw"
   },
-  "SaveAndClose": {
-    "message": "保存並關閉",
+  "StyleEditorWindowBgBlur": {
+    "message": "Window Background Blur strength",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "DalamudSettingBackgroundBlurHint": {
+    "message": "This will allow you to set the strength of the blur effect for plugin windows.\nSet to 0% to disable the blur effect. This may not be supported by all of your plugins. Contact the plugin author if you want them to support this feature.",
+    "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorCharacterAssignments": {
+    "message": "Character Assignments",
     "description": "StyleEditorWindow.Draw"
   },
   "StyleEditorEnterName": {
     "message": "請輸入此風格的新名稱。",
     "description": "StyleEditorWindow.Draw"
+  },
+  "StyleEditorNotAllowed": {
+    "message": "內置風格無法被編輯。請先添加一個新風格。",
+    "description": "StyleEditorWindow.DrawBuiltinWarning"
+  },
+  "StyleEditorCharacterAssignmentsHint": {
+    "message": "Assign a style to each character. When that character logs in, the assigned style will be applied automatically.",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
+  },
+  "StyleEditorCharacterAssignmentsLastSelected": {
+    "message": "Last selected",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
+  },
+  "StyleEditorNoCharacterAssignments": {
+    "message": "No character assignments yet. Add your current character using the button below.",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
+  },
+  "StyleEditorRemoveCharacterAssignment": {
+    "message": "Remove this character assignment",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
+  },
+  "StyleEditorAddCurrentCharacter": {
+    "message": "Add current character: {0}",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
+  },
+  "StyleEditorCharacterNotLoaded": {
+    "message": "You must be logged in to add your current character.",
+    "description": "StyleEditorWindow.DrawCharacterAssignmentsTab"
   },
   "DalamudSettingsHeader": {
     "message": "Dalamud 設置",
@@ -603,12 +715,8 @@
     "message": "Search for settings...",
     "description": "SettingsWindow.Draw"
   },
-  "DalamudSettingsSave": {
-    "message": "保存更改",
-    "description": "SettingsWindow.Draw"
-  },
-  "DalamudSettingsSaveAndExit": {
-    "message": "保存更改並關閉",
+  "DalamudSettingsSaveBlocked": {
+    "message": "Some settings have invalid values and cannot be saved.",
     "description": "SettingsWindow.Draw"
   },
   "DalamudSettingsSearchResults": {
@@ -622,6 +730,10 @@
   "DalamudSettingsDevPluginLocation": {
     "message": "開發版外掛程式位置",
     "description": "DevPluginsSettingsEntry..ctor"
+  },
+  "DalamudSettingDevModeDisabledWithDevPlugins": {
+    "message": "Developer Mode is disabled, but dev plugins were loaded during this session.\nThey will stay loaded, but will not show in the installer next time the game is restarted.",
+    "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsChanged": {
     "message": "(已修改)",
@@ -641,6 +753,10 @@
   },
   "DalamudDevPluginInvalid": {
     "message": "輸入的值不是一個有效的開發版插件路徑。\n也許您想將其作爲第三方插件倉庫添加到下方？",
+    "description": "DevPluginsSettingsEntry.Draw"
+  },
+  "DalamudDevPluginNicknameHint": {
+    "message": "Optional nickname shown next to the plugin name in the plugin list.",
     "description": "DevPluginsSettingsEntry.Draw"
   },
   "DalamudSettingsLanguage": {
@@ -779,6 +895,46 @@
     "message": "始終保持更新",
     "description": "SettingsTabAutoUpdates.<Draw>g__OptKindToString|13_5"
   },
+  "DalamudSettingsBadge": {
+    "message": "Badges",
+    "description": "SettingsTabBadge.get_Title"
+  },
+  "DalamudSettingBadgesHint": {
+    "message": "On this tab, you can unlock small badges that show on your title screen.\nBadge codes are usually given out during community events or contests.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlock": {
+    "message": "Unlock a badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHint": {
+    "message": "If you have received a code for a badge, enter it here to unlock the badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockHintInput": {
+    "message": "Enter badge code here",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockButton": {
+    "message": "Unlock Badge",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesUnlockError": {
+    "message": "Failed to unlock badge. The code may be invalid or you may have already unlocked this badge.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsBadgesDidNone": {
+    "message": "You did not unlock any badges yet.",
+    "description": "SettingsTabBadge.Draw"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreen": {
+    "message": "Show Badges on Title Screen",
+    "description": "SettingsTabBadge..ctor"
+  },
+  "DalamudSettingsShowBadgesOnTitleScreenHint": {
+    "message": "If enabled, your unlocked badges will also be shown on the title screen.",
+    "description": "SettingsTabBadge..ctor"
+  },
   "DalamudSettingsServerInfoBar": {
     "message": "伺服器資訊欄",
     "description": "SettingsTabDtr.get_Title"
@@ -807,9 +963,13 @@
     "message": "如果啟用了此選項，伺服器資訊欄的元件將會向右擴展而不是向左擴展。",
     "description": "SettingsTabDtr.Draw"
   },
-  "DalamudSettingsExperimental": {
-    "message": "試驗性功能",
-    "description": "SettingsTabExperimental.get_Title"
+  "DalamudSettingEnableDeveloperMode": {
+    "message": "Enable Developer Mode",
+    "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingEnableDeveloperModeHint": {
+    "message": "Unlocks developer-specific settings.",
+    "description": "SettingsTabExperimental..ctor"
   },
   "DalamudSettingsPluginTest": {
     "message": "獲取外掛程式測試版本",
@@ -854,6 +1014,10 @@
   "DalamudSettingsReShadeHandlingModeHint": {
     "message": "You may try different options to work around problems you may encounter.\nRestart is required for changes to take effect.",
     "description": "SettingsTabExperimental..ctor"
+  },
+  "DalamudSettingsExperimental": {
+    "message": "試驗性功能",
+    "description": "SettingsTabExperimental.get_Title"
   },
   "DalamudSettingsGeneral": {
     "message": "一般",
@@ -913,6 +1077,14 @@
   },
   "DalamudSettingsSystemMenuMsgHint": {
     "message": "在系統選單中顯示 Dalamud 外掛程式選單及設置按鈕。",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudSettingsUpdateDisabledPluginsOnManualUpdate": {
+    "message": "Update disabled plugins",
+    "description": "SettingsTabGeneral..ctor"
+  },
+  "DalamudUpdateDisabledPluginsOnManualUpdateHint": {
+    "message": "Include disabled plugins when manually updating plugins from the installer.",
     "description": "SettingsTabGeneral..ctor"
   },
   "DalamudSettingDoMbCollect": {
@@ -1079,6 +1251,14 @@
     "message": "這將減少 Dalamud 的動畫效果，例如通知彈窗。",
     "description": "SettingsTabLook..ctor"
   },
+  "DalamudSettingAllowSeasonalEvent": {
+    "message": "Allow Seasonal Events",
+    "description": "SettingsTabLook..ctor"
+  },
+  "DalamudSettingAllowSeasonalEventHint": {
+    "message": "Allow Dalamud to run certain seasonal events, such as April Fools.\nPlugins may also choose to hide certain content during seasonal events if this setting is disabled, but certain plugins may not respect this setting.",
+    "description": "SettingsTabLook..ctor"
+  },
   "DalamudSettingImeStateIndicatorOpacity": {
     "message": "輸入法（IME）工具列透明度",
     "description": "SettingsTabLook..ctor"
@@ -1107,6 +1287,22 @@
     "message": "搜索",
     "description": "Locs.get_Header_SearchPlaceholder"
   },
+  "InstallerFilterToggleTooltip": {
+    "message": "Show filters",
+    "description": "Locs.get_Filter_ToggleTooltip"
+  },
+  "InstallerFilterInstalled": {
+    "message": "Installed",
+    "description": "Locs.get_Filter_Installed"
+  },
+  "InstallerFilterUnverified": {
+    "message": "Unverified",
+    "description": "Locs.get_Filter_Unverified"
+  },
+  "InstallerFilterIncompatible": {
+    "message": "Incompatible",
+    "description": "Locs.get_Filter_Incompatible"
+  },
   "InstallerSearchScore": {
     "message": "Search score",
     "description": "Locs.get_SortBy_SearchScore"
@@ -1126,10 +1322,6 @@
   "InstallerNewOrNot": {
     "message": "發佈時間",
     "description": "Locs.get_SortBy_NewOrNot"
-  },
-  "InstallerNotInstalled": {
-    "message": "未安裝",
-    "description": "Locs.get_SortBy_NotInstalled"
   },
   "InstallerEnabledDisabled": {
     "message": "啟用/停用",
@@ -1174,6 +1366,18 @@
   "InstallerNoPluginsDev": {
     "message": "You don't have any dev plugins. Add them from the settings.",
     "description": "Locs.get_TabBody_NoPluginsDev"
+  },
+  "InstallerNoPluginsEnabled": {
+    "message": "You don't have any enabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsEnabled"
+  },
+  "InstallerNoPluginsDisabled": {
+    "message": "You don't have any disabled plugins.",
+    "description": "Locs.get_TabBody_NoPluginsDisabled"
+  },
+  "InstallerNoPluginsIncompatible": {
+    "message": "You don't have any incompatible plugins.",
+    "description": "Locs.get_TabBody_NoPluginsIncompatible"
   },
   "InstallerNoMatching": {
     "message": "未找到匹配的插件。",
@@ -1487,6 +1691,10 @@
     "message": "包含此插件的合集「{0}」已停用。\n請在合集管理頁中啟用合集以單獨切換此插件。",
     "description": "Locs.PluginButtonToolTip_SingleProfileDisabled"
   },
+  "InstallerSingleProfileDoesNotWantActive": {
+    "message": "The collection '{0}' which contains this plugin is active, but is not set to activate on this character.\nPlease change the collection's settings or remove the plugin from that collection to toggle the plugin individually.",
+    "description": "Locs.PluginButtonToolTip_SingleProfileDoesNotWantActive"
+  },
   "NotificationsPluginInstalledTitle": {
     "message": "插件已安裝。",
     "description": "Locs.get_Notifications_PluginInstalledTitle"
@@ -1771,9 +1979,25 @@
     "message": "This plugin has not been reviewed by the Dalamud team.\nWe cannot take any responsibility for custom plugins and repositories.\nPlease make absolutely sure that you only install plugins from developers you trust.\n\nYou will not receive support for plugins installed from custom repositories on the XIVLauncher & Dalamud server.",
     "description": "Locs.get_VerifiedCheckmark_UnverifiedTooltip"
   },
+  "ProfileManagerNoCharactersAdded": {
+    "message": "This collection will not be active for any characters until you add some with the button below.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerRemoveCharacter": {
+    "message": "Remove character",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
+  "ProfileManagerCharacterNotLoaded": {
+    "message": "You must be logged in to add your current character.",
+    "description": "ProfileManagerWidget.DrawEdit"
+  },
   "ProfileManagerStartupBehavior": {
     "message": "Startup behavior",
     "description": "Locs.get_StartupBehavior"
+  },
+  "ProfileManagerEnableForCharacters": {
+    "message": "Only enable for specific characters",
+    "description": "Locs.get_EnableForSpecificCharacters"
   },
   "ProfileManagerEnableDisableHint": {
     "message": "Enable/Disable this collection",
@@ -1871,6 +2095,10 @@
     "message": "Individual plugins inside a collection also have a checkbox next to them. This indicates if a plugin is active within that collection - if the checkbox is not ticked, the plugin will not be enabled if that collection is active. Mind that it will still be enabled if the plugin is an active part of any other collection.",
     "description": "Locs.get_TutorialParagraphFour"
   },
+  "ProfileManagerTutorialParagraphFive": {
+    "message": "When ticking the \"{0}\" checkbox, the collection will only be active for specific characters. You can add characters to the list by clicking the plus button and selecting a character, or by clicking the button with the person icon to add your current character. This is useful if you want different collections active on different characters.",
+    "description": "Locs.get_TutorialParagraphFive"
+  },
   "ProfileManagerTutorialCommands": {
     "message": "You can use the following commands in chat or in macros to manage active collections:",
     "description": "Locs.get_TutorialCommands"
@@ -1903,9 +2131,17 @@
     "message": "Yes, enable Plugin Collections",
     "description": "Locs.get_ChoiceConfirmation"
   },
+  "ProfileManagerPickerInOneCollection": {
+    "message": "(in 1 other collection)",
+    "description": "Locs.get_InOneCollection"
+  },
   "ProfileManagerNotInstalled": {
     "message": "{0} (Not Installed)",
     "description": "Locs.NotInstalled"
+  },
+  "ProfileManagerPickerInNCollections": {
+    "message": "(in {0} other collections)",
+    "description": "Locs.InNCollections"
   },
   "ProfileManagerRememberState": {
     "message": "Remember state",
@@ -1918,6 +2154,30 @@
   "ProfileManagerAlwaysDisableAtBoot": {
     "message": "Always disable at boot",
     "description": "Locs.PolicyToLocalisedName"
+  },
+  "ErrorDisplayDetails": {
+    "message": "Error Details:",
+    "description": "DalamudComponents.DrawErrorDisplay"
+  },
+  "ErrorDisplayCopy": {
+    "message": "Copy",
+    "description": "DalamudComponents.DrawErrorDisplay"
+  },
+  "DalamudSaveButton": {
+    "message": "Save",
+    "description": "DalamudComponents.DrawFloatingSaveDiscardButtons"
+  },
+  "DalamudCloseWithoutSaving": {
+    "message": "Close without saving",
+    "description": "DalamudComponents.DrawFloatingSaveDiscardButtons"
+  },
+  "DalamudSave": {
+    "message": "Save",
+    "description": "DalamudComponents.DrawFloatingSaveDiscardButtons"
+  },
+  "DalamudSaveAndClose": {
+    "message": "Save and close",
+    "description": "DalamudComponents.DrawFloatingSaveDiscardButtons"
   },
   "ProfileManagerSearchHint": {
     "message": "搜索...",
@@ -1964,15 +2224,19 @@
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "DalamudClickToViewChangelogs": {
-    "message": " Click here to view the changelog.",
+    "message": "Click here to view the changelog.",
     "description": "ChatHandlers.PrintWelcomeMessage"
   },
   "SystemMenuPlugins": {
     "message": "Dalamud 外掛程式",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudPlugins"
   },
   "SystemMenuSettings": {
     "message": "Dalamud 設置",
-    "description": "DalamudAtkTweaks..ctor"
+    "description": "DalamudAtkTweaks.get_LocDalamudSettings"
+  },
+  "LoadingPluginsForCharacter": {
+    "message": "Loading plugins for this character...",
+    "description": "DalamudAtkTweaks.get_LocDalamudLoadingPluginsForCharacter"
   }
 }
