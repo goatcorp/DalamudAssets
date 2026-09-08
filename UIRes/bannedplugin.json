@@ -634,5 +634,10 @@
     "Name": "GlamourRoulette",
     "Reason": "Does not adhere to all client restrictions when attempting to open Glamour Plate window.",
     "AssemblyVersion": "0.9.9.0"
-  }  
+  },
+  {
+    "Name": "Dalamud.DiscordBridge",
+    "Reason": "Franz broke trying to accommodate a new user request.",
+    "AssemblyVersion": "1.6.1.0"
+  }
 ]
