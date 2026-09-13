@@ -639,5 +639,10 @@
     "Name": "Dalamud.DiscordBridge",
     "Reason": "Franz broke trying to accommodate a new user request.",
     "AssemblyVersion": "1.6.1.0"
+  },
+  {
+    "Name": "PetScale",
+    "Reason": "Can't unload properly.",
+    "AssemblyVersion": "2.1.0.0"
   }
 ]
