@@ -472,8 +472,8 @@
   },
   {
     "Name": "AbsoluteRoleplay",
-    "AssemblyVersion": "0.0.3.020",
-    "Reason": "Server is offline until a new maintainer is found."
+    "AssemblyVersion": "2.0.0.0",
+    "Reason": "Server is offline indefinitely."
   },
   {
     "Name": "PrefPro",
