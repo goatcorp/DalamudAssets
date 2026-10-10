@@ -5,6 +5,11 @@
     "Reason": "It's that time of the month again."
   },
   {
+    "Name": "AbsoluteRoleplay",
+    "AssemblyVersion": "2.0.0.0",
+    "Reason": "The server db was corrupted, shutting down indefinitely."
+  },
+  {
     "Name": "AcquisitionDate",
     "AssemblyVersion": "1.1.0.0",
     "Reason": "Aparently blocks achievements from properly completing :c"
