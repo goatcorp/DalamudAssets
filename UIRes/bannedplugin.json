@@ -305,7 +305,8 @@
   },
   {
     "Name": "ChatTwo",
-    "AssemblyVersion": "1.27.1.0"
+    "AssemblyVersion": "1.41.0",
+    "Reason": "Prevents all inputs during keybound brawler"
   },
   {
     "Name": "BetterShadows",
